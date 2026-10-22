@@ -35,14 +35,20 @@
       "indexation_rate": 0
     },
     "ko": {
-      "new_pages_per_day": 0,
+      "new_pages_per_day": 1,
       "optimizations_per_day": 0,
-      "status": "blocked: Korean Bible licence (seo/NEEDS_HUMAN.md #2)",
+      "status": "feature pages only (no verse text) until the 개역한글 licence is decided",
       "published": 1,
       "indexed": 0,
       "indexation_rate": 0
     }
   },
   "indexation_updated": "2026-10-22",
-  "history": []
+  "history": [
+    {
+      "date": "2026-10-22",
+      "change": "ko new_pages_per_day 0 -> 1 (feature pages only)",
+      "reason": "feature-page template added; app-intent pages need no Bible text"
+    }
+  ]
 }

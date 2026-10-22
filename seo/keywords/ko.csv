@@ -1,2 +1,4 @@
 keyword,intent,cluster,target_page,priority,status
+성경 알람 앱,commercial,app-alarm,,top,planned
+성경 암송 앱,commercial,app-memorize,,top,planned
 성경구절 위로,informational,comfort,,high,blocked-licence

@@ -1,4 +1,7 @@
 keyword,intent,cluster,target_page,priority,status
+alarma cristiana con versículos,commercial,app-alarm,,top,planned
+app para memorizar versículos de la biblia,commercial,app-memorize,,top,planned
+app devocional para la mañana,commercial,app-devotional,,high,planned
 versículos para la ansiedad,informational,anxiety,/es/versiculos-biblicos/ansiedad,high,published
 versículos de la biblia para animar,informational,encouragement,,high,planned
 versículos de la biblia para vencer el miedo,informational,fear,,high,planned

@@ -21,10 +21,27 @@ pulled from the locale's public-domain Bible at build time. Never type verse tex
 
 URLs: en `/bible-verses-about/<slug>`, es `/es/versiculos-biblicos/<slug>`, zh `/zh-hant|zh-hans/jingwen/<slug>`, ko `/ko/seonggu/<slug>`.
 
+## Feature page (`content/features/<id>.json`): app-intent and non-verse pages
+For keyword clusters starting with `app-` (e.g. "christian alarm clock app", "bible memory app") and `comparison`.
+```
+{ "id": "christian-alarm-clock", "related": ["morning"],   // related = topic ids
+  "locales": { "<loc>": {
+      "slug": "christian-alarm-clock",   // served at <locale prefix>/<slug>; reserved words are refused by the build
+      "nav": "Christian alarm clock",    // short label: every footer in that locale links to every feature page
+      "title": "...", "description": "...", "h1": "...", "intro": "...", "published": "...", "updated": "...",
+      "sections": [ { "heading": "...", "body": "paragraphs split by a blank line", "refs": ["Psalms 5:3"] } ],  // refs optional
+      "faq": [ { "q": "...", "a": "..." } ] } } }
+```
+Rules: ONE feature page per cluster per locale. Phrasings of the same intent ("bible verse alarm app", "alarm that makes you
+read the bible") all point at the same page via `target_page`. Making near-duplicate pages per phrasing = doorway pages = penalty.
+Every app claim must be in `seo/APP_FACTS.md`. Comparison pages: only facts checkable on each app's App Store page, no knocking competitors.
+Korean may ship feature pages now if no section has `refs` (the build refuses refs without a licensed Bible).
+Example: `content/features/christian-alarm-clock.json` (en).
+
 ## Locale home (`content/home/<locale>.json`)
 Feature landing page per locale. English home is hand-written in `static/index.html`.
 
 ## Planned templates (not built yet)
+- (Feature pages are built: see above.)
 - Book key-verses pages ("Psalms key verses") — needs a `content/books/` type in build.mjs.
 - Verse-of-the-day archive.
-- Editorial/how-to pages (no verse lists) — needed for Korean while the Bible licence is pending.

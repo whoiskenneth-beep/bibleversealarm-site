@@ -198,7 +198,7 @@ ${body}
 <footer><div class="wrap foot-simple">
 <span>© 2026 Bible Verse Alarm</span>
 ${langNav}
-<nav>${hubLocales.has(loc) ? `<a href="${L.hub}">${esc(t.hub)}</a>` : ''}<a href="/privacy">${esc(t.privacy)}</a><a href="/terms">${esc(t.terms)}</a><a href="/support">${esc(t.support)}</a></nav>
+<nav>${hubLocales.has(loc) ? `<a href="${L.hub}">${esc(t.hub)}</a>` : ''}${(featureLinks[loc] || []).map((f) => `<a href="${f.path}">${esc(f.label)}</a>`).join('')}<a href="/privacy">${esc(t.privacy)}</a><a href="/terms">${esc(t.terms)}</a><a href="/support">${esc(t.support)}</a></nav>
 </div></footer>
 </body>
 </html>
@@ -227,10 +227,15 @@ function copyFor(entry, loc) {
   if (!base) return null;
   return JSON.parse(JSON.stringify(base), (k, v) => (typeof v === 'string' && !/^\d{4}-\d{2}-\d{2}$/.test(v) && !['slug', 'refs'].includes(k) ? toHans(v) : v));
 }
-const pathFor = (loc, kind, slug) => (kind === 'topic' ? `${LOCALES[loc].hub}/${slug}` : LOCALES[loc].prefix);
+const pathFor = (loc, kind, slug) => (kind === 'topic' ? `${LOCALES[loc].hub}/${slug}` : kind === 'feature' ? `${LOCALES[loc].prefix}/${slug}` : LOCALES[loc].prefix);
 
 const topics = fs.readdirSync(path.join(ROOT, 'content/topics')).filter((f) => f.endsWith('.json')).sort()
   .map((f) => ({ file: f, ...read(`content/topics/${f}`) }));
+// Feature pages: app-intent landing pages ("christian alarm clock"), and pages without verse lists.
+const features = fs.existsSync(path.join(ROOT, 'content/features'))
+  ? fs.readdirSync(path.join(ROOT, 'content/features')).filter((f) => f.endsWith('.json')).sort().map((f) => ({ file: f, ...read(`content/features/${f}`) }))
+  : [];
+const RESERVED = new Set(['privacy', 'support', 'terms', 'feedback', 'assets', 'sitemaps', 'es', 'ko', 'zh-hant', 'zh-hans', 'bible-verses-about', 'versiculos-biblicos', 'jingwen', 'seonggu']);
 const homes = fs.existsSync(path.join(ROOT, 'content/home'))
   ? fs.readdirSync(path.join(ROOT, 'content/home')).filter((f) => f.endsWith('.json')).map((f) => ({ loc: f.replace('.json', ''), ...read(`content/home/${f}`) }))
   : [];
@@ -238,7 +243,7 @@ const homes = fs.existsSync(path.join(ROOT, 'content/home'))
 const builtLocales = (entry) => Object.keys(LOCALES).filter((loc) => {
   const c = copyFor(entry, loc);
   if (!c) return false;
-  const usesVerses = (c.groups || []).length > 0;
+  const usesVerses = (c.groups || []).length > 0 || (c.sections || []).some((s) => s.refs?.length);
   if (usesVerses && !LOCALES[loc].bible) throw new Error(`${entry.file}: ${loc} has verses but no licensed Bible yet`);
   return true;
 });
@@ -251,6 +256,15 @@ for (const h of homes) {
 }
 for (const tp of topics) for (const loc of builtLocales(tp)) register(`topic:${tp.id}`, loc, pathFor(loc, 'topic', copyFor(tp, loc).slug));
 const hubLocales = new Set(topics.flatMap(builtLocales));
+const featureLinks = {}; // loc -> [{path, label}] shown in every footer of that locale (keeps them linked sitewide)
+for (const ft of features) {
+  for (const loc of builtLocales(ft)) {
+    const c = copyFor(ft, loc);
+    if (RESERVED.has(c.slug)) throw new Error(`${ft.file}: slug "${c.slug}" is reserved`);
+    register(`feature:${ft.id}`, loc, pathFor(loc, 'feature', c.slug));
+    (featureLinks[loc] ||= []).push({ path: pathFor(loc, 'feature', c.slug), label: c.nav || c.h1 });
+  }
+}
 for (const loc of hubLocales) register('hub', loc, LOCALES[loc].hub);
 
 // ---------- Topic pages ----------
@@ -300,6 +314,48 @@ ${cta(loc, c.slug, 'appstore-end')}
       mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
     });
     pages.push({ loc, path: p, kind: 'topics', updated: c.updated, html: layout({ loc, path: p, group: `topic:${tp.id}`, title: c.title, description: c.description, body, schema }) });
+  }
+}
+
+// ---------- Feature pages ----------
+for (const ft of features) {
+  for (const loc of builtLocales(ft)) {
+    const L = LOCALES[loc];
+    const c = copyFor(ft, loc);
+    const p = pathFor(loc, 'feature', c.slug);
+    const crumbs = breadcrumbs(loc, [{ name: L.t.home, path: L.prefix }, { name: c.h1, path: p }]);
+    const paras = (text) => text.split(/\n\n+/).map((x) => `<p>${esc(x)}</p>`).join('');
+    const sections = c.sections.map((s) => `<section><h2>${esc(s.heading)}</h2>${paras(s.body)}
+${(s.refs || []).map((r) => `<blockquote class="verse"><p>${esc(verse(r, L.bible))}</p><cite>${esc(refLabel(r, loc))}</cite></blockquote>`).join('\n')}</section>`);
+    sections.splice(2, 0, cta(loc, c.slug, 'appstore-mid'));
+    const related = (ft.related || [])
+      .map((id) => topics.find((x) => x.id === id))
+      .filter((x) => x && builtLocales(x).includes(loc))
+      .map((x) => { const xc = copyFor(x, loc); return `<li><a href="${pathFor(loc, 'topic', xc.slug)}">${esc(xc.h1)}</a></li>`; });
+    const faq = c.faq || [];
+    const body = `<main class="article wrap-narrow">
+${crumbs.html}
+<h1>${esc(c.h1)}</h1>
+<p class="lede">${esc(c.intro)}</p>
+${storeBadge(loc, c.slug, 'appstore-top')}
+${sections.join('\n')}
+${faq.length ? `<section class="faq"><h2>${esc(L.t.faq)}</h2>${faq.map((f) => `<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('')}</section>` : ''}
+${related.length ? `<section class="related"><h2>${esc(L.t.related)}</h2><ul>${related.join('')}</ul></section>` : ''}
+${cta(loc, c.slug, 'appstore-end')}
+</main>`;
+    const schema = [
+      {
+        '@context': 'https://schema.org', '@type': 'WebPage', name: c.h1, description: c.description, inLanguage: L.lang, url: abs(p),
+        dateModified: c.updated,
+        about: { '@type': 'MobileApplication', name: 'Bible Verse Alarm', operatingSystem: 'iOS', applicationCategory: 'LifestyleApplication', installUrl: `https://apps.apple.com/app/id${APP_ID}` },
+      },
+      crumbs.schema,
+    ];
+    if (faq.length) schema.push({
+      '@context': 'https://schema.org', '@type': 'FAQPage',
+      mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+    });
+    pages.push({ loc, path: p, kind: 'features', updated: c.updated, html: layout({ loc, path: p, group: `feature:${ft.id}`, title: c.title, description: c.description, body, schema, ogType: 'website' }) });
   }
 }
 

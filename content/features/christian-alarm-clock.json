@@ -1,0 +1,45 @@
+{
+  "id": "christian-alarm-clock",
+  "related": ["morning", "encouragement", "anxiety"],
+  "locales": {
+    "en": {
+      "slug": "christian-alarm-clock",
+      "nav": "Christian alarm clock",
+      "title": "Christian Alarm Clock App That Wakes You With Scripture",
+      "description": "Bible Verse Alarm is a Christian alarm clock for iPhone. It keeps ringing until you complete a short Bible verse, so your first minute goes to God's Word.",
+      "h1": "A Christian alarm clock that wakes you up with Scripture",
+      "intro": "Most alarms hand you straight to your phone. Bible Verse Alarm is an iPhone alarm that won't stop ringing until you finish a short Bible verse, so the first thing you read each day is Scripture, not your notifications.",
+      "published": "2026-10-22",
+      "updated": "2026-10-22",
+      "sections": [
+        {
+          "heading": "How it works",
+          "body": "Set your wake-up time and choose the verses you want to wake up to. When the alarm rings, you turn it off by rebuilding the verse word by word, or by typing it out.\n\nBy the time you're done, you're awake, and you've already read God's Word."
+        },
+        {
+          "heading": "Built to actually get you out of bed",
+          "body": "It uses Apple's AlarmKit, so it rings even when your iPhone is on Silent or in a Focus mode. The alarm keeps going until the verse is complete. A half-asleep tap can't switch it off."
+        },
+        {
+          "heading": "Scripture before the scroll",
+          "body": "The point isn't only waking up on time. It's what you see first. David brought his requests to God at daybreak and waited expectantly. This alarm makes that the default, instead of a resolution you keep forgetting.",
+          "refs": ["Psalms 5:3", "Lamentations 3:22-23"]
+        },
+        {
+          "heading": "Verses that stay with you",
+          "body": "Because you put each verse back together yourself, it sticks. The Verses tab keeps the verses you've woken up to, with scenes that unlock as you keep showing up. The Practice tab lets you rehearse any verse whenever you like."
+        },
+        {
+          "heading": "The details",
+          "body": "No account and no login. The Bible text is stored on your phone and works offline. English translations: NIV, World English Bible, King James Version and Berean Standard Bible. Family Sharing is supported. iPhone only for now."
+        }
+      ],
+      "faq": [
+        { "q": "Is there an alarm clock that makes you read the Bible?", "a": "Yes. Bible Verse Alarm keeps ringing until you complete a short Bible verse, either by rebuilding it word by word or by typing it. It's an iPhone app on the App Store." },
+        { "q": "Will it ring if my iPhone is on Silent?", "a": "Yes. It uses Apple's AlarmKit, so it rings through Silent mode and Focus modes." },
+        { "q": "Which Bible translations does it include?", "a": "NIV, World English Bible (WEB), King James Version (KJV) and Berean Standard Bible (BSB). They're stored on the device, so they work offline." },
+        { "q": "Is Bible Verse Alarm available on Android?", "a": "Not yet. It's currently available for iPhone on the App Store." }
+      ]
+    }
+  }
+}

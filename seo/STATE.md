@@ -28,13 +28,13 @@ Every change to velocity is appended to `governor.json.history` with the date an
 - English stays at the root (`/`, `/bible-verses-about/...`) so the App Store-linked URLs `/`, `/privacy`, `/support`, `/terms`, `/feedback` never move. Other locales: `/es`, `/zh-hant`, `/zh-hans`, `/ko`.
 - Chinese: write Traditional (Taiwan voice) once; `zh-hans` is auto-converted (OpenCC) with native Simplified CUV verses. No mainland China/Baidu.
 - Spanish: Latin America, neutral `tú` voice (Kenneth may override; see NEEDS_HUMAN).
-- Korean: homepage only until the 개역한글 licence decision (LICENSES.md).
+- Korean: homepage + feature pages (no verse text) until the 개역한글 licence decision (LICENSES.md).
 - Lean on Pro: 1 new page per locale per day; qa-gatekeeper on every new page; scouts weekly.
 
 ## Backlog (highest impact first)
 1. GSC + Bing connected (separate session doing it; see `seo/GSC_SETUP.md` when it exists). Then add GitHub secret `GSC_SERVICE_ACCOUNT_JSON`.
 2. More topic pages per keyword map: peace, fear, hope, sleep/night, comfort, grief, healing, gratitude, encouragement, faith, love, patience, forgiveness, marriage, family, work, exams, birthdays, new year.
-3. Editorial template (no verse list) so Korean can ship how-to/feature pages before the licence decision.
+3. App-intent feature pages first in every locale (`app-alarm`, `app-memorize`, `app-devotional` clusters): they're the install drivers. "bible app" itself is rejected (YouVersion owns it; it's an App Store/ASO fight).
 4. OG images + vertical verse cards (vet `@resvg/resvg-js`), then Pinterest/Threads via Postiz.
 5. Book key-verses template; verse-of-the-day archive.
 6. Comparison pages (factual): "Bible verse alarm apps", vs. Alarmy/Glorify-style alternatives.

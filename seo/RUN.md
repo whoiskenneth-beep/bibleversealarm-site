@@ -17,8 +17,10 @@ keep each run small (target: under ~30 minutes of work). Ship small, measure, it
 
 ## 2. Work (for EACH of this run's locales, within governor.json limits)
 1. **Optimize first** (`optimizations_per_day`): the best quick win from step 1: title/meta rewrite, an extra verse group, better FAQ, internal links. Log it in `seo/experiments.csv` with its baseline (position, CTR, impressions) and `review_after` = today + 14 days.
-2. **New pages** (`new_pages_per_day`): pick the highest-priority `planned` keyword from `seo/keywords/<lang>.csv` (no planned rows → run the `keyword-scout-<lang>` agent once to add 10 from `seo/data/suggest/<lang>.json`).
-   Spawn `writer-<lang>` with the keyword, cluster and the list of existing topic ids. It writes `content/topics/<id>.json` (adding its locale to an existing topic file when the topic already exists in another language).
+2. **New pages** (`new_pages_per_day`): pick the highest-priority `planned` keyword from `seo/keywords/<lang>.csv`. Priority order: top > high > medium > low. (No planned rows → run the `keyword-scout-<lang>` agent once to add 10 from `seo/data/suggest/<lang>.json`.)
+   Spawn `writer-<lang>` with the keyword, cluster and the list of existing topic + feature ids.
+   - Cluster `app-*` or `comparison` → a **feature page** in `content/features/` (schema + rules: `seo/templates/README.md`). If the cluster already has a page in another language, add this locale to that file. These are the install-intent pages: they matter most for revenue.
+   - Otherwise → a topic page in `content/topics/<id>.json` (add the locale to an existing topic file when one exists).
 3. Spawn `qa-gatekeeper` on every new or substantially changed page (give it only the file path + locale, not the writer's reasoning). REJECT → send the notes to the writer once, then run `qa-gatekeeper` ONE more time on the rewrite. Rejected again → delete the change and log it in the report. Never ship a page whose last verdict was REJECT.
 4. Mark the keyword row `published` with its target_page.
 5. Experiments due (`review_after` ≤ today): compare against the baseline. Winner → note it in STATE.md backlog "roll out". Loser → revert. Write the verdict.
