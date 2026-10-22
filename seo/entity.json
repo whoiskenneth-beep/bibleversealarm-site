@@ -5,7 +5,7 @@
   "app_store_url": "https://apps.apple.com/app/id6789787366",
   "google_play_url": null,
   "social_profiles": [],
-  "_social_profiles": "Public profile URLs (Facebook page, YouTube channel, TikTok, Threads, Pinterest...). Kenneth to fill: seo/NEEDS_HUMAN.md #7.",
+  "_social_profiles": "Public profile URLs (Facebook page, YouTube channel, TikTok, Threads, Pinterest...). Kenneth to fill: seo/NEEDS_HUMAN.md #8.",
   "one_liner": {
     "en": "An iPhone alarm that keeps ringing until you complete a short Bible verse, so your first minute of the day goes to God's Word, not your phone.",
     "es": "Una alarma para iPhone que sigue sonando hasta que completas un versículo corto de la Biblia, para que tu primer minuto del día sea para la Palabra de Dios y no para el celular.",
@@ -24,7 +24,7 @@
     ]
   },
   "ai_crawlers": {
-    "_about": "robots.txt groups. Search/answer agents are always allowed so AI engines can cite us. allow_training is Kenneth's call (NEEDS_HUMAN #6); default allow so future models know the app.",
+    "_about": "robots.txt groups. Search/answer agents are always allowed so AI engines can cite us. allow_training is Kenneth's call (NEEDS_HUMAN #7); default allow so future models know the app.",
     "search": ["OAI-SearchBot", "ChatGPT-User", "PerplexityBot", "Perplexity-User", "Claude-SearchBot", "Claude-User", "Bingbot", "Googlebot", "Applebot", "Yeti", "DuckAssistBot"],
     "training": ["GPTBot", "ClaudeBot", "Google-Extended", "Applebot-Extended", "CCBot"],
     "allow_training": true
