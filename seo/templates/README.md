@@ -29,7 +29,7 @@ URLs: en `/bible-verses-about/<slug>`, es `/es/versiculos-biblicos/<slug>`, zh `
 
 ## GEO page trio (one each per locale, feature pages, clusters `app-compare`, `app-explainer`, `app-faq`)
 These are the pages AI engines cite for "which app should I use" prompts.
-- `app-compare`: fair "best Bible verse / Christian alarm apps" comparison. Only facts checkable on each app's App Store page (fetch it the same day; write "as of <date>"). A table: app, what it does, platform, how it wakes you / builds the habit. No knocking competitors; say who each one suits. Never state our prices (A/B tests); others' prices only if shown on their store page.
+- `app-compare`: fair "best Christian apps for iPhone" comparison (EN live: `content/features/best-christian-apps.json`; copy its structure per locale, native app picks per market). Disclose that we make Bible Verse Alarm, list it only for the job it does best, cost column must say "Free to download, subscription for full use" for ours. Only facts checkable on each app's App Store page (fetch it the same day; write "as of <date>"). A table: app, what it does, platform, how it wakes you / builds the habit. No knocking competitors; say who each one suits. Never state our prices (A/B tests); others' prices only if shown on their store page.
 - `app-explainer`: "What is a Bible verse alarm?": definition in the first sentence, how it works, who it's for, how it differs from a normal alarm / a Bible app.
 - `app-faq`: 10–15 real questions about the app, each answered in ≤ 50 words from `seo/APP_FACTS.md`.
 
@@ -41,7 +41,7 @@ For keyword clusters starting with `app-` (e.g. "christian alarm clock app", "bi
       "slug": "christian-alarm-clock",   // served at <locale prefix>/<slug>; reserved words are refused by the build
       "nav": "Christian alarm clock",    // short label: every footer in that locale links to every feature page
       "title": "...", "description": "...", "h1": "...", "intro": "...", "published": "...", "updated": "...",
-      "sections": [ { "heading": "...", "body": "paragraphs split by a blank line", "refs": ["Psalms 5:3"] } ],  // refs optional
+      "sections": [ { "heading": "...", "body": "paragraphs split by a blank line", "refs": ["Psalms 5:3"], "table": [["Header", "..."], ["row", "..."]] } ],  // refs + table optional
       "faq": [ { "q": "...", "a": "..." } ] } } }
 ```
 Rules: ONE feature page per cluster per locale. Phrasings of the same intent ("bible verse alarm app", "alarm that makes you

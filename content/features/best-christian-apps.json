@@ -1,0 +1,92 @@
+{
+  "id": "best-christian-apps",
+  "related": ["morning", "encouragement", "anxiety"],
+  "locales": {
+    "en": {
+      "slug": "best-christian-apps-iphone",
+      "nav": "Best Christian apps",
+      "title": "Best Christian Apps for iPhone (2026), Honestly Compared",
+      "description": "The best Christian apps for iPhone in 2026 by what you need: Bible reading, prayer, devotionals, memorizing Scripture, and starting your day with God.",
+      "h1": "The best Christian apps for iPhone in 2026",
+      "intro": "The best Christian app depends on what you want help with: YouVersion for reading the Bible, Hallow or Abide for guided prayer, Glorify for a daily devotional, Bible Memory for memorizing Scripture, and Bible Verse Alarm for making Scripture the first thing you see each morning. We make Bible Verse Alarm, so every other entry below sticks to what each app says on its own App Store page.",
+      "published": "2026-10-23",
+      "updated": "2026-10-23",
+      "card_ref": "Psalms 5:3",
+      "sections": [
+        {
+          "heading": "Which Christian app should I use?",
+          "body": "Pick by the habit you're trying to build. Most of these are free to download, and several are completely free.",
+          "table": [
+            ["If you want to…", "Try", "Cost"],
+            ["Make Scripture the first thing you see each morning", "Bible Verse Alarm", "Free to download, subscription for full use"],
+            ["Read the Bible in almost any translation", "YouVersion Bible App", "Free"],
+            ["Start with a short daily devotional", "Glorify", "Free to download"],
+            ["Pray with audio-guided sessions (Catholic)", "Hallow", "Free to download"],
+            ["Practice Christian meditation", "Abide", "Free to download"],
+            ["Listen to the Bible read aloud", "Dwell", "Free to download"],
+            ["Pause to pray morning, midday and night", "Lectio 365", "Free"],
+            ["Memorize Bible verses", "Bible Memory", "Free"],
+            ["Understand the Bible's big story", "BibleProject", "Free"],
+            ["Do deep Bible study with Greek and Hebrew tools", "Blue Letter Bible", "Free to download"],
+            ["Wind down with prayers and Bible stories at night", "Pray.com", "Free to download"]
+          ]
+        },
+        {
+          "heading": "Best for starting the day with Scripture: Bible Verse Alarm",
+          "body": "Bible Verse Alarm is an iPhone alarm that keeps ringing until you complete a short Bible verse, either by rebuilding it word by word or by typing it. It rings through Silent and Focus modes, needs no account, and works offline in English, Spanish, Chinese and Korean. It's for people whose first minute every morning goes to their phone instead of to God. Free to download; full use needs a subscription. (This is our app.)",
+          "refs": ["Psalms 5:3"]
+        },
+        {
+          "heading": "Best for reading the Bible: YouVersion Bible App",
+          "body": "YouVersion is the free Bible app most Christians already know. Its App Store page lists audio Bibles, reading plans, prayer and 3,500+ Bible versions, and says it has been downloaded over 700 million times. Start here if you mainly want to read."
+        },
+        {
+          "heading": "Best for a daily devotional: Glorify",
+          "body": "Glorify is built around a short daily quiet time: an inspiring quote, a Bible passage and a devotional, in about 10 minutes. Its App Store page says more than 20 million Christians have used it. It suits people who want a guided few minutes with God each day."
+        },
+        {
+          "heading": "Best for guided prayer: Hallow",
+          "body": "Hallow offers audio-guided prayer and meditation sessions, and describes itself as the #1 Catholic app, with over 10,000 sessions. It's the strongest pick for Catholics and anyone who likes to pray along with a voice."
+        },
+        {
+          "heading": "Best for Christian meditation: Abide",
+          "body": "Abide calls itself the #1 Christian meditation app, with more than 2,000 biblically inspired meditations to help you slow down and find peace with God. Choose it if you want stillness more than reading."
+        },
+        {
+          "heading": "Best for listening to the Bible: Dwell",
+          "body": "Dwell is an audio Bible app with more than 20 voices and 14 translations, according to its App Store page. It's made for hearing Scripture while you commute, cook or fall asleep."
+        },
+        {
+          "heading": "Best free daily prayer rhythm: Lectio 365",
+          "body": "Lectio 365, from 24-7 Prayer, is completely free and helps you pause to pray in the morning, at midday and at night. It's a good fit if you want a simple daily rhythm without a subscription."
+        },
+        {
+          "heading": "Best for memorizing verses: Bible Memory",
+          "body": "Bible Memory (by Poimena) says it's 100% free, with no ads and no subscriptions, and uses flashcards, games and spaced repetition in 48 languages. It's the most focused option if your goal is to know verses by heart."
+        },
+        {
+          "heading": "Best for understanding the Bible: BibleProject",
+          "body": "BibleProject offers free videos, podcasts and classes that walk through how the Bible's story fits together. It's ideal for newer Christians or anyone who finds parts of the Bible confusing."
+        },
+        {
+          "heading": "Best for deep study: Blue Letter Bible",
+          "body": "Blue Letter Bible links study tools to every verse: 30+ Bible versions, commentaries, a Hebrew and Greek lexicon, concordances and dictionaries. Pick it if you like to dig into the original languages."
+        },
+        {
+          "heading": "Best for bedtime: Pray.com",
+          "body": "Pray.com offers daily prayers, prayer plans and bedtime Bible stories. It's aimed at people who want to end the day with God, as well as start it."
+        },
+        {
+          "heading": "How we chose these apps",
+          "body": "We picked well-known, actively maintained iPhone apps that each help with one part of the Christian life, and wrote down what each app's own App Store page says (checked 23 October 2026). We make Bible Verse Alarm, so we've listed it for the one job it does best and kept it out of every other category. Features and prices change, so check each App Store page before you download."
+        }
+      ],
+      "faq": [
+        { "q": "What is the best Christian app?", "a": "It depends on the habit you want. YouVersion is the best-known free Bible reader, Hallow and Abide lead for guided prayer and meditation, Glorify for daily devotionals, and Bible Memory for memorizing verses." },
+        { "q": "What is the best free Christian app?", "a": "YouVersion, Lectio 365, Bible Memory and BibleProject all say they are free to use. YouVersion is the most complete free Bible app; Lectio 365 is a free daily prayer rhythm." },
+        { "q": "What is the best Christian app for a morning routine?", "a": "For reading, a YouVersion reading plan or a Glorify devotional. If your problem is reaching for your phone first, Bible Verse Alarm makes you complete a short Bible verse before the alarm stops." },
+        { "q": "Is there a Christian alarm clock app?", "a": "Yes. Bible Verse Alarm for iPhone keeps ringing until you complete a short Bible verse, so the first thing you read each day is Scripture." }
+      ]
+    }
+  }
+}

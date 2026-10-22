@@ -1,5 +1,9 @@
 keyword,intent,cluster,target_page,priority,status
-best bible verse alarm apps,commercial,app-compare,,top,planned
+best christian apps for iphone,commercial,app-compare,/best-christian-apps-iphone,top,published
+best christian apps,commercial,app-compare,/best-christian-apps-iphone,top,published
+best christian apps for young adults,commercial,app-compare-young-adults,,high,planned
+best devotional apps,commercial,app-compare-devotional,,high,planned
+best bible verse alarm apps,commercial,app-compare,/best-christian-apps-iphone,top,published
 what is a bible verse alarm,informational,app-explainer,,top,planned
 bible verse alarm app faq,commercial,app-faq,,top,planned
 christian alarm clock app,commercial,app-alarm,/christian-alarm-clock,top,published

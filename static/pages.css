@@ -33,6 +33,11 @@
 .faq summary { cursor: pointer; font-weight: 600; }
 .faq details p { margin-top: 10px; }
 
+.table-wrap { overflow-x: auto; margin: 16px 0 8px; }
+.table-wrap table { width: 100%; border-collapse: collapse; font-size: 15px; background: var(--card); border-radius: 12px; overflow: hidden; box-shadow: var(--shadow-sm); }
+.table-wrap th, .table-wrap td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--hairline); vertical-align: top; }
+.table-wrap th { font-weight: 700; background: #F3F1FA; }
+
 .related ul, .topic-grid { list-style: none; display: grid; gap: 10px; }
 .related a { color: var(--indigo); font-weight: 600; }
 .topic-grid { margin-top: 28px; }

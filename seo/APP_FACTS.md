@@ -13,6 +13,7 @@ Writers and QA check every claim about the app against this list. If it isn't he
   (The WEBSITE still can't quote 개역한글 until the licence decision; the app question is separate.)
 - Verses tab with scenes you unlock by waking up; Practice tab to rehearse verses.
 - Family Sharing is supported.
+- Business model: free to download; full use needs a subscription (one paid app, no free tier). Never state the price or trial terms.
 - Positioning: "Scripture before the scroll", your first minute goes to God's Word, not your feed.
 - Canonical name + one-liner per language: seo/entity.json. Use them word for word.
 

@@ -359,7 +359,9 @@ for (const ft of features) {
     const p = pathFor(loc, 'feature', c.slug);
     const crumbs = breadcrumbs(loc, [{ name: L.t.home, path: L.prefix }, { name: c.h1, path: p }]);
     const paras = (text) => text.split(/\n\n+/).map((x) => `<p>${esc(x)}</p>`).join('');
-    const sections = c.sections.map((s) => `<section><h2>${esc(s.heading)}</h2>${paras(s.body)}
+    // Optional table: first row is the header.
+    const table = (rows) => (rows?.length ? `<div class="table-wrap"><table><thead><tr>${rows[0].map((h) => `<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${rows.slice(1).map((r) => `<tr>${r.map((v) => `<td>${esc(v)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>` : '');
+    const sections = c.sections.map((s) => `<section><h2>${esc(s.heading)}</h2>${paras(s.body)}${table(s.table)}
 ${(s.refs || []).map((r) => `<blockquote class="verse"><p>${esc(verse(r, L.bible))}</p><cite>${esc(refLabel(r, loc))}</cite></blockquote>`).join('\n')}</section>`);
     sections.splice(2, 0, cta(loc, c.slug, 'appstore-mid'));
     const related = (ft.related || [])
