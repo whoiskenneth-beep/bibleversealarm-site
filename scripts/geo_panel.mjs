@@ -25,12 +25,12 @@ const parseCsv = (txt) => txt.trim().split('\n').slice(1).map((l) => {
 });
 const csv = (s) => (/[",\n]/.test(String(s)) ? `"${String(s).replace(/"/g, '""')}"` : String(s));
 
-async function ask(prompt) {
-  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${KEY}`, {
+async function ask(prompt, model = MODEL, search = SEARCH) {
+  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${KEY}`, {
     method: 'POST', headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], tools: [{ google_search: {} }] }),
+    body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], ...(search ? { tools: [{ google_search: {} }] } : {}) }),
   });
-  if (res.status === 429) return { quota: true };
+  if (res.status === 429 && !/prepayment|billing/i.test(await res.clone().text())) return { quota: true };
   if (!res.ok) return { error: `${res.status} ${(await res.text()).replace(/\s+/g, ' ').slice(0, 300)}` };
   const j = await res.json();
   const cand = j.candidates?.[0] || {};
@@ -61,14 +61,26 @@ async function pickModel() {
   const names = ((await res.json()).models || [])
     .filter((m) => (m.supportedGenerationMethods || []).includes('generateContent'))
     .map((m) => m.name.replace('models/', ''))
-    .filter((n) => /^gemini-[\d.]+-flash(-latest)?$/.test(n) || n === 'gemini-flash-latest');
+    .filter((n) => /^gemini-[\d.]+-flash(-lite)?$/.test(n));
   if (!names.length) throw new Error('no Gemini Flash model available for this key');
   const ver = (n) => parseFloat((n.match(/gemini-([\d.]+)/) || [, '0'])[1]);
-  return names.sort((a, b) => ver(b) - ver(a))[0];
+  const newest = (lite) => names.filter((n) => n.endsWith('-lite') === lite).sort((a, b) => ver(b) - ver(a))[0];
+  return [newest(false), newest(true)].filter(Boolean);
 }
-const MODEL = await pickModel();
-const ENGINE = `gemini:${MODEL}+search`;
-console.log(`model: ${MODEL}`);
+// Free-tier access to Search grounding varies by model and changes often. Probe in order of usefulness:
+// search+Flash, search+Flash-Lite, then plain answers (model knowledge only, no live citations).
+let MODEL, SEARCH;
+for (const search of [true, false]) {
+  for (const m of await pickModel()) {
+    const r = await ask('Say OK.', m, search);
+    if (!r.error && !r.quota) { MODEL = m; SEARCH = search; break; }
+    console.log(`probe ${m}${search ? '+search' : ''}: ${(r.error || 'quota').slice(0, 90)}`);
+  }
+  if (MODEL) break;
+}
+if (!MODEL) { console.log('No free Gemini access for this key (see seo/NEEDS_HUMAN.md #8)'); process.exit(1); }
+const ENGINE = `gemini:${MODEL}${SEARCH ? '+search' : ''}`;
+console.log(`engine: ${ENGINE}`);
 const out = path.join(ROOT, 'geo/results.csv');
 if (!fs.existsSync(out)) fs.writeFileSync(out, 'date,engine,locale,prompt_id,type,run,mentioned,cited_url,position,competitors\n');
 
