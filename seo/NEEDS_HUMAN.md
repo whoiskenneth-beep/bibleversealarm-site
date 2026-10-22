@@ -68,7 +68,7 @@ the project (My Project / triple-backbone-509) on **Tier 1 with "My Billing Acco
 Prepaid billing can only spend credits you buy, so nothing can be charged right now.
 **My recommendation:** in AI Studio → Projects → My Project → Billing, remove the billing account so the project drops back to
 the **free tier**, then tell Claude to re-run the tracker. If Google no longer offers a free tier for it, skip automated tracking
-and use the manual weekly check (#9). **Don't buy credits:** with search turned on, the full weekly panel would cost roughly
+and use the manual weekly check (#10). **Don't buy credits:** with search turned on, the full weekly panel would cost roughly
 $25–30 a month.
 
 ## 10. Weekly 10-minute AI check (engines with no free API)

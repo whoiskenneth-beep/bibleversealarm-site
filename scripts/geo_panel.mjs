@@ -78,7 +78,7 @@ for (const search of [true, false]) {
   }
   if (MODEL) break;
 }
-if (!MODEL) { console.log('No free Gemini access for this key (see seo/NEEDS_HUMAN.md #8)'); process.exit(1); }
+if (!MODEL) { console.log('No free Gemini access for this key (see seo/NEEDS_HUMAN.md #9)'); process.exit(1); }
 const ENGINE = `gemini:${MODEL}${SEARCH ? '+search' : ''}`;
 console.log(`engine: ${ENGINE}`);
 const out = path.join(ROOT, 'geo/results.csv');
