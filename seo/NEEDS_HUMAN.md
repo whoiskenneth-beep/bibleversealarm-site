@@ -3,7 +3,16 @@
 Only things that need your login or your decision. The bot works around all of these and keeps going.
 Each item: what, why it matters, exact steps, and my recommendation.
 
-## 1. Google Search Console + Bing (IN PROGRESS in a separate session)
+## 0. BLOCKER: give Claude's GitHub App access to this repo (2 minutes)
+**Why:** the cloud bot can write pages but can't push them. Its first test run (2026-10-22) made a "peace" page in English + Spanish and lost it on a 403 error.
+1. Open https://github.com/apps/claude/installations/select_target and pick your account (whoiskenneth-beep).
+2. Under "Repository access", either choose "All repositories" or add `bibleversealarm-site` to the selected list → Save.
+3. Tell Claude "re-run the SEO bot" (or just wait: it runs by itself at 06:00 and 18:00 MYT).
+
+## 1. Google Search Console + Bing: DONE 2026-10-22
+Verified (`sc-domain:bibleversealarm.com`), sitemap submitted to Google and Bing, key stored as GitHub secret
+`GSC_SERVICE_ACCOUNT_JSON`, first daily pull succeeded. Don't delete the `google-site-verification` DNS TXT record.
+Old notes below kept for reference.
 **Why:** without it the bot is flying blind. No rankings, no indexation numbers, so the speed governor can't work.
 A separate Claude session is setting it up with Google Cloud project 377002055736. When it finishes, the key file
 is at `~/.config/bibleversealarm/gsc-sa.json`. Then one command (Claude can run it for you) puts it into GitHub:
