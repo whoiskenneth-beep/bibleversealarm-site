@@ -5,7 +5,7 @@ Goal: Bible Verse Alarm gets named and cited when people ask AI assistants for a
 | File | What |
 |---|---|
 | `prompts/<locale>.csv` | 40–60 native prompts per locale (`type` = app or topic). The bot adds Bing grounding queries over time. |
-| `results.csv` | Automated weekly runs: Gemini + Google Search grounding (free tier), 3 runs per prompt. `scripts/geo_panel.mjs`, `.github/workflows/geo.yml` (Mon en+es, Tue zh+ko). |
+| `results.csv` | Automated runs on Gemini's free tier (`scripts/geo_panel.mjs`, `.github/workflows/geo.yml`): the 20 app prompts of one locale per day (Mon en, Tue es, Wed zh, Thu ko), 1 run each. The free tier has **no Search grounding and ~20 requests/day**, so this measures what the model itself knows about us (training data), not live citations. `snippet` holds the text around each mention for auditing. |
 | `sov.json` | Share of voice = % of runs where we're mentioned or cited, per week × engine × locale × type. A trend, not a rank. |
 | `manual.csv` | Kenneth's weekly hand checks of engines with no free API (ChatGPT, Perplexity, Copilot, Google AI Mode, Naver). |
 | `bing/` | Weekly CSV exports from Bing Webmaster Tools → AI Performance, if available. |

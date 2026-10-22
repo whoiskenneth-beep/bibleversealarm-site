@@ -9,7 +9,9 @@ import path from 'node:path';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const KEY = process.env.GEMINI_API_KEY;
-const RUNS = +(process.env.GEO_RUNS || 3);
+// Free tier allows only ~20 requests/day (2026-10), so default = app prompts, 1 run, one locale per day.
+const RUNS = +(process.env.GEO_RUNS || 1);
+const TYPES = (process.env.GEO_TYPES || 'app').split(',');
 const LOCS = (process.env.GEO_LOCALES || 'en,es,zh,ko').split(',');
 const today = new Date().toISOString().slice(0, 10);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -18,7 +20,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 // name (exact capitals) or the domain; when the prompt itself says "verse alarm", only a listed product
 // (**Bible Verse Alarm** in markdown) or the domain counts.
 const US_STRICT = [/\*\*Bible Verse Alarm\*\*/, /bibleversealarm/i];
-const US_NAME = [/Bible Verse Alarm(?! apps?\b)/, /bibleversealarm/i];
+const US_NAME = [/Bible Verse Alarm(?! (?:apps?|Clock|clock)\b)/, /bibleversealarm/i]; // "Bible Verse Alarm Clock" is an unrelated Android app
 const COMPETITORS = ['YouVersion', 'Bible App', 'Glorify', 'Hallow', 'Abide', 'Pray.com', 'Alarmy', 'Dwell', 'Lectio 365',
   'Bible Memory', 'Verses', 'Scripture Typer', 'Remember Me', 'Fighter Verses', 'Bible Gateway', 'Olive Tree', 'Logos',
   'Daily Bible Verse', 'iDisciple', 'First 5', 'Bible Chat', 'Faith Alarm', 'Christian Alarm', 'Morning Prayer'];
@@ -34,7 +36,7 @@ async function ask(prompt, model = MODEL, search = SEARCH) {
     method: 'POST', headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], ...(search ? { tools: [{ google_search: {} }] } : {}) }),
   });
-  if (res.status === 429 && !/prepayment|billing/i.test(await res.clone().text())) return { quota: true };
+  if (res.status === 429 && !/prepayment/i.test(await res.clone().text())) return { quota: true };
   if (!res.ok) return { error: `${res.status} ${(await res.text()).replace(/\s+/g, ' ').slice(0, 300)}` };
   const j = await res.json();
   const cand = j.candidates?.[0] || {};
@@ -71,7 +73,7 @@ async function pickModel() {
   if (!names.length) throw new Error('no Gemini Flash model available for this key');
   const ver = (n) => parseFloat((n.match(/gemini-([\d.]+)/) || [, '0'])[1]);
   const newest = (lite) => names.filter((n) => n.endsWith('-lite') === lite).sort((a, b) => ver(b) - ver(a))[0];
-  return [newest(false), newest(true)].filter(Boolean);
+  return [newest(true), newest(false)].filter(Boolean); // lite first: bigger free quota
 }
 // Free-tier access to Search grounding varies by model and changes often. Probe in order of usefulness:
 // search+Flash, search+Flash-Lite, then plain answers (model knowledge only, no live citations).
@@ -93,7 +95,7 @@ if (!fs.existsSync(out)) fs.writeFileSync(out, 'date,engine,locale,prompt_id,typ
 let quotaHit = false;
 let errors = 0;
 for (const loc of LOCS) {
-  const prompts = parseCsv(fs.readFileSync(path.join(ROOT, 'geo/prompts', `${loc}.csv`), 'utf8'));
+  const prompts = parseCsv(fs.readFileSync(path.join(ROOT, 'geo/prompts', `${loc}.csv`), 'utf8')).filter((p) => TYPES.includes(p.type));
   let n = 0, m = 0;
   for (const p of prompts) {
     for (let run = 1; run <= RUNS && !quotaHit; run++) {

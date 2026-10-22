@@ -1,15 +1,15 @@
-# AI-answer prompt panel (scripts/geo_panel.mjs) on Gemini's free tier. Split over two days to stay
-# under the daily grounding quota: Monday en+es, Tuesday zh+ko (09:00 MYT). Commits geo/ results.
+# AI-answer prompt panel (scripts/geo_panel.mjs) on Gemini's free tier, which allows only ~20
+# requests/day: the 20 app-recommendation prompts of ONE locale per day, 1 run each.
+# Mon en, Tue es, Wed zh, Thu ko at 09:00 MYT. Commits geo/ results.
 name: geo
 on:
   schedule:
-    - cron: '0 1 * * 1'
-    - cron: '0 1 * * 2'
+    - cron: '0 1 * * 1-4'
   workflow_dispatch:
     inputs:
       locales:
         description: 'Comma-separated locales (en,es,zh,ko)'
-        default: 'en,es'
+        default: 'en'
 permissions:
   contents: write
 concurrency:
@@ -18,16 +18,22 @@ concurrency:
 jobs:
   panel:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Pick today's locale
+        id: loc
+        run: |
+          if [ -n "${{ inputs.locales }}" ]; then echo "l=${{ inputs.locales }}" >> "$GITHUB_OUTPUT"; exit 0; fi
+          case "$(date -u +%u)" in 1) l=en;; 2) l=es;; 3) l=zh;; 4) l=ko;; *) l=en;; esac
+          echo "l=$l" >> "$GITHUB_OUTPUT"
       - name: Prompt panel
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEO_LOCALES: ${{ inputs.locales || (github.event.schedule == '0 1 * * 1' && 'en,es' || 'zh,ko') }}
+          GEO_LOCALES: ${{ steps.loc.outputs.l }}
         run: node scripts/geo_panel.mjs
       - name: Commit
         run: |
