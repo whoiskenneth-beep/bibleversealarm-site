@@ -1,6 +1,6 @@
 keyword,intent,cluster,target_page,priority,status
-聖經鬧鐘 App,commercial,app-alarm,,top,planned
-基督徒鬧鐘,commercial,app-alarm,,top,planned
+聖經鬧鐘 App,commercial,app-alarm,/zh-hant/shengjing-naozhong,top,published
+基督徒鬧鐘,commercial,app-alarm,/zh-hant/shengjing-naozhong,top,published
 背經文 App,commercial,app-memorize,,top,planned
 焦慮 經文,informational,anxiety,/zh-hant/jingwen/anxiety,high,published
 早晨經文,informational,morning,/zh-hant/jingwen/morning,high,published
