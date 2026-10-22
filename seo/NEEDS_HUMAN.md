@@ -62,14 +62,10 @@ Send Claude the public URLs of your Facebook page, YouTube channel, TikTok, Thre
 `seo/entity.json` → the site's schema `sameAs`, which helps Google and AI engines know these are all the same app.
 Keep the name **"Bible Verse Alarm"** and the one-liner in `seo/entity.json` identical on every profile bio and directory listing.
 
-## 9. Gemini key: added, but the project is on a paid tier with $0 credit (decision)
-Key saved as GitHub secret `GEMINI_API_KEY` (2026-10-22). Every call fails with "prepayment credits depleted": AI Studio shows
-the project (My Project / triple-backbone-509) on **Tier 1 with "My Billing Account", no credits**, so it gets no free tier.
-Prepaid billing can only spend credits you buy, so nothing can be charged right now.
-**My recommendation:** in AI Studio → Projects → My Project → Billing, remove the billing account so the project drops back to
-the **free tier**, then tell Claude to re-run the tracker. If Google no longer offers a free tier for it, skip automated tracking
-and use the manual weekly check (#10). **Don't buy credits:** with search turned on, the full weekly panel would cost roughly
-$25–30 a month.
+## 9. Gemini key: DONE 2026-10-22 (free tier, account 2)
+Works on the free tier, with two limits: no Google Search grounding (free quota is 0) and only ~20 requests/day. So the
+tracker checks what Gemini *knows* (20 app prompts, one language per day), not live citations. Live citations are covered by your
+manual check (#10). Never add billing to that project unless you decide to pay (~$25–30/month for the full search-grounded panel).
 
 ## 10. Weekly 10-minute AI check (engines with no free API)
 Every Monday, ask these 8 prompts in **ChatGPT, Perplexity, Microsoft Copilot and Google AI Mode** (and Naver for the Korean ones),

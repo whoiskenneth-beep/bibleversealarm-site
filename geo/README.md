@@ -13,3 +13,5 @@ Goal: Bible Verse Alarm gets named and cited when people ask AI assistants for a
 
 Store clicks from AI engines are re-tagged on the page (`ct=ai_<engine>_<page>`), so installs per AI engine show in
 App Store Connect → Analytics → Acquisition → Campaigns. Mainland-China engines (DeepSeek, Doubao, Kimi, Baidu) are out of scope (not targeted).
+
+Name collision: an unrelated Android app is called "Bible Verse Alarm Clock". The detector ignores it; content should keep saying "Bible Verse Alarm for iPhone" to stay distinct.
