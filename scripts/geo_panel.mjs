@@ -9,8 +9,6 @@ import path from 'node:path';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const KEY = process.env.GEMINI_API_KEY;
-const MODEL = process.env.GEO_MODEL || 'gemini-2.5-flash';
-const ENGINE = `gemini:${MODEL}+search`;
 const RUNS = +(process.env.GEO_RUNS || 3);
 const LOCS = (process.env.GEO_LOCALES || 'en,es,zh,ko').split(',');
 const today = new Date().toISOString().slice(0, 10);
@@ -33,7 +31,7 @@ async function ask(prompt) {
     body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], tools: [{ google_search: {} }] }),
   });
   if (res.status === 429) return { quota: true };
-  if (!res.ok) return { error: `${res.status} ${(await res.text()).slice(0, 120)}` };
+  if (!res.ok) return { error: `${res.status} ${(await res.text()).replace(/\s+/g, ' ').slice(0, 300)}` };
   const j = await res.json();
   const cand = j.candidates?.[0] || {};
   const text = (cand.content?.parts || []).map((p) => p.text || '').join('');
@@ -54,10 +52,28 @@ function score(text, chunks) {
 }
 
 if (!KEY) { console.log('GEMINI_API_KEY not set; skipping prompt panel'); process.exit(0); }
+
+// Model names change often; ask the API which models this key can use and take the newest plain Flash.
+async function pickModel() {
+  if (process.env.GEO_MODEL) return process.env.GEO_MODEL;
+  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?pageSize=200&key=${KEY}`);
+  if (!res.ok) throw new Error(`list models: ${res.status} ${(await res.text()).slice(0, 200)}`);
+  const names = ((await res.json()).models || [])
+    .filter((m) => (m.supportedGenerationMethods || []).includes('generateContent'))
+    .map((m) => m.name.replace('models/', ''))
+    .filter((n) => /^gemini-[\d.]+-flash(-latest)?$/.test(n) || n === 'gemini-flash-latest');
+  if (!names.length) throw new Error('no Gemini Flash model available for this key');
+  const ver = (n) => parseFloat((n.match(/gemini-([\d.]+)/) || [, '0'])[1]);
+  return names.sort((a, b) => ver(b) - ver(a))[0];
+}
+const MODEL = await pickModel();
+const ENGINE = `gemini:${MODEL}+search`;
+console.log(`model: ${MODEL}`);
 const out = path.join(ROOT, 'geo/results.csv');
 if (!fs.existsSync(out)) fs.writeFileSync(out, 'date,engine,locale,prompt_id,type,run,mentioned,cited_url,position,competitors\n');
 
 let quotaHit = false;
+let errors = 0;
 for (const loc of LOCS) {
   const prompts = parseCsv(fs.readFileSync(path.join(ROOT, 'geo/prompts', `${loc}.csv`), 'utf8'));
   let n = 0, m = 0;
@@ -65,7 +81,7 @@ for (const loc of LOCS) {
     for (let run = 1; run <= RUNS && !quotaHit; run++) {
       const r = await ask(p.prompt);
       if (r.quota) { quotaHit = true; console.log(`quota reached at ${loc}/${p.id}; stopping (partial results kept)`); break; }
-      if (r.error) { console.log(`${p.id} run ${run}: ${r.error}`); await sleep(7000); continue; }
+      if (r.error) { console.log(`${p.id} run ${run}: ${r.error}`); if (++errors >= 6 && n === 0) { console.log('6 errors before any success; stopping'); process.exit(1); } await sleep(7000); continue; }
       const s = score(r.text, r.chunks);
       fs.appendFileSync(out, [today, ENGINE, loc, p.id, p.type, run, s.mentioned, csv(s.cited), s.position, csv(s.competitors)].join(',') + '\n');
       n++; if (s.mentioned === 'y' || s.cited) m++;
