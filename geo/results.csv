@@ -1,12 +1,12 @@
 date,engine,locale,prompt_id,type,run,mentioned,cited_url,position,competitors,snippet
 2026-10-22,gemini:gemini-3.8-flash,en,en01,app,1,n,,,Alarmy|Verses|Glorify|Daily Bible Verse|Abide|YouVersion|Bible App,
 2026-10-22,gemini:gemini-3.8-flash,en,en01,app,3,n,,,Glorify|Dwell|Bible App|Verses|YouVersion,
-2026-10-22,gemini:gemini-3.8-flash,en,en02,app,1,y,,4,Alarmy|Verses|Christian Alarm|Daily Bible Verse|YouVersion|Bible App,"rm Apps If you prefer an app that does this automatically without having to copy/paste verses yourself, look into: * **Bible Verse Alarm Clock (Android):** Plays Christian music or nature sounds and displays the Daily Bible Verse on the screen upon waking. *(Note: Many of these apps only require yo"
+2026-10-22,gemini:gemini-3.8-flash,en,en02,app,1,n,,,Alarmy|Verses|Christian Alarm|Daily Bible Verse|YouVersion|Bible App,
 2026-10-22,gemini:gemini-3.8-flash,en,en02,app,2,n,,,Alarmy|Verses|First 5,
 2026-10-22,gemini:gemini-3.8-flash,en,en02,app,3,n,,,Alarmy|Verses|Christian Alarm|Abide|Bible App|YouVersion,
 2026-10-22,gemini:gemini-3.8-flash,en,en04,app,1,n,,,Verses|Abide|Dwell|Bible App|YouVersion,
 2026-10-22,gemini:gemini-3.8-flash,en,en04,app,2,n,,,Pray.com|Morning Prayer|Dwell,
-2026-10-22,gemini:gemini-3.8-flash,en,en04,app,3,y,,4,Verses|Abide|Christian Alarm|YouVersion,"rs, and worship music. * **Best for:** iPhone users who want a straightforward, plug-and-play Bible alarm. * **Bible Verse Alarm Clock / Christian Alarm (Android)** * **How it works:** Search Google Play for ""Bible Verse Alarm,"" and you’ll find several niche apps (such as *Christian A"
+2026-10-22,gemini:gemini-3.8-flash,en,en04,app,3,n,,,Verses|Abide|Christian Alarm|YouVersion,
 2026-10-22,gemini:gemini-3.8-flash,en,en07,app,3,n,,,Bible Memory|Scripture Typer|Verses|Fighter Verses,
 2026-10-22,gemini:gemini-3.8-flash,en,en08,app,2,n,,,Daily Bible Verse|Bible Memory|Scripture Typer|Verses|Fighter Verses|Remember Me,
 2026-10-22,gemini:gemini-3.8-flash,en,en12,app,3,n,,,YouVersion|Dwell|Lectio 365|Glorify,

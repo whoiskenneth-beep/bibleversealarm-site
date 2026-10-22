@@ -32,9 +32,13 @@ const parseCsv = (txt) => txt.trim().split('\n').slice(1).map((l) => {
 const csv = (s) => (/[",\n]/.test(String(s)) ? `"${String(s).replace(/"/g, '""')}"` : String(s));
 
 async function ask(prompt, model = MODEL, search = SEARCH) {
+  try { return await askOnce(prompt, model, search); } catch (e) { return { error: `network: ${e.cause?.code || e.name}` }; }
+}
+async function askOnce(prompt, model, search) {
   const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${KEY}`, {
     method: 'POST', headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], ...(search ? { tools: [{ google_search: {} }] } : {}) }),
+    signal: AbortSignal.timeout(90000),
   });
   if (res.status === 429 && !/prepayment/i.test(await res.clone().text())) return { quota: true };
   if (!res.ok) return { error: `${res.status} ${(await res.text()).replace(/\s+/g, ' ').slice(0, 300)}` };
@@ -100,7 +104,7 @@ for (const loc of LOCS) {
   for (const p of prompts) {
     for (let run = 1; run <= RUNS && !quotaHit; run++) {
       let r = await ask(p.prompt);
-      if (/^50[03]/.test(r.error || '')) { await sleep(20000); r = await ask(p.prompt); } // model busy: one retry
+      if (/^50[03]|^network/.test(r.error || '')) { await sleep(20000); r = await ask(p.prompt); } // model busy: one retry
       if (r.quota) { quotaHit = true; console.log(`quota reached at ${loc}/${p.id}; stopping (partial results kept)`); break; }
       if (r.error) { console.log(`${p.id} run ${run}: ${r.error}`); if (++errors >= 6 && n === 0) { console.log('6 errors before any success; stopping'); process.exit(1); } await sleep(7000); continue; }
       const s = score(r.text, r.chunks, p.prompt);
