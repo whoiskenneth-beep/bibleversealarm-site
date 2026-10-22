@@ -1,6 +1,10 @@
 {
   "id": "christian-alarm-clock",
-  "related": ["morning", "encouragement", "anxiety"],
+  "related": [
+    "morning",
+    "encouragement",
+    "anxiety"
+  ],
   "locales": {
     "en": {
       "slug": "christian-alarm-clock",
@@ -23,7 +27,10 @@
         {
           "heading": "Scripture before the scroll",
           "body": "The point isn't only waking up on time. It's what you see first. David brought his requests to God at daybreak and waited expectantly. This alarm makes that the default, instead of a resolution you keep forgetting.",
-          "refs": ["Psalms 5:3", "Lamentations 3:22-23"]
+          "refs": [
+            "Psalms 5:3",
+            "Lamentations 3:22-23"
+          ]
         },
         {
           "heading": "Verses that stay with you",
@@ -35,10 +42,77 @@
         }
       ],
       "faq": [
-        { "q": "Is there an alarm clock that makes you read the Bible?", "a": "Yes. Bible Verse Alarm keeps ringing until you complete a short Bible verse, either by rebuilding it word by word or by typing it. It's an iPhone app on the App Store." },
-        { "q": "Will it ring if my iPhone is on Silent?", "a": "Yes. It uses Apple's AlarmKit, so it rings through Silent mode and Focus modes." },
-        { "q": "Which Bible translations does it include?", "a": "NIV, World English Bible (WEB), King James Version (KJV) and Berean Standard Bible (BSB). They're stored on the device, so they work offline." },
-        { "q": "Is Bible Verse Alarm available on Android?", "a": "Not yet. It's currently available for iPhone on the App Store." }
+        {
+          "q": "Is there an alarm clock that makes you read the Bible?",
+          "a": "Yes. Bible Verse Alarm keeps ringing until you complete a short Bible verse, either by rebuilding it word by word or by typing it. It's an iPhone app on the App Store."
+        },
+        {
+          "q": "Will it ring if my iPhone is on Silent?",
+          "a": "Yes. It uses Apple's AlarmKit, so it rings through Silent mode and Focus modes."
+        },
+        {
+          "q": "Which Bible translations does it include?",
+          "a": "NIV, World English Bible (WEB), King James Version (KJV) and Berean Standard Bible (BSB). They're stored on the device, so they work offline."
+        },
+        {
+          "q": "Is Bible Verse Alarm available on Android?",
+          "a": "Not yet. It's currently available for iPhone on the App Store."
+        }
+      ]
+    },
+    "zh-hant": {
+      "slug": "shengjing-naozhong",
+      "nav": "聖經鬧鐘 App",
+      "title": "聖經鬧鐘 App：用經文叫你起床的基督徒鬧鐘",
+      "description": "Bible Verse Alarm 是 iPhone 的基督徒鬧鐘，完成一節短經文任務才會停，讓一天最先讀的是神的話。App Store 已列出中文。",
+      "h1": "聖經鬧鐘 App：讓經文叫你起床的基督徒鬧鐘",
+      "intro": "多數鬧鐘一關掉，手指就直接滑向通知和社群。Bible Verse Alarm 是一款 iPhone 鬧鐘，必須完成一節簡短的經文任務才會停止，讓每天醒來讀的第一段話是聖經，而不是動態。App 在 App Store 上已列出中文為支援語言；App 內建的聖經版本請以 App 內實際顯示為準。",
+      "published": "2026-10-22",
+      "updated": "2026-10-22",
+      "sections": [
+        {
+          "heading": "這個基督徒鬧鐘怎麼運作",
+          "body": "先設定起床時間。鬧鐘響起後，你要把經文一個字一個字重組回來，或是自己打字輸入，才能把鬧鐘關掉。\n\n等你完成的時候，人已經清醒，也已經讀過一段神的話。"
+        },
+        {
+          "heading": "設計成真的能叫你起床",
+          "body": "App 使用 Apple 的 AlarmKit，所以即使 iPhone 開了靜音或專注模式，鬧鐘還是會響。經文沒完成就不會停，半夢半醒隨手一點是關不掉的。"
+        },
+        {
+          "heading": "先讀經，再滑手機",
+          "body": "重點不只是準時起床，而是一天最先看見什麼。詩篇的作者大衛說，他早晨向神陳明心意，並且警醒等候。耶利米哀歌提醒受苦的人，神的慈愛每早晨都是新的；詩篇 143 篇的禱告，則是求神讓自己清晨就聽見祂的慈愛之言。這個鬧鐘想把這件事變成每天的預設，而不是一個一再忘記的決心。",
+          "refs": [
+            "Psalms 5:3",
+            "Lamentations 3:22-23",
+            "Psalms 143:8"
+          ]
+        },
+        {
+          "heading": "讓經文留在心裡",
+          "body": "因為經文是你親手一字一字拼回來的，比較容易留在心裡。「Verses」分頁有隨著你持續起床而解鎖的場景；「Practice」分頁則讓你隨時複習經文。"
+        },
+        {
+          "heading": "使用前先知道的事",
+          "body": "不需要註冊帳號或登入。聖經內容存在手機裡，離線也能使用。App Store 目前已列出中文為支援語言。支援 Apple 家人共享。目前僅限 iPhone，沒有 Android 版本。"
+        }
+      ],
+      "faq": [
+        {
+          "q": "有會逼你讀聖經才能關掉的鬧鐘嗎？",
+          "a": "有。Bible Verse Alarm 會一直響，直到你完成一節簡短經文，方式是把經文逐字重組，或自己打字輸入。它是 App Store 上的 iPhone App。"
+        },
+        {
+          "q": "手機開靜音，聖經鬧鐘還會響嗎？",
+          "a": "會。它使用 Apple 的 AlarmKit，在靜音和專注模式下鬧鐘依然會響。"
+        },
+        {
+          "q": "聖經鬧鐘 App 有中文嗎？",
+          "a": "App Store 上的 App 資訊目前已列出中文為支援語言。至於內建的聖經版本，請以 App Store 說明與 App 內實際顯示為準。本站經文頁面提供的和合本，也可以搭配靈修使用。"
+        },
+        {
+          "q": "聖經鬧鐘有 Android 版嗎？",
+          "a": "目前沒有，只提供 iPhone 版，可在 App Store 下載。"
+        }
       ]
     }
   }

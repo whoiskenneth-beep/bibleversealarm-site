@@ -49,3 +49,6 @@ Defaulted to Latin America (neutral "tú", "celular"), which also reads fine in 
 ## 6. Tidy-up (no rush)
 The old `site/` folder in the app repo (`bible-alarm/site`) is now stale: the live site deploys from this repo.
 Delete it in a future app commit so nobody edits the wrong copy.
+
+## 7. App Store now lists KO/ZH/ES (2.4.0): update APP_FACTS
+`seo/data/app_store.json` lists KO, ZH, ES but `seo/APP_FACTS.md` still says they are not live and `appLocalized` is false. Please confirm which Bible translations the live 2.4.0 app has in Korean/Chinese/Spanish, then update APP_FACTS and flip the flags. Run B's ko feature page was blocked on this (and the 개역한글 decision, #2). The zh-hant page only says the App Store lists Chinese. Also: the en alarm page intro says users pick their morning verses, which APP_FACTS does not state.
