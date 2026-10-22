@@ -1,0 +1,114 @@
+{
+  "id": "strength",
+  "related": ["anxiety", "morning"],
+  "locales": {
+    "en": {
+      "slug": "strength",
+      "title": "16 Bible Verses About Strength for When You're Worn Out",
+      "description": "Bible verses about strength for tired, discouraged or overwhelmed days, grouped by what you need, with a short reflection on each group.",
+      "h1": "Bible verses about strength",
+      "intro": "Most of the Bible's strength verses were written to people who had run out of their own: exiles, soldiers facing bigger armies, a prophet who wanted to quit. That is good news if you are reading this tired. The verses below are grouped by the kind of strength you might be looking for today.",
+      "published": "2026-10-22",
+      "updated": "2026-10-22",
+      "groups": [
+        {
+          "heading": "When you're worn out",
+          "reflection": "Isaiah does not promise that God's people will never grow tired; he says even young people stumble. The promise is renewal for those who wait on the Lord. Paul learned the same thing the hard way: the weakness he begged God to remove became the place where Christ's power showed up most clearly. Being worn out is not the end of the story.",
+          "refs": ["Isaiah 40:29-31", "Matthew 11:28", "2 Corinthians 12:9", "Psalms 73:26"]
+        },
+        {
+          "heading": "Strength that isn't yours",
+          "reflection": "Philippians 4:13 is often printed on gym walls, but Paul wrote it about contentment: being able to live with plenty or with hunger. The strength is Christ's, given for whatever circumstances God allows. Nehemiah says it another way: the joy of the Lord is your strength. Not your mood, His joy.",
+          "refs": ["Philippians 4:13", "Psalms 46:1", "Nehemiah 8:10", "Ephesians 6:10"]
+        },
+        {
+          "heading": "Courage for a hard day",
+          "reflection": "Moses spoke Deuteronomy 31:6 to a nation about to enter a land full of fortified cities, and he did not pretend the task was small. The reason for courage is not that the enemy is weak but that God goes with you. Habakkuk wrote his line right after admitting the fig tree might not bud and the fields might fail; his strength came anyway.",
+          "refs": ["Deuteronomy 31:6", "Psalms 28:7", "Habakkuk 3:19", "Psalms 27:1"]
+        },
+        {
+          "heading": "Strength to keep going",
+          "reflection": "Some days need a burst of courage; most need endurance. These verses are for the long middle: the habit you are trying to keep, the person you are caring for, the work nobody sees. Paul's promise is specific: at the proper time you will reap a harvest, if you do not give up.",
+          "refs": ["Galatians 6:9", "Hebrews 12:1", "Psalms 18:32", "1 Corinthians 15:58"]
+        }
+      ],
+      "faq": [
+        { "q": "What is the most powerful Bible verse about strength?", "a": "Isaiah 40:31 (those who wait on the Lord will renew their strength) is probably the best known. Philippians 4:13 and Psalm 46:1 are close behind." },
+        { "q": "What does Philippians 4:13 really mean?", "a": "In context, Paul is talking about contentment. He has learned to be content whether he has plenty or very little, and he says he can face all of it through Christ who gives him strength. It is a promise of endurance in every circumstance, not of success at any goal." },
+        { "q": "What Bible verse can I read when I feel weak?", "a": "2 Corinthians 12:9 is written for exactly that: God's grace is sufficient, and His power is made perfect in weakness. Psalm 73:26 is a short one to memorize." }
+      ]
+    },
+    "es": {
+      "slug": "fortaleza",
+      "title": "16 versículos de fortaleza para cuando ya no puedes más",
+      "description": "Versículos bíblicos de fortaleza para días de cansancio, desánimo o presión, agrupados por necesidad y con una breve reflexión. Citas de la Reina-Valera 1909.",
+      "h1": "Versículos bíblicos de fortaleza",
+      "intro": "La mayoría de los versículos sobre fuerza en la Biblia se escribieron para personas que ya no tenían la suya: exiliados, soldados frente a ejércitos más grandes, un profeta que quería rendirse. Eso es una buena noticia si hoy te falta energía. Los versículos están agrupados según el tipo de fuerza que puedas necesitar.",
+      "published": "2026-10-22",
+      "updated": "2026-10-22",
+      "groups": [
+        {
+          "heading": "Cuando ya no te quedan fuerzas",
+          "reflection": "Isaías no promete que el pueblo de Dios nunca se cansará; dice que hasta los jóvenes flaquean. La promesa es renovación para los que esperan en el Señor. Pablo aprendió lo mismo por las malas: la debilidad que le rogó a Dios que le quitara se convirtió en el lugar donde el poder de Cristo se vio con más claridad. El agotamiento no es el final de la historia.",
+          "refs": ["Isaiah 40:29-31", "Matthew 11:28", "2 Corinthians 12:9", "Psalms 73:26"]
+        },
+        {
+          "heading": "Una fuerza que no es tuya",
+          "reflection": "Filipenses 4:13 suele aparecer en camisetas y gimnasios, pero Pablo lo escribió hablando del contentamiento: de saber vivir en abundancia o en escasez. La fuerza es de Cristo, y se da para cualquier circunstancia que Dios permita. Nehemías lo dice de otra manera: el gozo del Señor es tu fortaleza. No tu estado de ánimo, sino su gozo.",
+          "refs": ["Philippians 4:13", "Psalms 46:1", "Nehemiah 8:10", "Ephesians 6:10"]
+        },
+        {
+          "heading": "Valor para un día difícil",
+          "reflection": "Moisés dijo Deuteronomio 31:6 a un pueblo a punto de entrar en una tierra llena de ciudades amuralladas, y no fingió que la tarea fuera pequeña. La razón para tener valor no es que el enemigo sea débil, sino que Dios va contigo. Habacuc escribió su frase justo después de admitir que la higuera podría no florecer y que los campos podrían no dar fruto; aun así, su fuerza llegó.",
+          "refs": ["Deuteronomy 31:6", "Psalms 28:7", "Habakkuk 3:19", "Psalms 27:1"]
+        },
+        {
+          "heading": "Fuerza para seguir adelante",
+          "reflection": "Algunos días piden un arranque de valor; la mayoría piden aguante. Estos versículos son para el largo tramo del medio: el hábito que intentas mantener, la persona que estás cuidando, el trabajo que nadie ve. La promesa de Pablo es concreta: a su tiempo segarás, si no desmayas.",
+          "refs": ["Galatians 6:9", "Hebrews 12:1", "Psalms 18:32", "1 Corinthians 15:58"]
+        }
+      ],
+      "faq": [
+        { "q": "¿Cuál es el versículo más poderoso sobre la fortaleza?", "a": "Isaías 40:31 (los que esperan en el Señor tendrán nuevas fuerzas) es probablemente el más conocido. Filipenses 4:13 y Salmos 46:1 le siguen de cerca." },
+        { "q": "¿Qué significa realmente Filipenses 4:13?", "a": "En su contexto, Pablo habla del contentamiento. Aprendió a estar contento con mucho o con poco, y dice que puede enfrentar todo eso por medio de Cristo que lo fortalece. Es una promesa de aguante en toda circunstancia, no de éxito en cualquier meta." },
+        { "q": "¿Qué versículo leer cuando me siento débil?", "a": "2 Corintios 12:9 está escrito justo para eso: la gracia de Dios basta, y su poder se perfecciona en la debilidad. Salmos 73:26 es uno corto para memorizar." }
+      ]
+    },
+    "zh-hant": {
+      "slug": "strength",
+      "title": "16節關於力量的經文：疲憊無力時讀",
+      "description": "給疲倦、灰心、壓力大的日子的力量經文，依需要分組，每組附簡短默想。經文引自和合本。",
+      "h1": "關於力量的經文",
+      "intro": "聖經裡大多數講力量的經文，都是寫給已經用盡自己力氣的人：被擄的百姓、面對大軍的士兵、一位想要放棄的先知。如果你現在很累，這其實是好消息。下面的經文依照你今天可能需要的力量分組。",
+      "published": "2026-10-22",
+      "updated": "2026-10-22",
+      "groups": [
+        {
+          "heading": "筋疲力盡的時候",
+          "reflection": "以賽亞沒有應許神的百姓永遠不會累；他說連少年人也會疲乏困倦。應許是：等候耶和華的必重新得力。保羅也是從艱難中學到同一件事：他求神挪走的軟弱，反而成了基督的能力最明顯的地方。累了，不是故事的結局。",
+          "refs": ["Isaiah 40:29-31", "Matthew 11:28", "2 Corinthians 12:9", "Psalms 73:26"]
+        },
+        {
+          "heading": "不是靠自己的力量",
+          "reflection": "腓立比書 4:13 常被印在健身房牆上，但保羅寫這句話時談的是知足：不論飽足或飢餓都能處之泰然。力量是基督的，是為神所允許的任何處境而賜下的。尼希米用另一種方式說：靠耶和華而得的喜樂是你們的力量。不是你的心情，而是祂的喜樂。",
+          "refs": ["Philippians 4:13", "Psalms 46:1", "Nehemiah 8:10", "Ephesians 6:10"]
+        },
+        {
+          "heading": "面對難關的勇氣",
+          "reflection": "摩西對一個即將進入堅固城林立之地的民族說出申命記 31:6，他沒有假裝這件事很容易。要剛強壯膽的理由，不是敵人很弱，而是神與你同去。哈巴谷寫下他的那句話之前，先承認無花果樹可能不發旺、田地可能不出糧食；即便如此，力量還是來了。",
+          "refs": ["Deuteronomy 31:6", "Psalms 28:7", "Habakkuk 3:19", "Psalms 27:1"]
+        },
+        {
+          "heading": "繼續走下去的力量",
+          "reflection": "有些日子需要一股勇氣，但大多數日子需要的是耐力。這些經文是給漫長的中段：你努力維持的習慣、你正在照顧的人、沒有人看見的工作。保羅的應許很具體：若不灰心，到了時候就要收成。",
+          "refs": ["Galatians 6:9", "Hebrews 12:1", "Psalms 18:32", "1 Corinthians 15:58"]
+        }
+      ],
+      "faq": [
+        { "q": "最有力量的經文是哪一節？", "a": "以賽亞書 40:31（等候耶和華的必重新得力）大概是最為人熟知的。腓立比書 4:13 和詩篇 46:1 也很常被引用。" },
+        { "q": "腓立比書 4:13 真正的意思是什麼？", "a": "按上下文，保羅在談知足。他學會了無論富足或缺乏都能知足，並說他靠著加給他力量的基督，能面對這一切處境。這是在各樣環境中都能持守的應許，不是保證任何目標都會成功。" },
+        { "q": "覺得軟弱的時候可以讀哪一節經文？", "a": "哥林多後書 12:9 就是為此而寫的：神的恩典夠你用，祂的能力在人的軟弱上顯得完全。詩篇 73:26 很短，適合背誦。" }
+      ]
+    }
+  }
+}

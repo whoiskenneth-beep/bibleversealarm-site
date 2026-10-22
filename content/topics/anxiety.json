@@ -1,0 +1,117 @@
+{
+  "id": "anxiety",
+  "related": ["morning", "strength"],
+  "locales": {
+    "en": {
+      "slug": "anxiety",
+      "title": "17 Bible Verses for Anxiety and Worry (With Short Reflections)",
+      "description": "Bible verses for anxiety, grouped by what you're feeling: worry about tomorrow, fear that won't settle, and the need for peace. Short reflections included.",
+      "h1": "Bible verses for anxiety and worry",
+      "intro": "Anxiety rarely shows up as one feeling. Sometimes it is a racing list of what-ifs, sometimes a knot of fear, sometimes plain exhaustion. The verses below are grouped by those experiences, so you can go straight to the one that sounds like today. They are not a substitute for medical care: if anxiety is overwhelming your daily life, please also talk to a doctor or counselor.",
+      "published": "2026-10-22",
+      "updated": "2026-10-22",
+      "groups": [
+        {
+          "heading": "Cast your cares on Him",
+          "reflection": "The word Peter uses for \"cast\" is the same one Luke uses for the disciples throwing their cloaks onto the colt before Jesus rode it: a deliberate, physical handing-over. Paul gives the same instruction in Philippians with a practical shape: pray about the specific thing, thank God for something, and let His peace stand guard over your heart and mind. You may need to do it more than once a day. That is not failure; that is the practice.",
+          "refs": ["1 Peter 5:7", "Philippians 4:6-7", "Psalms 55:22", "Matthew 11:28"]
+        },
+        {
+          "heading": "When you're worried about tomorrow",
+          "reflection": "Jesus does not tell worried people to try harder. He points at birds. They do not sow or reap, yet they are fed. His argument is simple: if God looks after them, He will look after you, and worry has never added a single hour to anyone's life. Proverbs adds the human side: a kind word lifts a heavy heart. Sometimes the next step is telling someone.",
+          "refs": ["Matthew 6:26", "Matthew 6:27", "Matthew 6:34", "Proverbs 12:25"]
+        },
+        {
+          "heading": "When fear won't settle",
+          "reflection": "Notice that Psalm 56:3 does not say \"I am never afraid.\" It says \"when I am afraid, I put my trust in You.\" Fear is assumed; what changes is where it sends you. Isaiah 41:10 stacks promises on top of each other (I am with you, I am your God, I will strengthen you, I will help you, I will uphold you) as if God knows one promise will not be enough on a hard night.",
+          "refs": ["Isaiah 41:10", "Psalms 56:3", "Joshua 1:9", "2 Timothy 1:7", "Psalms 94:19"]
+        },
+        {
+          "heading": "Peace that guards your mind",
+          "reflection": "The peace in these verses is not the absence of problems. Jesus offered it to His disciples on the night before His crucifixion. It is a settledness that comes from fixing your mind on God rather than on the problem, and it is steady enough that David could lie down and sleep with enemies outside. If anxiety hits hardest at night, Psalm 4:8 is a good verse to memorize.",
+          "refs": ["John 14:27", "Isaiah 26:3", "Psalms 4:8", "2 Thessalonians 3:16"]
+        }
+      ],
+      "faq": [
+        { "q": "What does the Bible say about anxiety?", "a": "The Bible treats anxiety as a normal human experience and repeatedly invites people to bring it to God. 1 Peter 5:7 says to cast all your anxiety on Him because He cares for you, and Philippians 4:6-7 pairs prayer and thanksgiving with the promise of God's peace." },
+        { "q": "Is it a sin to feel anxious?", "a": "Scripture does not describe the feeling of anxiety as sin. Jesus Himself was deeply distressed in Gethsemane. The Bible's instruction is about what to do with anxiety (bring it to God in prayer) rather than pretending it is not there." },
+        { "q": "What is the best Bible verse for anxiety?", "a": "Philippians 4:6-7 is the most often quoted, because it gives a clear practice (pray and give thanks) and a promise (peace that guards your heart). For fear specifically, many people memorize Isaiah 41:10." },
+        { "q": "Can Bible verses replace therapy for anxiety?", "a": "No. Scripture can steady and comfort you, but persistent or severe anxiety is a health condition worth treating. Many Christians find that prayer, Scripture and professional care work best together." }
+      ]
+    },
+    "es": {
+      "slug": "ansiedad",
+      "title": "17 versículos bíblicos para la ansiedad y la preocupación",
+      "description": "Versículos de la Biblia para la ansiedad, agrupados por lo que sientes: preocupación por el mañana, miedo que no se va y necesidad de paz. Con reflexiones breves.",
+      "h1": "Versículos bíblicos para la ansiedad",
+      "intro": "La ansiedad casi nunca llega como un solo sentimiento. A veces es una lista acelerada de «¿y si...?», a veces un nudo de miedo, a veces puro cansancio. Los versículos de abajo están agrupados según esas experiencias, para que vayas directo al que se parece a tu día de hoy. No sustituyen la atención médica: si la ansiedad está afectando tu vida diaria, habla también con un médico o un consejero.",
+      "published": "2026-10-22",
+      "updated": "2026-10-22",
+      "groups": [
+        {
+          "heading": "Echa sobre Él tu ansiedad",
+          "reflection": "La palabra que usa Pedro para «echar» es la misma que usa Lucas cuando los discípulos echan sus mantos sobre el pollino antes de que Jesús lo montara: un traspaso deliberado, casi físico. Pablo da la misma instrucción en Filipenses con una forma práctica: ora por lo que te preocupa en concreto, da gracias por algo y deja que la paz de Dios guarde tu corazón y tu mente. Quizá tengas que hacerlo más de una vez al día. Eso no es fracaso; es la práctica.",
+          "refs": ["1 Peter 5:7", "Philippians 4:6-7", "Psalms 55:22", "Matthew 11:28"]
+        },
+        {
+          "heading": "Cuando te preocupa el mañana",
+          "reflection": "Jesús no les dice a los preocupados que se esfuercen más. Les señala las aves. No siembran ni siegan, y aun así comen. Su argumento es sencillo: si Dios las cuida, te cuidará a ti, y afanarse nunca ha hecho crecer a nadie ni un poco. Proverbios añade el lado humano: una buena palabra alegra un corazón cargado. A veces el siguiente paso es contárselo a alguien.",
+          "refs": ["Matthew 6:26", "Matthew 6:27", "Matthew 6:34", "Proverbs 12:25"]
+        },
+        {
+          "heading": "Cuando el miedo no se calma",
+          "reflection": "Fíjate que Salmos 56:3 no dice «nunca tengo miedo». Dice «en el día que temo, yo en ti confío». El miedo se da por hecho; lo que cambia es hacia dónde te lleva. Isaías 41:10 apila una promesa sobre otra (yo soy contigo, yo soy tu Dios, te ayudaré, te sustentaré) como si Dios supiera que una sola no alcanza en una noche difícil.",
+          "refs": ["Isaiah 41:10", "Psalms 56:3", "Joshua 1:9", "2 Timothy 1:7", "Psalms 94:19"]
+        },
+        {
+          "heading": "La paz que guarda tu mente",
+          "reflection": "La paz de estos versículos no es la ausencia de problemas. Jesús la ofreció a sus discípulos la noche antes de su crucifixión. Es una calma que viene de fijar la mente en Dios y no en el problema, y es tan firme que David podía acostarse y dormir con enemigos afuera. Si la ansiedad te golpea más fuerte de noche, Salmos 4:8 es un buen versículo para memorizar.",
+          "refs": ["John 14:27", "Isaiah 26:3", "Psalms 4:8", "2 Thessalonians 3:16"]
+        }
+      ],
+      "faq": [
+        { "q": "¿Qué dice la Biblia sobre la ansiedad?", "a": "La Biblia trata la ansiedad como una experiencia humana normal y una y otra vez invita a llevarla a Dios. 1 Pedro 5:7 dice que echemos toda nuestra ansiedad sobre Él, porque Él tiene cuidado de nosotros, y Filipenses 4:6-7 une la oración y la gratitud con la promesa de la paz de Dios." },
+        { "q": "¿Es pecado sentir ansiedad?", "a": "La Escritura no describe el sentimiento de ansiedad como pecado. Jesús mismo sintió una angustia profunda en Getsemaní. La instrucción de la Biblia tiene que ver con qué hacer con la ansiedad (llevarla a Dios en oración), no con fingir que no existe." },
+        { "q": "¿Cuál es el mejor versículo para la ansiedad?", "a": "Filipenses 4:6-7 es el más citado, porque da una práctica clara (orar y dar gracias) y una promesa (la paz que guarda el corazón). Para el miedo en particular, mucha gente memoriza Isaías 41:10." },
+        { "q": "¿Los versículos pueden reemplazar la terapia para la ansiedad?", "a": "No. La Escritura puede sostenerte y consolarte, pero la ansiedad persistente o fuerte es un problema de salud que vale la pena tratar. Muchos cristianos encuentran que la oración, la Biblia y la ayuda profesional funcionan mejor juntas." }
+      ]
+    },
+    "zh-hant": {
+      "slug": "anxiety",
+      "title": "焦慮時讀的17節經文｜聖經金句與默想",
+      "description": "依照你的感受分組的焦慮經文：為明天憂慮、恐懼揮之不去、渴望平安。每組都有簡短默想，經文引自和合本。",
+      "h1": "焦慮時可以讀的經文",
+      "intro": "焦慮很少只是一種感覺。有時是一連串停不下來的「萬一」，有時是心裡揪成一團的害怕，有時只是單純的疲憊。下面的經文依照這些經歷分組，你可以直接跳到最像今天的那一組。經文不能取代醫療照顧；如果焦慮已經影響你的日常生活，也請找醫生或輔導員談談。",
+      "published": "2026-10-22",
+      "updated": "2026-10-22",
+      "groups": [
+        {
+          "heading": "將一切憂慮卸給神",
+          "reflection": "彼得說的「卸給」，和路加記載門徒把衣服搭在驢駒上、讓耶穌騎上去的，是同一個字：一個刻意、具體的交付動作。保羅在腓立比書給了同樣的吩咐，而且很實際：把擔心的事具體地禱告出來，為某件事感謝神，然後讓神的平安守住你的心懷意念。一天可能要做好幾次。那不是失敗，那就是操練。",
+          "refs": ["1 Peter 5:7", "Philippians 4:6-7", "Psalms 55:22", "Matthew 11:28"]
+        },
+        {
+          "heading": "為明天憂慮的時候",
+          "reflection": "耶穌沒有叫憂慮的人再努力一點。祂指著天上的飛鳥。牠們不種也不收，天父卻養活牠們。祂的道理很簡單：神既然看顧牠們，也必看顧你；而憂慮從來沒有讓任何人多活一刻。箴言補上了人的那一面：一句良言使心歡樂。有時候下一步，就是把心事說給一個人聽。",
+          "refs": ["Matthew 6:26", "Matthew 6:27", "Matthew 6:34", "Proverbs 12:25"]
+        },
+        {
+          "heading": "恐懼揮之不去的時候",
+          "reflection": "留意詩篇 56:3 並沒有說「我從不害怕」，而是說「我懼怕的時候要倚靠你」。害怕是預設會發生的，改變的是它把你帶往哪裡。以賽亞書 41:10 把應許一個接一個疊上去（我與你同在、我是你的神、我必堅固你、我必幫助你、我必扶持你），彷彿神知道，在難熬的夜裡，一個應許是不夠的。",
+          "refs": ["Isaiah 41:10", "Psalms 56:3", "Joshua 1:9", "2 Timothy 1:7", "Psalms 94:19"]
+        },
+        {
+          "heading": "守護你心思的平安",
+          "reflection": "這些經文裡的平安不是沒有問題。耶穌是在被釘十字架的前一晚，把這份平安賜給門徒的。那是一種把心思放在神身上、而不是放在問題上所得的安穩，穩到大衛在仇敵環伺時仍能躺下睡覺。如果焦慮總在夜裡最嚴重，詩篇 4:8 很值得背下來。",
+          "refs": ["John 14:27", "Isaiah 26:3", "Psalms 4:8", "2 Thessalonians 3:16"]
+        }
+      ],
+      "faq": [
+        { "q": "聖經怎麼看焦慮？", "a": "聖經把焦慮看作人很正常的經歷，並且一再邀請人把它帶到神面前。彼得前書 5:7 說要將一切的憂慮卸給神，因為祂顧念你；腓立比書 4:6-7 則把禱告和感謝，與神所賜的平安連在一起。" },
+        { "q": "基督徒焦慮是犯罪嗎？", "a": "聖經沒有把焦慮的感覺說成罪。耶穌自己在客西馬尼園也極其憂傷。聖經的教導重點是怎麼面對焦慮（在禱告中把它交給神），而不是假裝它不存在。" },
+        { "q": "焦慮時最常讀的經文是哪一節？", "a": "腓立比書 4:6-7 最常被引用，因為它給了清楚的操練（禱告、感謝）和應許（平安守住你的心）。如果是恐懼，許多人會背以賽亞書 41:10。" },
+        { "q": "讀經可以取代心理治療嗎？", "a": "不行。經文可以安慰和穩住你，但持續或嚴重的焦慮是需要治療的健康問題。許多基督徒發現，禱告、讀經和專業協助一起進行，效果最好。" }
+      ]
+    }
+  }
+}

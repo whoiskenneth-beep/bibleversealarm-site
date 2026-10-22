@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Send Feedback — Bible Verse Alarm</title>
+  <meta name="description" content="Questions, bugs, or ideas for Bible Verse Alarm. Every message is read." />
+  <meta name="theme-color" content="#14112C" />
+  <link rel="icon" href="assets/icon.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .fb { max-width: 760px; margin: 0 auto; padding: 56px 24px 100px; }
+    .fb-head { text-align: center; margin-bottom: 36px; }
+    .fb-icon { width: 64px; height: 64px; margin: 0 auto 20px; border-radius: 18px; background: var(--sunrise); display: grid; place-items: center; font-size: 30px; box-shadow: 0 12px 26px rgba(247,111,158,0.3); }
+    .fb-head h1 { font-size: clamp(32px, 5vw, 44px); margin-bottom: 10px; }
+    .fb-head p { color: var(--secondary); }
+    .card { background: var(--card); border: 1px solid var(--hairline); border-radius: var(--radius); padding: 26px; margin-bottom: 20px; box-shadow: var(--shadow-sm); }
+    .label { display: block; font-weight: 700; font-size: 15px; margin-bottom: 14px; }
+    .types { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; border: none; }
+    .type input { position: absolute; opacity: 0; pointer-events: none; }
+    .type span { display: block; height: 100%; text-align: center; padding: 16px 10px; border: 1.5px solid var(--hairline); border-radius: 14px; cursor: pointer; transition: border-color .15s, background .15s; }
+    .type span:hover { border-color: rgba(75,68,199,0.35); }
+    .type b { display: block; font-size: 22px; line-height: 1; margin-bottom: 8px; }
+    .type strong { display: block; font-size: 15px; }
+    .type small { display: block; font-size: 13px; color: var(--secondary); margin-top: 2px; }
+    .type input:checked + span { border-color: var(--orange); background: #FFF6EC; box-shadow: 0 0 0 3px rgba(255,138,92,0.18); }
+    .type input:focus-visible + span { outline: 2px solid var(--indigo); outline-offset: 2px; }
+    textarea, input[type=email] { width: 100%; font: inherit; font-size: 16px; color: var(--ink); background: var(--bg); border: 1.5px solid var(--hairline); border-radius: 14px; padding: 14px 16px; }
+    textarea { min-height: 170px; resize: vertical; }
+    textarea:focus, input[type=email]:focus { outline: none; border-color: var(--indigo); }
+    .meta { display: flex; justify-content: space-between; font-size: 13px; color: var(--tertiary); margin-top: 10px; }
+    .hint { font-size: 13px; color: var(--tertiary); margin-top: 10px; }
+    .hp { position: absolute; left: -9999px; }
+    .submit { width: 100%; justify-content: center; font-size: 17px; padding: 17px; }
+    .submit:disabled { opacity: .5; cursor: not-allowed; transform: none; box-shadow: none; }
+    .status { text-align: center; margin-top: 14px; font-size: 15px; min-height: 1.5em; }
+    .status.err { color: #C43D3D; }
+    .done { text-align: center; padding: 40px 26px; }
+    .done h2 { font-size: 28px; margin: 14px 0 8px; }
+    .done p { color: var(--secondary); }
+    @media (max-width: 620px) { .types { grid-template-columns: repeat(2, 1fr); } .card { padding: 20px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="/"><img src="assets/icon.png" alt="Bible Verse Alarm icon" /> Bible Verse Alarm</a>
+      <nav class="nav-links">
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <a href="/support" class="nav-cta">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="fb">
+    <div class="fb-head">
+      <div class="fb-icon" aria-hidden="true">💬</div>
+      <h1>Send Feedback</h1>
+      <p>Help us make Bible Verse Alarm better. Every message is read.</p>
+    </div>
+
+    <form id="form" novalidate>
+      <div class="card">
+        <fieldset class="types">
+          <legend class="label">What kind of feedback?</legend>
+          <label class="type"><input type="radio" name="type" value="Question" data-ph="What do you need help with?" /><span><b>🙋</b><strong>Question</strong><small>Get help &amp; support</small></span></label>
+          <label class="type"><input type="radio" name="type" value="Bug" data-ph="What happened? What did you expect to happen?" /><span><b>🐛</b><strong>Bug report</strong><small>Something broke</small></span></label>
+          <label class="type"><input type="radio" name="type" value="Idea" data-ph="Describe the feature you'd like to see…" /><span><b>💡</b><strong>Idea</strong><small>I wish it could…</small></span></label>
+          <label class="type"><input type="radio" name="type" value="Praise" data-ph="What do you love?" /><span><b>❤️</b><strong>Praise</strong><small>Something I love</small></span></label>
+          <label class="type"><input type="radio" name="type" value="Other" data-ph="Tell us anything…" /><span><b>✨</b><strong>Other</strong><small>Anything else</small></span></label>
+        </fieldset>
+      </div>
+
+      <div class="card">
+        <label class="label" for="message">Your feedback</label>
+        <textarea id="message" name="message" maxlength="5000" placeholder="Pick a type above, then tell us here…" required></textarea>
+        <div class="meta"><span id="need">10 more characters needed</span><span id="count">0/5,000</span></div>
+      </div>
+
+      <div class="card">
+        <label class="label" for="email">Your email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required />
+        <p class="hint">So we can reply to you.</p>
+      </div>
+
+      <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+      <button type="submit" class="btn-pill submit" id="submit" disabled>Send Feedback</button>
+      <p class="status" id="status" role="status"></p>
+    </form>
+
+    <div class="card done" id="done" hidden>
+      <div class="fb-icon" aria-hidden="true">🙏</div>
+      <h2>Thank you!</h2>
+      <p>Your message is on its way. We'll get back to you soon.</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="foot-base" style="margin-top:0;border-top:none;padding-top:0;">
+        <span>© 2026 Bible Verse Alarm. All rights reserved.</span>
+        <span><a href="/privacy" style="color:rgba(255,255,255,0.72)">Privacy</a> · <a href="/terms" style="color:rgba(255,255,255,0.72)">Terms</a> · <a href="/support" style="color:rgba(255,255,255,0.72)">Support</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Delivered by Web3Forms to support@shipmaxxing.com — no backend needed.
+    // The access key is public by design: it can only mail that one inbox.
+    const ENDPOINT = 'https://api.web3forms.com/submit';
+    const ACCESS_KEY = 'd333ff49-8905-479d-b75b-e3db7551c8ca';
+    const MIN = 10;
+    const form = document.getElementById('form');
+    const msg = document.getElementById('message');
+    const btn = document.getElementById('submit');
+    const status = document.getElementById('status');
+    const params = new URLSearchParams(location.search);
+
+    function update() {
+      const len = msg.value.trim().length;
+      const left = MIN - len;
+      document.getElementById('need').textContent = left > 0 ? `${left} more character${left === 1 ? '' : 's'} needed` : '';
+      document.getElementById('count').textContent = `${msg.value.length.toLocaleString()}/5,000`;
+      btn.disabled = !form.type.value || left > 0 || !form.email.checkValidity() || !form.email.value.trim();
+    }
+
+    form.addEventListener('change', e => {
+      if (e.target.name === 'type') msg.placeholder = e.target.dataset.ph;
+      update();
+    });
+    msg.addEventListener('input', update);
+    form.email.addEventListener('input', update);
+
+    // The app's long-press menu links here with ?type=question|bug|idea
+    const preset = (params.get('type') || '').toLowerCase();
+    const match = [...form.type].find(r => r.value.toLowerCase() === preset);
+    if (match) { match.checked = true; msg.placeholder = match.dataset.ph; }
+    update();
+
+    form.addEventListener('submit', async e => {
+      e.preventDefault();
+      if (btn.disabled) return;
+      btn.disabled = true;
+      status.className = 'status';
+      status.textContent = 'Sending…';
+      const type = form.type.value;
+      const email = form.email.value.trim();
+      const body = {
+        access_key: ACCESS_KEY,
+        subject: `Bible Verse Alarm — ${type}`,
+        from_name: 'Bible Verse Alarm feedback',
+        botcheck: form.botcheck.checked,
+        type,
+        message: msg.value.trim(),
+        email,
+        source: params.get('src') || 'web',
+        app_version: params.get('v') || '—',
+        ios: params.get('ios') || '—',
+      };
+      try {
+        const res = await fetch(ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify(body),
+        });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok || String(data.success) === 'false') throw new Error(data.message || 'Send failed');
+        form.hidden = true;
+        document.getElementById('done').hidden = false;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } catch (err) {
+        status.className = 'status err';
+        status.innerHTML = 'Couldn’t send that. Please try again, or email <a href="mailto:support@shipmaxxing.com" style="text-decoration:underline">support@shipmaxxing.com</a>.';
+        update();
+      }
+    });
+  </script>
+</body>
+</html>

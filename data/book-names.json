@@ -1,0 +1,464 @@
+{
+ "Genesis": {
+  "zh-Hans": "创世记",
+  "zh-Hant": "創世記",
+  "abbreviations": [],
+  "es": "Génesis",
+  "ko": "창세기"
+ },
+ "Exodus": {
+  "zh-Hans": "出埃及记",
+  "zh-Hant": "出埃及記",
+  "abbreviations": [],
+  "es": "Éxodo",
+  "ko": "출애굽기"
+ },
+ "Leviticus": {
+  "zh-Hans": "利未记",
+  "zh-Hant": "利未記",
+  "abbreviations": [],
+  "es": "Levítico",
+  "ko": "레위기"
+ },
+ "Numbers": {
+  "zh-Hans": "民数记",
+  "zh-Hant": "民數記",
+  "abbreviations": [],
+  "es": "Números",
+  "ko": "민수기"
+ },
+ "Deuteronomy": {
+  "zh-Hans": "申命记",
+  "zh-Hant": "申命記",
+  "abbreviations": [],
+  "es": "Deuteronomio",
+  "ko": "신명기"
+ },
+ "Joshua": {
+  "zh-Hans": "约书亚记",
+  "zh-Hant": "約書亞記",
+  "abbreviations": [],
+  "es": "Josué",
+  "ko": "여호수아"
+ },
+ "Judges": {
+  "zh-Hans": "士师记",
+  "zh-Hant": "士師記",
+  "abbreviations": [],
+  "es": "Jueces",
+  "ko": "사사기"
+ },
+ "Ruth": {
+  "zh-Hans": "路得记",
+  "zh-Hant": "路得記",
+  "abbreviations": [],
+  "es": "Rut",
+  "ko": "룻기"
+ },
+ "1 Samuel": {
+  "zh-Hans": "撒母耳记上",
+  "zh-Hant": "撒母耳記上",
+  "abbreviations": [],
+  "es": "1 Samuel",
+  "ko": "사무엘상"
+ },
+ "2 Samuel": {
+  "zh-Hans": "撒母耳记下",
+  "zh-Hant": "撒母耳記下",
+  "abbreviations": [],
+  "es": "2 Samuel",
+  "ko": "사무엘하"
+ },
+ "1 Kings": {
+  "zh-Hans": "列王纪上",
+  "zh-Hant": "列王紀上",
+  "abbreviations": [],
+  "es": "1 Reyes",
+  "ko": "열왕기상"
+ },
+ "2 Kings": {
+  "zh-Hans": "列王纪下",
+  "zh-Hant": "列王紀下",
+  "abbreviations": [],
+  "es": "2 Reyes",
+  "ko": "열왕기하"
+ },
+ "1 Chronicles": {
+  "zh-Hans": "历代志上",
+  "zh-Hant": "歷代志上",
+  "abbreviations": [],
+  "es": "1 Crónicas",
+  "ko": "역대상"
+ },
+ "2 Chronicles": {
+  "zh-Hans": "历代志下",
+  "zh-Hant": "歷代志下",
+  "abbreviations": [],
+  "es": "2 Crónicas",
+  "ko": "역대하"
+ },
+ "Ezra": {
+  "zh-Hans": "以斯拉记",
+  "zh-Hant": "以斯拉記",
+  "abbreviations": [],
+  "es": "Esdras",
+  "ko": "에스라"
+ },
+ "Nehemiah": {
+  "zh-Hans": "尼希米记",
+  "zh-Hant": "尼希米記",
+  "abbreviations": [],
+  "es": "Nehemías",
+  "ko": "느헤미야"
+ },
+ "Esther": {
+  "zh-Hans": "以斯帖记",
+  "zh-Hant": "以斯帖記",
+  "abbreviations": [],
+  "es": "Ester",
+  "ko": "에스더"
+ },
+ "Job": {
+  "zh-Hans": "约伯记",
+  "zh-Hant": "約伯記",
+  "abbreviations": [],
+  "es": "Job",
+  "ko": "욥기"
+ },
+ "Psalms": {
+  "zh-Hans": "诗篇",
+  "zh-Hant": "詩篇",
+  "abbreviations": [],
+  "es": "Salmos",
+  "ko": "시편"
+ },
+ "Proverbs": {
+  "zh-Hans": "箴言",
+  "zh-Hant": "箴言",
+  "abbreviations": [],
+  "es": "Proverbios",
+  "ko": "잠언"
+ },
+ "Ecclesiastes": {
+  "zh-Hans": "传道书",
+  "zh-Hant": "傳道書",
+  "abbreviations": [],
+  "es": "Eclesiastés",
+  "ko": "전도서"
+ },
+ "Song of Songs": {
+  "zh-Hans": "雅歌",
+  "zh-Hant": "雅歌",
+  "abbreviations": [],
+  "es": "Cantares",
+  "ko": "아가"
+ },
+ "Isaiah": {
+  "zh-Hans": "以赛亚书",
+  "zh-Hant": "以賽亞書",
+  "abbreviations": [],
+  "es": "Isaías",
+  "ko": "이사야"
+ },
+ "Jeremiah": {
+  "zh-Hans": "耶利米书",
+  "zh-Hant": "耶利米書",
+  "abbreviations": [],
+  "es": "Jeremías",
+  "ko": "예레미야"
+ },
+ "Lamentations": {
+  "zh-Hans": "耶利米哀歌",
+  "zh-Hant": "耶利米哀歌",
+  "abbreviations": [],
+  "es": "Lamentaciones",
+  "ko": "예레미야 애가"
+ },
+ "Ezekiel": {
+  "zh-Hans": "以西结书",
+  "zh-Hant": "以西結書",
+  "abbreviations": [],
+  "es": "Ezequiel",
+  "ko": "에스겔"
+ },
+ "Daniel": {
+  "zh-Hans": "但以理书",
+  "zh-Hant": "但以理書",
+  "abbreviations": [],
+  "es": "Daniel",
+  "ko": "다니엘"
+ },
+ "Hosea": {
+  "zh-Hans": "何西阿书",
+  "zh-Hant": "何西阿書",
+  "abbreviations": [],
+  "es": "Oseas",
+  "ko": "호세아"
+ },
+ "Joel": {
+  "zh-Hans": "约珥书",
+  "zh-Hant": "約珥書",
+  "abbreviations": [],
+  "es": "Joel",
+  "ko": "요엘"
+ },
+ "Amos": {
+  "zh-Hans": "阿摩司书",
+  "zh-Hant": "阿摩司書",
+  "abbreviations": [],
+  "es": "Amós",
+  "ko": "아모스"
+ },
+ "Obadiah": {
+  "zh-Hans": "俄巴底亚书",
+  "zh-Hant": "俄巴底亞書",
+  "abbreviations": [],
+  "es": "Abdías",
+  "ko": "오바댜"
+ },
+ "Jonah": {
+  "zh-Hans": "约拿书",
+  "zh-Hant": "約拿書",
+  "abbreviations": [],
+  "es": "Jonás",
+  "ko": "요나"
+ },
+ "Micah": {
+  "zh-Hans": "弥迦书",
+  "zh-Hant": "彌迦書",
+  "abbreviations": [],
+  "es": "Miqueas",
+  "ko": "미가"
+ },
+ "Nahum": {
+  "zh-Hans": "那鸿书",
+  "zh-Hant": "那鴻書",
+  "abbreviations": [],
+  "es": "Nahúm",
+  "ko": "나훔"
+ },
+ "Habakkuk": {
+  "zh-Hans": "哈巴谷书",
+  "zh-Hant": "哈巴谷書",
+  "abbreviations": [],
+  "es": "Habacuc",
+  "ko": "하박국"
+ },
+ "Zephaniah": {
+  "zh-Hans": "西番雅书",
+  "zh-Hant": "西番雅書",
+  "abbreviations": [],
+  "es": "Sofonías",
+  "ko": "스바냐"
+ },
+ "Haggai": {
+  "zh-Hans": "哈该书",
+  "zh-Hant": "哈該書",
+  "abbreviations": [],
+  "es": "Hageo",
+  "ko": "학개"
+ },
+ "Zechariah": {
+  "zh-Hans": "撒迦利亚书",
+  "zh-Hant": "撒迦利亞書",
+  "abbreviations": [],
+  "es": "Zacarías",
+  "ko": "스가랴"
+ },
+ "Malachi": {
+  "zh-Hans": "玛拉基书",
+  "zh-Hant": "瑪拉基書",
+  "abbreviations": [],
+  "es": "Malaquías",
+  "ko": "말라기"
+ },
+ "Matthew": {
+  "zh-Hans": "马太福音",
+  "zh-Hant": "馬太福音",
+  "abbreviations": [],
+  "es": "Mateo",
+  "ko": "마태복음"
+ },
+ "Mark": {
+  "zh-Hans": "马可福音",
+  "zh-Hant": "馬可福音",
+  "abbreviations": [],
+  "es": "Marcos",
+  "ko": "마가복음"
+ },
+ "Luke": {
+  "zh-Hans": "路加福音",
+  "zh-Hant": "路加福音",
+  "abbreviations": [],
+  "es": "Lucas",
+  "ko": "누가복음"
+ },
+ "John": {
+  "zh-Hans": "约翰福音",
+  "zh-Hant": "約翰福音",
+  "abbreviations": [],
+  "es": "Juan",
+  "ko": "요한복음"
+ },
+ "Acts": {
+  "zh-Hans": "使徒行传",
+  "zh-Hant": "使徒行傳",
+  "abbreviations": [],
+  "es": "Hechos",
+  "ko": "사도행전"
+ },
+ "Romans": {
+  "zh-Hans": "罗马书",
+  "zh-Hant": "羅馬書",
+  "abbreviations": [],
+  "es": "Romanos",
+  "ko": "로마서"
+ },
+ "1 Corinthians": {
+  "zh-Hans": "哥林多前书",
+  "zh-Hant": "哥林多前書",
+  "abbreviations": [],
+  "es": "1 Corintios",
+  "ko": "고린도전서"
+ },
+ "2 Corinthians": {
+  "zh-Hans": "哥林多后书",
+  "zh-Hant": "哥林多後書",
+  "abbreviations": [],
+  "es": "2 Corintios",
+  "ko": "고린도후서"
+ },
+ "Galatians": {
+  "zh-Hans": "加拉太书",
+  "zh-Hant": "加拉太書",
+  "abbreviations": [],
+  "es": "Gálatas",
+  "ko": "갈라디아서"
+ },
+ "Ephesians": {
+  "zh-Hans": "以弗所书",
+  "zh-Hant": "以弗所書",
+  "abbreviations": [],
+  "es": "Efesios",
+  "ko": "에베소서"
+ },
+ "Philippians": {
+  "zh-Hans": "腓立比书",
+  "zh-Hant": "腓立比書",
+  "abbreviations": [],
+  "es": "Filipenses",
+  "ko": "빌립보서"
+ },
+ "Colossians": {
+  "zh-Hans": "歌罗西书",
+  "zh-Hant": "歌羅西書",
+  "abbreviations": [],
+  "es": "Colosenses",
+  "ko": "골로새서"
+ },
+ "1 Thessalonians": {
+  "zh-Hans": "帖撒罗尼迦前书",
+  "zh-Hant": "帖撒羅尼迦前書",
+  "abbreviations": [],
+  "es": "1 Tesalonicenses",
+  "ko": "데살로니가전서"
+ },
+ "2 Thessalonians": {
+  "zh-Hans": "帖撒罗尼迦后书",
+  "zh-Hant": "帖撒羅尼迦後書",
+  "abbreviations": [],
+  "es": "2 Tesalonicenses",
+  "ko": "데살로니가후서"
+ },
+ "1 Timothy": {
+  "zh-Hans": "提摩太前书",
+  "zh-Hant": "提摩太前書",
+  "abbreviations": [],
+  "es": "1 Timoteo",
+  "ko": "디모데전서"
+ },
+ "2 Timothy": {
+  "zh-Hans": "提摩太后书",
+  "zh-Hant": "提摩太後書",
+  "abbreviations": [],
+  "es": "2 Timoteo",
+  "ko": "디모데후서"
+ },
+ "Titus": {
+  "zh-Hans": "提多书",
+  "zh-Hant": "提多書",
+  "abbreviations": [],
+  "es": "Tito",
+  "ko": "디도서"
+ },
+ "Philemon": {
+  "zh-Hans": "腓利门书",
+  "zh-Hant": "腓利門書",
+  "abbreviations": [],
+  "es": "Filemón",
+  "ko": "빌레몬서"
+ },
+ "Hebrews": {
+  "zh-Hans": "希伯来书",
+  "zh-Hant": "希伯來書",
+  "abbreviations": [],
+  "es": "Hebreos",
+  "ko": "히브리서"
+ },
+ "James": {
+  "zh-Hans": "雅各书",
+  "zh-Hant": "雅各書",
+  "abbreviations": [],
+  "es": "Santiago",
+  "ko": "야고보서"
+ },
+ "1 Peter": {
+  "zh-Hans": "彼得前书",
+  "zh-Hant": "彼得前書",
+  "abbreviations": [],
+  "es": "1 Pedro",
+  "ko": "베드로전서"
+ },
+ "2 Peter": {
+  "zh-Hans": "彼得后书",
+  "zh-Hant": "彼得後書",
+  "abbreviations": [],
+  "es": "2 Pedro",
+  "ko": "베드로후서"
+ },
+ "1 John": {
+  "zh-Hans": "约翰一书",
+  "zh-Hant": "約翰一書",
+  "abbreviations": [],
+  "es": "1 Juan",
+  "ko": "요한일서"
+ },
+ "2 John": {
+  "zh-Hans": "约翰二书",
+  "zh-Hant": "約翰二書",
+  "abbreviations": [],
+  "es": "2 Juan",
+  "ko": "요한이서"
+ },
+ "3 John": {
+  "zh-Hans": "约翰三书",
+  "zh-Hant": "約翰三書",
+  "abbreviations": [],
+  "es": "3 Juan",
+  "ko": "요한삼서"
+ },
+ "Jude": {
+  "zh-Hans": "犹大书",
+  "zh-Hant": "猶大書",
+  "abbreviations": [],
+  "es": "Judas",
+  "ko": "유다서"
+ },
+ "Revelation": {
+  "zh-Hans": "启示录",
+  "zh-Hant": "啟示錄",
+  "abbreviations": [],
+  "es": "Apocalipsis",
+  "ko": "요한계시록"
+ }
+}

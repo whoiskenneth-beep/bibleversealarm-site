@@ -1,0 +1,51 @@
+# Auto-merge gate for the SEO bot. Cloud runs push to claude/** branches; this
+# builds, runs every SEO check, merges into main (Vercel deploys main), then
+# pings IndexNow for the pages that changed. A failed run leaves the branch in
+# place so the next bot run sees it and fixes it.
+name: ship
+on:
+  push:
+    branches: ['claude/**']
+permissions:
+  contents: write
+concurrency:
+  group: ship
+  cancel-in-progress: false
+jobs:
+  ship:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Guard protected paths
+        run: |
+          bad=$(git diff --name-only origin/main...HEAD | grep -E '^(data/bibles/|\.github/|static/(privacy|terms|feedback|support)\.html|scripts/check\.mjs)' || true)
+          if [ -n "$bad" ]; then echo "Bot may not change: $bad"; exit 1; fi
+      - name: Build + SEO checks
+        run: npm run check
+      - name: Manifest of what is live now
+        run: |
+          git worktree add /tmp/old origin/main
+          if (cd /tmp/old && npm ci --silent && node scripts/build.mjs); then cp /tmp/old/public/pages.json /tmp/old-pages.json; else echo '{}' > /tmp/old-pages.json; fi
+      - name: Merge into main
+        run: |
+          git config user.name "seo-bot"
+          git config user.email "seo-bot@users.noreply.github.com"
+          git checkout main
+          git merge --no-ff "origin/$GITHUB_REF_NAME" -m "seo: merge $GITHUB_REF_NAME"
+          npm run check
+          git push origin main
+          git push origin --delete "$GITHUB_REF_NAME"
+      - name: Wait for deploy, then IndexNow
+        run: |
+          for i in $(seq 1 30); do
+            if curl -sf https://bibleversealarm.com/pages.json | cmp -s - public/pages.json; then echo "deploy live"; break; fi
+            sleep 20
+          done
+          node scripts/indexnow.mjs /tmp/old-pages.json public/pages.json

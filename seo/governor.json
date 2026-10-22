@@ -1,0 +1,14 @@
+{
+  "plan": "lean-pro",
+  "runs_per_day": 2,
+  "note": "Velocity = new topic pages per locale per day (zh-hans is generated from zh-hant and does not count). Hold velocity until a locale has 14+ days of GSC data. Rules: seo/STATE.md#speed-governor.",
+  "locales": {
+    "en": { "new_pages_per_day": 1, "optimizations_per_day": 1, "status": "grow", "published": null, "indexed": null, "indexation_rate": null },
+    "es": { "new_pages_per_day": 1, "optimizations_per_day": 1, "status": "grow", "published": null, "indexed": null, "indexation_rate": null },
+    "zh-hant": { "new_pages_per_day": 1, "optimizations_per_day": 1, "status": "grow", "published": null, "indexed": null, "indexation_rate": null },
+    "zh-hans": { "derived_from": "zh-hant", "status": "follows zh-hant", "published": null, "indexed": null, "indexation_rate": null },
+    "ko": { "new_pages_per_day": 0, "optimizations_per_day": 0, "status": "blocked: Korean Bible licence (seo/NEEDS_HUMAN.md #2)", "published": null, "indexed": null, "indexation_rate": null }
+  },
+  "indexation_updated": null,
+  "history": []
+}

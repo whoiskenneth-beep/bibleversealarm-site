@@ -1,0 +1,19 @@
+{
+  "title": "Bible Verse Alarm: la alarma que despierta con versículos de la Biblia",
+  "description": "Una alarma para iPhone que no se apaga hasta que completas un versículo bíblico. Despierta con la Palabra de Dios en vez de con el celular.",
+  "h1": "Deja de despertar con el celular. Despierta con la Palabra de Dios.",
+  "sub": "Una alarma que no se apaga hasta que completas un versículo corto de la Biblia. Te levantas de verdad, y guardas la Escritura en tu corazón mientras lo haces.",
+  "note": "Suena aunque el iPhone esté en silencio · Sin cuenta · Por ahora la app está en inglés",
+  "screenshotAlt": "Pantalla de Bible Verse Alarm",
+  "updated": "2026-10-22",
+  "sections": [
+    { "heading": "Cómo funciona", "body": "Eliges la hora. Cuando suena la alarma, para apagarla tienes que armar un versículo de la Biblia palabra por palabra. Para cuando terminas, ya estás despierto y ya leíste la Escritura." },
+    { "heading": "La Escritura antes que el scroll", "body": "Casi todos tomamos el celular apenas abrimos los ojos, y lo primero que vemos son notificaciones y redes. Bible Verse Alarm cambia ese primer minuto: antes de cualquier otra cosa, un versículo." },
+    { "heading": "Para quién es", "body": "Para quien quiere leer la Biblia cada mañana y no lo logra, para quien apaga la alarma sin darse cuenta y vuelve a dormirse, y para quien quiere memorizar versículos sin tener que sentarse a estudiar." }
+  ],
+  "faq": [
+    { "q": "¿La app está en español?", "a": "Por ahora la app está en inglés. Estamos preparando la versión en español con la Reina-Valera 1909." },
+    { "q": "¿Necesito crear una cuenta?", "a": "No. No hay registro ni inicio de sesión, y la Biblia funciona sin conexión." },
+    { "q": "¿Funciona en Android?", "a": "Por ahora solo está disponible para iPhone en la App Store." }
+  ]
+}

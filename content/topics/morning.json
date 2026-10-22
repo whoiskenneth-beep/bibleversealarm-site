@@ -1,0 +1,117 @@
+{
+  "id": "morning",
+  "related": ["anxiety", "strength"],
+  "locales": {
+    "en": {
+      "slug": "morning",
+      "title": "16 Morning Bible Verses to Start Your Day With God",
+      "description": "Start your day with God: 16 morning Bible verses about new mercies, first prayers and waking up, grouped with short reflections you can read in two minutes.",
+      "h1": "Morning Bible verses to start your day",
+      "intro": "What you read in the first five minutes tends to set the tone for the rest of the day. These verses were chosen for exactly that window: before the inbox, before the feed. Read one group, or just one verse, and carry it with you.",
+      "published": "2026-10-22",
+      "updated": "2026-10-22",
+      "groups": [
+        {
+          "heading": "His mercies are new every morning",
+          "reflection": "Yesterday does not get to set the tone for today. Lamentations was written from the ruins of Jerusalem, yet its author still found something fresh waiting each morning: God's faithfulness. Whatever you are carrying from last night (a mistake, a worry, a hard conversation), these verses remind you that you wake up to mercy, not to a scoreboard.",
+          "refs": ["Lamentations 3:22-23", "Psalms 30:5", "Psalms 143:8"]
+        },
+        {
+          "heading": "Give God your first words",
+          "reflection": "David prayed at daybreak and then waited to see what God would do. Jesus went out while it was still dark. Neither treated morning prayer as a performance; it was simply where the day started. If a long prayer feels out of reach, start smaller: read one of these verses aloud and turn it into a sentence back to God.",
+          "refs": ["Psalms 5:3", "Mark 1:35", "Psalms 90:14", "Isaiah 33:2"]
+        },
+        {
+          "heading": "Wake up, body and soul",
+          "reflection": "Some of these verses are about the plain fact of waking: you lay down, you slept, and the Lord kept you. Others use waking as a picture of spiritual alertness. The two belong together. Getting out of bed on time is a small act of faithfulness, and Scripture treats it as a doorway to paying attention to God for the rest of the day.",
+          "refs": ["Psalms 3:5", "Psalms 139:18", "Romans 13:11", "Ephesians 5:14", "Psalms 57:8"]
+        },
+        {
+          "heading": "Hand over the day ahead",
+          "reflection": "Morning is when the to-do list arrives. These verses do not make it shorter, but they change who it belongs to. Commit the plans to the Lord, work for Him rather than for approval, and leave tomorrow's trouble where it is. Today has enough of its own.",
+          "refs": ["Psalms 118:24", "Matthew 6:34", "Proverbs 16:3", "Colossians 3:23"]
+        }
+      ],
+      "faq": [
+        { "q": "What is a good Bible verse to read in the morning?", "a": "Lamentations 3:22-23 is one of the most loved: God's mercies are new every morning. Psalm 5:3 and Psalm 143:8 are also short prayers written for the start of the day." },
+        { "q": "How do I make morning Bible reading a habit?", "a": "Tie it to something you already do: waking up. Keep it small (one verse is enough), read it before you open other apps, and do it in the same place each day. An alarm that shows you a verse first, like Bible Verse Alarm, removes the decision entirely." },
+        { "q": "Did Jesus pray in the morning?", "a": "Yes. Mark 1:35 says that very early in the morning, while it was still dark, Jesus got up and went out to a solitary place to pray." },
+        { "q": "Which Bible translation are these verses from?", "a": "The verses on this page are quoted from the Berean Standard Bible (BSB), a modern English translation in the public domain." }
+      ]
+    },
+    "es": {
+      "slug": "para-la-manana",
+      "title": "16 versículos bíblicos para la mañana: empieza el día con Dios",
+      "description": "Versículos de la Biblia para leer al despertar: misericordias nuevas cada mañana, oraciones para empezar el día y promesas para lo que viene. Con breves reflexiones.",
+      "h1": "Versículos bíblicos para la mañana",
+      "intro": "Lo primero que lees al despertar suele marcar el tono del resto del día. Estos versículos fueron elegidos para ese momento: antes del correo, antes de las redes. Lee un grupo, o solo un versículo, y llévalo contigo.",
+      "published": "2026-10-22",
+      "updated": "2026-10-22",
+      "groups": [
+        {
+          "heading": "Sus misericordias son nuevas cada mañana",
+          "reflection": "El día de ayer no decide cómo será hoy. Lamentaciones se escribió entre las ruinas de Jerusalén, y aun así su autor encontró algo nuevo cada mañana: la fidelidad de Dios. Cargues lo que cargues desde anoche (un error, una preocupación, una conversación difícil), estos versículos te recuerdan que despiertas a la misericordia, no a un marcador.",
+          "refs": ["Lamentations 3:22-23", "Psalms 30:5", "Psalms 143:8"]
+        },
+        {
+          "heading": "Dale a Dios tus primeras palabras",
+          "reflection": "David oraba al amanecer y luego esperaba a ver qué haría Dios. Jesús salió cuando todavía estaba oscuro. Ninguno de los dos hacía de la oración de la mañana un espectáculo; simplemente ahí empezaba el día. Si una oración larga te parece imposible, empieza más pequeño: lee uno de estos versículos en voz alta y conviértelo en una frase dirigida a Dios.",
+          "refs": ["Psalms 5:3", "Mark 1:35", "Psalms 90:14", "Isaiah 33:2"]
+        },
+        {
+          "heading": "Despierta, cuerpo y alma",
+          "reflection": "Algunos de estos versículos hablan del simple hecho de despertar: te acostaste, dormiste y el Señor te sostuvo. Otros usan el despertar como imagen de estar atentos espiritualmente. Las dos cosas van juntas. Levantarte a tiempo es un pequeño acto de fidelidad, y la Escritura lo trata como una puerta para prestar atención a Dios el resto del día.",
+          "refs": ["Psalms 3:5", "Psalms 139:18", "Romans 13:11", "Ephesians 5:14", "Psalms 57:8"]
+        },
+        {
+          "heading": "Entrégale el día que empieza",
+          "reflection": "La mañana es cuando llega la lista de pendientes. Estos versículos no la hacen más corta, pero cambian a quién le pertenece. Encomienda tus planes al Señor, trabaja para Él y no para la aprobación de otros, y deja los problemas de mañana donde están. Basta a cada día su propio afán.",
+          "refs": ["Psalms 118:24", "Matthew 6:34", "Proverbs 16:3", "Colossians 3:23"]
+        }
+      ],
+      "faq": [
+        { "q": "¿Qué versículo de la Biblia leer en la mañana?", "a": "Lamentaciones 3:22-23 es uno de los más queridos: las misericordias de Dios son nuevas cada mañana. Salmos 5:3 y Salmos 143:8 también son oraciones cortas escritas para el comienzo del día." },
+        { "q": "¿Cómo hacer un hábito de leer la Biblia en la mañana?", "a": "Únelo a algo que ya haces: despertar. Que sea algo pequeño (un versículo basta), hazlo antes de abrir otras apps y en el mismo lugar cada día. Una alarma que te muestra un versículo primero, como Bible Verse Alarm, elimina la decisión por completo." },
+        { "q": "¿Jesús oraba en la mañana?", "a": "Sí. Marcos 1:35 dice que muy de mañana, siendo aún muy oscuro, Jesús se levantó, salió a un lugar desierto y allí oraba." },
+        { "q": "¿De qué traducción son estos versículos?", "a": "Los versículos de esta página son de la Reina-Valera 1909, una traducción clásica al español que es de dominio público." }
+      ]
+    },
+    "zh-hant": {
+      "slug": "morning",
+      "title": "16節早晨經文：用神的話開始新的一天",
+      "description": "起床後讀的聖經經文：神的憐憫每早晨都是新的、清晨的禱告、把一天交託給神。每組經文附簡短默想，兩分鐘就能讀完。",
+      "h1": "早晨經文：用神的話開始一天",
+      "intro": "早上睜開眼睛後讀到的第一樣東西，往往決定了一整天的心情。這些經文就是為那幾分鐘挑選的：在打開信箱、滑社群之前。讀一組，或只讀一節，然後把它帶進今天。",
+      "published": "2026-10-22",
+      "updated": "2026-10-22",
+      "groups": [
+        {
+          "heading": "神的憐憫每早晨都是新的",
+          "reflection": "昨天不能替今天定調。耶利米哀歌寫在耶路撒冷的廢墟之中，作者卻在每個早晨發現一樣新的東西：神的信實。不論你從昨晚帶著什麼醒來（一個錯誤、一份擔憂、一場難開口的對話），這些經文都提醒你：你醒來面對的是憐憫，不是一張成績單。",
+          "refs": ["Lamentations 3:22-23", "Psalms 30:5", "Psalms 143:8"]
+        },
+        {
+          "heading": "把第一句話留給神",
+          "reflection": "大衛清晨禱告，然後儆醒等候神的作為。耶穌在天還沒亮的時候就出去禱告。他們都沒有把晨禱當成表演，一天就這樣自然地從禱告開始。如果長長的禱告讓你覺得太難，就從小處開始：把其中一節經文唸出來，再把它變成一句對神說的話。",
+          "refs": ["Psalms 5:3", "Mark 1:35", "Psalms 90:14", "Isaiah 33:2"]
+        },
+        {
+          "heading": "醒來，身體和靈魂都醒來",
+          "reflection": "有些經文講的是醒來這件很平常的事：你躺下、睡著了，耶和華保守你。另一些則用醒來比喻屬靈上的警醒。這兩件事其實是一起的。準時起床是一個小小的忠心，聖經把它當作一道門，讓你在接下來的一天繼續留心神。",
+          "refs": ["Psalms 3:5", "Psalms 139:18", "Romans 13:11", "Ephesians 5:14", "Psalms 57:8"]
+        },
+        {
+          "heading": "把今天交託給神",
+          "reflection": "早晨也是待辦清單出現的時候。這些經文不會讓清單變短，卻會改變它屬於誰。把計畫交託給耶和華，做事是為主做，而不是為了別人的肯定；明天的憂慮就留給明天。一天的難處一天當就夠了。",
+          "refs": ["Psalms 118:24", "Matthew 6:34", "Proverbs 16:3", "Colossians 3:23"]
+        }
+      ],
+      "faq": [
+        { "q": "早上適合讀哪一節經文？", "a": "耶利米哀歌 3:22-23 是許多人最喜愛的一段：神的憐憫每早晨都是新的。詩篇 5:3 和詩篇 143:8 也都是為清晨寫的簡短禱告。" },
+        { "q": "怎樣養成早上讀經的習慣？", "a": "把它和你每天一定會做的事綁在一起：起床。份量要小（一節就夠），在打開其他 App 之前讀，並且每天在同一個地方讀。像 Bible Verse Alarm 這種要先完成經文才會關掉的鬧鐘，可以讓你完全不用再做決定。" },
+        { "q": "耶穌早上會禱告嗎？", "a": "會。馬可福音 1:35 記載，次日早晨，天未亮的時候，耶穌起來，到曠野地方去，在那裡禱告。" },
+        { "q": "這些經文是哪一個譯本？", "a": "本頁經文引自和合本（1919 年版），這是華人教會最普遍使用的中文譯本，屬於公共領域。" }
+      ]
+    }
+  }
+}

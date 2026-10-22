@@ -1,0 +1,12 @@
+{
+  "name": "bibleversealarm-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs && node scripts/check.mjs"
+  },
+  "dependencies": {
+    "opencc-js": "1.4.2"
+  }
+}
