@@ -1,6 +1,6 @@
 {
   "id": "strength",
-  "related": ["anxiety", "morning"],
+  "related": ["anxiety", "morning", "encouragement", "sleep"],
   "locales": {
     "en": {
       "slug": "strength",

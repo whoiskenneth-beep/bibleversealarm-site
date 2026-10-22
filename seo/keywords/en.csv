@@ -1,4 +1,14 @@
 keyword,intent,cluster,target_page,priority,status
 bible verses for anxiety,informational,anxiety,/bible-verses-about/anxiety,high,published
+bible verses for encouragement,informational,encouragement,/bible-verses-about/encouragement,high,published
+bible verses about fear,informational,fear,,high,planned
+bible verses about healing,informational,healing,,high,planned
+bible verses about hope,informational,hope,,high,planned
 morning bible verses,informational,morning,/bible-verses-about/morning,high,published
+bible verses for peace of mind,informational,peace,,high,planned
 bible verses about strength,informational,strength,/bible-verses-about/strength,high,published
+bible verses for comfort,informational,comfort,,medium,planned
+bible verses about faith,informational,faith,,medium,planned
+bible verses about gratitude,informational,gratitude,,medium,planned
+bible verses for grief,informational,grief,,medium,planned
+bible verses for insomnia,informational,sleep,,medium,planned

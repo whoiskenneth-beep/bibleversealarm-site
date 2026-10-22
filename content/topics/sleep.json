@@ -1,0 +1,80 @@
+{
+  "id": "sleep",
+  "related": [
+    "anxiety",
+    "morning",
+    "strength"
+  ],
+  "locales": {
+    "es": {
+      "slug": "dormir",
+      "title": "17 versículos de la Biblia para dormir en paz",
+      "description": "Versículos de la Biblia para dormir: textos para antes de acostarte, para la noche en vela y para soltar la preocupación. Con reflexiones breves.",
+      "h1": "Versículos de la Biblia para dormir",
+      "intro": "Hay noches en que el cuerpo está cansado pero la mente sigue dando vueltas a las cuentas, a una conversación o al día de mañana. Estos versículos están agrupados para ese momento: unos hablan del sueño como regalo de Dios, otros de que Él vela mientras tú descansas, otros de qué hacer cuando no llega el sueño. Léelos despacio, en voz baja, antes de apagar la luz. Si el insomnio se vuelve constante, consulta también a un médico.",
+      "published": "2026-10-22",
+      "updated": "2026-10-22",
+      "groups": [
+        {
+          "heading": "El sueño es un regalo de Dios",
+          "reflection": "David escribió el Salmo 4 en medio de la presión de sus enemigos, y aun así termina hablando de acostarse en paz. Su confianza no estaba en que todo estuviera resuelto, sino en quién lo cuidaba. El Salmo 127, un cántico de Salomón, dice que afanarse sin descanso es vano, porque Dios da el sueño a los que ama. Descansar también es un acto de fe: reconocer que el mundo no depende de que tú sigas despierto.",
+          "refs": [
+            "Psalms 4:8",
+            "Proverbs 3:24",
+            "Psalms 127:2",
+            "Leviticus 26:6"
+          ]
+        },
+        {
+          "heading": "El que te guarda no se duerme",
+          "reflection": "El Salmo 121 era un cántico que cantaban los peregrinos al subir a Jerusalén por caminos peligrosos, y su mensaje es que Dios no se cansa ni se adormece. Esa es la razón para soltar el control por la noche: alguien más sigue despierto. El Salmo 91 habla de vivir al abrigo del Altísimo y de no temer lo que asusta en la oscuridad, y el Salmo 139 añade que para Dios la noche no esconde nada.",
+          "refs": [
+            "Psalms 121:3-4",
+            "Psalms 91:1",
+            "Psalms 91:5",
+            "Psalms 139:12"
+          ]
+        },
+        {
+          "heading": "Cuando no llega el sueño",
+          "reflection": "No todos los que oran en la noche duermen bien. David escribió el Salmo 63 en el desierto de Judá, y recuerda a Dios en su lecho y en las vigilias de la noche. El autor del Salmo 119 se despierta antes del amanecer para meditar en la palabra de Dios. La Biblia no condena las noches en vela; propone llenarlas de oración y de memoria de lo que Dios ha hecho por ti, en lugar de repasar tus miedos.",
+          "refs": [
+            "Psalms 63:6-7",
+            "Psalms 119:148",
+            "Psalms 16:7",
+            "Psalms 42:8"
+          ]
+        },
+        {
+          "heading": "Descanso para el alma cansada",
+          "reflection": "Jesús dijo estas palabras a gente agobiada por cargas religiosas y cotidianas, y prometió hacerlos descansar. En Marcos 4 Él mismo duerme en la popa de la barca durante una tormenta, y cuando lo despiertan, calma el viento con una palabra. Si lo que te quita el sueño es una tormenta, recuerda quién va en tu barca. El salmista se habla a sí mismo: vuelve, alma mía, a tu reposo, porque Dios te ha hecho bien.",
+          "refs": [
+            "Matthew 11:28",
+            "Psalms 116:7",
+            "Psalms 62:1",
+            "Philippians 4:7",
+            "Mark 4:38-39"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Qué versículo de la Biblia leer para dormir en paz?",
+          "a": "El más conocido es Salmos 4:8, donde David habla de acostarse en paz y dormir porque Dios lo hace vivir confiado. Proverbios 3:24 y Salmos 121:3-4 también se leen mucho antes de acostarse."
+        },
+        {
+          "q": "¿Qué dice la Biblia sobre el insomnio?",
+          "a": "La Biblia reconoce las noches en vela, por ejemplo en Salmos 63:6 y 119:148, y las presenta como tiempo para orar y meditar. También dice que Dios da el sueño a los que ama (Salmos 127:2). Si el insomnio es persistente, consulta a un médico."
+        },
+        {
+          "q": "¿Qué orar antes de dormir?",
+          "a": "Puedes dar gracias por el día, entregarle a Dios lo que te preocupa y pedirle descanso. Ayuda leer en voz baja un pasaje como el Salmo 4 o el Salmo 121 y terminar con unas palabras tuyas, sencillas y sinceras."
+        },
+        {
+          "q": "¿Qué versículo sirve para las pesadillas o el miedo de noche?",
+          "a": "Salmos 91:5 habla de no temer los espantos de la noche, y Proverbios 3:24 dice que al acostarte no tendrás temor. Léelos pausadamente y ora; si los miedos nocturnos son frecuentes, busca también apoyo profesional."
+        }
+      ]
+    }
+  }
+}
