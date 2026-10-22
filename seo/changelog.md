@@ -2,6 +2,8 @@
 
 Newest first. One line per shipped change: date, run, locale, what, why.
 
+- 2026-10-22 run A (en): new explainer feature page /what-is-a-bible-verse-alarm (GEO trio: app-explainer); QA REJECT then PASS on rewrite. No optimizations (no GSC data yet in history.csv); governor held.
+- 2026-10-22 run A (es): /es/que-es-una-alarma-biblica REJECTED twice by QA (bare verse quotes without reflection, imprecise Deuteronomy 6:6-7 gloss, keyword density); change deleted, keyword stays planned.
 - 2026-10-23 manual (en): /best-christian-apps-iphone, a fair 11-app comparison (disclosed; facts from each App Store page, checked 2026-10-23). Targets "best christian apps (for iphone)", which has much more search demand than "bible verse alarm app". Feature pages now support tables.
 - 2026-10-22 manual: GEO module: robots.txt AI crawler groups, Organization+MobileApplication entity graph (@id, sameAs), llms.txt, visible updated date on feature pages, ct=ai_<engine> store-link tagging for AI referrals, prompt panel (4×40) + weekly Gemini runner, GSC searchAppearance capture, answer-first rules, GEO page trio queued per locale. Also: App Store 2.4.0 is live with es/zh/ko, so locale homes + APP_FACTS updated (no more "app in English").
 - 2026-10-22 run B (zh-hant): new feature page /zh-hant/shengjing-naozhong (+ zh-hans generated; keywords 聖經鬧鐘 App, 基督徒鬧鐘); QA REJECT then PASS on rewrite.
