@@ -5,8 +5,8 @@ keep each run small (target: under ~30 minutes of work). Ship small, measure, it
 
 ## 0. Orient (always)
 1. Read `CLAUDE.md`, `seo/STATE.md`, `seo/governor.json`, `seo/APP_FACTS.md`, and the last entry of `seo/changelog.md`.
-2. Which run is this? Current UTC hour < 16 → **Run B** (zh-hant + ko). Otherwise → **Run A** (en + es).
-   (Run A fires 22:00 UTC, Run B fires 10:00 UTC.)
+2. Which run is this? The routine prompt says RUN A (en + es) or RUN B (zh-hant + ko). Trust the prompt.
+   (Scheduled: Run A 22:00 UTC, Run B 10:00 UTC. Manual runs can happen at any time.)
 3. `git fetch origin && git branch -r | grep 'origin/claude/'`: any leftover branch is a FAILED ship.
    Check it out, run `npm ci && npm run check`, fix the error, and push to a new `claude/seo-*` branch, or give up on it and log why. Delete the stale branch afterwards. Do this before any new work.
 
