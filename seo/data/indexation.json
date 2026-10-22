@@ -1,0 +1,170 @@
+{
+ "https://bibleversealarm.com/": {
+  "verdict": "PASS",
+  "coverage": "Submitted and indexed",
+  "lastCrawl": "2026-10-07T06:43:47Z",
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/support": {
+  "verdict": "PASS",
+  "coverage": "Submitted and indexed",
+  "lastCrawl": "2026-08-05T22:49:51Z",
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/privacy": {
+  "verdict": "PASS",
+  "coverage": "Submitted and indexed",
+  "lastCrawl": "2026-09-14T00:08:50Z",
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/terms": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/bible-verses-about": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/bible-verses-about/anxiety": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/bible-verses-about/morning": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/bible-verses-about/strength": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/es": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/es/versiculos-biblicos": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/es/versiculos-biblicos/ansiedad": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/es/versiculos-biblicos/para-la-manana": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/es/versiculos-biblicos/fortaleza": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/ko": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/zh-hans": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/zh-hans/jingwen": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/zh-hans/jingwen/anxiety": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/zh-hans/jingwen/morning": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/zh-hans/jingwen/strength": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/zh-hant": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/zh-hant/jingwen": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/zh-hant/jingwen/anxiety": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/zh-hant/jingwen/morning": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ },
+ "https://bibleversealarm.com/zh-hant/jingwen/strength": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-22",
+  "checked": "2026-10-22"
+ }
+}

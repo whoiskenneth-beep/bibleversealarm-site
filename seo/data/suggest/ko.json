@@ -1,0 +1,325 @@
+{
+ "cursor": 3,
+ "suggestions": {
+  "성경구절": {
+   "seed": "성경구절",
+   "markets": [
+    "kr"
+   ]
+  },
+  "성경구절 명언": {
+   "seed": "성경구절",
+   "markets": [
+    "kr"
+   ]
+  },
+  "성경구절 추천": {
+   "seed": "성경구절",
+   "markets": [
+    "kr"
+   ]
+  },
+  "성경구절찾기": {
+   "seed": "성경구절",
+   "markets": [
+    "kr"
+   ]
+  },
+  "성경구절 영어로": {
+   "seed": "성경구절",
+   "markets": [
+    "kr"
+   ]
+  },
+  "성경구절 배경화면": {
+   "seed": "성경구절",
+   "markets": [
+    "kr",
+    "naver"
+   ]
+  },
+  "성경구절 검색": {
+   "seed": "성경구절",
+   "markets": [
+    "kr"
+   ]
+  },
+  "성경구절 캘리그라피": {
+   "seed": "성경구절",
+   "markets": [
+    "kr"
+   ]
+  },
+  "성경구절 이미지": {
+   "seed": "성경구절",
+   "markets": [
+    "kr"
+   ]
+  },
+  "성경구절 사랑": {
+   "seed": "성경구절",
+   "markets": [
+    "kr"
+   ]
+  },
+  "성경 구절": {
+   "seed": "성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "좋은 성경구절": {
+   "seed": "성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "힘이되는 성경구절": {
+   "seed": "성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "성경 구절 추천": {
+   "seed": "성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "사랑 성경구절": {
+   "seed": "성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "짧은 성경 구절": {
+   "seed": "성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "힘들때 성경구절": {
+   "seed": "성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "감사 성경구절": {
+   "seed": "성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "천주교 성경 구절": {
+   "seed": "성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "성경말씀": {
+   "seed": "성경말씀",
+   "markets": [
+    "kr",
+    "naver"
+   ]
+  },
+  "성경말씀 배경화면": {
+   "seed": "성경말씀",
+   "markets": [
+    "kr",
+    "naver"
+   ]
+  },
+  "성경말씀 추천": {
+   "seed": "성경말씀",
+   "markets": [
+    "kr"
+   ]
+  },
+  "성경말씀 이미지": {
+   "seed": "성경말씀",
+   "markets": [
+    "kr"
+   ]
+  },
+  "성경말씀 ppt": {
+   "seed": "성경말씀",
+   "markets": [
+    "kr"
+   ]
+  },
+  "성경말씀 캘리그라피": {
+   "seed": "성경말씀",
+   "markets": [
+    "kr"
+   ]
+  },
+  "성경말씀찾기": {
+   "seed": "성경말씀",
+   "markets": [
+    "kr"
+   ]
+  },
+  "성경말씀 구절": {
+   "seed": "성경말씀",
+   "markets": [
+    "kr"
+   ]
+  },
+  "성경말씀듣기": {
+   "seed": "성경말씀",
+   "markets": [
+    "kr"
+   ]
+  },
+  "성경말씀카드": {
+   "seed": "성경말씀",
+   "markets": [
+    "kr",
+    "naver"
+   ]
+  },
+  "좋은 성경 말씀": {
+   "seed": "성경말씀",
+   "markets": [
+    "naver"
+   ]
+  },
+  "오늘의 성경말씀": {
+   "seed": "성경말씀",
+   "markets": [
+    "naver"
+   ]
+  },
+  "성경 말씀 구절": {
+   "seed": "성경말씀",
+   "markets": [
+    "naver"
+   ]
+  },
+  "성경말씀 액자": {
+   "seed": "성경말씀",
+   "markets": [
+    "naver"
+   ]
+  },
+  "성경말씀 스티커": {
+   "seed": "성경말씀",
+   "markets": [
+    "naver"
+   ]
+  },
+  "세겹줄 성경말씀": {
+   "seed": "성경말씀",
+   "markets": [
+    "naver"
+   ]
+  },
+  "위로의 성경말씀": {
+   "seed": "성경말씀",
+   "markets": [
+    "naver"
+   ]
+  },
+  "큐티스트리트": {
+   "seed": "큐티",
+   "markets": [
+    "kr",
+    "naver"
+   ]
+  },
+  "큐티": {
+   "seed": "큐티",
+   "markets": [
+    "kr",
+    "naver"
+   ]
+  },
+  "큐티클": {
+   "seed": "큐티",
+   "markets": [
+    "kr",
+    "naver"
+   ]
+  },
+  "큐티스트릿": {
+   "seed": "큐티",
+   "markets": [
+    "kr"
+   ]
+  },
+  "큐티하니": {
+   "seed": "큐티",
+   "markets": [
+    "kr"
+   ]
+  },
+  "큐티 뜻": {
+   "seed": "큐티",
+   "markets": [
+    "kr",
+    "naver"
+   ]
+  },
+  "큐티 펫 파티": {
+   "seed": "큐티",
+   "markets": [
+    "kr"
+   ]
+  },
+  "큐티클 제거": {
+   "seed": "큐티",
+   "markets": [
+    "kr"
+   ]
+  },
+  "큐티인": {
+   "seed": "큐티",
+   "markets": [
+    "kr"
+   ]
+  },
+  "큐티 펫 파티 디시": {
+   "seed": "큐티",
+   "markets": [
+    "kr"
+   ]
+  },
+  "매일성경 큐티": {
+   "seed": "큐티",
+   "markets": [
+    "naver"
+   ]
+  },
+  "큐티클오일": {
+   "seed": "큐티",
+   "markets": [
+    "naver"
+   ]
+  },
+  "큐티폴": {
+   "seed": "큐티",
+   "markets": [
+    "naver"
+   ]
+  },
+  "큐티키즈": {
+   "seed": "큐티",
+   "markets": [
+    "naver"
+   ]
+  },
+  "큐티플": {
+   "seed": "큐티",
+   "markets": [
+    "naver"
+   ]
+  },
+  "큐티클제거": {
+   "seed": "큐티",
+   "markets": [
+    "naver"
+   ]
+  }
+ }
+}
