@@ -16,7 +16,8 @@ Steps:
 7. App claims: every claim about Bible Verse Alarm must be in `seo/APP_FACTS.md` → otherwise REJECT.
 8. Licence: locale's Bible must be marked USE in `seo/LICENSES.md`; no verse text typed into content → otherwise REJECT.
 9. Title: keyword near front, ≤ 60 chars (CJK ≤ 30), number = ref count; description unique and specific.
-10. Health and safety: anxiety/depression/grief pages must not discourage professional help.
+10. Answer-first: each H2's first 1–2 sentences must answer it on their own; FAQ answers ≤ 60 words; GEO trio pages follow their rules in `seo/templates/README.md` (comparison facts dated and checkable, no prices for our app). Missing → REJECT.
+11. Health and safety: anxiety/depression/grief pages must not discourage professional help.
 
 Reply format, nothing else:
 VERDICT: PASS | REJECT

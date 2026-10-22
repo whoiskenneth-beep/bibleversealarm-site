@@ -1,4 +1,7 @@
 keyword,intent,cluster,target_page,priority,status
+성경 알람 앱 추천 비교,commercial,app-compare,,top,planned
+성경 알람이란,informational,app-explainer,,top,planned
+성경 알람 앱 자주 묻는 질문,commercial,app-faq,,top,planned
 성경 알람 앱,commercial,app-alarm,,top,planned
 성경 암송 앱,commercial,app-memorize,,top,planned
 성경구절 위로,informational,comfort,,high,blocked-licence

@@ -26,7 +26,13 @@ keep each run small (target: under ~30 minutes of work). Ship small, measure, it
 5. Experiments due (`review_after` ≤ today): compare against the baseline. Winner → note it in STATE.md backlog "roll out". Loser → revert. Write the verdict.
 
 ## 3. Weekly extras
-- Monday Run A: `tech-auditor` (PageSpeed Insights for 3 sample URLs, crawl/hreflang/sitemap review) + the weekly report `seo/reports/weekly/YYYY-MM-DD.md` (per-locale clicks, impressions, avg position, top-3/10/20 counts, pages published, indexation rate vs last week and 4 weeks ago; winners/losers; experiment verdicts; next week's velocity; open NEEDS_HUMAN items).
+- **GEO (AI answers), Monday runs** (A: en + es, B: zh + ko). Read `geo/sov.json`, the newest rows of `geo/results.csv`, `geo/manual.csv` and `seo/data/search_appearance.json`, then apply these rules:
+  - Competitor named for a prompt where we're absent (≥ 2 of 3 runs, 2 weeks running) → find which pages get cited for them (WebSearch), then close the gap: a better on-site answer and/or an outreach draft.
+  - A page in the organic top 10 but never cited → restructure it answer-first (counts as that day's optimization).
+  - AI-type impressions rising while clicks fall on topic hubs → keep the hubs, strengthen their CTAs, shift new-page effort to app-recommendation/comparison intent.
+  - Bing grounding queries (from `geo/bing/` exports) → add as keyword rows and, if they're questions, as new prompts in `geo/prompts/<locale>.csv` (keep 40–60 per locale).
+- **Outreach, Monday runs, same locales:** WebSearch for Reddit/forum threads, "best Bible app" listicles and review sites in that language where apps like ours are discussed and we're missing. Write at most 3 drafts per locale to `geo/outreach/YYYY-MM-DD-<locale>.md`: link, context, a genuinely helpful reply or pitch that discloses "I make Bible Verse Alarm". Kenneth posts or sends; you never post, comment or email.
+- Monday Run A: `tech-auditor` (PageSpeed Insights for 3 sample URLs, crawl/hreflang/sitemap review) + the weekly report `seo/reports/weekly/YYYY-MM-DD.md` (with an **AI visibility** section: share of voice per locale per engine from `geo/sov.json` + `geo/manual.csv`, Bing citations if exported, Google AI appearance rows, `ct=ai_*` store-click campaigns Kenneth reports, new competitor mentions; plus per-locale clicks, impressions, avg position, top-3/10/20 counts, pages published, indexation rate vs last week and 4 weeks ago; winners/losers; experiment verdicts; next week's velocity; open NEEDS_HUMAN items).
 - Every other Monday: pruning. Pages with 0 impressions after 60 days get improved once, then merged (301 in `vercel.json` `redirects`) or set to noindex.
 - Monday Run B: `keyword-scout-zh` and `keyword-scout-ko`. Monday Run A: `keyword-scout-en` and `keyword-scout-es`.
 

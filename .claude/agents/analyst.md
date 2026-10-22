@@ -13,5 +13,6 @@ Produce (as asked):
 - New queries with impressions but no matching page (add them to `seo/keywords/<lang>.csv` as planned).
 - Not indexed after 7 days (`firstSeen` ≤ today−7 and verdict ≠ PASS).
 - Speed governor per `seo/STATE.md`; log any velocity change in `governor.json.history` with date + reason.
+- AI visibility (weekly): share of voice from `geo/sov.json` (treat as a trend, not a rank), competitors most named per locale, prompts where we're absent but a competitor is present, `seo/data/search_appearance.json`, `geo/manual.csv`, `geo/bing/*.csv`.
 - Reports: daily ≤ 25 lines; weekly with per-locale tables (clicks, impressions, avg position, top-3/10/20 counts, pages published, indexation rate, vs last week and 4 weeks ago) and a short "why" for the top winners/losers.
 Use a small inline Python or Node script for the numbers, never mental math. Plain language, no jargon without a 3-word explanation.

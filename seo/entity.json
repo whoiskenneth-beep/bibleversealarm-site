@@ -1,0 +1,32 @@
+{
+  "_about": "Single source of truth for how Bible Verse Alarm is described everywhere (site schema, llms.txt, store listings, socials, directories). Keep the name and one-liner identical across all of them. scripts/build.mjs reads this file.",
+  "name": "Bible Verse Alarm",
+  "app_store_id": "6789787366",
+  "app_store_url": "https://apps.apple.com/app/id6789787366",
+  "google_play_url": null,
+  "social_profiles": [],
+  "_social_profiles": "Public profile URLs (Facebook page, YouTube channel, TikTok, Threads, Pinterest...). Kenneth to fill: seo/NEEDS_HUMAN.md #7.",
+  "one_liner": {
+    "en": "An iPhone alarm that keeps ringing until you complete a short Bible verse, so your first minute of the day goes to God's Word, not your phone.",
+    "es": "Una alarma para iPhone que sigue sonando hasta que completas un versículo corto de la Biblia, para que tu primer minuto del día sea para la Palabra de Dios y no para el celular.",
+    "zh-hant": "一款 iPhone 鬧鐘，必須完成一節短短的經文才會停止，讓你每天的第一分鐘留給神的話，而不是手機。",
+    "ko": "짧은 성경 구절을 완성해야 꺼지는 아이폰 알람. 하루의 첫 1분을 휴대폰이 아닌 하나님의 말씀에 드리세요."
+  },
+  "facts": {
+    "en": [
+      "Platform: iPhone (App Store). No Android version yet.",
+      "The alarm keeps ringing until you complete a Bible verse mission: rebuild the verse word by word, or type it.",
+      "Uses Apple's AlarmKit, so it rings through Silent and Focus modes.",
+      "No account or login. Bible text is stored on the phone and works offline.",
+      "App languages: English, Spanish, Korean, Chinese.",
+      "Bible translations: NIV, WEB, KJV, BSB (English); Reina-Valera 1909 (Spanish); Chinese Union Version 和合本 (Chinese); 개역한글 (Korean).",
+      "Family Sharing supported."
+    ]
+  },
+  "ai_crawlers": {
+    "_about": "robots.txt groups. Search/answer agents are always allowed so AI engines can cite us. allow_training is Kenneth's call (NEEDS_HUMAN #6); default allow so future models know the app.",
+    "search": ["OAI-SearchBot", "ChatGPT-User", "PerplexityBot", "Perplexity-User", "Claude-SearchBot", "Claude-User", "Bingbot", "Googlebot", "Applebot", "Yeti", "DuckAssistBot"],
+    "training": ["GPTBot", "ClaudeBot", "Google-Extended", "Applebot-Extended", "CCBot"],
+    "allow_training": true
+  }
+}

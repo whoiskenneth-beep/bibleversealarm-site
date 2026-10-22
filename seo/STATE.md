@@ -12,6 +12,7 @@ Owner: Kenneth (beginner-friendly explanations, concise). Budget: $0 (only free 
 | 06:00 daily | 22:00 | **Run A**: en + es (see `seo/RUN.md`) | Claude cloud routine |
 | 18:00 daily | 10:00 | **Run B**: zh-hant (→ zh-hans) + ko | Claude cloud routine |
 | Mon 08:30 weekly | 00:30 | `social.yml`: weekly posting pack → `seo/social/packs/<date>/` (Kenneth posts it by hand) | GitHub Actions |
+| Mon + Tue 09:00 | 01:00 | `geo.yml`: AI-answer prompt panel on Gemini (Mon en+es, Tue zh+ko) → `geo/results.csv`, `geo/sov.json` | GitHub Actions |
 | on every bot push | | `ship.yml`: guard → build → checks → merge to main → wait for deploy → IndexNow | GitHub Actions |
 
 Bot runs push to a `claude/seo-*` branch, never to `main`. `ship.yml` is the only path to `main`.
@@ -31,6 +32,10 @@ Every change to velocity is appended to `governor.json.history` with the date an
 - Spanish: Latin America, neutral `tú` voice (Kenneth may override; see NEEDS_HUMAN).
 - Korean: homepage + feature pages (no verse text) until the 개역한글 licence decision (LICENSES.md).
 - Lean on Pro: 1 new page per locale per day; qa-gatekeeper on every new page; scouts weekly.
+
+## GEO (AI answer engines): see `geo/README.md`
+Priority #1: app-recommendation prompts in all 4 languages. Every locale's queue starts with the GEO trio (`app-compare`,
+`app-explainer`, `app-faq`). All pages are written answer-first (`seo/templates/README.md`). Entity facts: `seo/entity.json`.
 
 ## Backlog (highest impact first)
 1. GSC + Bing connected (separate session doing it; see `seo/GSC_SETUP.md` when it exists). Then add GitHub secret `GSC_SERVICE_ACCOUNT_JSON`.

@@ -21,6 +21,18 @@ pulled from the locale's public-domain Bible at build time. Never type verse tex
 
 URLs: en `/bible-verses-about/<slug>`, es `/es/versiculos-biblicos/<slug>`, zh `/zh-hant|zh-hans/jingwen/<slug>`, ko `/ko/seonggu/<slug>`.
 
+## Answer-first format (ALL pages, for Google and AI answer engines)
+- Under every H2, the first 1–2 sentences answer that heading on their own: quotable without the rest of the page.
+- Phrase H2s and FAQ questions as the real questions people ask (from `seo/data/suggest/`, `geo/prompts/`, PAA, Bing grounding queries) where it reads naturally. Verse-group headings on topic pages may stay as themes.
+- Prefer short lists and tables to long prose; name sources precisely (verse refs, translation names, app facts from `seo/APP_FACTS.md`).
+- Every page shows its "Updated" date; bump `updated` whenever content meaningfully changes.
+
+## GEO page trio (one each per locale, feature pages, clusters `app-compare`, `app-explainer`, `app-faq`)
+These are the pages AI engines cite for "which app should I use" prompts.
+- `app-compare`: fair "best Bible verse / Christian alarm apps" comparison. Only facts checkable on each app's App Store page (fetch it the same day; write "as of <date>"). A table: app, what it does, platform, how it wakes you / builds the habit. No knocking competitors; say who each one suits. Never state our prices (A/B tests); others' prices only if shown on their store page.
+- `app-explainer`: "What is a Bible verse alarm?": definition in the first sentence, how it works, who it's for, how it differs from a normal alarm / a Bible app.
+- `app-faq`: 10–15 real questions about the app, each answered in ≤ 50 words from `seo/APP_FACTS.md`.
+
 ## Feature page (`content/features/<id>.json`): app-intent and non-verse pages
 For keyword clusters starting with `app-` (e.g. "christian alarm clock app", "bible memory app") and `comparison`.
 ```

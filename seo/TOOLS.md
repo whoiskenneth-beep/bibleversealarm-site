@@ -21,6 +21,8 @@ The bot runs unattended with push rights, so fewer dependencies = less supply-ch
 | `scripts/social_pack.mjs` | Weekly posting pack: Pinterest bulk-upload CSV + Threads copy-paste posts (`seo/social/packs/`) |
 | `scripts/indexnow.mjs` | IndexNow ping for changed URLs only (covers Bing, Naver, Yandex, Seznam) |
 
+| `scripts/geo_panel.mjs` | AI-answer prompt panel via the Gemini API with Google Search grounding (free tier; quota changes often, check AI Studio's rate-limit page). Other engines have no free API tier → manual checklist. |
+
 ## Evaluated, not installed
 | Tool | Why not (yet) |
 |---|---|

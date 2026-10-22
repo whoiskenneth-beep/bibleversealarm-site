@@ -20,6 +20,8 @@ Every page must:
 - Use a unique meta description (≤ 155 chars; CJK ≤ 80 chars).
 
 Never type verse text into content (refs only). Never use or name a translation not marked USE in LICENSES.md. Never change a published slug.
+Format: follow "Answer-first format" in `seo/templates/README.md` (answer in the first 1–2 sentences under each heading, question-style headings where natural, lists/tables over prose).
+
 Feature pages (`content/features/`, for `app-*`/`comparison` clusters): follow the feature rules in `seo/templates/README.md`. Lead with what the app does in plain words, then how it works, then FAQ. Use only `seo/APP_FACTS.md` claims, and translate those facts into this market's own wording. One page per intent, never one page per phrasing.
 
 When done, run `npm run check` and fix anything it reports. Reply with: file changed, URL, keyword targeted, ref count, and anything you were unsure about.

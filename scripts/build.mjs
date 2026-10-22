@@ -18,10 +18,11 @@ const INDEXNOW_KEY = '14d6e2adce657fe0f943140ed48f2740';
 const read = (p) => JSON.parse(fs.readFileSync(path.join(ROOT, p), 'utf8'));
 const openccHans = OpenCC.Converter({ from: 'twp', to: 'cn' });
 // Simplified readers in SG/MY use curly quotes, not corner brackets.
+const ENTITY = read('seo/entity.json');
 const toHans = (s) => openccHans(s).replace(/「/g, '“').replace(/」/g, '”').replace(/『/g, '‘').replace(/』/g, '’');
 
 // ---------- Locales ----------
-// appLocalized: false until the app build with this language is LIVE on the
+// appLocalized: true once the app build with this language is LIVE (2.4.0 shipped es/zh/ko, seen 2026-10-22). Was false while the
 // App Store. While false, CTAs must not promise an in-app Bible in this language.
 export const LOCALES = {
   en: {
@@ -40,7 +41,7 @@ export const LOCALES = {
   },
   es: {
     lang: 'es', hreflang: ['es'], prefix: '/es', ogLocale: 'es_419',
-    bible: 'rvr1909', bibleName: 'Reina-Valera 1909', appLocalized: false,
+    bible: 'rvr1909', bibleName: 'Reina-Valera 1909', appLocalized: true,
     hub: '/es/versiculos-biblicos',
     t: {
       home: 'Inicio', hub: 'Versículos bíblicos por tema', related: 'Temas relacionados', faq: 'Preguntas frecuentes',
@@ -54,7 +55,7 @@ export const LOCALES = {
   },
   'zh-hant': {
     lang: 'zh-Hant', hreflang: ['zh-Hant', 'zh-TW', 'zh-HK'], prefix: '/zh-hant', ogLocale: 'zh_TW',
-    bible: 'cuv-hant', bibleName: '和合本（1919）', appLocalized: false,
+    bible: 'cuv-hant', bibleName: '和合本（1919）', appLocalized: true,
     hub: '/zh-hant/jingwen',
     t: {
       home: '首頁', hub: '主題經文', related: '相關主題', faq: '常見問題',
@@ -68,13 +69,13 @@ export const LOCALES = {
   },
   'zh-hans': {
     lang: 'zh-Hans', hreflang: ['zh-Hans', 'zh-SG', 'zh-MY'], prefix: '/zh-hans', ogLocale: 'zh_SG',
-    bible: 'cuv-hans', bibleName: '和合本（1919）', appLocalized: false,
+    bible: 'cuv-hans', bibleName: '和合本（1919）', appLocalized: true,
     hub: '/zh-hans/jingwen', derivedFrom: 'zh-hant',
   },
   ko: {
     // Korean Bible text is on hold until the 개역한글 licence is confirmed (seo/LICENSES.md).
     lang: 'ko', hreflang: ['ko'], prefix: '/ko', ogLocale: 'ko_KR',
-    bible: null, bibleName: null, appLocalized: false,
+    bible: null, bibleName: null, appLocalized: true,
     hub: '/ko/seonggu',
     t: {
       home: '홈', hub: '주제별 성경 구절', related: '관련 주제', faq: '자주 묻는 질문',
@@ -132,6 +133,25 @@ const storeLink = (loc, slug) => {
   return `https://apps.apple.com/app/id${APP_ID}?ct=${ct}`;
 };
 const ld = (obj) => `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, '\\u003c')}</script>`;
+
+// Organization + MobileApplication: one stable identity (@id) for search and AI engines.
+function entityGraph(loc) {
+  const one = ENTITY.one_liner[loc] || toHans(ENTITY.one_liner[LOCALES[loc].derivedFrom] || ENTITY.one_liner.en);
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      { '@type': 'Organization', '@id': `${SITE}/#org`, name: ENTITY.name, url: `${SITE}/`, logo: `${SITE}/assets/icon.png`,
+        sameAs: [ENTITY.app_store_url, ENTITY.google_play_url, ...ENTITY.social_profiles].filter(Boolean) },
+      { '@type': 'MobileApplication', '@id': `${SITE}/#app`, name: ENTITY.name, operatingSystem: 'iOS', applicationCategory: 'LifestyleApplication',
+        description: one, inLanguage: LOCALES[loc].lang, availableLanguage: ['en', 'es', 'ko', 'zh'], url: abs(LOCALES[loc].prefix),
+        installUrl: ENTITY.app_store_url, downloadUrl: ENTITY.app_store_url, image: `${SITE}/assets/icon.png`,
+        sameAs: [ENTITY.app_store_url, ENTITY.google_play_url].filter(Boolean), publisher: { '@id': `${SITE}/#org` } },
+    ],
+  };
+}
+// Visitors arriving from an AI answer engine get their store links re-tagged (ct=ai_<engine>_...),
+// so App Store Connect > Campaigns shows installs per AI engine with no analytics tooling.
+const AI_REF_SCRIPT = `<script>(function(){var r=document.referrer+' '+location.search,m=[['chatgpt',/chatgpt\\.com|openai\\.com/],['perplexity',/perplexity\\.ai/],['copilot',/copilot\\.microsoft\\.com/],['gemini',/gemini\\.google\\.com/],['claude',/claude\\.ai/],['deepseek',/deepseek\\.com/],['naver',/cue\\.search\\.naver/]],e;for(var i=0;i<m.length;i++)if(m[i][1].test(r)){e=m[i][0];break}if(!e)return;document.querySelectorAll('a[href*="apps.apple.com"]').forEach(function(a){try{var u=new URL(a.href);u.searchParams.set('ct',('ai_'+e+'_'+(u.searchParams.get('ct')||'').replace(/^seo_/,'')).slice(0,40));a.href=u.toString()}catch(x){}})})();</script>`;
 
 const pages = []; // {loc, path, kind, group, updated, html}
 const cards = []; // verse cards to render (scripts/cards.mjs); also listed in public/social.json for the weekly social pack
@@ -208,6 +228,7 @@ ${body}
 ${langNav}
 <nav>${hubLocales.has(loc) ? `<a href="${L.hub}">${esc(t.hub)}</a>` : ''}${(featureLinks[loc] || []).map((f) => `<a href="${f.path}">${esc(f.label)}</a>`).join('')}<a href="/privacy">${esc(t.privacy)}</a><a href="/terms">${esc(t.terms)}</a><a href="/support">${esc(t.support)}</a></nav>
 </div></footer>
+${AI_REF_SCRIPT}
 </body>
 </html>
 `;
@@ -326,7 +347,7 @@ ${cta(loc, c.slug, 'appstore-end')}
     const card = cardBase(loc, 'topics', c.slug);
     cards.push({ loc, slug: `topics/${c.slug}`, kind: 'topic', url: abs(p), h1: c.h1, title: c.title, description: c.description,
       label: c.h1, verse: verse(hero, L.bible), ref: refLabel(hero, loc), sub: `${count} ${L.t.verses}`, image: card });
-    pages.push({ loc, path: p, kind: 'topics', updated: c.updated, html: layout({ loc, path: p, group: `topic:${tp.id}`, title: c.title, description: c.description, body, schema, image: `${card}-og.png` }) });
+    pages.push({ loc, path: p, kind: 'topics', updated: c.updated, h1: c.h1, desc: c.description, html: layout({ loc, path: p, group: `topic:${tp.id}`, title: c.title, description: c.description, body, schema, image: `${card}-og.png` }) });
   }
 }
 
@@ -350,6 +371,7 @@ ${(s.refs || []).map((r) => `<blockquote class="verse"><p>${esc(verse(r, L.bible
 ${crumbs.html}
 <h1>${esc(c.h1)}</h1>
 <p class="lede">${esc(c.intro)}</p>
+<p class="meta">${esc(L.t.updated)} <time datetime="${c.updated}">${c.updated}</time></p>
 ${storeBadge(loc, c.slug, 'appstore-top')}
 ${sections.join('\n')}
 ${faq.length ? `<section class="faq"><h2>${esc(L.t.faq)}</h2>${faq.map((f) => `<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('')}</section>` : ''}
@@ -360,9 +382,10 @@ ${cta(loc, c.slug, 'appstore-end')}
       {
         '@context': 'https://schema.org', '@type': 'WebPage', name: c.h1, description: c.description, inLanguage: L.lang, url: abs(p),
         dateModified: c.updated,
-        about: { '@type': 'MobileApplication', name: 'Bible Verse Alarm', operatingSystem: 'iOS', applicationCategory: 'LifestyleApplication', installUrl: `https://apps.apple.com/app/id${APP_ID}` },
+        about: { '@id': `${SITE}/#app` }, publisher: { '@id': `${SITE}/#org` },
       },
       crumbs.schema,
+      entityGraph(loc),
     ];
     if (faq.length) schema.push({
       '@context': 'https://schema.org', '@type': 'FAQPage',
@@ -373,7 +396,7 @@ ${cta(loc, c.slug, 'appstore-end')}
     const card = cardBase(loc, 'features', c.slug);
     cards.push({ loc, slug: `features/${c.slug}`, kind: 'feature', url: abs(p), h1: c.h1, title: c.title, description: c.description,
       label: c.nav || c.h1, verse: fHero ? verse(fHero, L.bible) : c.intro, ref: fHero ? refLabel(fHero, loc) : '', sub: '', image: card });
-    pages.push({ loc, path: p, kind: 'features', updated: c.updated, html: layout({ loc, path: p, group: `feature:${ft.id}`, title: c.title, description: c.description, body, schema, ogType: 'website', image: `${card}-og.png` }) });
+    pages.push({ loc, path: p, kind: 'features', updated: c.updated, h1: c.h1, desc: c.description, html: layout({ loc, path: p, group: `feature:${ft.id}`, title: c.title, description: c.description, body, schema, ogType: 'website', image: `${card}-og.png` }) });
   }
 }
 
@@ -419,11 +442,7 @@ ${c.sections.map((s) => `<section><h2>${esc(s.heading)}</h2><p>${esc(s.body)}</p
 ${topicLinks.length ? `<section class="related"><h2>${esc(L.t.hub)}</h2><ul>${topicLinks.join('')}<li><a href="${L.hub}">${esc(L.t.hub)} →</a></li></ul></section>` : ''}
 ${c.faq?.length ? `<section class="faq"><h2>${esc(L.t.faq)}</h2>${c.faq.map((f) => `<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('')}</section>` : ''}
 </main>`;
-    const schema = [{
-      '@context': 'https://schema.org', '@type': 'MobileApplication', name: 'Bible Verse Alarm', operatingSystem: 'iOS',
-      applicationCategory: 'LifestyleApplication', inLanguage: L.lang, description: c.description,
-      url: abs(L.prefix), installUrl: `https://apps.apple.com/app/id${APP_ID}`, image: `${SITE}/assets/icon.png`,
-    }];
+    const schema = [entityGraph(loc)];
     if (c.faq?.length) schema.push({
       '@context': 'https://schema.org', '@type': 'FAQPage',
       mainEntity: c.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
@@ -440,7 +459,9 @@ fs.cpSync(path.join(ROOT, 'static'), OUT, { recursive: true });
 const homeAlts = alternates.get('home');
 const homeHead = Object.entries(homeAlts).flatMap(([l, ap]) => LOCALES[l].hreflang.map((h) => `<link rel="alternate" hreflang="${h}" href="${abs(ap)}" />`)).join('\n  ');
 const indexPath = path.join(OUT, 'index.html');
-fs.writeFileSync(indexPath, fs.readFileSync(indexPath, 'utf8').replace('<!-- HREFLANG -->', homeHead));
+fs.writeFileSync(indexPath, fs.readFileSync(indexPath, 'utf8')
+  .replace('<!-- HREFLANG -->', `${homeHead}\n  ${ld(entityGraph('en'))}`)
+  .replace('</body>', `${AI_REF_SCRIPT}\n</body>`));
 
 for (const pg of pages) {
   const file = path.join(OUT, pg.path || 'index', 'index.html');
@@ -468,7 +489,28 @@ fs.writeFileSync(path.join(OUT, 'sitemap.xml'), `<?xml version="1.0" encoding="U
 ${Object.keys(sm).sort().map((n) => `<sitemap><loc>${SITE}/sitemaps/${n}.xml</loc></sitemap>`).join('\n')}
 </sitemapindex>
 `);
-fs.writeFileSync(path.join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /feedback\n\nSitemap: ${SITE}/sitemap.xml\n`);
+const AIC = ENTITY.ai_crawlers;
+const group = (agents, allow) => agents.map((a) => `User-agent: ${a}`).join('\n') + (allow ? '\nAllow: /\nDisallow: /feedback\n' : '\nDisallow: /\n');
+fs.writeFileSync(path.join(OUT, 'robots.txt'), [
+  'User-agent: *\nAllow: /\nDisallow: /feedback\n',
+  '# Search engines and AI answer engines: allowed, so we can be found and cited',
+  group(AIC.search, true),
+  `# AI training crawlers: ${AIC.allow_training ? 'allowed' : 'blocked'} (seo/entity.json allow_training)`,
+  group(AIC.training, AIC.allow_training),
+  `Sitemap: ${SITE}/sitemap.xml\n`,
+].join('\n'));
+
+// llms.txt (llmstxt.org): a plain map of the site for AI agents. Minimal on purpose.
+const llmsList = (kind, loc) => pages.filter((pg) => pg.kind === kind && pg.loc === loc).map((pg) => `- [${pg.h1}](${abs(pg.path)}): ${pg.desc}`);
+fs.writeFileSync(path.join(OUT, 'llms.txt'), [
+  `# ${ENTITY.name}`, '', `> ${ENTITY.one_liner.en}`, '',
+  ...ENTITY.facts.en.map((f) => `- ${f}`), `- App Store: ${ENTITY.app_store_url}`, '',
+  '## App pages', ...llmsList('features', 'en'), '',
+  '## Bible verses by topic (English)', ...llmsList('topics', 'en'), '',
+  '## Other languages',
+  ...Object.keys(LOCALES).filter((l) => l !== 'en').map((l) => `- ${LANG_LABEL[l]}: ${abs(LOCALES[l].prefix)}`),
+  '',
+].join('\n'));
 fs.writeFileSync(path.join(OUT, `${INDEXNOW_KEY}.txt`), INDEXNOW_KEY);
 
 renderCards(OUT, cards);

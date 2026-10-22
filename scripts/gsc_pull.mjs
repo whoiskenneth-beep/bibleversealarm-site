@@ -64,6 +64,16 @@ fs.mkdirSync(path.dirname(histPath), { recursive: true });
 fs.writeFileSync(histPath, [header, ...kept, ...fresh].join('\n') + '\n');
 console.log(`GSC: ${rows.length} rows for ${start}..${end}`);
 
+// ---- Search appearance (AI Overviews / AI Mode show up here if Google exposes them for our property) ----
+try {
+  const sa = await api(`https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(PROPERTY)}/searchAnalytics/query`, {
+    startDate: day(28), endDate: end, dimensions: ['searchAppearance'], rowLimit: 100, dataState: 'all',
+  });
+  fs.mkdirSync(path.join(ROOT, 'seo/data'), { recursive: true });
+  fs.writeFileSync(path.join(ROOT, 'seo/data/search_appearance.json'), JSON.stringify({ checked: day(0), rows: sa.rows || [] }, null, 1));
+  console.log('Search appearance types:', (sa.rows || []).map((r) => r.keys[0]).join(', ') || 'none yet');
+} catch (e) { console.log('search appearance:', String(e.message).slice(0, 120)); }
+
 // ---- URL Inspection for every sitemap URL (quota 2000/day; fine at our size) ----
 const urls = [];
 for (const sm of fs.readdirSync(path.join(ROOT, 'public/sitemaps'))) {
