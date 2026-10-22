@@ -5,6 +5,7 @@ Writers and QA check every claim about the app against this list. If it isn't he
 **True now (App Store version 2.4.0, live; confirmed via seo/data/app_store.json 2026-10-22)**
 - iPhone app. No Android version yet (don't promise one).
 - An alarm that keeps ringing until you complete a short Bible "mission". Default mission: rebuild a verse word by word. Another: type the verse. (A prayer mission exists in the code; confirm it is in the live build before mentioning it.)
+- You choose which verses each alarm uses (the alarm editor's verse stack).
 - Uses Apple's AlarmKit: rings even when the phone is on Silent or in a Focus mode.
 - No account, no login. The Bible text is bundled and works offline.
 - App languages: English, Spanish, Korean, Chinese. The app follows the iPhone's language (there is no in-app language picker).
