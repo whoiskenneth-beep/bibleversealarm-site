@@ -7,6 +7,8 @@ The bot runs unattended with push rights, so fewer dependencies = less supply-ch
 | Tool | Why | Vetting |
 |---|---|---|
 | `opencc-js` 1.4.2 (npm) | Traditional → Simplified Chinese conversion (Taiwan phrases → mainland/SG/MY wording) for zh-hans pages | github.com/nk2028/opencc-js: 361★, last push 2026-09-21, 2 open issues, MIT + Apache-2.0, pure JS, no install scripts. Pinned exact version. |
+| `@resvg/resvg-js` 2.6.2 (npm) | Renders the verse-card SVGs to PNG at build time (Pinterest/Threads cards + og:image) | github.com/thx/resvg-js: 2,003★, last push 2026-06-30, MPL-2.0, prebuilt native binaries per platform via optionalDependencies, no install scripts. Pinned exact version. |
+| Fonts in `data/fonts/` | Fraunces (Latin) + Noto Serif TC/SC/KR, all SIL Open Font License (`data/fonts/OFL.txt`) | Downloaded from github.com/google/fonts (Google's official repo). Weights pinned and subset offline with fonttools 4.60.1 to the CUV/KRV Bible characters + Big5/GB2312/KS X 1001 common sets + site content (65 MB → 6 MB). If a card shows a missing (tofu) character, re-run the subset with that text added. |
 
 ## Built in-house (no dependencies)
 | Script | Does |
@@ -15,6 +17,8 @@ The bot runs unattended with push rights, so fewer dependencies = less supply-ch
 | `scripts/check.mjs` | Merge gate: broken internal links, hreflang reciprocity/self-ref, canonical = URL, unique titles/descriptions, orphans, sitemap drift, JSON-LD validity, 150KB page budget |
 | `scripts/gsc_pull.mjs` | Search Console Search Analytics + URL Inspection via service-account JWT (no googleapis SDK) |
 | `scripts/suggest.mjs` | Google autocomplete (per language/country) + Naver autocomplete keyword expansion |
+| `scripts/cards.mjs` | Verse cards: 1000×1500 pin + 1200×630 og image per topic/feature page (`public/cards/`) |
+| `scripts/social_pack.mjs` | Weekly posting pack: Pinterest bulk-upload CSV + Threads copy-paste posts (`seo/social/packs/`) |
 | `scripts/indexnow.mjs` | IndexNow ping for changed URLs only (covers Bing, Naver, Yandex, Seznam) |
 
 ## Evaluated, not installed
@@ -26,4 +30,4 @@ The bot runs unattended with push rights, so fewer dependencies = less supply-ch
 | Paid SEO MCPs (Ahrefs, Semrush, DataForSEO) | Not free. |
 | Firecrawl plugin | Free tier too small for daily use; needs auth. |
 | Google Indexing API | Only for job postings/livestreams. Never use it for these pages. |
-| `@resvg/resvg-js` (OG/verse-card images) | Candidate for per-page OG images + Pinterest cards. Needs vetting + CJK fonts. Backlog. |
+| Postiz / Pinterest + Threads APIs | Kenneth chose a manual weekly pack instead (2026-10-22): no developer apps, tokens or approvals. Revisit if the pack brings clicks. |

@@ -27,14 +27,15 @@ gh secret set GSC_SERVICE_ACCOUNT_JSON --repo whoiskenneth-beep/bibleversealarm-
 - **My recommendation: ask the Korean Bible Society directly** (email is free, and their answer covers the app too): "Is 개역한글 (1961) free to quote on a website and in an app?". Meanwhile the bot only publishes Korean pages without verses.
 To approve: tell any Claude session "approve 개역한글". It will copy `krv.json`, mark it USE in `seo/LICENSES.md` and unblock Korean.
 
-## 3. Social accounts to prepare (for verse-card posts that link back)
-In order of value:
-1. **Pinterest Business account** (English + Spanish). Pinterest is the biggest free traffic source for "Bible verses about…" searches. Steps: pinterest.com/business/create → claim the website bibleversealarm.com (Pinterest gives you a meta tag: send it to Claude, who adds it to the site).
-2. **Threads** (Traditional Chinese for Taiwan/HK, plus English). Needs an Instagram account. Threads is big in Taiwan, as you said.
-3. **Instagram**: required for Threads anyway; reuse the same cards.
-4. **Facebook Page** (Spanish / Latin America, where Facebook is still strong for devotional content).
-5. Later, once Korean is unblocked: **Naver Blog**. Naver ranks its own blogs above most websites.
-Connect each one to **Postiz** (you already use it for the quiz shorts). The bot then drafts posts there for you to approve, the same flow as your videos.
+## 3. Social posting: weekly pack (about 10 min/week)
+Every Monday 08:30 MYT the bot puts a new folder in `seo/social/packs/<date>/` (view it on GitHub:
+https://github.com/whoiskenneth-beep/bibleversealarm-site/tree/main/seo/social/packs). The first pack is already there.
+**Pinterest (one-time setup, then 2 min/week):**
+1. Create a free **Pinterest Business** account (pinterest.com/business/create). Claim the website bibleversealarm.com, and send the meta tag Pinterest gives you to Claude so it can add it to the site.
+2. Create two boards with EXACTLY these names: `Bible Verses` and `Versículos de la Biblia`.
+3. Each week: Pinterest → Settings → **Bulk create Pins** → upload that week's `pinterest.csv`. If Pinterest complains about a column, download its template, tell Claude, and the bot's file will be adjusted.
+**Threads (2 min/day, or schedule them all at once in the Threads app):** open `threads.md` and paste one post a day. The image is optional.
+Later, once Korean is unblocked: Naver Blog. Naver ranks its own blogs above most websites.
 
 ## 4. Naver Search Advisor (Korea's main search engine)
 1. Go to searchadvisor.naver.com, sign in with a Naver account (making one needs a Korean phone number or a foreign email signup).

@@ -11,6 +11,7 @@ Owner: Kenneth (beginner-friendly explanations, concise). Budget: $0 (only free 
 | 04:00 daily | 20:00 | `data.yml`: GSC rankings + indexation, autocomplete, App Store languages → commits `seo/` | GitHub Actions (free, public repo) |
 | 06:00 daily | 22:00 | **Run A**: en + es (see `seo/RUN.md`) | Claude cloud routine |
 | 18:00 daily | 10:00 | **Run B**: zh-hant (→ zh-hans) + ko | Claude cloud routine |
+| Mon 08:30 weekly | 00:30 | `social.yml`: weekly posting pack → `seo/social/packs/<date>/` (Kenneth posts it by hand) | GitHub Actions |
 | on every bot push | | `ship.yml`: guard → build → checks → merge to main → wait for deploy → IndexNow | GitHub Actions |
 
 Bot runs push to a `claude/seo-*` branch, never to `main`. `ship.yml` is the only path to `main`.
@@ -35,7 +36,7 @@ Every change to velocity is appended to `governor.json.history` with the date an
 1. GSC + Bing connected (separate session doing it; see `seo/GSC_SETUP.md` when it exists). Then add GitHub secret `GSC_SERVICE_ACCOUNT_JSON`.
 2. More topic pages per keyword map: peace, fear, hope, sleep/night, comfort, grief, healing, gratitude, encouragement, faith, love, patience, forgiveness, marriage, family, work, exams, birthdays, new year.
 3. App-intent feature pages first in every locale (`app-alarm`, `app-memorize`, `app-devotional` clusters): they're the install drivers. "bible app" itself is rejected (YouVersion owns it; it's an App Store/ASO fight).
-4. OG images + vertical verse cards (vet `@resvg/resvg-js`), then Pinterest/Threads via Postiz.
+4. DONE 2026-10-22: verse cards + og images; weekly Pinterest/Threads pack. Next: outreach drafts (item 7).
 5. Book key-verses template; verse-of-the-day archive.
 6. Comparison pages (factual): "Bible verse alarm apps", vs. Alarmy/Glorify-style alternatives.
 7. Embeddable verse-of-the-day widget + printable verse sets (linkable assets); outreach drafts in `seo/outreach/`.

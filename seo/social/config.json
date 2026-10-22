@@ -1,0 +1,5 @@
+{
+  "_about": "Weekly posting pack (scripts/social_pack.mjs, .github/workflows/social.yml). Board names must match boards that exist on the Pinterest account.",
+  "pinterest": { "per_week": 7, "boards": { "en": "Bible Verses", "es": "Versículos de la Biblia" } },
+  "threads": { "per_week": 7, "locales": ["zh-hant", "en"] }
+}

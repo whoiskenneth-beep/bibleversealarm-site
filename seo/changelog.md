@@ -2,6 +2,7 @@
 
 Newest first. One line per shipped change: date, run, locale, what, why.
 
+- 2026-10-22 manual: verse-card generator (pin + og image for every topic/feature page; og:image now per page) and weekly social pack (Pinterest bulk CSV + Threads posts, Mondays). First pack: seo/social/packs/2026-10-22/.
 - 2026-10-22 run A (en): new page /bible-verses-about/encouragement (16 verses, QA PASS); scouted 10 planned keywords. Linked from anxiety/morning/strength.
 - 2026-10-22 run A (es): new page /es/versiculos-biblicos/dormir (17 verses); scouted 10 planned keywords. Linked from sibling pages.
 - 2026-10-22 run A: no optimization done (no GSC data yet in history.csv); governor held.

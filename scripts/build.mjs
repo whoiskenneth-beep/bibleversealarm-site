@@ -7,6 +7,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import * as OpenCC from 'opencc-js';
+import { renderCards } from './cards.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const OUT = path.join(ROOT, 'public');
@@ -133,6 +134,13 @@ const storeLink = (loc, slug) => {
 const ld = (obj) => `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, '\\u003c')}</script>`;
 
 const pages = []; // {loc, path, kind, group, updated, html}
+const cards = []; // verse cards to render (scripts/cards.mjs); also listed in public/social.json for the weekly social pack
+const cardBase = (loc, kind, slug) => `/cards/${loc}/${kind}/${slug}`;
+// The card verse: content may pin one with "card_ref"; otherwise the first ref short enough to read on a phone.
+function heroRef(refs, loc, pinned) {
+  const max = loc.startsWith('zh') || loc === 'ko' ? 70 : 200;
+  return pinned || refs.find((r) => verse(r, LOCALES[loc].bible).length <= max) || refs[0];
+}
 const alternates = new Map(); // group -> {loc: path}
 
 function register(group, loc, p) {
@@ -152,7 +160,7 @@ function cta(loc, slug, id) {
   return `<aside class="cta-card"><h2>${esc(t.ctaTitle)}</h2><p>${esc(t.ctaBody)}</p>${storeBadge(loc, slug, id)}</aside>`;
 }
 
-function layout({ loc, path: p, group, title, description, body, schema = [], ogType = 'article' }) {
+function layout({ loc, path: p, group, title, description, body, schema = [], ogType = 'article', image }) {
   const L = LOCALES[loc];
   const t = L.t;
   const alts = alternates.get(group) || { [loc]: p };
@@ -180,8 +188,8 @@ ${hreflang}
 <meta property="og:type" content="${ogType}" />
 <meta property="og:url" content="${abs(p)}" />
 <meta property="og:locale" content="${L.ogLocale}" />
-<meta property="og:image" content="${SITE}/assets/icon.png" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:image" content="${image ? SITE + image : `${SITE}/assets/icon.png`}" />
+${image ? '<meta property="og:image:width" content="1200" />\n<meta property="og:image:height" content="630" />\n' : ''}<meta name="twitter:card" content="${image ? 'summary_large_image' : 'summary'}" />
 <meta name="theme-color" content="#14112C" />
 <link rel="icon" href="/assets/icon.png" />
 <link rel="apple-touch-icon" href="/assets/icon.png" />
@@ -313,7 +321,12 @@ ${cta(loc, c.slug, 'appstore-end')}
       '@context': 'https://schema.org', '@type': 'FAQPage',
       mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
     });
-    pages.push({ loc, path: p, kind: 'topics', updated: c.updated, html: layout({ loc, path: p, group: `topic:${tp.id}`, title: c.title, description: c.description, body, schema }) });
+    const allRefs = c.groups.flatMap((g) => g.refs);
+    const hero = heroRef(allRefs, loc, c.card_ref);
+    const card = cardBase(loc, 'topics', c.slug);
+    cards.push({ loc, slug: `topics/${c.slug}`, kind: 'topic', url: abs(p), h1: c.h1, title: c.title, description: c.description,
+      label: c.h1, verse: verse(hero, L.bible), ref: refLabel(hero, loc), sub: `${count} ${L.t.verses}`, image: card });
+    pages.push({ loc, path: p, kind: 'topics', updated: c.updated, html: layout({ loc, path: p, group: `topic:${tp.id}`, title: c.title, description: c.description, body, schema, image: `${card}-og.png` }) });
   }
 }
 
@@ -355,7 +368,12 @@ ${cta(loc, c.slug, 'appstore-end')}
       '@context': 'https://schema.org', '@type': 'FAQPage',
       mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
     });
-    pages.push({ loc, path: p, kind: 'features', updated: c.updated, html: layout({ loc, path: p, group: `feature:${ft.id}`, title: c.title, description: c.description, body, schema, ogType: 'website' }) });
+    const fRefs = c.sections.flatMap((s) => s.refs || []);
+    const fHero = fRefs.length ? heroRef(fRefs, loc, c.card_ref) : null;
+    const card = cardBase(loc, 'features', c.slug);
+    cards.push({ loc, slug: `features/${c.slug}`, kind: 'feature', url: abs(p), h1: c.h1, title: c.title, description: c.description,
+      label: c.nav || c.h1, verse: fHero ? verse(fHero, L.bible) : c.intro, ref: fHero ? refLabel(fHero, loc) : '', sub: '', image: card });
+    pages.push({ loc, path: p, kind: 'features', updated: c.updated, html: layout({ loc, path: p, group: `feature:${ft.id}`, title: c.title, description: c.description, body, schema, ogType: 'website', image: `${card}-og.png` }) });
   }
 }
 
@@ -452,6 +470,9 @@ ${Object.keys(sm).sort().map((n) => `<sitemap><loc>${SITE}/sitemaps/${n}.xml</lo
 `);
 fs.writeFileSync(path.join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /feedback\n\nSitemap: ${SITE}/sitemap.xml\n`);
 fs.writeFileSync(path.join(OUT, `${INDEXNOW_KEY}.txt`), INDEXNOW_KEY);
+
+renderCards(OUT, cards);
+fs.writeFileSync(path.join(OUT, 'social.json'), JSON.stringify(cards.map(({ label, sub, ...c }) => ({ ...c, pin: `${SITE}${c.image}-pin.png`, og: `${SITE}${c.image}-og.png` })), null, 1));
 
 // pages.json lets CI diff two builds and ping IndexNow only for changed URLs.
 const manifest = Object.fromEntries(pages.map((pg) => [abs(pg.path), crypto.createHash('sha1').update(pg.html).digest('hex').slice(0, 12)]));
