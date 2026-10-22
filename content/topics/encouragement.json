@@ -1,0 +1,42 @@
+{
+  "id": "encouragement",
+  "related": ["strength", "anxiety", "morning"],
+  "locales": {
+    "en": {
+      "slug": "encouragement",
+      "title": "16 Bible Verses for Encouragement When You're Down",
+      "description": "Bible verses for encouragement when you feel low, alone or tired, plus verses for lifting up others. Grouped by need, each with a short reflection.",
+      "h1": "Bible verses for encouragement",
+      "intro": "Encouragement means to put courage into someone. The writers of these verses were often exiles, grieving or under pressure, so they do not offer cheap cheer. They point to a God who is close, and to people who can carry you. Start with the group that fits today, and share a verse with someone who needs it.",
+      "published": "2026-10-22",
+      "updated": "2026-10-22",
+      "groups": [
+        {
+          "heading": "When you feel discouraged",
+          "reflection": "Psalm 42 is a man talking to his own soul, asking why it is so heavy, and then answering himself with hope in God. He does not pretend the heaviness is gone. Isaiah 43:2 was spoken to Israel and says water and fire will come, but you will not face them alone. Honest feelings and real hope can sit side by side.",
+          "refs": ["Psalms 34:18", "Psalms 42:11", "Isaiah 43:2", "Romans 15:13"]
+        },
+        {
+          "heading": "When you feel alone",
+          "reflection": "Moses spoke Deuteronomy 31:8 to Joshua, who was about to lead a nation without him. The comfort was not a plan but a presence: the Lord goes ahead. David wrote about the dark valley and said what mattered was that God was with him there. Paul closes the case in Romans 8 with a list of everything that cannot separate you from God's love.",
+          "refs": ["Deuteronomy 31:8", "Zephaniah 3:17", "Psalms 23:4", "Romans 8:38-39"]
+        },
+        {
+          "heading": "Encouraging someone else",
+          "reflection": "The New Testament treats encouragement as a normal habit, not a special gift. Paul tells the Thessalonians to keep building each other up. Hebrews was written to believers under pressure and asks them to meet, spur one another on, and speak up daily before discouragement hardens. A short, kind sentence can matter more than you expect, as Proverbs says.",
+          "refs": ["1 Thessalonians 5:11", "Hebrews 10:24-25", "Hebrews 3:13", "Proverbs 16:24"]
+        },
+        {
+          "heading": "When you need hope for what's ahead",
+          "reflection": "Jeremiah 29:11 is a letter to exiles in Babylon who were told to settle in and wait; the hope was real, but it was long. Psalm 126 remembers a return from exile and says those who sow in tears will reap with joy. Romans 8:28 and 5:3-5 do not call suffering good. They say God is at work in it.",
+          "refs": ["Jeremiah 29:11", "Romans 8:28", "Romans 5:3-5", "Psalms 126:5-6"]
+        }
+      ],
+      "faq": [
+        { "q": "What is the best Bible verse for encouragement?", "a": "Many people turn to Isaiah 41:10, Joshua 1:9 or Psalm 34:18. For a low day, Psalm 34:18 is a good start: the Lord is near the brokenhearted. For encouraging a friend, try 1 Thessalonians 5:11." },
+        { "q": "What does the Bible say about encouraging others?", "a": "It treats it as a daily habit. 1 Thessalonians 5:11 says to encourage and build each other up, and Hebrews 3:13 says to do it every day. Hebrews 10:24-25 ties it to meeting together." },
+        { "q": "What Bible verse can I send to someone who is struggling?", "a": "Keep it short and kind. Psalm 34:18, Deuteronomy 31:8 and Romans 15:13 work well. Add a line about why you thought of them. A personal note often helps more than the verse alone." }
+      ]
+    }
+  }
+}

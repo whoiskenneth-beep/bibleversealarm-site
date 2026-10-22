@@ -1,4 +1,14 @@
 keyword,intent,cluster,target_page,priority,status
 versículos para la ansiedad,informational,anxiety,/es/versiculos-biblicos/ansiedad,high,published
+versículos de la biblia para animar,informational,encouragement,,high,planned
+versículos de la biblia para vencer el miedo,informational,fear,,high,planned
+versículos de la biblia para sanidad,informational,healing,,high,planned
 versículos para la mañana,informational,morning,/es/versiculos-biblicos/para-la-manana,high,published
+versículos de la biblia para tener paz,informational,peace,,high,planned
+versículos de la biblia para dormir,informational,sleep,/es/versiculos-biblicos/dormir,high,published
 versículos de fortaleza,informational,strength,/es/versiculos-biblicos/fortaleza,high,published
+versículos de la biblia para fortalecer la fe,informational,faith,,medium,planned
+versículos de la biblia para pedir perdón,informational,forgiveness,,medium,planned
+versículos bíblicos de agradecimiento,informational,gratitude,,medium,planned
+versículos bíblicos de amor,informational,love,,medium,planned
+versículos de la biblia para el matrimonio,informational,marriage,,medium,planned
