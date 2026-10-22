@@ -14,7 +14,11 @@ const LOCS = (process.env.GEO_LOCALES || 'en,es,zh,ko').split(',');
 const today = new Date().toISOString().slice(0, 10);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-const US = [/bible\s*verse\s*alarm/i, /bibleversealarm/i];
+// Our name is also a generic phrase ("a Bible verse alarm app"), so a mention counts only as the proper
+// name (exact capitals) or the domain; when the prompt itself says "verse alarm", only a listed product
+// (**Bible Verse Alarm** in markdown) or the domain counts.
+const US_STRICT = [/\*\*Bible Verse Alarm\*\*/, /bibleversealarm/i];
+const US_NAME = [/Bible Verse Alarm(?! apps?\b)/, /bibleversealarm/i];
 const COMPETITORS = ['YouVersion', 'Bible App', 'Glorify', 'Hallow', 'Abide', 'Pray.com', 'Alarmy', 'Dwell', 'Lectio 365',
   'Bible Memory', 'Verses', 'Scripture Typer', 'Remember Me', 'Fighter Verses', 'Bible Gateway', 'Olive Tree', 'Logos',
   'Daily Bible Verse', 'iDisciple', 'First 5', 'Bible Chat', 'Faith Alarm', 'Christian Alarm', 'Morning Prayer'];
@@ -39,7 +43,8 @@ async function ask(prompt, model = MODEL, search = SEARCH) {
   return { text, chunks };
 }
 
-function score(text, chunks) {
+function score(text, chunks, prompt) {
+  const US = /verse alarm|鬧鐘|闹钟|알람|alarma/i.test(prompt) ? US_STRICT : US_NAME;
   const hits = US.map((re) => text.search(re)).filter((i) => i >= 0);
   const named = COMPETITORS.map((n) => ({ n, i: text.toLowerCase().indexOf(n.toLowerCase()) })).filter((x) => x.i >= 0);
   const cited = chunks.find((c) => /bibleversealarm/i.test(c)) || '';
@@ -48,7 +53,8 @@ function score(text, chunks) {
     const ours = Math.min(...hits);
     position = 1 + named.filter((x) => x.i < ours).length; // rank among apps named in the answer
   }
-  return { mentioned: hits.length ? 'y' : 'n', cited, position, competitors: named.sort((a, b) => a.i - b.i).map((x) => x.n).join('|') };
+  const snippet = hits.length ? text.slice(Math.max(0, Math.min(...hits) - 120), Math.min(...hits) + 180).replace(/\s+/g, ' ') : '';
+  return { snippet, mentioned: hits.length ? 'y' : 'n', cited, position, competitors: named.sort((a, b) => a.i - b.i).map((x) => x.n).join('|') };
 }
 
 if (!KEY) { console.log('GEMINI_API_KEY not set; skipping prompt panel'); process.exit(0); }
@@ -82,7 +88,7 @@ if (!MODEL) { console.log('No free Gemini access for this key (see seo/NEEDS_HUM
 const ENGINE = `gemini:${MODEL}${SEARCH ? '+search' : ''}`;
 console.log(`engine: ${ENGINE}`);
 const out = path.join(ROOT, 'geo/results.csv');
-if (!fs.existsSync(out)) fs.writeFileSync(out, 'date,engine,locale,prompt_id,type,run,mentioned,cited_url,position,competitors\n');
+if (!fs.existsSync(out)) fs.writeFileSync(out, 'date,engine,locale,prompt_id,type,run,mentioned,cited_url,position,competitors,snippet\n');
 
 let quotaHit = false;
 let errors = 0;
@@ -91,11 +97,12 @@ for (const loc of LOCS) {
   let n = 0, m = 0;
   for (const p of prompts) {
     for (let run = 1; run <= RUNS && !quotaHit; run++) {
-      const r = await ask(p.prompt);
+      let r = await ask(p.prompt);
+      if (/^50[03]/.test(r.error || '')) { await sleep(20000); r = await ask(p.prompt); } // model busy: one retry
       if (r.quota) { quotaHit = true; console.log(`quota reached at ${loc}/${p.id}; stopping (partial results kept)`); break; }
       if (r.error) { console.log(`${p.id} run ${run}: ${r.error}`); if (++errors >= 6 && n === 0) { console.log('6 errors before any success; stopping'); process.exit(1); } await sleep(7000); continue; }
-      const s = score(r.text, r.chunks);
-      fs.appendFileSync(out, [today, ENGINE, loc, p.id, p.type, run, s.mentioned, csv(s.cited), s.position, csv(s.competitors)].join(',') + '\n');
+      const s = score(r.text, r.chunks, p.prompt);
+      fs.appendFileSync(out, [today, ENGINE, loc, p.id, p.type, run, s.mentioned, csv(s.cited), s.position, csv(s.competitors), csv(s.snippet)].join(',') + '\n');
       n++; if (s.mentioned === 'y' || s.cited) m++;
       await sleep(7000); // stay under free-tier requests-per-minute
     }
