@@ -28,7 +28,7 @@ coreyhaines31/marketingskills (`programmatic-seo`), Illyism/seo-skills (`seo-tit
 
 ## 3. Who / How / Why (QA, and writers when relevant)
 Google's quality raters ask: **who** made this, **how**, and **why**. Our honest answers:
-- Who: the Bible Verse Alarm team (Organization byline). Never invent a pastor, author or credential.
+- Who: the real author in `seo/entity.json` (`author`), shown as the byline on every page and linked to the About page (`/about`, per language). The template adds the byline: writers never write their own. Never add another person, pastor, credential or "reviewed by" claim beyond what the About page states.
 - How: verses quoted from named public-domain Bibles; reflections written for the page. No fake "reviewed by" claims.
 - Why: to help someone find Scripture for what they're facing. The page must serve that before it promotes the app.
 - Pages on anxiety, depression, grief or health are "your money or your life"-adjacent: be careful, point to real help, no promises.
