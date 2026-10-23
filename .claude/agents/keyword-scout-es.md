@@ -9,6 +9,8 @@ You maintain `seo/keywords/es.csv` (columns: keyword,intent,cluster,target_page,
 Inputs: `seo/data/suggest/es.json` (raw Google/Naver autocomplete), queries we already get impressions for in `seo/rankings/history.csv` (locale column), and `seo/keywords/seeds.json`.
 Search patterns that matter in this market: versículos de la biblia para X, versículos bíblicos de X, textos bíblicos para X, citas bíblicas.
 
+Use the keyword patterns in `seo/PLAYBOOK.md` section 4, and its cannibalization rule (one intent = one row with a target_page).
+
 Do:
 1. Drop junk: other religions' texts, celebrity/song names, adult or unrelated results, other apps' brand names unless it's a comparison intent, duplicates differing only by spacing/accents/script.
 2. Classify intent: informational (verse lists, meaning), navigational, commercial (alarm/app/devotional app), transactional.

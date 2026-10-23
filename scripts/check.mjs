@@ -108,6 +108,48 @@ for (const m of index.matchAll(/<loc>([^<]+)<\/loc>/g)) {
 for (const u of sitemapUrls) if (!pages[u]) err(`sitemap lists ${u} but no page exists`);
 for (const [url, p] of indexable) if (!sitemapUrls.has(url)) err(`${p.file}: indexable page missing from sitemaps`);
 
+// Uniqueness (adapted from AgriciDaniel/claude-seo seo-programmatic gates): share of a page's own writing
+// (main content minus quoted verses) whose 5-grams appear on no other generated page in the same locale.
+// < 30% = scaled-content risk (error), < 40% = warn. Thin pages (< 300 words of own writing; CJK: < 600 chars) warn.
+const ownText = (html) => (html.match(/<main[\s\S]*?<\/main>/) || [''])[0]
+  .replace(/<blockquote[\s\S]*?<\/blockquote>/g, ' ').replace(/<aside[\s\S]*?<\/aside>/g, ' ')
+  .replace(/<nav[\s\S]*?<\/nav>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/&[a-z#0-9]+;/g, ' ');
+const grams = (text, cjk) => {
+  const toks = cjk ? [...text.replace(/[\s\p{P}]/gu, '')] : text.toLowerCase().split(/[^\p{L}\p{N}']+/u).filter(Boolean);
+  const n = cjk ? 8 : 5;
+  const out = [];
+  for (let i = 0; i + n <= toks.length; i++) out.push(toks.slice(i, i + n).join(cjk ? '' : ' '));
+  return { toks: toks.length, set: new Set(out), list: out };
+};
+const generated = indexable.filter(([u]) => /\/(bible-verses-about|versiculos-biblicos|jingwen|seonggu)\/|\/(es|ko|zh-hant|zh-hans)\/[^/]+$|^https:\/\/bibleversealarm\.com\/[^/]+$/.test(u)
+  && !/\/(privacy|support|terms|feedback|es|ko|zh-hant|zh-hans|bible-verses-about|versiculos-biblicos|jingwen|seonggu)$/.test(u));
+const byLang = {};
+for (const [url, p] of generated) {
+  const cjk = /^zh/.test(p.lang || '');
+  (byLang[p.lang] ||= []).push({ url, p, cjk, g: grams(ownText(p.html), cjk) });
+}
+for (const list of Object.values(byLang)) {
+  for (const a of list) {
+    const others = new Set();
+    for (const b of list) if (b !== a) for (const x of b.g.set) others.add(x);
+    const uniq = a.g.list.length ? a.g.list.filter((x) => !others.has(x)).length / a.g.list.length : 1;
+    const pct = Math.round(uniq * 100);
+    if (process.env.UNIQ_REPORT) console.log(`${pct}% unique, ${a.g.toks} ${a.cjk ? 'chars' : 'words'}: ${a.p.file}`);
+    if (list.length > 1 && pct < 30) err(`${a.p.file}: only ${pct}% unique writing vs sibling pages (scaled-content risk, min 30%)`);
+    else if (list.length > 1 && pct < 40) warn.push(`${a.p.file}: ${pct}% unique writing vs siblings (aim for 40%+)`);
+    if (a.g.toks < (a.cjk ? 600 : 300)) warn.push(`${a.p.file}: thin, ${a.g.toks} ${a.cjk ? 'chars' : 'words'} of own writing`);
+  }
+}
+// Metadata shape: one title pattern on most pages of a locale reads as templated (claude-seo metadata_template idea).
+for (const [lang, list] of Object.entries(byLang)) {
+  if (list.length < 5) continue;
+  const shape = (t) => (t || '').replace(/\d+/g, '#').split(/\s+/).slice(0, 3).join(' ');
+  const counts = {};
+  for (const a of list) counts[shape(a.p.title)] = (counts[shape(a.p.title)] || 0) + 1;
+  const [top, n] = Object.entries(counts).sort((x, y) => y[1] - x[1])[0];
+  if (n / list.length > 0.6) warn.push(`${lang}: ${n}/${list.length} titles start "${top}…"; vary title patterns`);
+}
+
 for (const w of warn) console.warn('warn:', w);
 if (errors.length) {
   console.error(errors.map((e) => 'ERROR: ' + e).join('\n'));

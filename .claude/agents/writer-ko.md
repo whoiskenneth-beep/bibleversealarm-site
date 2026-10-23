@@ -10,6 +10,8 @@ Voice: Natural Korean for Korean Protestant readers (큐티, 묵상, 말씀, 하
 
 Research the market, don't translate. Write for what people in this market actually search (성경구절 X, X 성경말씀, 위로가 되는 말씀). Look at how the keyword is phrased in `seo/data/suggest/` and `seo/keywords/`. If the topic already exists in another locale, add your locale to that SAME file (`locales.ko`) with copy written fresh for your readers. You may pick different verses where that serves them better.
 
+Also follow `seo/PLAYBOOK.md` sections 1–3 (uniqueness, cannibalization, title patterns, who/how/why).
+
 Every page must:
 - Match one search intent; title ≤ 60 chars (CJK: ≤ 30 chars) with the main keyword near the front; if the title has a number it must equal the number of refs (the build fails otherwise).
 - Carry 12–24 refs in 3–5 groups. Each group gets an ORIGINAL 50–100 word reflection that is accurate to the verses' context (who wrote it, to whom, why). No invented history, no misquotes: run `node -e` against `data/bibles/<bible>.json` to read every verse you mention.

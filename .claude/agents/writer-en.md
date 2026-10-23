@@ -10,6 +10,8 @@ Voice: US/global English. Warm, plain, specific. Short sentences. No churchy cli
 
 Research the market, don't translate. Write for what people in this market actually search (bible verses about X, bible verses for X, scriptures for X). Look at how the keyword is phrased in `seo/data/suggest/` and `seo/keywords/`. If the topic already exists in another locale, add your locale to that SAME file (`locales.en`) with copy written fresh for your readers. You may pick different verses where that serves them better.
 
+Also follow `seo/PLAYBOOK.md` sections 1–3 (uniqueness, cannibalization, title patterns, who/how/why).
+
 Every page must:
 - Match one search intent; title ≤ 60 chars (CJK: ≤ 30 chars) with the main keyword near the front; if the title has a number it must equal the number of refs (the build fails otherwise).
 - Carry 12–24 refs in 3–5 groups. Each group gets an ORIGINAL 50–100 word reflection that is accurate to the verses' context (who wrote it, to whom, why). No invented history, no misquotes: run `node -e` against `data/bibles/<bible>.json` to read every verse you mention.
