@@ -19,3 +19,5 @@ Newest first. One line per shipped change: date, run, locale, what, why.
 - 2026-10-22 run A (es): new page /es/versiculos-biblicos/dormir (17 verses); scouted 10 planned keywords. Linked from sibling pages.
 - 2026-10-22 run A: no optimization done (no GSC data yet in history.csv); governor held.
 - 2026-10-22 setup (ship pipeline verified): site moved to its own repo; generator + checks + 5 locale homes; 3 topic pages (morning, anxiety, strength) in en/es/zh-hant/zh-hans; hreflang, sitemaps, schema, IndexNow, Smart App Banner, ct= store links.
+- 2026-10-23 run A (en): new feature page /bible-verse-alarm-faq (GEO trio: app-faq); QA REJECT then PASS on rewrite. No optimization (no GSC data yet); governor held.
+- 2026-10-23 run A (es): es locale added to /es/alarma-cristiana (cluster app-alarm); QA REJECT then PASS on rewrite. No optimization (no GSC data yet); governor held.

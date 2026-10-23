@@ -114,6 +114,63 @@
           "a": "目前沒有，只提供 iPhone 版，可在 App Store 下載。"
         }
       ]
+    },
+    "es": {
+      "slug": "alarma-cristiana",
+      "nav": "Alarma cristiana",
+      "title": "Alarma cristiana con versículos para iPhone",
+      "description": "Bible Verse Alarm es una alarma cristiana para iPhone: sigue sonando hasta que completas un versículo de la Biblia Reina-Valera 1909.",
+      "h1": "Alarma cristiana con versículos: despierta con la Palabra de Dios",
+      "intro": "Bible Verse Alarm es una alarma cristiana para iPhone. Sigue sonando hasta que completas un versículo corto de la Biblia, para que tu primer minuto del día sea para la Palabra de Dios y no para el celular.",
+      "published": "2026-10-23",
+      "updated": "2026-10-23",
+      "sections": [
+        {
+          "heading": "¿Cómo funciona una alarma cristiana con versículos?",
+          "body": "Pones la hora y eliges los versículos con los que quieres despertar. Cuando suena, la apagas armando el versículo palabra por palabra, o escribiéndolo.\n\nPara cuando terminas, ya estás despierto y ya leíste un pasaje de la Escritura."
+        },
+        {
+          "heading": "¿Suena aunque el celular esté en silencio?",
+          "body": "Sí. La app usa AlarmKit, la herramienta de alarmas de Apple, así que suena aunque el iPhone esté en modo Silencio o en un modo de Concentración. No se apaga hasta que completas el versículo, así que un toque medio dormido no la detiene."
+        },
+        {
+          "heading": "¿Por qué empezar el día con la Escritura?",
+          "body": "Lo primero que lees marca el tono del día, y esta alarma hace que eso sea la Escritura antes que el celular.\n\nEl salmo 63 se atribuye a David cuando estaba en el desierto de Judá: allí dice que a Dios lo busca desde temprano, con sed de él. El salmo 119 muestra a otro creyente que se adelanta al amanecer para clamar y esperar en la palabra de Dios. Esta alarma convierte esa costumbre en lo primero que haces, en lugar de una buena intención que se te olvida.",
+          "refs": [
+            "Psalms 63:1",
+            "Psalms 119:147"
+          ]
+        },
+        {
+          "heading": "¿Cómo me ayuda a aprender versículos de memoria?",
+          "body": "Como tú mismo armas cada versículo, lo repites y se te queda. En la pestaña Verses se guardan los versículos con los que has despertado, junto con escenas que se desbloquean cuando te levantas. En la pestaña Practice puedes repasar cualquier versículo cuando quieras.",
+          "refs": [
+            "Psalms 119:11"
+          ]
+        },
+        {
+          "heading": "¿Qué Biblia usa y qué más debo saber?",
+          "body": "En español usa la Reina-Valera 1909, guardada en el celular, así que funciona sin internet. No necesitas cuenta ni inicio de sesión. La app sigue el idioma de tu iPhone y admite Compartir en familia. Por ahora es solo para iPhone."
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Hay una alarma que te obligue a leer la Biblia?",
+          "a": "Sí. Bible Verse Alarm sigue sonando hasta que completas un versículo corto, ya sea armándolo palabra por palabra o escribiéndolo. Es una app para iPhone disponible en la App Store."
+        },
+        {
+          "q": "¿Suena si mi iPhone está en silencio?",
+          "a": "Sí. Usa AlarmKit de Apple, así que suena aunque el iPhone esté en modo Silencio o en un modo de Concentración."
+        },
+        {
+          "q": "¿Qué versión de la Biblia en español incluye?",
+          "a": "Incluye la Reina-Valera 1909. El texto está guardado en el celular y funciona sin conexión a internet."
+        },
+        {
+          "q": "¿Hay alarma cristiana para Android?",
+          "a": "Todavía no. Por ahora Bible Verse Alarm solo está disponible para iPhone, en la App Store."
+        }
+      ]
     }
   }
 }

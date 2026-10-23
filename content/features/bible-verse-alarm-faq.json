@@ -1,0 +1,97 @@
+{
+  "id": "bible-verse-alarm-faq",
+  "related": ["morning", "encouragement", "sleep", "anxiety", "strength"],
+  "locales": {
+    "en": {
+      "slug": "bible-verse-alarm-faq",
+      "nav": "Bible Verse Alarm FAQ",
+      "title": "Bible Verse Alarm App FAQ: 13 Questions Answered",
+      "description": "Answers about the Bible Verse Alarm iPhone app: Silent mode, offline use, Bibles, languages, Android. Free to download, subscription for full use.",
+      "h1": "Bible Verse Alarm app FAQ",
+      "intro": "Bible Verse Alarm is an iPhone alarm that keeps ringing until you complete a short Bible verse, so your first minute of the day goes to God's Word, not your phone. These are the questions people ask most, answered plainly. The app is made by Kenneth Foo; his story is on the About page.",
+      "published": "2026-10-23",
+      "updated": "2026-10-23",
+      "sections": [
+        {
+          "heading": "Basics: what does it do and how do I stop the alarm?",
+          "body": "The alarm keeps ringing until you finish a short Bible mission. The default mission is to rebuild a verse word by word. You can also type the verse. A swipe in your sleep won't end it.\n\nFor the bigger picture, see what a Bible verse alarm is.",
+          "table": [
+            ["Question", "Short answer"],
+            ["Which phone?", "iPhone, from the App Store"],
+            ["Android?", "Not yet"],
+            ["Account needed?", "No account or login"],
+            ["Works offline?", "Yes, the Bible text is on the phone"],
+            ["Rings on Silent?", "Yes, through Silent and Focus modes"]
+          ]
+        },
+        {
+          "heading": "Setup: can I choose my own verses, Bible version and language?",
+          "body": "Yes to all three. You choose which verses each alarm uses in the alarm editor. English Bibles in the app are NIV, WEB, KJV and BSB. The app also has Reina-Valera 1909 for Spanish, the Chinese Union Version for Chinese, and 개역한글 for Korean.\n\nApp languages are English, Spanish, Korean and Chinese. The app follows your iPhone's language, so there is no separate language picker inside it.\n\nWhy choose your own verses? The psalmist calls God's word a lamp for his feet. A lamp lights the next step, so pick verses that fit the road you are on this week.",
+          "refs": ["Psalms 119:105"]
+        },
+        {
+          "heading": "Cost and sharing: is it free, and does Family Sharing work?",
+          "body": "The app is free to download, and full use needs a subscription. There is no separate free tier. Current prices are shown on the App Store page, so check there. Family Sharing is supported."
+        },
+        {
+          "heading": "Trust: who makes it?",
+          "body": "Kenneth Foo makes it on his own from Malaysia. He has been a Christian for more than 15 years and started the app in June 2026. There is no account or login, and the Bible text is stored on your phone, so it works offline."
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the Bible Verse Alarm app?",
+          "a": "An iPhone alarm that keeps ringing until you complete a short Bible verse, either by rebuilding it word by word or typing it. It aims to give the first minute of your day to Scripture, not your phone."
+        },
+        {
+          "q": "Does the alarm ring on Silent or Do Not Disturb?",
+          "a": "Yes. It uses Apple's AlarmKit, so it rings even when the phone is on Silent or in a Focus mode."
+        },
+        {
+          "q": "Can I pick which verses wake me up?",
+          "a": "Yes. Each alarm has its own set of verses, which you choose in the alarm editor. You can match them to what you need that season."
+        },
+        {
+          "q": "What Bible versions does the app have?",
+          "a": "In English: NIV, WEB, KJV and BSB. Spanish uses Reina-Valera 1909, Chinese uses the Chinese Union Version (和合本), and Korean uses 개역한글."
+        },
+        {
+          "q": "Does it work without internet?",
+          "a": "Yes. The Bible text is stored on your iPhone, so verses and alarms work offline."
+        },
+        {
+          "q": "Do I need an account or login?",
+          "a": "No. There is no account or login. Open the app, set your alarm and choose your verses."
+        },
+        {
+          "q": "Is there an Android version?",
+          "a": "Not yet. The app is for iPhone only, on the App Store. We won't promise a date for Android."
+        },
+        {
+          "q": "What languages does the app support?",
+          "a": "English, Spanish, Korean and Chinese. It follows your iPhone's language setting, so there is no language picker inside the app."
+        },
+        {
+          "q": "Is Bible Verse Alarm free?",
+          "a": "It is free to download. Full use needs a subscription, and there is no free tier. See the App Store page for current pricing."
+        },
+        {
+          "q": "Does it support Family Sharing?",
+          "a": "Yes. Family Sharing is supported."
+        },
+        {
+          "q": "Can I use it to memorize Scripture?",
+          "a": "Yes. Rebuilding each verse word by word makes you work through it. The Practice tab also lets you rehearse verses any time, not only at wake-up."
+        },
+        {
+          "q": "What are the scenes in the Verses tab?",
+          "a": "The Verses tab holds scenes that you unlock by waking up. It gives a small reward for showing up each morning."
+        },
+        {
+          "q": "Who made Bible Verse Alarm?",
+          "a": "Kenneth Foo, working solo from Malaysia since June 2026. He has been a Christian for over 15 years. Read more on the About page."
+        }
+      ]
+    }
+  }
+}
