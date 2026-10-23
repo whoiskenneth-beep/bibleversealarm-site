@@ -4,216 +4,272 @@
   "coverage": "Submitted and indexed",
   "lastCrawl": "2026-10-22T10:02:57Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/support": {
   "verdict": "PASS",
   "coverage": "Submitted and indexed",
   "lastCrawl": "2026-08-05T22:49:51Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/privacy": {
   "verdict": "PASS",
   "coverage": "Submitted and indexed",
   "lastCrawl": "2026-09-14T00:08:50Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/terms": {
   "verdict": "NEUTRAL",
   "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
+ },
+ "https://bibleversealarm.com/about": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-23",
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/best-christian-apps-iphone": {
   "verdict": "NEUTRAL",
   "coverage": "URL is unknown to Google",
   "lastCrawl": null,
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
+ },
+ "https://bibleversealarm.com/bible-verse-alarm-faq": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-23",
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/christian-alarm-clock": {
   "verdict": "PASS",
   "coverage": "Submitted and indexed",
   "lastCrawl": "2026-10-22T14:48:53Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/what-is-a-bible-verse-alarm": {
   "verdict": "NEUTRAL",
   "coverage": "URL is unknown to Google",
   "lastCrawl": null,
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/bible-verses-about": {
   "verdict": "PASS",
   "coverage": "Submitted and indexed",
-  "lastCrawl": "2026-10-22T09:18:46Z",
+  "lastCrawl": "2026-10-23T20:50:51Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/bible-verses-about/anxiety": {
   "verdict": "PASS",
   "coverage": "Submitted and indexed",
-  "lastCrawl": "2026-10-22T14:26:28Z",
+  "lastCrawl": "2026-10-23T17:46:06Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/bible-verses-about/encouragement": {
-  "verdict": "NEUTRAL",
-  "coverage": "URL is unknown to Google",
-  "lastCrawl": null,
+  "verdict": "PASS",
+  "coverage": "Submitted and indexed",
+  "lastCrawl": "2026-10-23T20:44:29Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/bible-verses-about/morning": {
   "verdict": "NEUTRAL",
   "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/bible-verses-about/strength": {
   "verdict": "PASS",
   "coverage": "Submitted and indexed",
   "lastCrawl": "2026-10-22T10:34:37Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/es": {
   "verdict": "NEUTRAL",
   "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
+ },
+ "https://bibleversealarm.com/es/acerca-de": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-23",
+  "checked": "2026-10-23"
+ },
+ "https://bibleversealarm.com/es/alarma-cristiana": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-23",
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/es/versiculos-biblicos": {
   "verdict": "PASS",
   "coverage": "Submitted and indexed",
   "lastCrawl": "2026-10-22T10:33:01Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/es/versiculos-biblicos/ansiedad": {
   "verdict": "NEUTRAL",
   "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/es/versiculos-biblicos/para-la-manana": {
   "verdict": "NEUTRAL",
   "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/es/versiculos-biblicos/dormir": {
   "verdict": "NEUTRAL",
   "coverage": "URL is unknown to Google",
   "lastCrawl": null,
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/es/versiculos-biblicos/fortaleza": {
   "verdict": "NEUTRAL",
   "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/ko": {
   "verdict": "NEUTRAL",
   "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
+ },
+ "https://bibleversealarm.com/ko/about": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-23",
+  "checked": "2026-10-23"
+ },
+ "https://bibleversealarm.com/ko/seonggyeong-allam-iran": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-23",
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/zh-hans": {
   "verdict": "PASS",
   "coverage": "Submitted and indexed",
-  "lastCrawl": "2026-10-22T14:43:10Z",
+  "lastCrawl": "2026-10-23T09:05:52Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
+ },
+ "https://bibleversealarm.com/zh-hans/about": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-23",
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/zh-hans/shengjing-naozhong": {
-  "verdict": "NEUTRAL",
-  "coverage": "URL is unknown to Google",
-  "lastCrawl": null,
+  "verdict": "PASS",
+  "coverage": "Submitted and indexed",
+  "lastCrawl": "2026-10-23T21:15:39Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/zh-hans/jingwen": {
-  "verdict": "NEUTRAL",
-  "coverage": "URL is unknown to Google",
-  "lastCrawl": null,
+  "verdict": "PASS",
+  "coverage": "Submitted and indexed",
+  "lastCrawl": "2026-10-23T22:40:50Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/zh-hans/jingwen/anxiety": {
-  "verdict": "NEUTRAL",
-  "coverage": "Discovered - currently not indexed",
-  "lastCrawl": null,
+  "verdict": "PASS",
+  "coverage": "Submitted and indexed",
+  "lastCrawl": "2026-10-23T21:35:20Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/zh-hans/jingwen/morning": {
   "verdict": "NEUTRAL",
   "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/zh-hans/jingwen/strength": {
   "verdict": "NEUTRAL",
-  "coverage": "Discovered - currently not indexed",
+  "coverage": "URL is unknown to Google",
   "lastCrawl": null,
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/zh-hant": {
   "verdict": "PASS",
   "coverage": "Submitted and indexed",
   "lastCrawl": "2026-10-22T09:24:11Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
+ },
+ "https://bibleversealarm.com/zh-hant/about": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-10-23",
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/zh-hant/shengjing-naozhong": {
   "verdict": "NEUTRAL",
   "coverage": "URL is unknown to Google",
   "lastCrawl": null,
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/zh-hant/jingwen": {
-  "verdict": "NEUTRAL",
-  "coverage": "Discovered - currently not indexed",
-  "lastCrawl": null,
+  "verdict": "PASS",
+  "coverage": "Submitted and indexed",
+  "lastCrawl": "2026-10-23T21:30:35Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/zh-hant/jingwen/anxiety": {
   "verdict": "NEUTRAL",
   "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/zh-hant/jingwen/morning": {
   "verdict": "NEUTRAL",
   "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  },
  "https://bibleversealarm.com/zh-hant/jingwen/strength": {
   "verdict": "NEUTRAL",
   "coverage": "URL is unknown to Google",
   "lastCrawl": null,
   "firstSeen": "2026-10-22",
-  "checked": "2026-10-22"
+  "checked": "2026-10-23"
  }
 }

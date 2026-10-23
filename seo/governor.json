@@ -7,43 +7,43 @@
       "new_pages_per_day": 1,
       "optimizations_per_day": 1,
       "status": "grow",
-      "published": 12,
-      "indexed": 7,
-      "indexation_rate": 0.58
+      "published": 14,
+      "indexed": 8,
+      "indexation_rate": 0.57
     },
     "es": {
       "new_pages_per_day": 1,
       "optimizations_per_day": 1,
       "status": "grow",
-      "published": 6,
+      "published": 8,
       "indexed": 1,
-      "indexation_rate": 0.17
+      "indexation_rate": 0.13
     },
     "zh-hant": {
       "new_pages_per_day": 1,
       "optimizations_per_day": 1,
       "status": "grow",
-      "published": 6,
-      "indexed": 1,
-      "indexation_rate": 0.17
+      "published": 7,
+      "indexed": 2,
+      "indexation_rate": 0.29
     },
     "zh-hans": {
       "derived_from": "zh-hant",
       "status": "follows zh-hant",
-      "published": 6,
-      "indexed": 1,
-      "indexation_rate": 0.17
+      "published": 7,
+      "indexed": 4,
+      "indexation_rate": 0.57
     },
     "ko": {
       "new_pages_per_day": 1,
       "optimizations_per_day": 0,
       "status": "feature pages only (no verse text) until the 개역한글 licence is decided",
-      "published": 1,
+      "published": 3,
       "indexed": 0,
       "indexation_rate": 0
     }
   },
-  "indexation_updated": "2026-10-22",
+  "indexation_updated": "2026-10-23",
   "history": [
     {
       "date": "2026-10-22",
