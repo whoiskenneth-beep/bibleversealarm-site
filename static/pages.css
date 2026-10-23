@@ -10,11 +10,14 @@
 .article p { color: #3d3a55; }
 .lede { font-size: 19px; margin-bottom: 12px; }
 .meta { font-size: 14px; color: var(--secondary); }
+.byline { font-size: 14px; color: var(--secondary); margin: 6px 0 2px; }
+.byline a { color: var(--indigo); font-weight: 600; }
 
 .crumbs { display: flex; flex-wrap: wrap; gap: 8px; font-size: 14px; color: var(--secondary); }
 .crumbs a { color: var(--indigo); }
 
 .reflection { margin-bottom: 18px; }
+.article section p + p { margin-top: 12px; }
 .verse {
   margin: 0 0 14px; padding: 18px 20px; border-radius: 16px;
   background: var(--card); box-shadow: var(--shadow-sm); border-left: 4px solid var(--gold);

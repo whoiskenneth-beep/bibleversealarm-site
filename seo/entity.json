@@ -25,8 +25,35 @@
   },
   "ai_crawlers": {
     "_about": "robots.txt groups. Search/answer agents are always allowed so AI engines can cite us. allow_training is Kenneth's call (NEEDS_HUMAN #7); default allow so future models know the app.",
-    "search": ["OAI-SearchBot", "ChatGPT-User", "PerplexityBot", "Perplexity-User", "Claude-SearchBot", "Claude-User", "Bingbot", "Googlebot", "Applebot", "Yeti", "DuckAssistBot"],
-    "training": ["GPTBot", "ClaudeBot", "Google-Extended", "Applebot-Extended", "CCBot"],
+    "search": [
+      "OAI-SearchBot",
+      "ChatGPT-User",
+      "PerplexityBot",
+      "Perplexity-User",
+      "Claude-SearchBot",
+      "Claude-User",
+      "Bingbot",
+      "Googlebot",
+      "Applebot",
+      "Yeti",
+      "DuckAssistBot"
+    ],
+    "training": [
+      "GPTBot",
+      "ClaudeBot",
+      "Google-Extended",
+      "Applebot-Extended",
+      "CCBot"
+    ],
     "allow_training": true
+  },
+  "author": {
+    "name": "Kenneth Foo",
+    "job_title": "Maker of Bible Verse Alarm",
+    "url_path": "/about",
+    "same_as": [
+      "https://www.producthunt.com/@kenneth_foo1",
+      "https://www.indiehackers.com/kennethfoo"
+    ]
   }
 }

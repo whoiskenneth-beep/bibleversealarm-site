@@ -83,9 +83,7 @@ What we *can't* see is visits. **My recommendation: turn on Vercel Web Analytics
 Vercel dashboard → project "site" → Analytics → Enable, then tell Claude, who adds the one-line script.
 (Server logs per AI crawler aren't available on Vercel's free plan, so that part of the plan is skipped.)
 
-## 13. Put your name on the pages as author? (decision)
-AI engines and Google trust pages more when a real, named person stands behind them (the "expert attribution" signal in the
-ai-seo playbook). Right now every page is by "Bible Verse Alarm". **My recommendation: yes.** Add "By Kenneth Foo, maker of
-Bible Verse Alarm" plus a short About page (who you are, why you built it, your church background if you're comfortable).
-Your name is already public on the App Store, Product Hunt and Indie Hackers. Tell Claude "add me as author" and what to say in
-the bio, or "keep it as the brand".
+## 13. Author: DONE 2026-10-23
+Kenneth Foo is the named author on every page (byline + Person schema), with an English About page at /about.
+Still open: Spanish, Chinese and Korean versions of the bio (Claude drafts, Kenneth approves before they go live),
+and an optional real headshot (send one to Claude; until then the page uses the app icon).

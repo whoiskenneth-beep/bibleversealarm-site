@@ -36,7 +36,7 @@ export const LOCALES = {
       ctaBody: 'Bible Verse Alarm keeps ringing until you complete a short Bible verse — so you get out of bed with Scripture instead of your feed.',
       ctaButton: 'Get Bible Verse Alarm', languages: 'Languages', verses: 'verses',
       hubIntro: 'Hand-picked Bible verses for what you are facing, each with a short reflection.',
-      privacy: 'Privacy', terms: 'Terms', support: 'Support',
+      privacy: 'Privacy', terms: 'Terms', support: 'Support', by: 'By', maker: 'maker of Bible Verse Alarm',
     },
   },
   es: {
@@ -50,7 +50,7 @@ export const LOCALES = {
       ctaBody: 'Bible Verse Alarm sigue sonando hasta que completas un versículo corto. Así empiezas el día con la Biblia y no con el celular.',
       ctaButton: 'Descargar Bible Verse Alarm', languages: 'Idiomas', verses: 'versículos',
       hubIntro: 'Versículos de la Biblia elegidos a mano para lo que estás viviendo, cada grupo con una breve reflexión.',
-      privacy: 'Privacidad', terms: 'Términos', support: 'Ayuda',
+      privacy: 'Privacidad', terms: 'Términos', support: 'Ayuda', by: 'Por', maker: 'creador de Bible Verse Alarm',
     },
   },
   'zh-hant': {
@@ -64,7 +64,7 @@ export const LOCALES = {
       ctaBody: 'Bible Verse Alarm 會一直響，直到你完成一節短短的經文。起床的第一件事是讀經，不是滑手機。',
       ctaButton: '下載 Bible Verse Alarm', languages: '語言', verses: '節經文',
       hubIntro: '依照你正在面對的處境，精選的聖經經文，每一組都附上簡短的默想。',
-      privacy: '隱私權', terms: '條款', support: '支援',
+      privacy: '隱私權', terms: '條款', support: '支援', by: '作者：', maker: 'Bible Verse Alarm 開發者',
     },
   },
   'zh-hans': {
@@ -84,7 +84,7 @@ export const LOCALES = {
       ctaBody: 'Bible Verse Alarm은 짧은 성경 구절을 완성해야 알람이 꺼져요. 눈 뜨자마자 휴대폰 피드 대신 말씀을 만나세요.',
       ctaButton: 'Bible Verse Alarm 받기', languages: '언어', verses: '구절',
       hubIntro: '지금 겪고 있는 상황에 맞게 고른 성경 구절과 짧은 묵상.',
-      privacy: '개인정보', terms: '약관', support: '지원',
+      privacy: '개인정보', terms: '약관', support: '지원', by: '글:', maker: 'Bible Verse Alarm 개발자',
     },
   },
 };
@@ -113,7 +113,10 @@ export function verse(ref, bibleId) {
   for (let v = +v1; v <= +(v2 || v1); v++) {
     const text = b[`${book} ${ch}:${v}`];
     if (!text) throw new Error(`"${book} ${ch}:${v}" not found in ${bibleId}`);
-    parts.push(bibleId.startsWith('cuv') ? cleanCUV(text) : text.trim());
+    let t = bibleId.startsWith('cuv') ? cleanCUV(text) : text.trim();
+    if (/’$/.test(t) && !t.includes('‘')) t = t.slice(0, -1);
+    if (/”$/.test(t) && !t.includes('“')) t = t.slice(0, -1);
+    parts.push(t);
   }
   return parts.join(bibleId.startsWith('cuv') ? '' : ' ');
 }
@@ -134,14 +137,20 @@ const storeLink = (loc, slug) => {
 };
 const ld = (obj) => `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, '\\u003c')}</script>`;
 
-// Organization + MobileApplication: one stable identity (@id) for search and AI engines.
+const AUTHOR = ENTITY.author;
+const AUTHOR_LD = { '@type': 'Person', '@id': `${SITE}/#author`, name: AUTHOR.name, jobTitle: AUTHOR.job_title, url: SITE + AUTHOR.url_path,
+  worksFor: { '@id': `${SITE}/#org` }, sameAs: AUTHOR.same_as };
+const byline = (loc) => `<p class="byline">${esc(LOCALES[loc].t.by)} <a href="${AUTHOR.url_path}" rel="author">${esc(AUTHOR.name)}</a>, ${esc(LOCALES[loc].t.maker)}</p>`;
+// Organization + MobileApplication (+ the author): one stable identity (@id) for search and AI engines.
 function entityGraph(loc) {
   const one = ENTITY.one_liner[loc] || toHans(ENTITY.one_liner[LOCALES[loc].derivedFrom] || ENTITY.one_liner.en);
   return {
     '@context': 'https://schema.org',
     '@graph': [
       { '@type': 'Organization', '@id': `${SITE}/#org`, name: ENTITY.name, url: `${SITE}/`, logo: `${SITE}/assets/icon.png`,
+        founder: { '@id': `${SITE}/#author` },
         sameAs: [ENTITY.app_store_url, ENTITY.google_play_url, ...ENTITY.social_profiles].filter(Boolean) },
+      AUTHOR_LD,
       { '@type': 'MobileApplication', '@id': `${SITE}/#app`, name: ENTITY.name, operatingSystem: 'iOS', applicationCategory: 'LifestyleApplication',
         description: one, inLanguage: LOCALES[loc].lang, availableLanguage: ['en', 'es', 'ko', 'zh'], url: abs(LOCALES[loc].prefix),
         installUrl: ENTITY.app_store_url, downloadUrl: ENTITY.app_store_url, image: `${SITE}/assets/icon.png`,
@@ -322,6 +331,7 @@ ${g.refs.map((r) => `<blockquote class="verse"><p>${esc(verse(r, L.bible))}</p><
 ${crumbs.html}
 <h1>${esc(c.h1)}</h1>
 <p class="lede">${esc(c.intro)}</p>
+${byline(loc)}
 <p class="meta">${count} ${esc(L.t.verses)} · ${esc(L.t.translation)}: ${esc(L.bibleName)} · ${esc(L.t.updated)} <time datetime="${c.updated}">${c.updated}</time></p>
 ${groups.join('\n')}
 ${faq.length ? `<section class="faq"><h2>${esc(L.t.faq)}</h2>${faq.map((f) => `<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('')}</section>` : ''}
@@ -333,7 +343,7 @@ ${cta(loc, c.slug, 'appstore-end')}
         '@context': 'https://schema.org', '@type': 'Article', headline: c.h1, description: c.description,
         inLanguage: L.lang, datePublished: c.published || c.updated, dateModified: c.updated,
         mainEntityOfPage: abs(p), image: `${SITE}/assets/icon.png`,
-        author: { '@type': 'Organization', name: 'Bible Verse Alarm', url: SITE },
+        author: { '@id': `${SITE}/#author` },
         publisher: { '@type': 'Organization', name: 'Bible Verse Alarm', logo: { '@type': 'ImageObject', url: `${SITE}/assets/icon.png` } },
       },
       crumbs.schema,
@@ -363,7 +373,7 @@ for (const ft of features) {
     const table = (rows) => (rows?.length ? `<div class="table-wrap"><table><thead><tr>${rows[0].map((h) => `<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${rows.slice(1).map((r) => `<tr>${r.map((v) => `<td>${esc(v)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>` : '');
     const sections = c.sections.map((s) => `<section><h2>${esc(s.heading)}</h2>${paras(s.body)}${table(s.table)}
 ${(s.refs || []).map((r) => `<blockquote class="verse"><p>${esc(verse(r, L.bible))}</p><cite>${esc(refLabel(r, loc))}</cite></blockquote>`).join('\n')}</section>`);
-    sections.splice(2, 0, cta(loc, c.slug, 'appstore-mid'));
+    if (ft.id !== 'about') sections.splice(2, 0, cta(loc, c.slug, 'appstore-mid'));
     const related = (ft.related || [])
       .map((id) => topics.find((x) => x.id === id))
       .filter((x) => x && builtLocales(x).includes(loc))
@@ -373,6 +383,7 @@ ${(s.refs || []).map((r) => `<blockquote class="verse"><p>${esc(verse(r, L.bible
 ${crumbs.html}
 <h1>${esc(c.h1)}</h1>
 <p class="lede">${esc(c.intro)}</p>
+${byline(loc)}
 <p class="meta">${esc(L.t.updated)} <time datetime="${c.updated}">${c.updated}</time></p>
 ${storeBadge(loc, c.slug, 'appstore-top')}
 ${sections.join('\n')}
@@ -382,9 +393,9 @@ ${cta(loc, c.slug, 'appstore-end')}
 </main>`;
     const schema = [
       {
-        '@context': 'https://schema.org', '@type': 'WebPage', name: c.h1, description: c.description, inLanguage: L.lang, url: abs(p),
+        '@context': 'https://schema.org', '@type': ft.id === 'about' ? 'AboutPage' : 'WebPage', name: c.h1, description: c.description, inLanguage: L.lang, url: abs(p),
         dateModified: c.updated,
-        about: { '@id': `${SITE}/#app` }, publisher: { '@id': `${SITE}/#org` },
+        about: ft.id === 'about' ? { '@id': `${SITE}/#author` } : { '@id': `${SITE}/#app` }, publisher: { '@id': `${SITE}/#org` }, author: { '@id': `${SITE}/#author` },
       },
       crumbs.schema,
       entityGraph(loc),

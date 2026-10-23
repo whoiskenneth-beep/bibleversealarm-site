@@ -15,6 +15,7 @@ Writers and QA check every claim about the app against this list. If it isn't he
 - Family Sharing is supported.
 - Business model: free to download; full use needs a subscription (one paid app, no free tier). Never state the price or trial terms.
 - Positioning: "Scripture before the scroll", your first minute goes to God's Word, not your feed.
+- Made by Kenneth Foo (solo, Malaysia, started June 2026); Christian 15+ years. Pages may say this; bio lives at /about.
 - Canonical name + one-liner per language: seo/entity.json. Use them word for word.
 
 **Not true. Don't claim it**

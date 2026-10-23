@@ -1,0 +1,32 @@
+{
+  "id": "about",
+  "related": ["morning", "encouragement"],
+  "locales": {
+    "en": {
+      "slug": "about",
+      "nav": "About",
+      "title": "About Bible Verse Alarm and its maker, Kenneth Foo",
+      "description": "Bible Verse Alarm is made by Kenneth Foo, a Christian of 15+ years in Malaysia who built an alarm that makes Scripture, not your phone, the first thing you read.",
+      "h1": "About Bible Verse Alarm",
+      "intro": "Hi, I'm Kenneth Foo. I make Bible Verse Alarm, an iPhone alarm that keeps ringing until you complete a short Bible verse.",
+      "published": "2026-10-23",
+      "updated": "2026-10-23",
+      "card_ref": "Matthew 22:37",
+      "sections": [
+        {
+          "heading": "Why I built it",
+          "body": "For years, the first thing I touched every morning was my phone. The alarm went off, my thumb silenced it, and the same thumb opened my messages, then the news, then the feed. Twenty minutes later I'd be out of bed, and God still hadn't had a word in. I kept promising myself tomorrow would be different. Half-asleep, it never was.\n\nSo in June 2026 I built the alarm I needed: one that keeps ringing until you've completed a short Bible verse. By the time it's quiet, you're awake, and the first words of your day came from Scripture, not your screen."
+        },
+        {
+          "heading": "Who's behind it",
+          "body": "I've followed Jesus for more than 15 years. I build Bible Verse Alarm on my own from Malaysia, and I use it every morning with my wife. It's now available in English, Spanish, Chinese and Korean, because the people who write to me come from all over the world.\n\nThe verse I keep coming back to is the one Jesus called the greatest commandment. An alarm can't make anyone love God, but it can make sure He gets the first minute of the day.",
+          "refs": ["Matthew 22:37"]
+        },
+        {
+          "heading": "Get in touch",
+          "body": "If you have a question or an idea, email me at hello@bibleversealarm.com. I read every message.\n\nKenneth Foo, maker of Bible Verse Alarm"
+        }
+      ]
+    }
+  }
+}
