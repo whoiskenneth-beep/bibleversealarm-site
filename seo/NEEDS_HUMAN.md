@@ -85,5 +85,5 @@ Vercel dashboard → project "site" → Analytics → Enable, then tell Claude, 
 
 ## 13. Author: DONE 2026-10-23
 Kenneth Foo is the named author on every page (byline + Person schema), with an English About page at /about.
-Still open: Spanish, Chinese and Korean versions of the bio (Claude drafts, Kenneth approves before they go live),
-and an optional real headshot (send one to Claude; until then the page uses the app icon).
+Spanish, Chinese (Traditional + auto Simplified) and Korean bios approved and live 2026-10-23. Korean mentions Matthew 22:37
+without quoting it until the 개역한글 decision (#2). Still open: an optional real headshot (send one to Claude; until then the page uses the app icon).

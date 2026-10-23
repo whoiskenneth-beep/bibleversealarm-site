@@ -1,6 +1,9 @@
 {
   "id": "about",
-  "related": ["morning", "encouragement"],
+  "related": [
+    "morning",
+    "encouragement"
+  ],
   "locales": {
     "en": {
       "slug": "about",
@@ -20,11 +23,93 @@
         {
           "heading": "Who's behind it",
           "body": "I've followed Jesus for more than 15 years. I build Bible Verse Alarm on my own from Malaysia, and I use it every morning with my wife. It's now available in English, Spanish, Chinese and Korean, because the people who write to me come from all over the world.\n\nThe verse I keep coming back to is the one Jesus called the greatest commandment. An alarm can't make anyone love God, but it can make sure He gets the first minute of the day.",
-          "refs": ["Matthew 22:37"]
+          "refs": [
+            "Matthew 22:37"
+          ]
         },
         {
           "heading": "Get in touch",
           "body": "If you have a question or an idea, email me at hello@bibleversealarm.com. I read every message.\n\nKenneth Foo, maker of Bible Verse Alarm"
+        }
+      ]
+    },
+    "es": {
+      "slug": "acerca-de",
+      "nav": "Acerca de",
+      "title": "Acerca de Bible Verse Alarm y su creador, Kenneth Foo",
+      "description": "Bible Verse Alarm es obra de Kenneth Foo, cristiano desde hace más de 15 años en Malasia, que creó una alarma para que la Escritura, y no el celular, sea lo primero que lees.",
+      "h1": "Acerca de Bible Verse Alarm",
+      "intro": "Hola, soy Kenneth Foo. Hago Bible Verse Alarm, una alarma para iPhone que sigue sonando hasta que completas un versículo corto de la Biblia.",
+      "published": "2026-10-23",
+      "updated": "2026-10-23",
+      "card_ref": "Matthew 22:37",
+      "sections": [
+        {
+          "heading": "Por qué la hice",
+          "body": "Durante años, lo primero que tocaba cada mañana era el celular. Sonaba la alarma, la apagaba con el pulgar, y ese mismo pulgar abría los mensajes, luego las noticias, luego las redes. Veinte minutos después me levantaba, y Dios todavía no había tenido ni una palabra. Me prometía que mañana sería distinto. Medio dormido, nunca lo era.\n\nAsí que en junio de 2026 hice la alarma que yo necesitaba: una que sigue sonando hasta que completas un versículo corto. Cuando por fin se calla, ya estás despierto, y las primeras palabras de tu día vinieron de la Escritura, no de la pantalla."
+        },
+        {
+          "heading": "Quién está detrás",
+          "body": "Sigo a Jesús desde hace más de 15 años. Hago Bible Verse Alarm por mi cuenta desde Malasia, y la uso cada mañana con mi esposa. Hoy está en español, inglés, chino y coreano, porque me escriben personas de todo el mundo.\n\nEl versículo al que siempre vuelvo es el que Jesús llamó el gran mandamiento. Una alarma no puede hacer que nadie ame a Dios, pero sí puede asegurarse de que Él reciba el primer minuto del día.",
+          "refs": [
+            "Matthew 22:37"
+          ]
+        },
+        {
+          "heading": "Escríbeme",
+          "body": "Si tienes una pregunta o una idea, escríbeme a hello@bibleversealarm.com. Leo todos los mensajes.\n\nKenneth Foo, creador de Bible Verse Alarm"
+        }
+      ]
+    },
+    "zh-hant": {
+      "slug": "about",
+      "nav": "關於我們",
+      "title": "關於 Bible Verse Alarm 與開發者 Kenneth Foo",
+      "description": "Bible Verse Alarm 由信主超過 15 年、住在馬來西亞的 Kenneth Foo 開發，讓每天最先讀到的是聖經，而不是手機。",
+      "h1": "關於 Bible Verse Alarm",
+      "intro": "你好，我是 Kenneth Foo，Bible Verse Alarm 的開發者。這是一款 iPhone 鬧鐘，要完成一節簡短的經文才會停止。",
+      "published": "2026-10-23",
+      "updated": "2026-10-23",
+      "card_ref": "Matthew 22:37",
+      "sections": [
+        {
+          "heading": "為什麼做這個 App",
+          "body": "有好多年，我每天早上碰的第一樣東西都是手機。鬧鐘一響，我用拇指按掉，同一根拇指接著就打開訊息、新聞、社群動態。二十分鐘後我才下床，神卻還沒在我的早晨說上一句話。我一直跟自己說明天會不一樣，但半夢半醒之間，從來沒有。\n\n所以在 2026 年 6 月，我做了一個自己需要的鬧鐘：要完成一節短短的經文才會停。等它安靜下來，你已經醒了，而這一天最先讀到的話，來自聖經，不是螢幕。"
+        },
+        {
+          "heading": "我是誰",
+          "body": "我信主超過 15 年。我一個人在馬來西亞開發 Bible Verse Alarm，每天早上和太太一起用它。現在 App 有中文、英文、西班牙文和韓文，因為寫信給我的人來自世界各地。\n\n我常常回到的經文，是耶穌說的最大的誡命。鬧鐘不能讓人愛神，但它可以讓神得著一天的第一分鐘。",
+          "refs": [
+            "Matthew 22:37"
+          ]
+        },
+        {
+          "heading": "聯絡我",
+          "body": "有任何問題或想法，歡迎寫信到 hello@bibleversealarm.com，每一封我都會讀。\n\nKenneth Foo，Bible Verse Alarm 開發者"
+        }
+      ]
+    },
+    "ko": {
+      "slug": "about",
+      "nav": "소개",
+      "title": "Bible Verse Alarm과 만든 사람, Kenneth Foo",
+      "description": "Bible Verse Alarm은 예수님을 믿은 지 15년이 넘은 말레이시아의 Kenneth Foo가 만든 앱이에요. 하루의 첫 말씀이 휴대폰이 아닌 성경이 되도록 돕습니다.",
+      "h1": "Bible Verse Alarm 소개",
+      "intro": "안녕하세요, Bible Verse Alarm을 만든 Kenneth Foo입니다. 짧은 성경 구절을 완성해야 꺼지는 아이폰 알람이에요.",
+      "published": "2026-10-23",
+      "updated": "2026-10-23",
+      "sections": [
+        {
+          "heading": "이 앱을 만든 이유",
+          "body": "오랫동안 아침에 제일 먼저 손대는 건 휴대폰이었어요. 알람이 울리면 엄지로 끄고, 그 엄지로 메시지, 뉴스, SNS를 차례로 열었죠. 20분쯤 지나 침대에서 일어날 때까지 하나님께는 한마디도 드리지 못했어요. 내일은 다를 거라고 다짐했지만, 비몽사몽 중에는 한 번도 그렇지 못했어요.\n\n그래서 2026년 6월, 제게 필요했던 알람을 만들었어요. 짧은 성경 구절을 완성해야 멈추는 알람이에요. 알람이 조용해질 때쯤이면 이미 잠이 깼고, 하루의 첫 말씀은 화면이 아니라 성경에서 온 거죠."
+        },
+        {
+          "heading": "만든 사람",
+          "body": "예수님을 믿은 지 15년이 넘었어요. 말레이시아에서 혼자 Bible Verse Alarm을 만들고 있고, 매일 아침 아내와 함께 써요. 지금은 한국어, 영어, 스페인어, 중국어로 쓸 수 있어요. 전 세계에서 연락을 주시는 분들이 있거든요.\n\n제가 늘 다시 돌아가는 말씀은 예수님께서 가장 큰 계명이라고 하신 마태복음 22장 37절이에요. 알람이 누군가를 하나님을 사랑하게 만들 수는 없지만, 하루의 첫 1분을 하나님께 드리도록 도울 수는 있어요."
+        },
+        {
+          "heading": "연락하기",
+          "body": "질문이나 아이디어가 있으면 hello@bibleversealarm.com으로 메일 주세요. 모든 메일을 직접 읽어요.\n\nKenneth Foo, Bible Verse Alarm 개발자"
         }
       ]
     }

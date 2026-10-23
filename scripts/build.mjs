@@ -140,7 +140,7 @@ const ld = (obj) => `<script type="application/ld+json">${JSON.stringify(obj).re
 const AUTHOR = ENTITY.author;
 const AUTHOR_LD = { '@type': 'Person', '@id': `${SITE}/#author`, name: AUTHOR.name, jobTitle: AUTHOR.job_title, url: SITE + AUTHOR.url_path,
   worksFor: { '@id': `${SITE}/#org` }, sameAs: AUTHOR.same_as };
-const byline = (loc) => `<p class="byline">${esc(LOCALES[loc].t.by)} <a href="${AUTHOR.url_path}" rel="author">${esc(AUTHOR.name)}</a>, ${esc(LOCALES[loc].t.maker)}</p>`;
+const byline = (loc) => `<p class="byline">${esc(LOCALES[loc].t.by)} <a href="${alternates.get('feature:about')?.[loc] || AUTHOR.url_path}" rel="author">${esc(AUTHOR.name)}</a>, ${esc(LOCALES[loc].t.maker)}</p>`;
 // Organization + MobileApplication (+ the author): one stable identity (@id) for search and AI engines.
 function entityGraph(loc) {
   const one = ENTITY.one_liner[loc] || toHans(ENTITY.one_liner[LOCALES[loc].derivedFrom] || ENTITY.one_liner.en);
