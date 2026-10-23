@@ -12,6 +12,8 @@ Produce (as asked):
 - Quick wins: position 4–20 with ≥ 10 impressions/week; CTR < 1% with ≥ 50 impressions.
 - New queries with impressions but no matching page (add them to `seo/keywords/<lang>.csv` as planned).
 - Not indexed after 7 days (`firstSeen` ≤ today−7 and verdict ≠ PASS).
+- Title rewrites for quick wins follow `seo/PLAYBOOK.md` section 2 (3 options, keep the slug, log the baseline).
+- Monthly: indexed pages vs pages we meant to index (index bloat check); list pages to improve, merge or noindex.
 - Speed governor per `seo/STATE.md`; log any velocity change in `governor.json.history` with date + reason.
 - AI visibility (weekly): share of voice from `geo/sov.json` (treat as a trend, not a rank), competitors most named per locale, prompts where we're absent but a competitor is present, `seo/data/search_appearance.json`, `geo/manual.csv`, `geo/bing/*.csv`.
 - Reports: daily ≤ 25 lines; weekly with per-locale tables (clicks, impressions, avg position, top-3/10/20 counts, pages published, indexation rate, vs last week and 4 weeks ago) and a short "why" for the top winners/losers.

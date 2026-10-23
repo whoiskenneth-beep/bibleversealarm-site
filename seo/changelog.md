@@ -2,6 +2,7 @@
 
 Newest first. One line per shipped change: date, run, locale, what, why.
 
+- 2026-10-23 manual: reviewed top GitHub SEO skills (marketingskills, claude-seo, geo-seo-claude, seo-skills). Rules copied into seo/PLAYBOOK.md and wired into all agents; check.mjs now gates uniqueness (<30% error, <40% warn), flags thin pages and repeated title shapes. All 19 generated pages score 80–96% unique.
 - 2026-10-23 manual: vendored the `ai-seo` skill (marketingskills, MIT) for GEO work; comparison page reordered leader-first (YouVersion, then where we go further) per its citations-vs-recommendations guidance; listicle variants put on hold (ChatGPT listicle citations −50% in Aug 2026); app-faq "official" page made the top GEO priority.
 - 2026-10-22 run A (en): new explainer feature page /what-is-a-bible-verse-alarm (GEO trio: app-explainer); QA REJECT then PASS on rewrite. No optimizations (no GSC data yet in history.csv); governor held.
 - 2026-10-22 run A (es): /es/que-es-una-alarma-biblica REJECTED twice by QA (bare verse quotes without reflection, imprecise Deuteronomy 6:6-7 gloss, keyword density); change deleted, keyword stays planned.

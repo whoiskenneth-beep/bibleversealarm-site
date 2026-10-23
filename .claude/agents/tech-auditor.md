@@ -9,4 +9,5 @@ model: sonnet
 3. Live checks: `curl -sI` a sample of sitemap URLs (expect 200, no redirect chains), robots.txt, the IndexNow key file, and that `/privacy`, `/support`, `/terms`, `/feedback` still return 200 (App Store links depend on them).
 4. Validate the JSON-LD types still match what each page shows (no FAQPage without visible FAQ).
 5. Hreflang: zh-Hant/zh-TW/zh-HK → /zh-hant, zh-Hans/zh-SG/zh-MY → /zh-hans, en + x-default → root.
+Apply `seo/PLAYBOOK.md` sections 5–6 (hreflang codes, real lastmod, schema types to keep or never add).
 Report findings ranked by impact, then what you fixed.

@@ -24,6 +24,19 @@ The bot runs unattended with push rights, so fewer dependencies = less supply-ch
 
 | `scripts/geo_panel.mjs` | AI-answer prompt panel via the Gemini API with Google Search grounding (free tier; quota changes often, check AI Studio's rate-limit page). Other engines have no free API tier → manual checklist. |
 
+## Skills reviewed on GitHub (2026-10-22): rules copied, not installed
+The bot runs unattended, and an installed skill is instructions it obeys, which the author could change later. So we read and vetted the
+best ones and copied the useful rules into `seo/PLAYBOOK.md` + `scripts/check.mjs`.
+| Repo | Stars / activity | Verdict |
+|---|---|---|
+| coreyhaines31/marketingskills | 56k★, pushed 2026-10-22, MIT, 52 skills | Used: `programmatic-seo` playbooks + mistakes list (its `ai-seo` skill is vendored in `.claude/skills/ai-seo`). Its `aso` skill is the right tool for the App Store "bible app" fight later. |
+| AgriciDaniel/claude-seo | 19.7k★, pushed 2026-10-22, MIT, 35 skills | Used: uniqueness/thin gates, metadata-shape idea, hreflang codes, schema status, who/how/why. Not installed: 165 code files + `curl \| bash` installer, and many sub-skills need paid APIs (Ahrefs, DataForSEO). |
+| zubair-trabzada/geo-seo-claude | 11.2k★, pushed 2026-10-22, MIT | Overlaps our GEO module (`geo/`); nothing new adopted. |
+| Illyism/seo-skills | 583★, pushed 2026-10-15, no licence file | Ideas only (title formula/patterns); no text copied. |
+| RankSpotAI/awesome-seo-agent-skills | 54★ curated list | Used to find the above. |
+| `*/r05-…`, `r12-…`, `r16-…`, `r18-…-claude-code-seo` | ~40–60★, all created 2026-04-28 | **Avoid**: look-alike "derived from" repos with batch-created names, a common malware-bait pattern. |
+Upstream claim we haven't confirmed: "Google retired FAQ rich results for all sites, May 2026". Logged in PLAYBOOK §6 as unconfirmed.
+
 ## Evaluated, not installed
 | Tool | Why not (yet) |
 |---|---|

@@ -18,7 +18,10 @@ Steps:
 9. Title: keyword near front, ≤ 60 chars (CJK ≤ 30), number = ref count; description unique and specific.
 10. AI extractability (`.claude/skills/ai-seo/SKILL.md` Step 3): definition in the first paragraph, self-contained answer blocks, statistics only with a named dated source, visible updated date. Unsourced or invented statistics → REJECT.
 11. Answer-first: each H2's first 1–2 sentences must answer it on their own; FAQ answers ≤ 60 words; GEO trio pages follow their rules in `seo/templates/README.md` (comparison facts dated and checkable, no prices for our app). Missing → REJECT.
-12. Health and safety: anxiety/depression/grief pages must not discourage professional help.
+12. Playbook (`seo/PLAYBOOK.md`): fails the standalone value test, duplicates an intent another page already serves (cannibalization),
+    or claims a person/credential/review that doesn't exist → REJECT. Run `UNIQ_REPORT=1 node scripts/check.mjs` and quote the page's
+    uniqueness %: below 40% → REJECT with the sibling it overlaps.
+13. Health and safety: anxiety/depression/grief pages must not discourage professional help.
 
 Reply format, nothing else:
 VERDICT: PASS | REJECT
