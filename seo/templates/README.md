@@ -28,7 +28,7 @@ URLs: en `/bible-verses-about/<slug>`, es `/es/versiculos-biblicos/<slug>`, zh `
 - Every page shows its "Updated" date; bump `updated` whenever content meaningfully changes.
 
 ## GEO page trio (one each per locale, feature pages, clusters `app-compare`, `app-explainer`, `app-faq`)
-These are the pages AI engines cite for "which app should I use" prompts.
+These are the pages AI engines cite for "which app should I use" prompts. Priority order (per ai-seo `format-volatility`, Aug 2026: ChatGPT cut listicle citations ~50%): `app-faq` (owned "official" facts page) first, then `app-explainer`, then `app-compare`. Don't produce more best-of/listicle variants unless GSC shows they earn impressions. In comparisons, name the category leader first and say honestly what it does well, then where our app goes further.
 - `app-compare`: fair "best Christian apps for iPhone" comparison (EN live: `content/features/best-christian-apps.json`; copy its structure per locale, native app picks per market). Disclose that we make Bible Verse Alarm, list it only for the job it does best, cost column must say "Free to download, subscription for full use" for ours. Only facts checkable on each app's App Store page (fetch it the same day; write "as of <date>"). A table: app, what it does, platform, how it wakes you / builds the habit. No knocking competitors; say who each one suits. Never state our prices (A/B tests); others' prices only if shown on their store page.
 - `app-explainer`: "What is a Bible verse alarm?": definition in the first sentence, how it works, who it's for, how it differs from a normal alarm / a Bible app.
 - `app-faq`: 10–15 real questions about the app, each answered in ≤ 50 words from `seo/APP_FACTS.md`.

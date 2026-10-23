@@ -26,7 +26,7 @@ keep each run small (target: under ~30 minutes of work). Ship small, measure, it
 5. Experiments due (`review_after` ≤ today): compare against the baseline. Winner → note it in STATE.md backlog "roll out". Loser → revert. Write the verdict.
 
 ## 3. Weekly extras
-- **GEO (AI answers), Monday runs** (A: en + es, B: zh + ko). Read `geo/sov.json`, the newest rows of `geo/results.csv`, `geo/manual.csv` and `seo/data/search_appearance.json`, then apply these rules:
+- **GEO (AI answers), Monday runs** (A: en + es, B: zh + ko). Use the vendored `ai-seo` skill (`.claude/skills/ai-seo/`, context in `.claude/product-marketing.md`): run its Step 3 extractability checklist on this run's 2 most important pages for the locale and fix the failures (counts as the day's optimization). Its rules override generic SEO habits here: answer blocks 40–60 words, sourced statistics with dates (never invented), "official" owned pages over more listicles, consensus over self-ranking. Read `geo/sov.json`, the newest rows of `geo/results.csv`, `geo/manual.csv` and `seo/data/search_appearance.json`, then apply these rules:
   - Competitor named for a prompt where we're absent (≥ 2 of 3 runs, 2 weeks running) → find which pages get cited for them (WebSearch), then close the gap: a better on-site answer and/or an outreach draft.
   - A page in the organic top 10 but never cited → restructure it answer-first (counts as that day's optimization).
   - AI-type impressions rising while clicks fall on topic hubs → keep the hubs, strengthen their CTAs, shift new-page effort to app-recommendation/comparison intent.
