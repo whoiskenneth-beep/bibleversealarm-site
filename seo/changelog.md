@@ -2,6 +2,8 @@
 
 Newest first. One line per shipped change: date, run, locale, what, why.
 
+- 2026-10-23 run B (zh-hant): /zh-hant/shengjing-naozhong-shi-shenme (explainer) REJECTED twice by QA (keyword density, then a broken sentence with ambiguous subject); change deleted, keyword stays planned. No optimization (no GSC data yet).
+- 2026-10-23 run B (ko): new feature page /ko/seonggyeong-allam-iran (성경 알람이란, app-explainer, no verse text); QA PASS first time. No optimization (governor: ko 0).
 - 2026-10-23 manual (es, zh-hant, zh-hans, ko): approved About bios live (/es/acerca-de, /zh-hant/about, /zh-hans/about, /ko/about); bylines link to the About page in the page's own language.
 - 2026-10-23 manual: Kenneth Foo as named author (byline on every topic/feature page, Person in schema, Organization.founder) + English /about page (approved bio, Matthew 22:37). Also strips stray closing quotes the BSB data leaves on some verses.
 - 2026-10-23 manual: reviewed top GitHub SEO skills (marketingskills, claude-seo, geo-seo-claude, seo-skills). Rules copied into seo/PLAYBOOK.md and wired into all agents; check.mjs now gates uniqueness (<30% error, <40% warn), flags thin pages and repeated title shapes. All 19 generated pages score 80–96% unique.
