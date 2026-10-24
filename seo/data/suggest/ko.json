@@ -1,5 +1,5 @@
 {
- "cursor": 0,
+ "cursor": 3,
  "suggestions": {
   "성경구절": {
    "seed": "성경구절",
@@ -306,7 +306,8 @@
   "큐티키즈": {
    "seed": "큐티",
    "markets": [
-    "naver"
+    "naver",
+    "kr"
    ]
   },
   "큐티플": {
@@ -824,6 +825,43 @@
   },
   "성경암송학교": {
    "seed": "성경 암송",
+   "markets": [
+    "naver"
+   ]
+  },
+  "영어 성경구절": {
+   "seed": "성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "전도 성경구절": {
+   "seed": "성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "성경말씀 영어로": {
+   "seed": "성경말씀",
+   "markets": [
+    "kr"
+   ]
+  },
+  "큐티 스트릿": {
+   "seed": "큐티",
+   "markets": [
+    "kr"
+   ]
+  },
+  "큐티클 오일": {
+   "seed": "큐티",
+   "markets": [
+    "kr",
+    "naver"
+   ]
+  },
+  "큐티 스트리스트": {
+   "seed": "큐티",
    "markets": [
     "naver"
    ]
