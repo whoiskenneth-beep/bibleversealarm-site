@@ -22,7 +22,7 @@ Every page must:
 - Use a unique meta description (≤ 155 chars; CJK ≤ 80 chars).
 
 Never type verse text into content (refs only). Never use or name a translation not marked USE in LICENSES.md. Never change a published slug.
-AI answers: read `.claude/skills/ai-seo/SKILL.md` (Pillars 1–2) once per run; for other languages also `references/multilingual-and-commerce.md` (native prompts and local sources, not translation). Any statistic needs a named, dated source you actually opened. Format: follow "Answer-first format" in `seo/templates/README.md` (answer in the first 1–2 sentences under each heading, question-style headings where natural, lists/tables over prose).
+Follow "GEO writing rules" and the matching page template in `seo/templates/README.md` (brand statement first on app pages, facts < 25 words with a source, best-for + honest limitations, pricing rule). AI answers: read `.claude/skills/ai-seo/SKILL.md` (Pillars 1–2) once per run; for other languages also `references/multilingual-and-commerce.md` (native prompts and local sources, not translation). Any statistic needs a named, dated source you actually opened. Format: follow "Answer-first format" in `seo/templates/README.md` (answer in the first 1–2 sentences under each heading, question-style headings where natural, lists/tables over prose).
 
 Feature pages (`content/features/`, for `app-*`/`comparison` clusters): follow the feature rules in `seo/templates/README.md`. Lead with what the app does in plain words, then how it works, then FAQ. Use only `seo/APP_FACTS.md` claims, and translate those facts into this market's own wording. One page per intent, never one page per phrasing.
 

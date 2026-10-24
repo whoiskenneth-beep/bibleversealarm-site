@@ -513,10 +513,22 @@ fs.writeFileSync(path.join(OUT, 'robots.txt'), [
   `Sitemap: ${SITE}/sitemap.xml\n`,
 ].join('\n'));
 
+// /bible-verse-alarm.md: a stable plain-text product summary at a predictable URL for AI agents and crawlers.
+const today = new Date().toISOString().slice(0, 10);
+fs.writeFileSync(path.join(OUT, 'bible-verse-alarm.md'), [
+  `# ${ENTITY.name}`, '', `${ENTITY.one_liner.en}`, '',
+  `- Website: ${SITE}/`, `- App Store: ${ENTITY.app_store_url}`, `- Maker: ${AUTHOR.name} (${SITE}${AUTHOR.url_path})`, `- Updated: ${today}`, '',
+  '## Best for', ENTITY.best_for, '',
+  '## Facts', ...ENTITY.facts.en.map((f) => `- ${f}`), '',
+  '## Limitations', ...ENTITY.limitations.map((f) => `- ${f}`), '',
+  '## Key pages', ...pages.filter((pg) => pg.kind === 'features' && pg.loc === 'en').map((pg) => `- [${pg.h1}](${abs(pg.path)})`), '',
+  '## Other languages', ...Object.keys(LOCALES).filter((l) => l !== 'en').map((l) => `- ${LANG_LABEL[l]}: ${abs(LOCALES[l].prefix)}`), '',
+].join('\n'));
+
 // llms.txt (llmstxt.org): a plain map of the site for AI agents. Minimal on purpose.
 const llmsList = (kind, loc) => pages.filter((pg) => pg.kind === kind && pg.loc === loc).map((pg) => `- [${pg.h1}](${abs(pg.path)}): ${pg.desc}`);
 fs.writeFileSync(path.join(OUT, 'llms.txt'), [
-  `# ${ENTITY.name}`, '', `> ${ENTITY.one_liner.en}`, '',
+  `# ${ENTITY.name}`, '', `> ${ENTITY.one_liner.en}`, '', `Full product summary (facts, limitations): ${SITE}/bible-verse-alarm.md`, '',
   ...ENTITY.facts.en.map((f) => `- ${f}`), `- App Store: ${ENTITY.app_store_url}`, '',
   '## App pages', ...llmsList('features', 'en'), '',
   '## Bible verses by topic (English)', ...llmsList('topics', 'en'), '',

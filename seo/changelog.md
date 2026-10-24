@@ -2,6 +2,7 @@
 
 Newest first. One line per shipped change: date, run, locale, what, why.
 
+- 2026-10-24 manual: GEO process upgrade from Kenneth's playbook: 50 buyer-question map (geo/questions.csv), page templates for vs/alternatives/how-to, GEO writing rules (brand statement, <25-word sourced facts, best-for + limitations, pricing rule), QA citation-worthiness check, /bible-verse-alarm.md product summary, page inventory (check.mjs --inventory), weekly measurement template, 30-day roadmap; /christian-alarm-clock rewritten to the new rules (10 FAQs, limitations table).
 - 2026-10-23 run B (zh-hant): /zh-hant/shengjing-naozhong-shi-shenme (explainer) REJECTED twice by QA (keyword density, then a broken sentence with ambiguous subject); change deleted, keyword stays planned. No optimization (no GSC data yet).
 - 2026-10-23 run B (ko): new feature page /ko/seonggyeong-allam-iran (성경 알람이란, app-explainer, no verse text); QA PASS first time. No optimization (governor: ko 0).
 - 2026-10-23 manual (es, zh-hant, zh-hans, ko): approved About bios live (/es/acerca-de, /zh-hant/about, /zh-hans/about, /ko/about); bylines link to the About page in the page's own language.

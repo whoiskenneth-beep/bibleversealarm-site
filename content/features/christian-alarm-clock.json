@@ -12,9 +12,9 @@
       "title": "Christian Alarm Clock App That Wakes You With Scripture",
       "description": "Bible Verse Alarm is a Christian alarm clock for iPhone. It keeps ringing until you complete a short Bible verse, so your first minute goes to God's Word.",
       "h1": "A Christian alarm clock that wakes you up with Scripture",
-      "intro": "Most alarms hand you straight to your phone. Bible Verse Alarm is an iPhone alarm that won't stop ringing until you finish a short Bible verse, so the first thing you read each day is Scripture, not your notifications.",
+      "intro": "Bible Verse Alarm is a Christian alarm clock app for iPhone that keeps ringing until you complete a short Bible verse. It's for people whose first minute every morning goes to their phone instead of to God, so the first thing you read each day is Scripture, not your notifications.",
       "published": "2026-10-22",
-      "updated": "2026-10-22",
+      "updated": "2026-10-24",
       "sections": [
         {
           "heading": "How it works",
@@ -37,6 +37,42 @@
           "body": "Because you put each verse back together yourself, it sticks. The Verses tab keeps the verses you've woken up to, with scenes that unlock as you keep showing up. The Practice tab lets you rehearse any verse whenever you like."
         },
         {
+          "heading": "Who it's best for, and who it isn't",
+          "body": "Best for Christians who want to read the Bible every morning but reach for the feed first, and for heavy sleepers who silence normal alarms without waking up.\n\nNot the right fit if you need an Android app (it's iPhone only), want a gentle one-tap alarm, or want a full Bible-reading app. For long reading plans, YouVersion is the better tool, and many people use both. It's free to download, and full use needs a subscription; the current price is shown on the App Store in your country.",
+          "table": [
+            [
+              "",
+              "Bible Verse Alarm",
+              "A normal alarm",
+              "A mission alarm (e.g. Alarmy)"
+            ],
+            [
+              "How you turn it off",
+              "Complete a short Bible verse",
+              "One tap",
+              "A task: photo, maths, steps"
+            ],
+            [
+              "What you read first",
+              "Scripture",
+              "Whatever you open next",
+              "Whatever you open next"
+            ],
+            [
+              "Rings on Silent / Focus",
+              "Yes (Apple AlarmKit)",
+              "Built-in Clock: yes",
+              "Varies by app"
+            ],
+            [
+              "Platform",
+              "iPhone",
+              "iPhone and Android",
+              "See each app's store page"
+            ]
+          ]
+        },
+        {
           "heading": "The details",
           "body": "No account and no login. The Bible text is stored on your phone and works offline. English translations: NIV, World English Bible, King James Version and Berean Standard Bible. Family Sharing is supported. iPhone only for now."
         }
@@ -57,6 +93,30 @@
         {
           "q": "Is Bible Verse Alarm available on Android?",
           "a": "Not yet. It's currently available for iPhone on the App Store."
+        },
+        {
+          "q": "Which app shows a Bible verse when my alarm goes off?",
+          "a": "Bible Verse Alarm shows a verse when the alarm rings and keeps ringing until you complete it. Verse-of-the-day apps such as YouVersion send a notification instead, which you can dismiss without reading."
+        },
+        {
+          "q": "Can I choose which Bible verses wake me up?",
+          "a": "Yes. Each alarm has its own set of verses, which you pick in the alarm editor, so you can match them to the season you're in."
+        },
+        {
+          "q": "Does it need an account or internet?",
+          "a": "No. There's no account or login, and the Bible text is stored on your iPhone, so alarms and verses work offline."
+        },
+        {
+          "q": "Is Bible Verse Alarm free?",
+          "a": "It's free to download, and full use needs a subscription. The current price is shown on the App Store in your country."
+        },
+        {
+          "q": "Does it work in Spanish, Chinese or Korean?",
+          "a": "Yes. The app follows your iPhone's language and includes Reina-Valera 1909 in Spanish, the Chinese Union Version in Chinese and 개역한글 in Korean."
+        },
+        {
+          "q": "Is it good for heavy sleepers?",
+          "a": "It's built for them: it rings through Silent and Focus modes, and a half-asleep tap can't switch it off because the verse has to be completed first."
         }
       ]
     },

@@ -34,7 +34,7 @@ Every change to velocity is appended to `governor.json.history` with the date an
 - Lean on Pro: 1 new page per locale per day; qa-gatekeeper on every new page; scouts weekly.
 
 ## GEO (AI answer engines): see `geo/README.md`
-Priority #1: app-recommendation prompts in all 4 languages. Every locale's queue starts with the GEO trio (`app-compare`,
+Priority #1: app-recommendation prompts in all 4 languages. Plan + metrics: `geo/ROADMAP.md`; question → page map: `geo/questions.csv`. Every locale's queue starts with the GEO trio (`app-compare`,
 `app-explainer`, `app-faq`). All pages are written answer-first (`seo/templates/README.md`). Entity facts: `seo/entity.json`.
 
 ## Backlog (highest impact first)

@@ -150,6 +150,22 @@ for (const [lang, list] of Object.entries(byLang)) {
   if (n / list.length > 0.6) warn.push(`${lang}: ${n}/${list.length} titles start "${top}…"; vary title patterns`);
 }
 
+// --inventory: page inventory for audits (seo/data/inventory.csv).
+if (process.argv.includes('--inventory')) {
+  const csvq = (v) => (/[",\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : String(v));
+  const rows = [['url', 'lang', 'title', 'title_len', 'h1', 'words_or_chars', 'updated', 'internal_in', 'internal_out', 'canonical_ok']];
+  for (const [url, p] of indexable) {
+    const text = p.html.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
+    const size = /^(zh|ja|ko)/.test(p.lang || '') ? text.replace(/\s/g, '').length : text.split(' ').length;
+    const h1 = (p.html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [, ''])[1].replace(/<[^>]+>/g, '').trim();
+    const updated = (p.html.match(/<time datetime="([^"]+)"/) || [, ''])[1];
+    rows.push([url, p.lang, p.title, (p.title || '').length, h1, size, updated, inbound[url]?.size || 0, new Set(p.links).size, p.canonical === url]);
+  }
+  const out = path.resolve(path.dirname(new URL(import.meta.url).pathname), '../seo/data/inventory.csv');
+  fs.writeFileSync(out, rows.map((r) => r.map(csvq).join(',')).join('\n') + '\n');
+  console.log(`inventory: ${rows.length - 1} pages -> seo/data/inventory.csv`);
+}
+
 for (const w of warn) console.warn('warn:', w);
 if (errors.length) {
   console.error(errors.map((e) => 'ERROR: ' + e).join('\n'));

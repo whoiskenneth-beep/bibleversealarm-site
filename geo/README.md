@@ -4,6 +4,8 @@ Goal: Bible Verse Alarm gets named and cited when people ask AI assistants for a
 
 | File | What |
 |---|---|
+| `questions.csv` | The 50 high-intent buyer questions per locale (en done): stage, target page, status, competitors AI names, gap, fix. One question → one page. |
+| `ROADMAP.md` | 30-day plan, owners, success metrics, what we stopped. |
 | `prompts/<locale>.csv` | 40–60 native prompts per locale (`type` = app or topic). The bot adds Bing grounding queries over time. |
 | `results.csv` | Automated runs on Gemini's free tier (`scripts/geo_panel.mjs`, `.github/workflows/geo.yml`): the 20 app prompts of one locale per day (Mon en, Tue es, Wed zh, Thu ko), 1 run each. The free tier has **no Search grounding and ~20 requests/day**, so this measures what the model itself knows about us (training data), not live citations. `snippet` holds the text around each mention for auditing. |
 | `sov.json` | Share of voice = % of runs where we're mentioned or cited, per week × engine × locale × type. A trend, not a rank. |

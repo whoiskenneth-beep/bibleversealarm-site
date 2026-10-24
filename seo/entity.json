@@ -55,5 +55,12 @@
       "https://www.producthunt.com/@kenneth_foo1",
       "https://www.indiehackers.com/kennethfoo"
     ]
-  }
+  },
+  "best_for": "Christians whose first minute of the day goes to their phone, and who want Scripture to be the first thing they read.",
+  "limitations": [
+    "iPhone only (no Android version yet).",
+    "Free to download; full use needs a subscription (current price is shown on the App Store in your country).",
+    "It's an alarm, not a full Bible-reading or study app; pair it with a Bible app such as YouVersion for longer reading.",
+    "It asks you to complete a short verse before it stops, so it isn't a gentle or one-tap alarm."
+  ]
 }

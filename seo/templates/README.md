@@ -21,6 +21,34 @@ pulled from the locale's public-domain Bible at build time. Never type verse tex
 
 URLs: en `/bible-verses-about/<slug>`, es `/es/versiculos-biblicos/<slug>`, zh `/zh-hant|zh-hans/jingwen/<slug>`, ko `/ko/seonggu/<slug>`.
 
+## GEO writing rules (ALL pages; from Kenneth's GEO/AEO playbook, 2026-10-24)
+- **Brand statement first** on app pages: the first sentence is "Bible Verse Alarm is a [category] for [audience]…" (or the
+  locale's natural equivalent). On non-app pages the first sentence answers the page's one question for a non-expert.
+- **One page, one primary question.** It's listed in `geo/questions.csv` (`target_page`). Don't make a second page for a question
+  that already has one; extend the existing page.
+- **Key facts in short, self-contained sentences (< 25 words)**, each backed by a number, a named source or an App Store fact.
+- **"Best for" + honest limitations** on every app/comparison page: who it suits, who it doesn't (iPhone only; full use needs a
+  subscription; it's an alarm, not a full Bible-reading app; it asks you to complete a verse before it stops).
+- **Mirror real phrasing**, including long conversational questions from `geo/questions.csv`, `geo/prompts/`, People Also Ask.
+- **Pricing:** never a number or trial length (live A/B tests). Say: free to download, full use needs a subscription, the
+  current price is shown on the App Store in your country.
+- **Proof:** prefer real numbers with sources and dates, named examples, first-hand detail from Kenneth (`seo/APP_FACTS.md`).
+  If a fact can't be verified, leave it out. Never invent reviews, ratings, user counts or survey results.
+- **Freshness:** pages in `geo/questions.csv` with status `live` get re-checked monthly; bump `updated` only for real changes.
+- **FAQ:** app pages carry 8–12 real questions (GSC queries, PAA, forums, `geo/questions.csv`); topic pages 3–5.
+
+## Page templates by question type (feature pages; cluster prefix in brackets)
+- **Best X for Y** [`app-compare`]: one-line answer → table (name, best for, cost, key limitation) → one section per option
+  with ideal user → how we chose (disclose we make Bible Verse Alarm) → FAQ. Category leader first.
+- **X vs Y** [`vs-*`]: verdict in the first sentence (including "use both" when true) → side-by-side table (what it does,
+  platform, cost model, best for) → winner for 2–3 common situations → switching / combining tips → FAQ. Competitor facts only
+  from their App Store page, dated.
+- **Alternatives to X** [`alt-*`]: why people look for an alternative → 5–10 options with "best for" labels → what to check
+  before switching → FAQ. Prefer a section inside an existing vs/compare page until GSC shows separate demand.
+- **How-to** [`howto-*`]: the outcome in the first sentence → numbered steps with time needed → common mistakes → where the app
+  helps (one honest option, not the only one) → FAQ. Verses may be quoted via `refs` (licensed Bibles only).
+- **Pricing**: not a separate page (A/B tests). Pricing questions are answered in the FAQ page with the pricing rule above.
+
 ## Answer-first format (ALL pages, for Google and AI answer engines)
 - Under every H2, the first 1–2 sentences answer that heading on their own: quotable without the rest of the page.
 - Phrase H2s and FAQ questions as the real questions people ask (from `seo/data/suggest/`, `geo/prompts/`, PAA, Bing grounding queries) where it reads naturally. Verse-group headings on topic pages may stay as themes.

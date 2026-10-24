@@ -16,6 +16,7 @@ Steps:
 7. App claims: every claim about Bible Verse Alarm must be in `seo/APP_FACTS.md` → otherwise REJECT.
 8. Licence: locale's Bible must be marked USE in `seo/LICENSES.md`; no verse text typed into content → otherwise REJECT.
 9. Title: keyword near front, ≤ 60 chars (CJK ≤ 30), number = ref count; description unique and specific.
+9b. Citation-worthiness: WebSearch the page's main question; if the current top result or AI answer is clearly more specific or more useful, REJECT with what's missing. App pages must open with the brand statement and include honest limitations; any number/trial length for our pricing → REJECT.
 10. AI extractability (`.claude/skills/ai-seo/SKILL.md` Step 3): definition in the first paragraph, self-contained answer blocks, statistics only with a named dated source, visible updated date. Unsourced or invented statistics → REJECT.
 11. Answer-first: each H2's first 1–2 sentences must answer it on their own; FAQ answers ≤ 60 words; GEO trio pages follow their rules in `seo/templates/README.md` (comparison facts dated and checkable, no prices for our app). Missing → REJECT.
 12. Playbook (`seo/PLAYBOOK.md`): fails the standalone value test, duplicates an intent another page already serves (cannibalization),

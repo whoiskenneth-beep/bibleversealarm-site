@@ -19,11 +19,18 @@ keep each run small (target: under ~30 minutes of work). Ship small, measure, it
 1. **Optimize first** (`optimizations_per_day`): the best quick win from step 1: title/meta rewrite, an extra verse group, better FAQ, internal links. Log it in `seo/experiments.csv` with its baseline (position, CTR, impressions) and `review_after` = today + 14 days.
 2. **New pages** (`new_pages_per_day`): pick the highest-priority `planned` keyword from `seo/keywords/<lang>.csv`. Priority order: top > high > medium > low. (No planned rows → run the `keyword-scout-<lang>` agent once to add 10 from `seo/data/suggest/<lang>.json`.)
    Spawn `writer-<lang>` with the keyword, cluster and the list of existing topic + feature ids.
-   - Cluster `app-*` or `comparison` → a **feature page** in `content/features/` (schema + rules: `seo/templates/README.md`). If the cluster already has a page in another language, add this locale to that file. These are the install-intent pages: they matter most for revenue.
+   - Cluster `app-*`, `vs-*`, `alt-*`, `howto-*` or `comparison` → a **feature page** (templates by question type in `seo/templates/README.md`) in `content/features/` (schema + rules: `seo/templates/README.md`). If the cluster already has a page in another language, add this locale to that file. These are the install-intent pages: they matter most for revenue.
    - Otherwise → a topic page in `content/topics/<id>.json` (add the locale to an existing topic file when one exists).
 3. Spawn `qa-gatekeeper` on every new or substantially changed page (give it only the file path + locale, not the writer's reasoning). REJECT → send the notes to the writer once, then run `qa-gatekeeper` ONE more time on the rewrite. Rejected again → delete the change and log it in the report. Never ship a page whose last verdict was REJECT.
 4. Mark the keyword row `published` with its target_page.
 5. Experiments due (`review_after` ≤ today): compare against the baseline. Winner → note it in STATE.md backlog "roll out". Loser → revert. Write the verdict.
+
+## 2b. Buyer questions (`geo/questions.csv`, every run, this run's locales)
+- Each row is one high-intent question → one `target_page`. When you publish or fix a page, update its rows (`page_status`, `gap`, `fix`).
+- `en` has 50 rows. Other locales: build theirs natively (problem / solution / best / vs / alternatives / pricing / reviews /
+  implementation), 10 new rows per Monday run until each reaches 50. Never translate the English list.
+- Cannibalization check before any new page: if another live page already answers the question, extend it instead; if two pages
+  compete for one question (both get GSC impressions for it), merge the weaker into the stronger with a 301 in `vercel.json`.
 
 ## 3. Weekly extras
 - **GEO (AI answers), Monday runs** (A: en + es, B: zh + ko). Use the vendored `ai-seo` skill (`.claude/skills/ai-seo/`, context in `.claude/product-marketing.md`): run its Step 3 extractability checklist on this run's 2 most important pages for the locale and fix the failures (counts as the day's optimization). Its rules override generic SEO habits here: answer blocks 40–60 words, sourced statistics with dates (never invented), "official" owned pages over more listicles, consensus over self-ranking. Read `geo/sov.json`, the newest rows of `geo/results.csv`, `geo/manual.csv` and `seo/data/search_appearance.json`, then apply these rules:
@@ -32,7 +39,7 @@ keep each run small (target: under ~30 minutes of work). Ship small, measure, it
   - AI-type impressions rising while clicks fall on topic hubs → keep the hubs, strengthen their CTAs, shift new-page effort to app-recommendation/comparison intent.
   - Bing grounding queries (from `geo/bing/` exports) → add as keyword rows and, if they're questions, as new prompts in `geo/prompts/<locale>.csv` (keep 40–60 per locale).
 - **Outreach, Monday runs, same locales:** WebSearch for Reddit/forum threads, "best Bible app" listicles and review sites in that language where apps like ours are discussed and we're missing. Add any new listing site, directory or roundup article you find as a row in `geo/targets.csv` (status `ready`, or `draft-needed` for pitches), and turn `draft-needed` rows for this run's locales into drafts. Write at most 3 drafts per locale to `geo/outreach/YYYY-MM-DD-<locale>.md`: link, context, a genuinely helpful reply or pitch that discloses "I make Bible Verse Alarm". Kenneth posts or sends; you never post, comment or email.
-- Monday Run A: `tech-auditor` (PageSpeed Insights for 3 sample URLs, crawl/hreflang/sitemap review) + the weekly report `seo/reports/weekly/YYYY-MM-DD.md` (with an **AI visibility** section: share of voice per locale per engine from `geo/sov.json` + `geo/manual.csv`, Bing citations if exported, Google AI appearance rows, `ct=ai_*` store-click campaigns Kenneth reports, new competitor mentions; plus per-locale clicks, impressions, avg position, top-3/10/20 counts, pages published, indexation rate vs last week and 4 weeks ago; winners/losers; experiment verdicts; next week's velocity; open NEEDS_HUMAN items).
+- Monday Run A: `tech-auditor` (PageSpeed Insights for 3 sample URLs, crawl/hreflang/sitemap review) + the weekly report `seo/reports/weekly/YYYY-MM-DD.md` using the **measurement template** below (with an **AI visibility** section: share of voice per locale per engine from `geo/sov.json` + `geo/manual.csv`, Bing citations if exported, Google AI appearance rows, `ct=ai_*` store-click campaigns Kenneth reports, new competitor mentions; plus per-locale clicks, impressions, avg position, top-3/10/20 counts, pages published, indexation rate vs last week and 4 weeks ago; winners/losers; experiment verdicts; next week's velocity; open NEEDS_HUMAN items).
 - Every other Monday: pruning. Pages with 0 impressions after 60 days get improved once, then merged (301 in `vercel.json` `redirects`) or set to noindex.
 - Monday Run B: `keyword-scout-zh` and `keyword-scout-ko`. Monday Run A: `keyword-scout-en` and `keyword-scout-es`.
 
@@ -50,3 +57,17 @@ keep each run small (target: under ~30 minutes of work). Ship small, measure, it
 - Keyword stuffing, doorway pages, near-duplicate pages, hidden text, link schemes, the Google Indexing API.
 - Send email or post publicly. Outreach and social posts are drafts in `seo/outreach/` for Kenneth.
 - Commit secrets.
+
+## Weekly measurement template (copy into every weekly report)
+| Metric (per locale) | This week | Last week | 4 weeks ago | Source |
+|---|---|---|---|---|
+| Clicks / impressions, priority queries (`geo/questions.csv`) | | | | GSC (`seo/rankings/history.csv`) |
+| Buyer questions with a live page / with GSC impressions / top-10 | | | | `geo/questions.csv` + GSC |
+| AI share of voice (mentioned or cited ÷ runs) per engine | | | | `geo/sov.json`, `geo/manual.csv` |
+| Google AI appearance rows | | | | `seo/data/search_appearance.json` |
+| AI-referred store clicks / installs (`ct=ai_*`) | | | | App Store Connect (Kenneth reports) |
+| Pages published / merged / refreshed | | | | changelog |
+Not available (say so, don't estimate): AI bot crawl logs (Vercel free plan has no log access); AI-referred sessions until
+Vercel Web Analytics is on (NEEDS_HUMAN #12). Every action logged in `seo/experiments.csv` needs an owner, expected impact and
+a 30-day success metric.
+
