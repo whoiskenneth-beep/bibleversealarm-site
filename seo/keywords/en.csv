@@ -1,5 +1,5 @@
 keyword,intent,cluster,target_page,priority,status
-how to read the bible every morning,informational,howto-morning-bible,,top,planned
+how to read the bible every morning,informational,howto-morning-bible,/how-to-read-the-bible-every-morning,top,published
 how to stop checking phone first thing in the morning,informational,howto-phone-morning,,top,planned
 how to memorize bible verses,informational,howto-memorize,,high,planned
 bible verse alarm vs alarmy,commercial,vs-alarmy,,high,planned
