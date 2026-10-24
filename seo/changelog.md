@@ -24,3 +24,5 @@ Newest first. One line per shipped change: date, run, locale, what, why.
 - 2026-10-23 run A (es): es locale added to /es/alarma-cristiana (cluster app-alarm); QA REJECT then PASS on rewrite. No optimization (no GSC data yet); governor held.
 - 2026-10-24 run B (zh-hant): zh-hant added to /what-is-a-bible-verse-alarm → /zh-hant/shenme-shi-shengjing-naozhong (+ zh-hans generated; app-explainer); QA REJECT (thin FAQ, no limitations, verse wording) then PASS on rewrite. No optimization (no GSC data yet).
 - 2026-10-24 run B (ko): ko added to /bible-verse-alarm-faq → /ko/seonggyeong-allam-app-jaju-mutneun-jilmun (app-faq, no verse text); QA REJECT (answer-first, limitations section, unlinked mentions) then PASS on rewrite. No optimization (ko governor 0; no GSC data). Non-blocking QA notes left: redundant menu phrase, register mix.
+- 2026-10-24 run A (en): new feature page /how-to-read-the-bible-every-morning (howto-morning-bible); QA PASS. No optimization (no usable GSC data yet); governor held.
+- 2026-10-24 run A (es): es added to /bible-verse-alarm-faq → /es/preguntas-frecuentes-alarma-versiculos (app-faq); QA PASS. No optimization (no usable GSC data yet).

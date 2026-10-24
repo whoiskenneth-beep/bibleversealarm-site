@@ -1,0 +1,73 @@
+{
+  "id": "how-to-read-the-bible-every-morning",
+  "related": ["morning", "encouragement", "anxiety", "strength"],
+  "locales": {
+    "en": {
+      "slug": "how-to-read-the-bible-every-morning",
+      "nav": "Read the Bible every morning",
+      "title": "How to Read the Bible Every Morning (A Simple Plan)",
+      "description": "A simple plan for reading the Bible each morning: start with five minutes, pick one place to read, tie it to waking up, and what to do when you miss a day.",
+      "h1": "How to read the Bible every morning",
+      "intro": "To read the Bible every morning, pick a fixed time, a short passage and one spot, then tie it to something you already do when you wake up. Five minutes a day is enough to start. Below are the steps, the mistakes that end most attempts, and one app option for people who reach for their phone first.",
+      "published": "2026-10-24",
+      "updated": "2026-10-24",
+      "sections": [
+        {
+          "heading": "What is the simplest way to start?",
+          "body": "Start with five minutes and one short passage. A habit that fits into a busy morning lasts longer than a big plan you drop in week two.\n\nHere are the steps, with the time each one takes:\n\n1. Decide when (1 minute, once). Pick a time that is the same every day, such as right after you turn off your alarm or while the coffee brews.\n2. Decide where (1 minute, once). Choose one chair or one corner. Leave the Bible or the app open there the night before.\n3. Choose a small starting point (2 minutes, once). One chapter of Mark or a few verses of a psalm is plenty. You can also use a list of morning verses.\n4. Read slowly (2 minutes). Read the passage once through, then again. Stop on the line that stands out.\n5. Respond (1 minute). Say one sentence back to God: thanks, a request, or what you will do today. Then stop. A short, finished session beats a long one you skip."
+        },
+        {
+          "heading": "Why do the Bible's own writers talk about the morning?",
+          "body": "Several psalm writers describe starting the day with God, and the Gospels show Jesus doing the same. Morning is not a rule. It is a pattern that many believers found easy to keep because the day has not yet filled up.\n\nIn Psalm 5, David says he lays his requests before God at daybreak and waits. In Psalm 143, the writer asks to hear God's loving devotion in the morning, because that is where his trust sits. Mark records that Jesus went out to pray early, while it was still dark. None of these passages set a length or a method. They show a direction: face God first.",
+          "refs": ["Psalms 5:3", "Psalms 143:8", "Mark 1:35"]
+        },
+        {
+          "heading": "What should I read first thing in the morning?",
+          "body": "Read a book from start to finish, not random verses. A Gospel such as Mark or John is a common first choice, and Psalms works well for short mornings because each psalm is brief.\n\nA simple order: one chapter a day in Mark, then a psalm a day, then another Gospel. If you want a single verse to carry into the day, the morning verses page has a curated list. Pick the translation you actually understand. The Berean Standard Bible, used on this site, is modern and readable."
+        },
+        {
+          "heading": "How do I read the Bible every day without missing?",
+          "body": "Attach it to something that already happens every morning, and make missing a day cheap. You will miss days. What matters is the next morning.\n\n- Habit stacking: Bible after the alarm, before the first scroll.\n- Two-minute floor: on rushed days, read three verses and call it done.\n- Never miss twice: if you skip Tuesday, Wednesday is the only thing that matters.\n- Keep a tiny record: a tick on a calendar is enough.\n- Fix the night before: set out the Bible, and set your wake time honestly."
+        },
+        {
+          "heading": "What mistakes end most morning Bible habits?",
+          "body": "The most common ones are starting too big, reading with the phone nearby, and treating a missed day as failure. Each has a simple fix.",
+          "table": [
+            ["Mistake", "Why it backfires", "Fix"],
+            ["Reading four chapters a day", "You quit when life gets busy", "Start with five minutes"],
+            ["Checking messages first", "The feed sets your mood before the page does", "Read before you open anything else"],
+            ["Reading without a plan", "You spend the time choosing", "Pick a book and go in order"],
+            ["Hitting snooze", "The reading time disappears", "Set the alarm for when you will really get up"],
+            ["Treating a missed day as failure", "One miss turns into a month", "Just read the next morning"]
+          ]
+        },
+        {
+          "heading": "Can an alarm help me read the Bible each morning?",
+          "body": "Yes, if your problem is the first minute after waking. Bible Verse Alarm is an iPhone alarm that keeps ringing until you complete a short Bible verse, either by rebuilding it word by word or by typing it. You choose the verses each alarm uses. It rings even when the phone is on Silent or in a Focus mode.\n\nIt covers the first minute only. It is not a full reading plan, so use it together with a Bible or an app like YouVersion for the longer reading in steps 3 and 4. It is free to download, and full use needs a subscription; the current price is shown on the App Store in your country."
+        },
+        {
+          "heading": "Who is this plan best for, and who is the app not for?",
+          "body": "The plan suits anyone starting or restarting. The app suits people who silence normal alarms and reach for the phone first.\n\nThe app is not the right fit if you use Android (iPhone only for now), want a gentle one-tap alarm, or want long reading plans and commentary inside one app. It asks you to complete a verse before it stops, which some people will find too firm. A paper Bible and a regular alarm work well too."
+        }
+      ],
+      "faq": [
+        {
+          "q": "How long should I read the Bible each morning?",
+          "a": "Five to fifteen minutes is a good range. Start at five. Consistency matters more than length, and you can add time once the habit holds."
+        },
+        {
+          "q": "Where should a beginner start reading the Bible?",
+          "a": "The Gospel of Mark is a common first choice. It is short and moves fast. After that, read John, then a psalm a day. Choose a translation you understand."
+        },
+        {
+          "q": "How do I stop hitting snooze and read the Bible instead?",
+          "a": "Put the reading right after the alarm and set the alarm for the time you will really get up. A verse-based alarm such as Bible Verse Alarm keeps ringing until you complete a verse."
+        },
+        {
+          "q": "Does it have to be in the morning?",
+          "a": "No. The Bible sets no clock time. Morning works for many people because the day has not filled up yet. If evening suits you better, keep that time every day."
+        }
+      ]
+    }
+  }
+}
