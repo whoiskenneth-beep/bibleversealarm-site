@@ -153,6 +153,136 @@
           "a": "Yes. Bible Verse Alarm for iPhone keeps ringing until you complete a short Bible verse, so the first thing you read each day is Scripture."
         }
       ]
+    },
+    "zh-hant": {
+      "slug": "shengjing-naozhong-app-tuijian",
+      "nav": "聖經鬧鐘 App 推薦",
+      "title": "聖經鬧鐘 App 推薦：基督徒 iPhone App 比較",
+      "description": "聖經鬧鐘與常見基督徒 iPhone App 比較：讀經、靈修、默想、背經各適合誰，附誠實的優缺點。我們是聖經鬧鐘的開發者。",
+      "h1": "聖經鬧鐘 App 推薦：基督徒 iPhone App 怎麼選？",
+      "intro": "要選哪一款，看你想養成什麼習慣：想讀聖經用 YouVersion，想每天有簡短靈修用 Glorify，想默想用 Abide，想背經文用 Bible Memory。如果你的困擾是一睜眼就先滑手機，聖經鬧鐘（Bible Verse Alarm）專門處理這件事：必須完成一節短經文，鬧鐘才會停。聖經鬧鐘是我們做的，所以其他 App 只寫它們自己在 App Store 頁面上的說明（截至 2026 年 10 月 23 日）。",
+      "published": "2026-10-25",
+      "updated": "2026-10-25",
+      "card_ref": "Psalms 5:3",
+      "sections": [
+        {
+          "heading": "我該用哪一款基督徒 App？",
+          "body": "依照你想建立的習慣來選。下表的 App 都可免費下載，費用以各 App 的 App Store 頁面為準。",
+          "table": [
+            [
+              "你想要…",
+              "可以試試",
+              "費用"
+            ],
+            [
+              "閱讀多種版本聖經",
+              "YouVersion 聖經 App",
+              "免費"
+            ],
+            [
+              "讓經文成為早上第一件看到的事",
+              "聖經鬧鐘 Bible Verse Alarm",
+              "可免費下載，完整使用需訂閱"
+            ],
+            [
+              "每天有簡短的靈修",
+              "Glorify",
+              "可免費下載"
+            ],
+            [
+              "練習基督教默想",
+              "Abide",
+              "可免費下載"
+            ],
+            [
+              "聽人朗讀聖經",
+              "Dwell",
+              "可免費下載"
+            ],
+            [
+              "早、中、晚各停下來禱告",
+              "Lectio 365",
+              "免費"
+            ],
+            [
+              "背誦經文",
+              "Bible Memory",
+              "免費"
+            ],
+            [
+              "了解整本聖經的大架構",
+              "BibleProject",
+              "免費"
+            ],
+            [
+              "用原文工具深入查經",
+              "Blue Letter Bible",
+              "可免費下載"
+            ]
+          ]
+        },
+        {
+          "heading": "讀經首選是哪一款？YouVersion 聖經 App",
+          "body": "YouVersion 是最多人熟悉的免費聖經 App。App Store 頁面列出有音訊聖經、讀經計畫、禱告功能與 3,500 個以上的聖經版本，並表示下載次數已超過 7 億。主要想讀經的人，從這裡開始就對了。"
+        },
+        {
+          "heading": "早上第一分鐘怎麼交給神？聖經鬧鐘",
+          "body": "YouVersion 和 Glorify 很好，但難處在於「打開它們」之前，手指早就滑向別的東西了。聖經鬧鐘處理的就是這一刻：它是一款 iPhone 鬧鐘，必須完成一節短短的經文才會停止，可以把經文一個字一個字拼回來，或直接打字輸入。手機在靜音或專注模式也會響，不需要註冊帳號，經文內容存在手機裡，離線可用。中文版使用和合本，也支援英文、西班牙文與韓文介面。目前只有 iPhone 版，沒有 Android 版。可免費下載，完整使用需訂閱。（這是我們的 App。）\n\n詩篇 5 篇 3 節是大衛的晨禱，很適合當作這個習慣的起點。",
+          "refs": [
+            "Psalms 5:3"
+          ]
+        },
+        {
+          "heading": "想要每天簡短靈修用哪一款？Glorify",
+          "body": "Glorify 圍繞每天一小段安靜時間設計：一句勉勵的話、一段經文和一則靈修，約 10 分鐘。App Store 頁面表示已有超過 2,000 萬名基督徒使用。適合想要有人帶領、每天固定花幾分鐘親近神的人。"
+        },
+        {
+          "heading": "想學默想與安靜用哪一款？Abide",
+          "body": "Abide 自稱是排名第一的基督教默想 App，有 2,000 多段以聖經為根基的默想，幫助你放慢腳步、在神面前得享平安。比起閱讀，更想要安靜的人可以選它。"
+        },
+        {
+          "heading": "想聽聖經用哪一款？Dwell",
+          "body": "Dwell 是音訊聖經 App，依 App Store 頁面所述有 20 多種聲音與 14 種譯本。適合通勤、做家事或睡前聆聽。是否有中文內容，請在下載前查看它的 App Store 頁面。"
+        },
+        {
+          "heading": "想要免費的每日禱告節奏用哪一款？Lectio 365",
+          "body": "Lectio 365 由 24-7 Prayer 推出，完全免費，幫助你在早上、中午和晚上各停下來禱告一次。想要簡單的每日節奏、又不想訂閱的人，可以試試。"
+        },
+        {
+          "heading": "想背經文用哪一款？Bible Memory",
+          "body": "Bible Memory（Poimena 開發）表示完全免費、沒有廣告也沒有訂閱，運用字卡、遊戲和間隔重複，支援 48 種語言。目標是把經文記在心裡的人，它最專注。"
+        },
+        {
+          "heading": "想理解聖經整體脈絡用哪一款？BibleProject",
+          "body": "BibleProject 提供免費的影片、Podcast 和課程，帶你看整本聖經的故事如何串連。適合新信徒，或覺得某些經卷難懂的人。"
+        },
+        {
+          "heading": "想深入查經用哪一款？Blue Letter Bible",
+          "body": "Blue Letter Bible 把查經工具連結到每一節經文：30 多個聖經版本、註釋、希伯來文與希臘文詞典、經文彙編與辭典。喜歡研究原文的人適合。"
+        },
+        {
+          "heading": "我們怎麼挑選這些 App？",
+          "body": "我們挑了廣為人知、仍在更新的 iPhone App，每一款各自幫助信仰生活的一個面向，並記錄各 App 在自己的 App Store 頁面上的說明（2026 年 10 月 23 日查閱）。聖經鬧鐘是我們開發的，所以只把它放在它最擅長的一件事上。多數 App 以英文為主，是否支援繁體中文，請下載前到 App Store 頁面確認。功能與費用會變動，請以各 App 當時的頁面為準。"
+        }
+      ],
+      "faq": [
+        {
+          "q": "基督徒 iPhone App 哪一款最好？",
+          "a": "看你想建立的習慣。YouVersion 是最多人用的免費讀經 App，Glorify 適合每日靈修，Abide 適合默想，Bible Memory 適合背經文。"
+        },
+        {
+          "q": "有免費的基督徒 App 嗎？",
+          "a": "YouVersion、Lectio 365、Bible Memory 和 BibleProject 都表示可免費使用。YouVersion 是功能最完整的免費聖經 App。"
+        },
+        {
+          "q": "早上靈修用什麼 App 比較好？",
+          "a": "想讀經可用 YouVersion 讀經計畫或 Glorify 靈修。如果問題是一醒來就先滑手機，聖經鬧鐘會要求你完成一節短經文，鬧鐘才會停。"
+        },
+        {
+          "q": "有聖經鬧鐘 App 嗎？Android 可以用嗎？",
+          "a": "有，聖經鬧鐘（Bible Verse Alarm）是 iPhone App，中文版使用和合本。目前沒有 Android 版。"
+        }
+      ]
     }
   }
 }
