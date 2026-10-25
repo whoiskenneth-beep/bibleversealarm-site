@@ -1,5 +1,5 @@
 {
- "cursor": 0,
+ "cursor": 3,
  "suggestions": {
   "焦慮 經文": {
    "seed": "經文 焦慮",
@@ -87,7 +87,8 @@
    "markets": [
     "hk",
     "my",
-    "sg"
+    "sg",
+    "tw"
    ]
   },
   "聖經金句感恩": {
