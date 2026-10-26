@@ -87,3 +87,6 @@ Vercel dashboard → project "site" → Analytics → Enable, then tell Claude, 
 Kenneth Foo is the named author on every page (byline + Person schema), with an English About page at /about.
 Spanish, Chinese (Traditional + auto Simplified) and Korean bios approved and live 2026-10-23. Korean mentions Matthew 22:37
 without quoting it until the 개역한글 decision (#2). Still open: an optional real headshot (send one to Claude; until then the page uses the app icon).
+
+## 14. PageSpeed Insights API key (optional, 3 min)
+The anonymous PSI quota was exhausted on 2026-10-26 (HTTP 429), so weekly Core Web Vitals could not be read. A free Google Cloud API key, added as GitHub/routine secret `PSI_API_KEY`, fixes it.
