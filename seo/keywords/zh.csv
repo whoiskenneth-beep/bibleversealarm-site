@@ -1,7 +1,7 @@
 keyword,intent,cluster,target_page,priority,status
 聖經鬧鐘 App 推薦 比較,commercial,app-compare,/zh-hant/shengjing-naozhong-app-tuijian,top,published
 什麼是聖經鬧鐘,informational,app-explainer,/zh-hant/shenme-shi-shengjing-naozhong,top,published
-聖經鬧鐘 App 常見問題,commercial,app-faq,,top,planned
+聖經鬧鐘 App 常見問題,commercial,app-faq,/zh-hant/shengjing-naozhong-app-changjian-wenti,top,published
 聖經鬧鐘 App,commercial,app-alarm,/zh-hant/shengjing-naozhong,top,published
 基督徒鬧鐘,commercial,app-alarm,/zh-hant/shengjing-naozhong,top,published
 背經文 App,commercial,app-memorize,,top,planned

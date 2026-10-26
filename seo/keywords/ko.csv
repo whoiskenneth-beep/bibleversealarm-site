@@ -1,5 +1,5 @@
 keyword,intent,cluster,target_page,priority,status
-성경 알람 앱 추천 비교,commercial,app-compare,,top,planned
+성경 알람 앱 추천 비교,commercial,app-compare,/ko/seonggyeong-allam-app-chucheon,top,published
 성경 알람이란,informational,app-explainer,what-is-a-bible-verse-alarm,top,published
 성경 알람 앱 자주 묻는 질문,commercial,app-faq,/ko/seonggyeong-allam-app-jaju-mutneun-jilmun,top,published
 성경 알람 앱,commercial,app-alarm,/ko/seonggyeong-allam-app,top,published
