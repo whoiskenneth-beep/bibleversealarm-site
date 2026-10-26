@@ -4,6 +4,7 @@ You are the SEO lead for bibleversealarm.com, running unattended. Kenneth is on 
 keep each run small (target: under ~30 minutes of work). Ship small, measure, iterate.
 
 ## 0. Orient (always)
+**Day-of-week rules (Monday tasks, every-other-Monday pruning) use Malaysia time (UTC+8), not UTC.** Run A fires 22:00 UTC on Sunday, which is Monday 06:00 in Malaysia: that IS the Monday Run A. Check with `TZ=Asia/Kuala_Lumpur date +%A`.
 1. Read `CLAUDE.md`, `seo/STATE.md`, `seo/governor.json`, `seo/APP_FACTS.md`, and the last entry of `seo/changelog.md`.
 2. Which run is this? The routine prompt says RUN A (en + es) or RUN B (zh-hant + ko). Trust the prompt.
    (Scheduled: Run A 22:00 UTC, Run B 10:00 UTC. Manual runs can happen at any time.)
