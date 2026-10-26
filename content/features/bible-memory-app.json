@@ -157,6 +157,135 @@
           "a": "Yes. It uses Apple's AlarmKit, so it rings through Silent and Focus modes, and it keeps going until you complete the verse."
         }
       ]
+    },
+    "es": {
+      "slug": "app-memorizar-versiculos",
+      "nav": "App para memorizar versículos",
+      "title": "App para memorizar versículos con alarma (iPhone)",
+      "description": "Cómo funciona una app para memorizar versículos con alarma: Bible Verse Alarm te pide armar un versículo cada mañana. Qué hace y qué no hace.",
+      "h1": "App para memorizar versículos de la Biblia: uno cada mañana al despertar",
+      "intro": "Bible Verse Alarm es una alarma para iPhone que sigue sonando hasta que completas un versículo corto de la Biblia, para que tu primer minuto del día sea para la Palabra de Dios y no para el celular. Te sirve para repetir un versículo cada mañana, pero no es un sistema completo de memorización: no tiene tarjetas ni repaso programado.",
+      "published": "2026-10-26",
+      "updated": "2026-10-26",
+      "card_ref": "Psalms 119:11",
+      "sections": [
+        {
+          "heading": "¿Cómo funciona una app para memorizar versículos con alarma?",
+          "body": "Bible Verse Alarm funciona con una repetición diaria: cada mañana armas un versículo palabra por palabra, o lo escribes, y solo entonces se apaga la alarma. Es una forma sencilla de memorizar por constancia. No tiene tarjetas ni repaso programado, que son lo que ofrecen las apps hechas solo para memorizar.\n\nEsta tabla muestra qué hace y qué no hace nuestra app.",
+          "table": [
+            [
+              "Lo que buscas",
+              "¿Lo hace Bible Verse Alarm?"
+            ],
+            [
+              "Repetir un versículo todas las mañanas",
+              "Sí: la alarma no se apaga hasta que lo completas"
+            ],
+            [
+              "Elegir tú los versículos de cada alarma",
+              "Sí, en el editor de la alarma"
+            ],
+            [
+              "Practicar versículos cuando quieras",
+              "Sí, en la pestaña «Practice»"
+            ],
+            [
+              "Tarjetas y repaso programado",
+              "No"
+            ],
+            [
+              "Versículos en español",
+              "Sí, Reina-Valera 1909, sin internet"
+            ]
+          ]
+        },
+        {
+          "heading": "¿Cómo te ayuda Bible Verse Alarm a memorizar?",
+          "body": "Te hace trabajar un versículo cada mañana, antes de abrir nada más. Armarlo palabra por palabra te obliga a leerlo con atención, y repetirlo día tras día es lo que lo va fijando.\n\nTú eliges los versículos de cada alarma, así que puedes quedarte con uno solo durante una temporada. La pestaña «Practice» de la app sirve para repasarlos y la pestaña «Verses» guarda escenas que se desbloquean al levantarte.\n\nEl salmo 119:11 no habla de una técnica de memoria, sino de guardar la palabra de Dios en el corazón como una protección para no pecar contra él. Esa es la razón de fondo para memorizar un versículo: que te acompañe y te guarde durante el día.",
+          "refs": [
+            "Psalms 119:11"
+          ]
+        },
+        {
+          "heading": "¿Por qué memorizar justo al despertar?",
+          "body": "Porque la mañana llega todos los días y es el momento en que menos compite con otras cosas. Si el primer texto que lees es un versículo y no una notificación, la repetición se vuelve costumbre.\n\nEn Deuteronomio 6, Moisés habla al pueblo de Israel: las palabras de Dios debían estar sobre su corazón y repetirlas en casa, en el camino, al acostarse y al levantarse. Pablo escribe a los colosenses que la palabra de Cristo habite en ellos en abundancia. Ninguno da un método; los dos suponen una Escritura presente en el ritmo diario.",
+          "refs": [
+            "Deuteronomy 6:6-7",
+            "Colossians 3:16"
+          ]
+        },
+        {
+          "heading": "¿Qué versículos conviene memorizar primero?",
+          "body": "Empieza con uno corto que responda a lo que estás viviendo ahora. Es más fácil quedarte con un texto que necesitas que con uno que crees que deberías saber. Aquí tienes puntos de partida, solo con la cita, para que los leas en tu Biblia.\n\nTe conviene uno por semana: quédate con él hasta poder armarlo sin dudar y luego pasa al siguiente.",
+          "table": [
+            [
+              "Si estás pasando por...",
+              "Empieza con"
+            ],
+            [
+              "Preocupación o ansiedad",
+              "Filipenses 4:6-7 o Isaías 41:10"
+            ],
+            [
+              "Un tiempo de desánimo",
+              "Josué 1:9"
+            ],
+            [
+              "Querer un ancla para la mañana",
+              "Lamentaciones 3:22-23 o Salmo 5:3"
+            ]
+          ],
+          "refs": [
+            "Philippians 4:6-7",
+            "Isaiah 41:10",
+            "Joshua 1:9",
+            "Lamentations 3:22-23",
+            "Psalms 5:3"
+          ]
+        },
+        {
+          "heading": "¿Para quién es y para quién no?",
+          "body": "Es para quien quiere tener Escritura en la mente, pero siempre lo deja para después, y para quien duerme profundo y necesita algo que lo saque de la cama con propósito.\n\nNo es lo ideal si quieres tarjetas, repaso espaciado o listas de memorización en grupo; para eso usa una app especializada (puedes usar las dos). Solo existe para iPhone, no hay versión para Android. Pide completar un versículo antes de apagarse, así que no es una alarma de un toque. Es una alarma, no una app completa de lectura bíblica. Es gratis descargarla, el uso completo requiere suscripción y el precio lo ves en la App Store de tu país."
+        },
+        {
+          "heading": "¿Qué más debes saber?",
+          "body": "No necesitas cuenta ni inicio de sesión. El texto bíblico está guardado en el celular y funciona sin internet. En español usa la Reina-Valera 1909, cuyo lenguaje es de otra época, y la app sigue el idioma de tu iPhone. Admite Compartir en familia. Si quieres ver el panorama completo, lee la página sobre la alarma cristiana o las preguntas frecuentes de la app."
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Cómo funciona una app para memorizar versículos con alarma?",
+          "a": "Suena hasta que completas un versículo corto, armándolo palabra por palabra o escribiéndolo. Al repetirlo cada mañana, se te va quedando. No incluye tarjetas ni repaso programado."
+        },
+        {
+          "q": "¿Puedo memorizar la Biblia con Bible Verse Alarm?",
+          "a": "Sí, de forma sencilla. Armas o escribes un versículo para apagar la alarma y puedes repasarlo en la pestaña «Practice» de la app. No tiene tarjetas ni repaso programado."
+        },
+        {
+          "q": "¿Puedo elegir qué versículos memorizo?",
+          "a": "Sí. Cada alarma tiene sus propios versículos, que eliges en el editor de la alarma. Puedes quedarte con uno una semana o alternar varios."
+        },
+        {
+          "q": "¿Bible Verse Alarm es gratis?",
+          "a": "Es gratis de descargar, pero el uso completo requiere suscripción. Es una app de pago; el precio lo ves en la App Store de tu país."
+        },
+        {
+          "q": "Se me olvidan los versículos que memorizo, ¿qué hago?",
+          "a": "Ve despacio y repite seguido. Elige un versículo corto, repítelo a diario una semana y vuelve a los anteriores. Nuestra alarma te da una repetición diaria, no un sistema de repaso."
+        },
+        {
+          "q": "¿Tiene la Biblia en español para memorizar?",
+          "a": "Sí, la Reina-Valera 1909, guardada en el celular. Funciona sin internet y la app sigue el idioma de tu iPhone."
+        },
+        {
+          "q": "¿Hay versión para Android?",
+          "a": "Todavía no. Por ahora Bible Verse Alarm solo está disponible para iPhone, en la App Store."
+        },
+        {
+          "q": "¿Suena aunque el iPhone esté en silencio?",
+          "a": "Sí. Usa AlarmKit de Apple, así que suena en modo Silencio y en modos de Concentración, y sigue hasta que completas el versículo."
+        }
+      ]
     }
   }
 }
