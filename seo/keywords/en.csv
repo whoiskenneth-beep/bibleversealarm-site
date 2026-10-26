@@ -1,35 +1,50 @@
 keyword,intent,cluster,target_page,priority,status
-how to read the bible every morning,informational,howto-morning-bible,/how-to-read-the-bible-every-morning,top,published
-how to stop checking phone first thing in the morning,informational,howto-phone-morning,,top,planned
-how to memorize bible verses,informational,howto-memorize,,high,planned
-bible verse alarm vs alarmy,commercial,vs-alarmy,,high,planned
-bible verse alarm vs youversion,commercial,vs-youversion,,high,planned
-best christian apps for iphone,commercial,app-compare,/best-christian-apps-iphone,top,published
-best christian apps,commercial,app-compare,/best-christian-apps-iphone,top,published
-best christian apps for young adults,commercial,app-compare-young-adults (hold: ChatGPT demoted listicles Aug 2026; see ai-seo format-volatility),,low,planned
-best devotional apps,commercial,app-compare-devotional (hold: ChatGPT demoted listicles Aug 2026; see ai-seo format-volatility),,low,planned
-best bible verse alarm apps,commercial,app-compare,/best-christian-apps-iphone,top,published
-what is a bible verse alarm,informational,app-explainer,what-is-a-bible-verse-alarm,top,published
-bible verse alarm app faq,commercial,app-faq,bible-verse-alarm-faq,top,published
 christian alarm clock app,commercial,app-alarm,/christian-alarm-clock,top,published
 bible verse alarm app,commercial,app-alarm,/christian-alarm-clock,top,published
 alarm that makes you read the bible,commercial,app-alarm,/christian-alarm-clock,top,published
 bible app that wakes you up,commercial,app-alarm,/christian-alarm-clock,top,published
+bible alarm clock,commercial,app-alarm,/christian-alarm-clock,top,published
+bible verse alarm clock app,commercial,app-alarm,/christian-alarm-clock,top,published
+best christian apps for iphone,commercial,app-compare,/best-christian-apps-iphone,top,published
+best christian apps,commercial,app-compare,/best-christian-apps-iphone,top,published
+best bible verse alarm apps,commercial,app-compare,/best-christian-apps-iphone,top,published
+morning devotional app,commercial,app-devotional,,top,planned
+what is a bible verse alarm,informational,app-explainer,what-is-a-bible-verse-alarm,top,published
+bible verse alarm app faq,commercial,app-faq,bible-verse-alarm-faq,top,published
 bible memory app,commercial,app-memorize,bible-memory-app,top,published
 bible verse memorization app,commercial,app-memorize,bible-memory-app,top,published
-morning devotional app,commercial,app-devotional,,top,planned
-best bible apps for morning devotions,commercial,comparison,,high,planned
-bible app,navigational,rejected: head term owned by YouVersion; App Store search (ASO) not web,,low,rejected
+scripture memorization app,commercial,app-memorize,bible-memory-app,top,published
+how to read the bible every morning,informational,howto-morning-bible,/how-to-read-the-bible-every-morning,top,published
+how to stop checking phone first thing in the morning,informational,howto-phone-morning,,top,planned
 bible verses for anxiety,informational,anxiety,/bible-verses-about/anxiety,high,published
+best bible apps for morning devotions,commercial,comparison,,high,planned
+bible verses for depression,informational,depression,,high,planned
 bible verses for encouragement,informational,encouragement,/bible-verses-about/encouragement,high,published
 bible verses about fear,informational,fear,,high,planned
+bible verses for hard times,informational,hard-times,,high,planned
 bible verses about healing,informational,healing,,high,planned
 bible verses about hope,informational,hope,,high,planned
+how to memorize bible verses,informational,howto-memorize,,high,planned
+bible verses for loneliness,informational,loneliness,,high,planned
 morning bible verses,informational,morning,/bible-verses-about/morning,high,published
 bible verses for peace of mind,informational,peace,,high,planned
 bible verses about strength,informational,strength,/bible-verses-about/strength,high,published
+bible verses on weakness and strength,informational,strength,/bible-verses-about/strength,high,published
+bible verse alarm vs alarmy,commercial,vs-alarmy,,high,planned
+bible verse alarm vs youversion,commercial,vs-youversion,,high,planned
+bible verses to wake up to,informational,wake-up,,high,planned
+prayer reminder app christian,commercial,app-prayer-reminder,,medium,planned
 bible verses for comfort,informational,comfort,,medium,planned
 bible verses about faith,informational,faith,,medium,planned
+bible verses about forgiveness,informational,forgiveness,,medium,planned
 bible verses about gratitude,informational,gratitude,,medium,planned
 bible verses for grief,informational,grief,,medium,planned
+bible verses for guidance,informational,guidance,,medium,planned
+bible verses for kids to memorize,informational,memorize-kids,,medium,planned
+bible verses for new beginnings,informational,new-beginnings,,medium,planned
+bible verses for protection,informational,protection,,medium,planned
 bible verses for insomnia,informational,sleep,,medium,planned
+bible verses about trusting god,informational,trust,,medium,planned
+best devotional apps,commercial,app-compare-devotional (hold: ChatGPT demoted listicles Aug 2026; see ai-seo format-volatility),,low,planned
+best christian apps for young adults,commercial,app-compare-young-adults (hold: ChatGPT demoted listicles Aug 2026; see ai-seo format-volatility),,low,planned
+bible app,navigational,rejected: head term owned by YouVersion; App Store search (ASO) not web,,low,rejected
