@@ -11,6 +11,8 @@ keep each run small (target: under ~30 minutes of work). Ship small, measure, it
 3. `git fetch origin && git branch -r | grep 'origin/claude/'`: any leftover branch is a FAILED ship.
    Check it out, run `npm ci && npm run check`, fix the error, and push to a new `claude/seo-*` branch, or give up on it and log why. Delete the stale branch afterwards. Do this before any new work.
 
+4. **Carried-over Monday work comes first.** If this run group's last daily report or changelog says Monday extras were skipped ("do them next run"), do them in THIS run before any new page, and skip today's new page if that's what it takes. Never defer them twice.
+
 ## 1. Analyst pass (inline, don't spawn an agent)
 - If `seo/rankings/history.csv` has data: find, for this run's locales, (a) pages in positions 4–20 (quick wins), (b) high impressions with CTR < 1%, (c) new queries we don't have a page for, (d) published pages not indexed after 7 days (`seo/data/indexation.json`).
 - Apply the speed governor (STATE.md). Update `governor.json` and append to its `history` if velocity changes.
