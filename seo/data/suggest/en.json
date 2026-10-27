@@ -1,5 +1,5 @@
 {
- "cursor": 6,
+ "cursor": 9,
  "suggestions": {
   "bible verses about love": {
    "seed": "bible verses about",
@@ -12369,6 +12369,12 @@
   },
   "verse of the day women": {
    "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "what is the best prayer reminder app": {
+   "seed": "prayer reminder app",
    "markets": [
     "us"
    ]
