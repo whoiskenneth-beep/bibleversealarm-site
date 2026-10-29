@@ -1,5 +1,5 @@
 {
- "cursor": 9,
+ "cursor": 0,
  "suggestions": {
   "versículos de la biblia para reflexionar": {
    "seed": "versículos de la biblia para",
@@ -12588,6 +12588,34 @@
   },
   "oración de la mañana y evangelio de hoy": {
    "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "imágenes de buenos días con versículos cristianos": {
+   "seed": "versículos de buenos días",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "imágenes de versículos bíblicos de buenos días": {
+   "seed": "versículos de buenos días",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "buenos dias versiculos de fe": {
+   "seed": "versículos de buenos días",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "imágenes cristianas con versículos bíblicos de buenos días": {
+   "seed": "versículos de buenos días",
    "markets": [
     "mx",
     "co"

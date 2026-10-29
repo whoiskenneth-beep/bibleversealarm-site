@@ -1,5 +1,5 @@
 {
- "cursor": 9,
+ "cursor": 0,
  "suggestions": {
   "焦慮 經文": {
    "seed": "經文 焦慮",
@@ -933,6 +933,13 @@
    "markets": [
     "my",
     "sg"
+   ]
+  },
+  "荒漠甘泉 每日灵修": {
+   "seed": "每日灵修",
+   "markets": [
+    "tw",
+    "hk"
    ]
   }
  }
