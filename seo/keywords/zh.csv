@@ -1,10 +1,20 @@
 keyword,intent,cluster,target_page,priority,status
+聖經鬧鐘 App,commercial,app-alarm,/zh-hant/shengjing-naozhong,top,published
+基督徒鬧鐘,commercial,app-alarm,/zh-hant/shengjing-naozhong,top,published
 聖經鬧鐘 App 推薦 比較,commercial,app-compare,/zh-hant/shengjing-naozhong-app-tuijian,top,published
 什麼是聖經鬧鐘,informational,app-explainer,/zh-hant/shenme-shi-shengjing-naozhong,top,published
 聖經鬧鐘 App 常見問題,commercial,app-faq,/zh-hant/shengjing-naozhong-app-changjian-wenti,top,published
-聖經鬧鐘 App,commercial,app-alarm,/zh-hant/shengjing-naozhong,top,published
-基督徒鬧鐘,commercial,app-alarm,/zh-hant/shengjing-naozhong,top,published
 背經文 App,commercial,app-memorize,/zh-hant/beijingwen-app,top,published
 焦慮 經文,informational,anxiety,/zh-hant/jingwen/anxiety,high,published
+每日經文 App,commercial,app-devotional,/zh-hant/meiri-jingwen-app,high,planned
+聖經 安慰 經文,informational,comfort,/zh-hant/jingwen/comfort,high,planned
+靈修是什麼,informational,devotional-explainer,,high,planned
+經文 鼓勵,informational,encouragement,/zh-hant/jingwen/encouragement,high,planned
 早晨經文,informational,morning,/zh-hant/jingwen/morning,high,published
+聖經金句 平安,informational,peace,/zh-hant/jingwen/peace,high,planned
 力量 經文,informational,strength,/zh-hant/jingwen/strength,high,published
+靈修步驟,informational,devotional-howto,,medium,planned
+聖經金句 感恩,informational,gratitude,/zh-hant/jingwen/gratitude,medium,planned
+聖經 安慰 失去親人,informational,grief,/zh-hant/jingwen/grief,medium,planned
+聖經金句 短句,informational,short-verses,,medium,planned
+聖經金句 結婚祝福,informational,wedding,,medium,planned
