@@ -1,5 +1,5 @@
 {
- "cursor": 0,
+ "cursor": 3,
  "suggestions": {
   "versículos de la biblia para reflexionar": {
    "seed": "versículos de la biblia para",
@@ -173,7 +173,8 @@
   "versículos de la biblia para aumentar la fe": {
    "seed": "versículos de la biblia para",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "versículos de la biblia para boda": {
@@ -409,7 +410,8 @@
   "versículos de la biblia para dar ánimo": {
    "seed": "versículos de la biblia para",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "versículos de la biblia para dedicar en un cumpleaños": {
@@ -954,7 +956,8 @@
   "versículos de la biblia para la noche": {
    "seed": "versículos de la biblia para",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "versículos de la biblia para matrimonios": {
@@ -1414,7 +1417,8 @@
   "versículos de la biblia para recién casados": {
    "seed": "versículos de la biblia para",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "versículos de la biblia para sanidad": {
@@ -3988,7 +3992,8 @@
   "textos bíblicos para amigos": {
    "seed": "textos bíblicos para",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "textos bíblicos para arrepentimiento": {
@@ -4144,7 +4149,8 @@
   "textos bíblicos para cumpleañeros": {
    "seed": "textos bíblicos para",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "textos bíblicos para culto de damas": {
@@ -4878,7 +4884,8 @@
   "textos bíblicos para momentos difíciles": {
    "seed": "textos bíblicos para",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "textos bíblicos para mujeres valientes": {
@@ -5009,7 +5016,8 @@
   "textos bíblicos para orar por los enfermos": {
    "seed": "textos bíblicos para",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "textos bíblicos para orar por la nación": {
@@ -5033,7 +5041,8 @@
   "textos bíblicos para orar por la iglesia": {
    "seed": "textos bíblicos para",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "textos bíblicos para pedir ofrenda": {
@@ -12616,6 +12625,142 @@
   },
   "imágenes cristianas con versículos bíblicos de buenos días": {
    "seed": "versículos de buenos días",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versículos de la biblia para consolar": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "versículos de la biblia para parejas en problemas": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "versículos de la biblia para servir": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "versículos de la biblia para tus hijos": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos de la biblia para poner en whatsapp": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculos de la biblia para motivar": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "mejores versiculos de la biblia para empezar el dia": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "mejores versiculos de la biblia para niños": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versículos bíblicos que": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "imágenes de versículos bíblicos para whatsapp": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculos biblicos whatsapp": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versículos bíblicos z": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "textos bíblicos para empezar el día": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "textos bíblicos para empezar un culto": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "textos bíblicos para feliz cumpleaños": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "textos bíblicos para levantar el ánimo": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "co"
+   ]
+  },
+  "textos bíblicos para poner en una lápida": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "textos bíblicos para restaurar matrimonio": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "textos bíblicos para una boda": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "textos biblicos para foto de perfil de whatsapp": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "textos biblicos para ministrar diezmos y ofrendas": {
+   "seed": "textos bíblicos para",
    "markets": [
     "mx",
     "co"
