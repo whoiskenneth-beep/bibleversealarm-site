@@ -263,6 +263,112 @@
           "a": "不是。它是用一節經文開啟早晨的鬧鐘，不是完整的讀經或查經 App。長篇讀經可以另外搭配聖經 App。"
         }
       ]
+    },
+    "es": {
+      "slug": "que-es-una-alarma-biblica",
+      "nav": "¿Qué es una alarma bíblica?",
+      "title": "Qué es una alarma bíblica y cómo funciona en iPhone",
+      "description": "Una alarma bíblica sigue sonando hasta que completas un versículo. Mira cómo funciona, en qué se diferencia de una alarma común y de una app de Biblia.",
+      "h1": "¿Qué es una alarma bíblica?",
+      "intro": "Bible Verse Alarm es una alarma bíblica para cristianos que quieren leer la Escritura antes de tocar el celular. Una alarma para iPhone que sigue sonando hasta que completas un versículo corto de la Biblia, para que tu primer minuto del día sea para la Palabra de Dios y no para el celular.",
+      "published": "2026-10-29",
+      "updated": "2026-10-29",
+      "sections": [
+        {
+          "heading": "¿Cómo funciona una alarma bíblica?",
+          "body": "Tú pones la hora y eliges los versículos; cuando suena, no se apaga hasta que completas un versículo corto.\n\nLos pasos:\n\n1. Pones tu hora de despertar y escoges los versículos de cada alarma.\n2. Suena la alarma, incluso si el iPhone está en Silencio o en un modo de Concentración.\n3. Armas el versículo palabra por palabra, o lo escribes.\n4. La alarma se detiene. Ya estás despierto y ya leíste un pasaje de la Biblia.\n\nEl salmo 5 lo escribe David como oración de la mañana: presenta su voz a Dios apenas amanece y luego espera en él. La alarma te da una forma sencilla de empezar así cada día.",
+          "refs": [
+            "Psalms 5:3"
+          ]
+        },
+        {
+          "heading": "¿En qué se diferencia de una alarma normal?",
+          "body": "Una alarma normal se apaga con un toque; la alarma bíblica solo se apaga cuando completas el versículo, así que un manotazo medio dormido no la detiene. Además, lo primero que ves es un versículo y no tus notificaciones.",
+          "table": [
+            [
+              "",
+              "Alarma normal",
+              "Alarma bíblica"
+            ],
+            [
+              "Cómo se apaga",
+              "Un toque o deslizar",
+              "Completando un versículo corto"
+            ],
+            [
+              "Lo primero que ves",
+              "Lo que haya en tu celular",
+              "Un versículo que tú elegiste"
+            ],
+            [
+              "En Silencio o Concentración",
+              "Depende de la app",
+              "Suena (usa AlarmKit de Apple)"
+            ]
+          ]
+        },
+        {
+          "heading": "¿En qué se diferencia de una app de Biblia?",
+          "body": "Una app de Biblia espera a que tú la abras; la alarma llega en el momento en que despiertas y te pide interactuar con el versículo, no solo verlo.\n\nSe complementan bien. La alarma abre el día con un versículo, y un plan de lectura más largo puede venir después. Si tienes una app de lectura como YouVersion, puedes seguir usándola.\n\nEl texto bíblico está guardado en el celular, así que funciona sin internet y sin crear cuenta."
+        },
+        {
+          "heading": "¿Para quién es una alarma bíblica?",
+          "body": "Es para quien quiere que la Escritura sea lo primero en la mañana y siempre se le olvida. Por ejemplo:\n\n- Si agarras el celular apenas abres los ojos.\n- Si quieres memorizar versículos, porque cada uno lo armas tú mismo.\n- Si buscas un ancla sencilla para la mañana y no una rutina enorme.\n\nTú eliges los versículos. Si no sabes por dónde empezar, mira nuestros versículos para la mañana, para la ansiedad, para dormir o sobre la fortaleza.\n\nUno para comenzar es Lamentaciones 3:22-23. Jeremías, a quien la tradición atribuye el libro, llora la caída de Jerusalén y aun así recuerda que las misericordias de Dios son nuevas cada mañana.",
+          "refs": [
+            "Lamentations 3:22-23"
+          ]
+        },
+        {
+          "heading": "¿Para quién no es?",
+          "body": "No es para ti si quieres una alarma suave que se apague con un toque, ni si buscas una app completa de lectura o estudio bíblico. Es una alarma, no un sistema de estudio; te pide completar un versículo antes de callarse. Solo existe para iPhone, no hay versión para Android todavía, y para lectura larga puedes usar otra app de Biblia."
+        },
+        {
+          "heading": "¿Qué más trae la app y qué Biblia usa?",
+          "body": "En español usa la Biblia Reina-Valera 1909. La app tiene una pestaña Verses con escenas que se desbloquean al despertar y una pestaña Practice para repasar versículos cuando quieras. Sigue el idioma de tu iPhone. Es gratis para descargar y el uso completo requiere una suscripción; el precio actual lo ves en la App Store de tu país. Admite Compartir en familia."
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Qué es una alarma bíblica?",
+          "a": "Es una alarma que sigue sonando hasta que completas un versículo corto de la Biblia, armándolo palabra por palabra o escribiéndolo. Así la Escritura va antes que el celular cada mañana."
+        },
+        {
+          "q": "¿Suena si el iPhone está en silencio?",
+          "a": "Sí. Usa AlarmKit de Apple, así que suena aunque el iPhone esté en modo Silencio o en un modo de Concentración."
+        },
+        {
+          "q": "¿Necesito cuenta o internet?",
+          "a": "No. No hay cuenta ni inicio de sesión, y el texto bíblico está guardado en tu iPhone, así que funciona sin conexión."
+        },
+        {
+          "q": "¿Hay alarma bíblica para Android?",
+          "a": "Todavía no. La app es solo para iPhone y está en la App Store."
+        },
+        {
+          "q": "¿Puedo elegir los versículos de mi alarma?",
+          "a": "Sí. En el editor de cada alarma eliges qué versículos usa."
+        },
+        {
+          "q": "¿Qué versión de la Biblia en español usa?",
+          "a": "Usa la Reina-Valera 1909, guardada en el celular. La app sigue el idioma de tu iPhone."
+        },
+        {
+          "q": "¿Es lo mismo que el versículo del día de una app de Biblia?",
+          "a": "No. El versículo del día es una notificación que puedes ignorar. La alarma bíblica no se detiene hasta que completas el versículo."
+        },
+        {
+          "q": "¿Es gratis?",
+          "a": "Es gratis para descargar, pero el uso completo requiere una suscripción. El precio actual aparece en la App Store de tu país."
+        },
+        {
+          "q": "¿Se puede usar con Compartir en familia?",
+          "a": "Sí, la app admite Compartir en familia."
+        },
+        {
+          "q": "¿Reemplaza a mi app de lectura bíblica?",
+          "a": "No. Es una alarma, no una app completa de lectura o estudio. Úsala para empezar el día con un versículo y deja la lectura larga a otra app."
+        }
+      ]
     }
   }
 }
