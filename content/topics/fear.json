@@ -1,0 +1,48 @@
+{
+  "id": "fear",
+  "related": ["anxiety", "strength", "encouragement", "sleep"],
+  "locales": {
+    "en": {
+      "slug": "fear",
+      "title": "20 Bible Verses About Fear: Courage, Danger and Death",
+      "description": "Bible verses about fear, from the 'do not be afraid' commands to danger, the future and death. Each group has a short reflection on who said it and why.",
+      "h1": "Bible verses about fear",
+      "intro": "The Bible says \"do not be afraid\" more often than most people expect, usually to someone who has good reason to be scared. These verses are grouped by what you are facing: a frightening moment, real danger, an uncertain future, death, or a fear that has gotten bigger than it should be. If your worry is more of a constant hum than a specific threat, the anxiety page may fit better.",
+      "published": "2026-10-30",
+      "updated": "2026-10-30",
+      "groups": [
+        {
+          "heading": "\"Do not be afraid\": what God says to frightened people",
+          "reflection": "These commands are spoken to real people in real trouble. Abram hears his in a vision, not long after a dangerous military campaign. Exiled Israel hears Isaiah's, and the reason given is not \"things will be fine\" but \"I have called you by name.\" The disciples hear Matthew 14:27 in the middle of a storm. And John, face down on Patmos, hears it from the risen Jesus. Each time, the comfort is a Person, not a plan.",
+          "refs": ["Genesis 15:1", "Isaiah 43:1", "Matthew 14:27", "Revelation 1:17-18"]
+        },
+        {
+          "heading": "When you feel in danger",
+          "reflection": "Several of these were written by people under real threat. Psalm 3 is headed as David's song when he fled from his own son Absalom, and he still says he will not fear. In 2 Kings 6, Elisha's servant wakes to find an enemy army around the city; Elisha prays and the servant is shown what he could not see. None of these verses promise nothing bad will happen. They say you are not facing it alone.",
+          "refs": ["Psalms 118:6", "Psalms 3:6", "Proverbs 3:25-26", "2 Kings 6:16"]
+        },
+        {
+          "heading": "When the future feels unknown",
+          "reflection": "Fear of the future is mostly fear of not being in control. Psalm 31:15 is a short answer to that: my times are in Your hands. Isaiah 46:4 stretches the promise to old age, which is when many people worry most. Jeremiah 17 compares a trusting person to a tree by water that keeps bearing fruit even in a drought. The tree still has dry years. It just has roots that reach water.",
+          "refs": ["Psalms 31:15", "Psalms 112:7", "Isaiah 46:4", "Jeremiah 17:7-8"]
+        },
+        {
+          "heading": "When you fear death",
+          "reflection": "Fear of death is old, and the New Testament names it directly. The writer of Hebrews says Jesus shared our flesh and blood to free those held in slavery by that fear. Jesus says the words in John 11 to Martha, just before He raises her brother Lazarus. Paul writes in 1 Corinthians 15 and Philippians 1 as someone who has faced prison and danger, and he treats death as defeated, not denied. If you are grieving or ill, read slowly and take only what helps.",
+          "refs": ["John 11:25-26", "Hebrews 2:14-15", "1 Corinthians 15:55-57", "Philippians 1:21"]
+        },
+        {
+          "heading": "Fear that needs reordering",
+          "reflection": "The Bible does not treat all fear as the same. In Matthew 10, Jesus sends out His twelve disciples and tells them not to be ruled by people who can only harm the body. Isaiah 8 says the same to a nation in a panic: do not fear what the crowd fears. Romans 8:15 and 1 John 4:18 go to the root. Fear can make you feel like a slave or like someone facing punishment, and God's love is meant to replace that.",
+          "refs": ["Matthew 10:28", "Isaiah 8:12-13", "Romans 8:15", "1 John 4:18"]
+        }
+      ],
+      "faq": [
+        { "q": "What does the Bible say about fear?", "a": "The Bible acknowledges fear as part of life and often answers it with God's presence rather than with a demand to feel brave. \"Do not be afraid\" is a common phrase in Scripture, usually followed by a reason: God is with you, has called you, or holds the future." },
+        { "q": "How many times does the Bible say \"do not fear\"?", "a": "There is no single agreed count, because it depends on the translation and which phrases you include, such as \"do not be afraid\" and \"fear not.\" You will often hear 365, but that figure is a popular saying, not a verified total." },
+        { "q": "What is the best Bible verse for fear?", "a": "Isaiah 41:10 and Psalm 56:3 are among the most often quoted. Beyond those, Genesis 15:1, Matthew 14:27 and 2 Kings 6:16 are good choices when the fear is about something specific and frightening." },
+        { "q": "Is all fear wrong in the Bible?", "a": "No. Scripture praises a reverent respect for God, and Jesus warns against some things worth taking seriously. What it opposes is fear that rules you, makes you act against your faith, or leaves you feeling alone and condemned." }
+      ]
+    }
+  }
+}
