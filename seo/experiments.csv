@@ -1,1 +1,2 @@
 date,locale,page,change,metric,baseline,after,verdict,review_after,owner,expected_impact,success_metric_30d
+2026-10-30,zh-hant,/zh-hant/shengjing-naozhong-app-changjian-wenti,"GEO extractability: 5 FAQ answers expanded to self-contained answer blocks (家人共享, 離線, 帳號, 場景, 自選經文)",impressions/AI citation,"no GSC data (0 impressions; zh AI SOV 0/20)",,pending,2026-11-13,bot,"more FAQ rich-result/AI snippet eligibility","zh page gets impressions or zh SOV >0 within 30d"
