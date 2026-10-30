@@ -7,9 +7,9 @@
       "new_pages_per_day": 1,
       "optimizations_per_day": 1,
       "status": "grow",
-      "published": 17,
-      "indexed": 15,
-      "indexation_rate": 0.88
+      "published": 18,
+      "indexed": 16,
+      "indexation_rate": 0.89
     },
     "es": {
       "new_pages_per_day": 1,
@@ -39,11 +39,11 @@
       "optimizations_per_day": 0,
       "status": "feature pages only (no verse text) until the 개역한글 licence is decided",
       "published": 8,
-      "indexed": 4,
-      "indexation_rate": 0.5
+      "indexed": 5,
+      "indexation_rate": 0.63
     }
   },
-  "indexation_updated": "2026-10-29",
+  "indexation_updated": "2026-10-30",
   "history": [
     {
       "date": "2026-10-22",

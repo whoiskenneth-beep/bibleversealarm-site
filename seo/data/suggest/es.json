@@ -1,5 +1,5 @@
 {
- "cursor": 3,
+ "cursor": 6,
  "suggestions": {
   "versículos de la biblia para reflexionar": {
    "seed": "versículos de la biblia para",
@@ -7727,7 +7727,8 @@
   "oración de la mañana con el padre carlos yepes": {
    "seed": "oración de la mañana",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "oración de la mañana con el santísimo": {
@@ -7822,7 +7823,8 @@
   "oración de la mañana de hoy martes": {
    "seed": "oración de la mañana",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "oración de la mañana en video": {
@@ -12761,6 +12763,209 @@
   },
   "textos biblicos para ministrar diezmos y ofrendas": {
    "seed": "textos bíblicos para",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculo del dia familia": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculo del dia genesis": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculo del dia buscar con google": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculo del dia jueves santo": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versículo do dia kids": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculo del dia lindo": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculo del dia para mi esposo": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculo del nuevo dia": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "quiero un versículo del día de hoy": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculo no dia que se chama hoje": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculo del septimo dia de la creacion": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versículo que hable del día del trabajador": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "devocional por la mañana": {
+   "seed": "devocional de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana 30 de octubre 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana del día de hoy": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana de hoy viernes 30 de octubre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana de hoy 30 de octubre del 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana de hoy 30 de octubre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana para hoy 30 de octubre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana del 30 de octubre del 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co",
+    "mx"
+   ]
+  },
+  "oración de la mañana 30 de octubre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana de hoy viernes 30 de octubre del 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana de hoy sábado": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oracion de la mañana gozlan": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oracion de la mañana padre ignacio larrañaga": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oracion de la mañana navidad": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oracion de la mañana reflexión": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oracion de la mañana red": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana un nuevo día": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oracion de la mañana web": {
+   "seed": "oración de la mañana",
    "markets": [
     "mx",
     "co"

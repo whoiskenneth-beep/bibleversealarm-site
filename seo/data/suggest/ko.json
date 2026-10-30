@@ -1,5 +1,5 @@
 {
- "cursor": 0,
+ "cursor": 3,
  "suggestions": {
   "성경구절": {
    "seed": "성경구절",
@@ -139,7 +139,8 @@
   "성경말씀 이미지": {
    "seed": "성경말씀",
    "markets": [
-    "kr"
+    "kr",
+    "naver"
    ]
   },
   "성경말씀 ppt": {
@@ -949,6 +950,30 @@
   },
   "성경암송쓰기대회": {
    "seed": "성경 암송",
+   "markets": [
+    "naver"
+   ]
+  },
+  "성경구절 ppt 프로그램": {
+   "seed": "성경구절",
+   "markets": [
+    "kr"
+   ]
+  },
+  "청첩장 성경구절": {
+   "seed": "성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "큐티폴 수저세트": {
+   "seed": "큐티",
+   "markets": [
+    "naver"
+   ]
+  },
+  "큐티풀": {
+   "seed": "큐티",
    "markets": [
     "naver"
    ]
