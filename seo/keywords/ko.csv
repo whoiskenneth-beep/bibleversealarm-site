@@ -12,6 +12,6 @@ keyword,intent,cluster,target_page,priority,status
 성경 암송 구절,informational,memorize-verses,,high,blocked-licence
 말씀 묵상 노트 방법,informational,howto-meditation-journal,,medium,planned
 매일성경 큐티,commercial,vs-maeil-seonggyeong,,medium,planned
-아침 기도 기독교,informational,howto-morning-prayer,,medium,planned
+아침 기도 기독교,informational,howto-morning-prayer,/ko/achim-gido-gidokgyo,medium,published
 감사 성경구절,informational,gratitude,,medium,blocked-licence
 짧은 성경 구절,informational,short-verses,,medium,blocked-licence
