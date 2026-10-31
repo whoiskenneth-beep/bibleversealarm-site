@@ -1,5 +1,5 @@
 {
- "cursor": 3,
+ "cursor": 6,
  "suggestions": {
   "성경구절": {
    "seed": "성경구절",
@@ -974,6 +974,12 @@
   },
   "큐티풀": {
    "seed": "큐티",
+   "markets": [
+    "naver"
+   ]
+  },
+  "오늘의 말씀 365 묵상": {
+   "seed": "오늘의 말씀",
    "markets": [
     "naver"
    ]
