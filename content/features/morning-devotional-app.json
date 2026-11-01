@@ -1,0 +1,226 @@
+{
+  "id": "morning-devotional-app",
+  "related": [
+    "morning",
+    "encouragement",
+    "strength"
+  ],
+  "locales": {
+    "en": {
+      "slug": "morning-devotional-app",
+      "nav": "Morning devotional app",
+      "title": "Morning Devotional App: Start With Scripture, Not Your Phone",
+      "description": "Bible Verse Alarm is an iPhone alarm that puts Scripture in your first minute, so your quiet time starts before the scroll. What it does and doesn't do.",
+      "h1": "A morning devotional app that gets you to Scripture first",
+      "intro": "Bible Verse Alarm is an iPhone alarm for Christians who want their first minute of the day to go to God's Word, not their phone. It isn't a library of written devotions. It's the part that gets you into Scripture before anything else, and you carry on from there.",
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "sections": [
+        {
+          "heading": "What should a morning devotional app do?",
+          "body": "It should help you meet God at the start of the day, in whatever form fits you. Most people need one of three things:\n\n- Guided content, such as a short reading and reflection.\n- A way to begin at all, when the phone keeps winning.\n- A way to keep a verse with you through the day.\n\nBible Verse Alarm covers the second and third. For guided content, see our comparison of [Christian apps for iPhone](/best-christian-apps-iphone)."
+        },
+        {
+          "heading": "How does Bible Verse Alarm work?",
+          "body": "It's an alarm that keeps ringing until you complete a short Bible verse. You choose the verses for each alarm, then turn it off by rebuilding the verse word by word or by typing it.\n\nDavid wrote that he laid his requests before God at daybreak and then waited expectantly. The alarm gives you a small way to do the same: by the time it stops, you're awake and you've already read Scripture.\n\nThe Gospel of Mark says Jesus rose while it was still dark and went to a solitary place to pray. You don't need to match that. You can simply use the quiet that follows for prayer, a reading plan or a journal.",
+          "refs": [
+            "Psalms 5:3",
+            "Mark 1:35"
+          ]
+        },
+        {
+          "heading": "Why does the first minute matter?",
+          "body": "What you open first is what you see first. If it's a feed, your quiet time has to compete with it.\n\nThe alarm makes Scripture the first thing on your screen, so the devotion starts before the distraction does. That's the idea behind \"Scripture before the scroll\"."
+        },
+        {
+          "heading": "Which Bible does it use?",
+          "body": "English has four translations: NIV, WEB, KJV and BSB. Spanish uses Reina-Valera 1909, Chinese uses 和合本 and Korean uses 개역한글. The app follows your iPhone's language.\n\nThe text is stored on your phone, so it works offline, and there is no account or login. The Verses tab has scenes you unlock by waking up, and the Practice tab lets you rehearse verses whenever you like."
+        },
+        {
+          "heading": "Is it the right app for you?",
+          "body": "Best for people who already want a daily devotion but keep reaching for the phone first, and for heavy sleepers. Not the right fit if you want written devotions with commentary, a full Bible-reading or study app, an Android app (it's iPhone only), or a gentle one-tap alarm. You can pair it with a reading app such as YouVersion.\n\nIt's free to download, and full use needs a subscription. The current price is shown on the App Store in your country.",
+          "table": [
+            [
+              "",
+              "Bible Verse Alarm",
+              "A devotional or Bible reading app"
+            ],
+            [
+              "Main job",
+              "Gets Scripture in front of you at wake-up",
+              "Gives you content to read or pray through"
+            ],
+            [
+              "How it reaches you",
+              "Alarm that rings until you complete a verse",
+              "Reminder or notification you can dismiss"
+            ],
+            [
+              "Rings on Silent / Focus",
+              "Yes (Apple AlarmKit)",
+              "Depends on the app"
+            ],
+            [
+              "Platform",
+              "iPhone",
+              "See each app's store page"
+            ]
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is Bible Verse Alarm a daily devotional?",
+          "a": "Not a full one. It's an alarm that has you complete a short Bible verse before it stops, so your day begins with Scripture. Pair it with prayer or a reading plan."
+        },
+        {
+          "q": "Can it replace my devotional app?",
+          "a": "No. It's an alarm, not a full Bible-reading or study app. It starts your day in Scripture, and you can continue in whatever devotional or reading plan you already use."
+        },
+        {
+          "q": "How do I turn the alarm off?",
+          "a": "Complete a short Bible verse mission: rebuild the verse word by word, or type it. The alarm keeps ringing until you do."
+        },
+        {
+          "q": "Can I choose which verses I wake up to?",
+          "a": "Yes. Each alarm has its own verses, which you pick in the alarm editor."
+        },
+        {
+          "q": "Which Bible translations are included?",
+          "a": "NIV, WEB, KJV and BSB in English; Reina-Valera 1909 in Spanish; 和合本 in Chinese; 개역한글 in Korean. The app follows your iPhone's language."
+        },
+        {
+          "q": "Will it ring if my iPhone is on Silent?",
+          "a": "Yes. It uses Apple's AlarmKit, so it rings through Silent and Focus modes."
+        },
+        {
+          "q": "Do I need an account or internet?",
+          "a": "No account or login is needed. The Bible text is stored on your iPhone, so alarms and verses work offline."
+        },
+        {
+          "q": "Is there a version for Android?",
+          "a": "Not yet. Bible Verse Alarm is iPhone only for now."
+        },
+        {
+          "q": "Is it free?",
+          "a": "It's free to download, and full use needs a subscription. The current price is shown on the App Store in your country."
+        }
+      ]
+    },
+    "es": {
+      "slug": "app-devocional-para-la-manana",
+      "nav": "App devocional para la mañana",
+      "title": "App devocional para la mañana en iPhone, con alarma",
+      "description": "Una app para empezar el día con la Biblia: la alarma de Bible Verse Alarm no se apaga hasta que completas un versículo. Qué hace y qué no hace.",
+      "h1": "Una app devocional para la mañana: empieza el día con un versículo",
+      "intro": "Bible Verse Alarm es una app para iPhone que te lleva a la Biblia apenas despiertas. Es una alarma que sigue sonando hasta que completas un versículo corto. Así tu primer minuto del día es para la Palabra de Dios y no para el celular. No trae lecturas escritas ni planes largos; asegura que tu mañana empiece con la Escritura.",
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "sections": [
+        {
+          "heading": "¿Qué hace esta app por tu devocional de la mañana?",
+          "body": "Te lleva a la Biblia antes que a cualquier otra cosa. Muchas personas quieren tener su tiempo con Dios por la mañana, pero lo primero que abren es el celular. Aquí la alarma te pone el versículo enfrente.\n\nLo que hace, en pocas palabras:\n\n- Tú eliges la hora y los versículos de cada alarma.\n- Suena hasta que completas un versículo corto.\n- Se completa armando el versículo palabra por palabra, o escribiéndolo.\n- Funciona sin cuenta, sin login y sin internet, porque el texto bíblico está guardado en el celular."
+        },
+        {
+          "heading": "¿Cómo se ve una mañana con la alarma?",
+          "body": "Suena la alarma, aunque el iPhone esté en Silencio o en un modo de Concentración, porque usa AlarmKit de Apple. Para apagarla armas el versículo que elegiste. Cuando terminas, ya estás despierto y ya leíste un pasaje de la Biblia.\n\nDe ahí en adelante, el tiempo es tuyo: orar, leer un capítulo, abrir tu libro de lecturas o tu plan. La alarma solo abre la puerta."
+        },
+        {
+          "heading": "¿Por qué empezar el día con la Palabra?",
+          "body": "La Biblia presenta la mañana como un buen momento para buscar a Dios. David, en el salmo 5, dice que de mañana presenta su oración y espera; en el salmo 143 pide oír la misericordia de Dios al amanecer. Los evangelios cuentan que Jesús se levantó muy temprano para orar en un lugar apartado. No es una regla, pero sí un patrón que muchos cristianos siguen.",
+          "refs": [
+            "Psalms 5:3",
+            "Psalms 143:8",
+            "Mark 1:35"
+          ]
+        },
+        {
+          "heading": "¿Qué versículos conviene poner en la alarma?",
+          "body": "Los que te ayuden a empezar con el pie derecho. Puedes elegir un grupo fijo para toda la semana o cambiarlos cada día. Si no sabes por dónde empezar, mira nuestros [versículos para la mañana](/es/versiculos-biblicos/para-la-manana). La pestaña Práctica sirve para repasar los versículos cuando quieras.",
+          "refs": [
+            "Lamentations 3:22-23",
+            "Psalms 90:14"
+          ]
+        },
+        {
+          "heading": "¿Es para ti? Para quién sí y para quién no",
+          "body": "Sirve para quien quiere un tiempo diario con Dios y siempre lo pospone, o para quien agarra el celular apenas abre los ojos. No sirve si buscas lecturas escritas con reflexión diaria, un plan de lectura largo o una app para Android. Solo existe para iPhone por ahora.\n\nEs gratis para descargar, pero el uso completo requiere una suscripción; el precio actual aparece en la App Store de tu país. Se puede usar junto con otra app de Biblia o de devocionales.",
+          "table": [
+            [
+              "",
+              "Bible Verse Alarm",
+              "App de devocionales o plan de lectura"
+            ],
+            [
+              "Qué te da",
+              "Un versículo completado al despertar",
+              "Lecturas o reflexiones diarias"
+            ],
+            [
+              "Cuándo te avisa",
+              "Con una alarma que no se apaga hasta completar el versículo",
+              "Con notificaciones o cuando tú la abres"
+            ],
+            [
+              "Suena en Silencio o Concentración",
+              "Sí (AlarmKit de Apple)",
+              "Depende de cada app"
+            ],
+            [
+              "Plataforma",
+              "iPhone",
+              "Depende de cada app"
+            ],
+            [
+              "Biblia en español",
+              "Reina-Valera 1909",
+              "Depende de cada app"
+            ]
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Existe una app que me despierte con un versículo de la Biblia?",
+          "a": "Sí. Bible Verse Alarm es una app para iPhone cuya alarma sigue sonando hasta que completas un versículo corto, armándolo palabra por palabra o escribiéndolo."
+        },
+        {
+          "q": "¿Esta app trae devocionales escritos para cada día?",
+          "a": "No. Es una alarma que te lleva a un versículo al despertar. Tú escoges los versículos, y el resto (oración, lectura, reflexión) lo haces a tu manera."
+        },
+        {
+          "q": "¿Qué versión de la Biblia en español usa?",
+          "a": "Reina-Valera 1909. El texto está guardado en el celular, así que funciona sin internet y sin crear cuenta."
+        },
+        {
+          "q": "¿Suena si el celular está en silencio?",
+          "a": "Sí. Usa AlarmKit de Apple, por lo que suena aunque el iPhone esté en Silencio o en un modo de Concentración."
+        },
+        {
+          "q": "¿Hay versión para Android?",
+          "a": "Todavía no. Por ahora solo está disponible para iPhone en la App Store."
+        },
+        {
+          "q": "¿Qué es un devocional de la mañana?",
+          "a": "Es un rato diario, al empezar el día, para leer la Biblia, orar y reflexionar. Bible Verse Alarm no lo sustituye: te ayuda a empezarlo con un versículo."
+        },
+        {
+          "q": "¿Necesito crear una cuenta?",
+          "a": "No. La app no pide cuenta ni login, y el texto bíblico está guardado en el celular."
+        },
+        {
+          "q": "¿Es gratis?",
+          "a": "Es gratis para descargar, pero el uso completo requiere una suscripción. El precio actual aparece en la App Store de tu país."
+        },
+        {
+          "q": "¿Puedo usarla junto con YouVersion u otro plan de lectura?",
+          "a": "Sí. La alarma abre el día con un versículo, y después sigues tu plan o app de lectura como siempre."
+        },
+        {
+          "q": "¿La app está en español?",
+          "a": "Sí. La app sigue el idioma de tu iPhone y en español incluye la Reina-Valera 1909."
+        }
+      ]
+    }
+  }
+}
