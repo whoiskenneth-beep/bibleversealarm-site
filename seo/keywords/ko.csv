@@ -5,7 +5,7 @@ keyword,intent,cluster,target_page,priority,status
 성경 알람 앱,commercial,app-alarm,/ko/seonggyeong-allam-app,top,published
 성경 암송 앱,commercial,app-memorize,/ko/seonggyeong-amsong-app,top,published
 말씀 묵상 방법,informational,howto-meditate,/ko/malsseum-mudsang-bangbeop,high,published
-오늘의 말씀 앱,commercial,app-daily-verse,,high,planned
+오늘의 말씀 앱,commercial,app-daily-verse,/ko/oneul-ui-malsseum-app,high,published
 큐티 뜻,informational,explainer-qt,,high,planned
 성경구절 위로,informational,comfort,,high,blocked-licence
 힘이 되는 성경구절,informational,strength,,high,blocked-licence
