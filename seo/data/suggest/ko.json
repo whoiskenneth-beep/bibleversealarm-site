@@ -1,5 +1,5 @@
 {
- "cursor": 6,
+ "cursor": 0,
  "suggestions": {
   "성경구절": {
    "seed": "성경구절",
@@ -980,6 +980,12 @@
   },
   "오늘의 말씀 365 묵상": {
    "seed": "오늘의 말씀",
+   "markets": [
+    "naver"
+   ]
+  },
+  "성경암송잘하는법": {
+   "seed": "성경 암송",
    "markets": [
     "naver"
    ]
