@@ -1,17 +1,27 @@
 keyword,intent,cluster,target_page,priority,status
+성경 알람 앱,commercial,app-alarm,/ko/seonggyeong-allam-app,top,published
 성경 알람 앱 추천 비교,commercial,app-compare,/ko/seonggyeong-allam-app-chucheon,top,published
 성경 알람이란,informational,app-explainer,what-is-a-bible-verse-alarm,top,published
 성경 알람 앱 자주 묻는 질문,commercial,app-faq,/ko/seonggyeong-allam-app-jaju-mutneun-jilmun,top,published
-성경 알람 앱,commercial,app-alarm,/ko/seonggyeong-allam-app,top,published
 성경 암송 앱,commercial,app-memorize,/ko/seonggyeong-amsong-app,top,published
-말씀 묵상 방법,informational,howto-meditate,/ko/malsseum-mudsang-bangbeop,high,published
 오늘의 말씀 앱,commercial,app-daily-verse,/ko/oneul-ui-malsseum-app,high,published
-큐티 뜻,informational,explainer-qt,,high,planned
 성경구절 위로,informational,comfort,,high,blocked-licence
-힘이 되는 성경구절,informational,strength,,high,blocked-licence
+말씀 묵상 뜻,informational,explainer-meditation,,high,planned
+큐티 뜻,informational,explainer-qt,/ko/qt-tteut,high,published
+말씀 묵상 방법,informational,howto-meditate,/ko/malsseum-mudsang-bangbeop,high,published
+성경 암송 잘하는 법,informational,howto-memorize-bible,,high,planned
 성경 암송 구절,informational,memorize-verses,,high,blocked-licence
-말씀 묵상 노트 방법,informational,howto-meditation-journal,,medium,planned
-매일성경 큐티,commercial,vs-maeil-seonggyeong,,medium,planned
-아침 기도 기독교,informational,howto-morning-prayer,/ko/achim-gido-gidokgyo,medium,published
+힘이 되는 성경구절,informational,strength,,high,blocked-licence
+성경말씀 듣기,informational,audio-bible,,medium,planned
+말씀 묵상집,commercial,devotional-books,,medium,planned
 감사 성경구절,informational,gratitude,,medium,blocked-licence
+아침 기도 저녁 기도,informational,howto-evening-prayer,,medium,planned
+말씀 묵상 노트 방법,informational,howto-meditation-journal,,medium,planned
+아침 기도 기독교,informational,howto-morning-prayer,/ko/achim-gido-gidokgyo,medium,published
+성경 암송 카드,commercial,memorize-cards,,medium,planned
 짧은 성경 구절,informational,short-verses,,medium,blocked-licence
+매일성경 큐티,commercial,vs-maeil-seonggyeong,,medium,planned
+성경 구절 찾기,navigational,find-verse,,low,planned
+말씀 묵상 영어로,informational,meditation-english,,low,planned
+성경 암송 대회,informational,memorize-contest,,low,planned
+성경 암송 영어로,informational,memorize-english,,low,planned
