@@ -9,7 +9,7 @@ keyword,intent,cluster,target_page,priority,status
 말씀 묵상 뜻,informational,explainer-meditation,,high,planned
 큐티 뜻,informational,explainer-qt,/ko/qt-tteut,high,published
 말씀 묵상 방법,informational,howto-meditate,/ko/malsseum-mudsang-bangbeop,high,published
-성경 암송 잘하는 법,informational,howto-memorize-bible,,high,planned
+성경 암송 잘하는 법,informational,howto-memorize-bible,/ko/seonggyeong-amsong-beop,high,published
 성경 암송 구절,informational,memorize-verses,,high,blocked-licence
 힘이 되는 성경구절,informational,strength,,high,blocked-licence
 성경말씀 듣기,informational,audio-bible,,medium,planned
