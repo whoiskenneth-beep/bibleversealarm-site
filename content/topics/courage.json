@@ -1,0 +1,43 @@
+{
+  "id": "courage",
+  "related": ["fear", "strength", "faith", "encouragement", "anxiety"],
+  "locales": {
+    "en": {
+      "slug": "courage",
+      "title": "17 Bible Verses for Courage When Facing Hard Things",
+      "description": "Seventeen Scripture passages for taking a brave step: starting a task, standing against odds, speaking up. Each group notes who spoke and why.",
+      "h1": "Bible verses for courage",
+      "intro": "Courage in the Bible is not the absence of fear. It is acting on what God has said while the fear is still there. Most of these verses were spoken to someone about to do something hard: lead, fight, speak, or stand alone. They are grouped by the kind of step you may be facing. If the fear itself is what weighs on you, the fear page starts there. If you are simply worn out, try the strength page.",
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "groups": [
+        {
+          "heading": "When you are handed a job that feels too big",
+          "reflection": "Moses was about to die and would not enter the land himself. He told Joshua, in front of all Israel, to be strong and courageous. David said nearly the same to his son Solomon, who had to build the temple. Both handoffs came with the same reason: the Lord goes with you and will not leave. Psalm 27:14 adds the other half. Sometimes brave means waiting without giving up.",
+          "refs": ["Deuteronomy 31:7", "Joshua 1:6", "1 Chronicles 28:20", "Psalms 27:14"]
+        },
+        {
+          "heading": "When the odds are against you",
+          "reflection": "Young David faced Goliath and named his only advantage: he came in the name of the Lord. In 2 Chronicles 20, a prophet tells King Jehoshaphat that a vast army is coming, but the battle belongs to God. Psalm 27 is attributed to David as well, and it speaks of an army camped around him. Paul's question in Romans 8:31 sums these up. Being outnumbered matters less when God is on your side.",
+          "refs": ["1 Samuel 17:45", "2 Chronicles 20:15", "Psalms 27:3", "Romans 8:31"]
+        },
+        {
+          "heading": "When speaking up could cost you",
+          "reflection": "Mordecai pressed Esther to approach the Persian king uninvited, which could mean death, and she answered with a three-day fast and a plain decision. Shadrach, Meshach and Abednego told King Nebuchadnezzar that God could rescue them, and that they would refuse his statue even if He did not. The early believers in Acts 4 had just been threatened by the Jerusalem leaders. They prayed for boldness, not for safety.",
+          "refs": ["Esther 4:14", "Esther 4:16", "Daniel 3:17-18", "Acts 4:29-31"]
+        },
+        {
+          "heading": "Everyday courage: getting up and doing the work",
+          "reflection": "Not every brave act is dramatic. Shecaniah tells Ezra to get up, because the task is his and others will back him. The prophet Azariah tells King Asa that his work will be rewarded. Paul writes 1 Corinthians 16:13 as a short closing list of instructions to the church in Corinth. In Philippians 1:14, Paul's imprisonment made other believers bolder. Courage can be contagious, and it often looks like showing up.",
+          "refs": ["Ezra 10:4", "2 Chronicles 15:7", "1 Corinthians 16:13", "Philippians 1:14", "Proverbs 28:1"]
+        }
+      ],
+      "faq": [
+        { "q": "What is the Bible verse about being courageous?", "a": "The best known is Joshua 1:9, where God tells Joshua to be strong and courageous because the Lord goes with him. Deuteronomy 31:7 and 1 Chronicles 28:20 carry the same charge, given by Moses and David to the next leader." },
+        { "q": "Does the Bible say courage means not being afraid?", "a": "No. Nearly every call to courage in Scripture is given to someone who has reason to be afraid. Courage there means acting on God's word and trusting His presence, even while the fear is still present." },
+        { "q": "Which Bible verse helps with courage to speak up?", "a": "Acts 4:29-31 is a good one. Peter and John had just been threatened, and the believers prayed for boldness to keep speaking. Esther 4:14-16 also fits, when speaking or acting carries a real cost." },
+        { "q": "How can I use these verses when I need courage today?", "a": "Pick one that fits your situation and read it slowly before the hard moment. Bible Verse Alarm, an iPhone app, can use the verses you choose for your morning alarm, so one is in your mind early in the day." }
+      ]
+    }
+  }
+}
