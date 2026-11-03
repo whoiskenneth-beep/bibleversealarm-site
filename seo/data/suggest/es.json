@@ -1,5 +1,5 @@
 {
- "cursor": 0,
+ "cursor": 3,
  "suggestions": {
   "versículos de la biblia para reflexionar": {
    "seed": "versículos de la biblia para",
@@ -13094,6 +13094,12 @@
    "seed": "versículos de fortaleza",
    "markets": [
     "mx",
+    "co"
+   ]
+  },
+  "versiculos de la biblia para niñas": {
+   "seed": "versículos de la biblia para",
+   "markets": [
     "co"
    ]
   }

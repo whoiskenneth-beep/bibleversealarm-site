@@ -1,5 +1,5 @@
 {
- "cursor": 0,
+ "cursor": 3,
  "suggestions": {
   "bible verses about love": {
    "seed": "bible verses about",
@@ -12783,6 +12783,12 @@
   },
   "what bible verse stops anxiety": {
    "seed": "bible verses for anxiety",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses for november": {
+   "seed": "bible verses for",
    "markets": [
     "us"
    ]

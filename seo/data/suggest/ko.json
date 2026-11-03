@@ -1,5 +1,5 @@
 {
- "cursor": 0,
+ "cursor": 3,
  "suggestions": {
   "성경구절": {
    "seed": "성경구절",
@@ -986,6 +986,24 @@
   },
   "성경암송잘하는법": {
    "seed": "성경 암송",
+   "markets": [
+    "naver"
+   ]
+  },
+  "짧은 성경구절": {
+   "seed": "성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "위로 성경구절": {
+   "seed": "성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "축복 성경구절": {
+   "seed": "성경구절",
    "markets": [
     "naver"
    ]
