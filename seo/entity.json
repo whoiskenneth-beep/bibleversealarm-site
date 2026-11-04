@@ -2,7 +2,7 @@
   "_about": "Single source of truth for how Bible Verse Alarm is described everywhere (site schema, llms.txt, store listings, socials, directories). Keep the name and one-liner identical across all of them. scripts/build.mjs reads this file.",
   "name": "Bible Verse Alarm",
   "app_store_id": "6789787366",
-  "app_store_url": "https://apps.apple.com/app/id6789787366",
+  "app_store_url": "https://apps.apple.com/us/app/id6789787366",
   "google_play_url": null,
   "social_profiles": [],
   "_social_profiles": "Public profile URLs (Facebook page, YouTube channel, TikTok, Threads, Pinterest...). Kenneth to fill: seo/NEEDS_HUMAN.md #8.",

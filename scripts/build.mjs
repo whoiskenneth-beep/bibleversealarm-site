@@ -26,7 +26,7 @@ const toHans = (s) => openccHans(s).replace(/「/g, '“').replace(/」/g, '”'
 // App Store. While false, CTAs must not promise an in-app Bible in this language.
 export const LOCALES = {
   en: {
-    lang: 'en', hreflang: ['en', 'x-default'], prefix: '', ogLocale: 'en_US',
+    lang: 'en', hreflang: ['en', 'x-default'], prefix: '', ogLocale: 'en_US', country: 'us',
     bible: 'bsb', bibleName: 'Berean Standard Bible (BSB)', appLocalized: true,
     hub: '/bible-verses-about',
     t: {
@@ -40,7 +40,9 @@ export const LOCALES = {
     },
   },
   es: {
-    lang: 'es', hreflang: ['es'], prefix: '/es', ogLocale: 'es_419',
+    // 'mx' (Mexico): the largest Spanish-speaking App Store market, standing in for
+    // "Latin America" since Apple has no single storefront for the whole region.
+    lang: 'es', hreflang: ['es'], prefix: '/es', ogLocale: 'es_419', country: 'mx',
     bible: 'rvr1909', bibleName: 'Reina-Valera 1909', appLocalized: true,
     hub: '/es/versiculos-biblicos',
     t: {
@@ -54,7 +56,7 @@ export const LOCALES = {
     },
   },
   'zh-hant': {
-    lang: 'zh-Hant', hreflang: ['zh-Hant', 'zh-TW', 'zh-HK'], prefix: '/zh-hant', ogLocale: 'zh_TW',
+    lang: 'zh-Hant', hreflang: ['zh-Hant', 'zh-TW', 'zh-HK'], prefix: '/zh-hant', ogLocale: 'zh_TW', country: 'tw',
     bible: 'cuv-hant', bibleName: '和合本（1919）', appLocalized: true,
     hub: '/zh-hant/jingwen',
     t: {
@@ -68,13 +70,15 @@ export const LOCALES = {
     },
   },
   'zh-hans': {
-    lang: 'zh-Hans', hreflang: ['zh-Hans', 'zh-SG', 'zh-MY'], prefix: '/zh-hans', ogLocale: 'zh_SG',
+    // 'my' (Malaysia): its two markets are Malaysia and Singapore; Malaysia is Kenneth's
+    // home market, so it's the tie-breaker.
+    lang: 'zh-Hans', hreflang: ['zh-Hans', 'zh-SG', 'zh-MY'], prefix: '/zh-hans', ogLocale: 'zh_SG', country: 'my',
     bible: 'cuv-hans', bibleName: '和合本（1919）', appLocalized: true,
     hub: '/zh-hans/jingwen', derivedFrom: 'zh-hant',
   },
   ko: {
     // Korean Bible text is on hold until the 개역한글 licence is confirmed (seo/LICENSES.md).
-    lang: 'ko', hreflang: ['ko'], prefix: '/ko', ogLocale: 'ko_KR',
+    lang: 'ko', hreflang: ['ko'], prefix: '/ko', ogLocale: 'ko_KR', country: 'kr',
     bible: null, bibleName: null, appLocalized: true,
     hub: '/ko/seonggu',
     t: {
@@ -133,7 +137,10 @@ const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 const abs = (p) => SITE + (p || '/');
 const storeLink = (loc, slug) => {
   const ct = `seo_${loc}_${slug}`.replace(/[^A-Za-z0-9_]/g, '_').slice(0, 40);
-  return `https://apps.apple.com/app/id${APP_ID}?ct=${ct}`;
+  // A link with no country code makes Apple guess the visitor's storefront from
+  // their IP, and it isn't reliable (e.g. a Korean visitor was sent to the US
+  // store). Each locale's primary market is hardcoded in the path instead.
+  return `https://apps.apple.com/${LOCALES[loc].country}/app/id${APP_ID}?ct=${ct}`;
 };
 const ld = (obj) => `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, '\\u003c')}</script>`;
 
