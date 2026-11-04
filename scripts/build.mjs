@@ -70,9 +70,9 @@ export const LOCALES = {
     },
   },
   'zh-hans': {
-    // 'my' (Malaysia): its two markets are Malaysia and Singapore; Malaysia is Kenneth's
-    // home market, so it's the tie-breaker.
-    lang: 'zh-Hans', hreflang: ['zh-Hans', 'zh-SG', 'zh-MY'], prefix: '/zh-hans', ogLocale: 'zh_SG', country: 'my',
+    // 'tw' (Taiwan), by Kenneth's choice (2026-11-04): both Chinese scripts point to the
+    // same storefront as zh-hant, rather than splitting zh-hans to Malaysia.
+    lang: 'zh-Hans', hreflang: ['zh-Hans', 'zh-SG', 'zh-MY'], prefix: '/zh-hans', ogLocale: 'zh_SG', country: 'tw',
     bible: 'cuv-hans', bibleName: '和合本（1919）', appLocalized: true,
     hub: '/zh-hans/jingwen', derivedFrom: 'zh-hant',
   },
