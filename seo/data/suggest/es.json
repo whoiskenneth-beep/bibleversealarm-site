@@ -1,5 +1,5 @@
 {
- "cursor": 3,
+ "cursor": 6,
  "suggestions": {
   "versículos de la biblia para reflexionar": {
    "seed": "versículos de la biblia para",
@@ -12461,7 +12461,8 @@
   "oración de la mañana en letras": {
    "seed": "oración de la mañana",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "oración de la mañana en agradecimiento a dios": {
@@ -13100,6 +13101,65 @@
   "versiculos de la biblia para niñas": {
    "seed": "versículos de la biblia para",
    "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana de hoy martes 3 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana 3 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana de hoy 3 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana 3 de noviembre 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana de hoy 3 de noviembre del 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co",
+    "mx"
+   ]
+  },
+  "oracion de la mañana catolico": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana del 3 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana de hoy miércoles": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana para hoy": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
     "co"
    ]
   }

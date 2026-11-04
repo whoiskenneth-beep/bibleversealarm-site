@@ -1,5 +1,5 @@
 {
- "cursor": 3,
+ "cursor": 6,
  "suggestions": {
   "성경구절": {
    "seed": "성경구절",
@@ -1004,6 +1004,12 @@
   },
   "축복 성경구절": {
    "seed": "성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "말씀 묵상 기도": {
+   "seed": "말씀 묵상",
    "markets": [
     "naver"
    ]

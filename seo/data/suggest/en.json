@@ -1,5 +1,5 @@
 {
- "cursor": 3,
+ "cursor": 6,
  "suggestions": {
   "bible verses about love": {
    "seed": "bible verses about",
@@ -12789,6 +12789,72 @@
   },
   "bible verses for november": {
    "seed": "bible verses for",
+   "markets": [
+    "us"
+   ]
+  },
+  "morning devotional sermon with scriptures": {
+   "seed": "morning devotional",
+   "markets": [
+    "us"
+   ]
+  },
+  "verse of the day november 3 2026": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "verse of the day november 2 2026": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "verse of the day november 1 2026": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "verse of the day nov 3 2026": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "verse of the day and reflection": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "verse of the day nov 2 2026": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "verse of the day oct 1": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "verse of the day on k love": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "verse of the day october 6th 2026": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "random verse of the day quran": {
+   "seed": "verse of the day",
    "markets": [
     "us"
    ]
