@@ -1,5 +1,5 @@
 {
- "cursor": 6,
+ "cursor": 0,
  "suggestions": {
   "성경구절": {
    "seed": "성경구절",
@@ -1012,6 +1012,24 @@
    "seed": "말씀 묵상",
    "markets": [
     "naver"
+   ]
+  },
+  "성경 암송 60구절": {
+   "seed": "성경 암송",
+   "markets": [
+    "kr"
+   ]
+  },
+  "성경 암송 300구절": {
+   "seed": "성경 암송",
+   "markets": [
+    "kr"
+   ]
+  },
+  "성경 암송 60 구절 pdf": {
+   "seed": "성경 암송",
+   "markets": [
+    "kr"
    ]
   }
  }

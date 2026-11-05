@@ -1,5 +1,5 @@
 {
- "cursor": 6,
+ "cursor": 9,
  "suggestions": {
   "bible verses about love": {
    "seed": "bible verses about",
@@ -12855,6 +12855,78 @@
   },
   "random verse of the day quran": {
    "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "reminders for apple watch": {
+   "seed": "prayer reminder app",
+   "markets": [
+    "us"
+   ]
+  },
+  "short bible verses for morning devotion": {
+   "seed": "bible verses for morning",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible scripture for monday morning": {
+   "seed": "bible verses for morning",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses for flying anxiety": {
+   "seed": "bible verses for anxiety",
+   "markets": [
+    "us"
+   ]
+  },
+  "king james bible verses for anxiety": {
+   "seed": "bible verses for anxiety",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible scriptures for anxiety kjv": {
+   "seed": "bible verses for anxiety",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses for anxious mothers": {
+   "seed": "bible verses for anxiety",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses for performance anxiety": {
+   "seed": "bible verses for anxiety",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses for when you're anxious": {
+   "seed": "bible verses for anxiety",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses when you anxious": {
+   "seed": "bible verses for anxiety",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verse if your anxious": {
+   "seed": "bible verses for anxiety",
+   "markets": [
+    "us"
+   ]
+  },
+  "what bible verse should i read for anxiety": {
+   "seed": "bible verses for anxiety",
    "markets": [
     "us"
    ]

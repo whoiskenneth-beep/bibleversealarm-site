@@ -1,5 +1,5 @@
 {
- "cursor": 6,
+ "cursor": 9,
  "suggestions": {
   "versículos de la biblia para reflexionar": {
    "seed": "versículos de la biblia para",
@@ -13160,6 +13160,25 @@
    "seed": "oración de la mañana",
    "markets": [
     "mx",
+    "co"
+   ]
+  },
+  "versículos de fortaleza con imágenes": {
+   "seed": "versículos de fortaleza",
+   "markets": [
+    "mx"
+   ]
+  },
+  "versículos de fortaleza en momentos de enfermedad": {
+   "seed": "versículos de fortaleza",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versículos de fortaleza y ánimo en la enfermedad": {
+   "seed": "versículos de fortaleza",
+   "markets": [
     "co"
    ]
   }
