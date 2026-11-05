@@ -1,6 +1,6 @@
 {
   "id": "faith",
-  "related": ["strength", "fear", "encouragement", "anxiety"],
+  "related": ["strength", "fear", "encouragement", "anxiety", "peace"],
   "locales": {
     "zh-hant": {
       "slug": "faith",
