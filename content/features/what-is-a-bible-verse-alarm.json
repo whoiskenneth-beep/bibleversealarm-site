@@ -14,20 +14,20 @@
       "title": "What Is a Bible Verse Alarm? How It Works and Who It's For",
       "description": "A Bible verse alarm rings until you complete a short verse. Learn how it works, how it differs from a normal alarm or Bible app, and who it suits.",
       "h1": "What is a Bible verse alarm?",
-      "intro": "A Bible verse alarm is an alarm clock that keeps ringing until you complete a short Bible verse, so the first minute of your day goes to Scripture, not your phone. Bible Verse Alarm is an iPhone app that does this.",
+      "intro": "Bible Verse Alarm is an iPhone alarm that keeps ringing until you complete a short Bible verse, so your first minute of the day goes to God's Word, not your phone. That kind of alarm is what people mean by a Bible verse alarm.",
       "published": "2026-10-22",
-      "updated": "2026-10-22",
+      "updated": "2026-11-05",
       "sections": [
         {
           "heading": "How does it work?",
-          "body": "You set a wake-up time and choose which verses the alarm uses. When it rings, it won't stop until you finish a short mission with the verse.\n\nThe steps:\n\n1. Set your time and pick your verses.\n2. The alarm rings, even on Silent or in a Focus mode.\n3. Rebuild the verse word by word, or type it out.\n4. The alarm stops. You're awake, and you've just read Scripture.\n\nDavid describes a similar rhythm in a morning prayer: he brings his requests to God at daybreak, then waits. The alarm gives you a small, daily way to start there.",
+          "body": "A Bible verse alarm rings until you finish a short mission with a verse, so one tap can't switch it off. You set a wake-up time, choose the verses it uses, and complete the verse when it rings.\n\nThe steps:\n\n1. Set your time and pick your verses.\n2. The alarm rings, even on Silent or in a Focus mode.\n3. Rebuild the verse word by word, or type it out.\n4. The alarm stops. You're awake, and you've just read Scripture.\n\nDavid describes a similar rhythm in a morning prayer: he brings his requests to God at daybreak, then waits. The alarm gives you a small, daily way to start there.",
           "refs": [
             "Psalms 5:3"
           ]
         },
         {
           "heading": "How is it different from a normal alarm?",
-          "body": "A normal alarm stops with one tap. This kind of alarm stops only when you complete the verse, so a half-asleep swipe can't end it. It also decides what you see first: a verse, not notifications.",
+          "body": "A normal alarm stops with one tap. A Bible verse alarm stops only when you complete the verse, so a half-asleep swipe can't end it. It also decides what you see first: a verse you chose, not your notifications. The table shows the main differences.",
           "table": [
             [
               "",
@@ -53,18 +53,22 @@
         },
         {
           "heading": "How is it different from a Bible app?",
-          "body": "A Bible app waits for you to open it. An alarm comes to you the moment you wake up, and asks you to engage with the verse rather than just see it.\n\nThey work well together. The alarm starts the day with a verse. A longer Bible reading plan can come later.\n\nThe Bible text is stored on your phone, so it works offline, with no account or login."
+          "body": "A Bible app waits for you to open it. A Bible verse alarm comes to you the moment you wake up, and asks you to engage with the verse rather than just see it.\n\nThey work well together. The alarm starts the day with a verse. A longer Bible reading plan can come later.\n\nThe Bible text is stored on your phone, so it works offline, with no account or login."
         },
         {
           "heading": "Who is it for?",
-          "body": "It suits anyone who wants Scripture to come first in the morning and keeps forgetting to start. That includes:\n\n- People who reach for their phone the second they wake up.\n- Anyone who wants to memorize verses, since you rebuild each one yourself.\n- Anyone who wants a simple morning anchor, not a big routine.\n\nYou choose the verses. You might pick verses on encouragement, anxiety, sleep or strength.\n\nOne to start with is Lamentations 3:22-23. The writer is grieving, yet he says God's mercies are new every morning. It fits a first minute of the day.",
+          "body": "A Bible verse alarm suits anyone who wants Scripture to come first in the morning and keeps forgetting to start. That includes:\n\n- People who reach for their phone the second they wake up.\n- Anyone who wants to memorize verses, since you rebuild each one yourself.\n- Anyone who wants a simple morning anchor, not a big routine.\n\nYou choose the verses. You might pick verses on encouragement, anxiety, sleep or strength.\n\nOne to start with is Lamentations 3:22-23. The writer is grieving, yet he says God's mercies are new every morning. It fits a first minute of the day.",
           "refs": [
             "Lamentations 3:22-23"
           ]
         },
         {
+          "heading": "Who is it not for?",
+          "body": "It isn't for you if you want a gentle one-tap alarm, need an Android app (iPhone only for now), or want a full Bible reading or study app. It is an alarm, not a reading plan. Pair it with a Bible app for longer reading."
+        },
+        {
           "heading": "What else is in the app?",
-          "body": "The app has a Verses tab with scenes you unlock by waking up, and a Practice tab to rehearse verses any time. English Bibles in the app are NIV, WEB, KJV and BSB. It is an iPhone app, free to download, and full use needs a subscription. Family Sharing is supported. There is no Android version yet."
+          "body": "The app has a Verses tab with scenes you unlock by waking up, and a Practice tab to rehearse verses any time. English Bibles in the app are NIV, WEB, KJV and BSB. It is an iPhone app, free to download, and full use needs a subscription. Family Sharing is supported. There is no Android version yet. Bible Verse Alarm is made by Kenneth Foo, a solo developer in Malaysia who has been a Christian for over 15 years."
         }
       ],
       "faq": [
@@ -83,6 +87,34 @@
         {
           "q": "Is there an Android version?",
           "a": "Not yet. The app is currently for iPhone only, on the App Store."
+        },
+        {
+          "q": "How is a Bible verse alarm different from a normal alarm?",
+          "a": "A normal alarm stops with one tap. A Bible verse alarm keeps ringing until you complete a short verse, so the first thing you see is Scripture you chose, not your notifications."
+        },
+        {
+          "q": "Can I choose my own verses?",
+          "a": "Yes. In each alarm's editor you choose which verses it uses, so you can start the day with the passages that matter to you right now."
+        },
+        {
+          "q": "Which English Bible versions does it use?",
+          "a": "The app includes four English Bibles: NIV, WEB, KJV and BSB. The text is stored on your iPhone, so it works offline."
+        },
+        {
+          "q": "Is Bible Verse Alarm free?",
+          "a": "It is free to download, but full use needs a subscription. The current price is shown on the App Store page in your country."
+        },
+        {
+          "q": "Does it support Family Sharing?",
+          "a": "Yes. Bible Verse Alarm supports Apple's Family Sharing."
+        },
+        {
+          "q": "Does it replace my Bible reading app?",
+          "a": "No. It is an alarm, not a full Bible reading or study app. Use it to start the day with one verse, and keep your Bible app, such as YouVersion, for longer reading."
+        },
+        {
+          "q": "Is YouVersion verse of the day the same as a Bible verse alarm?",
+          "a": "No. A verse of the day is a notification you can ignore or swipe away. A Bible verse alarm keeps ringing until you complete the verse. They work well together, since YouVersion is better for longer reading."
         }
       ]
     },
