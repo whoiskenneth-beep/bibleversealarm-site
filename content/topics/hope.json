@@ -1,0 +1,55 @@
+{
+  "id": "hope",
+  "related": ["comfort", "encouragement", "faith", "anxiety", "strength"],
+  "locales": {
+    "en": {
+      "slug": "hope",
+      "title": "Bible Verses About Hope: 16 Scriptures to Hold On To",
+      "description": "Sixteen Bible verses about hope, grouped by where it comes from, how it holds in pain, how to wait, and what is promised. Each has a short note.",
+      "h1": "Bible verses about hope",
+      "intro": "In the Bible, hope is not wishful thinking. It is a confident expectation, built on who God is and what he has already done. The sixteen passages below come from psalmists, prophets and apostles, and most were written in hard seasons. Pick the group that fits where you are today. Read slowly, and notice who each passage was first written to.",
+      "published": "2026-11-05",
+      "updated": "2026-11-05",
+      "groups": [
+        {
+          "heading": "Where hope comes from",
+          "reflection": "Psalm 62 is David talking to his own soul, telling it to be still because its hope comes from God, not from circumstances. Psalm 130 is a cry from the depths that ends by telling all Israel to hope in the Lord. Paul wrote Romans 15:4 to a church learning to accept one another, and he says the Scriptures were written to give endurance and encouragement, and through them, hope.",
+          "refs": ["Psalms 62:5", "Psalms 130:5-7", "Psalms 33:20-22", "Romans 15:4"]
+        },
+        {
+          "heading": "Hope that holds in hard times",
+          "reflection": "Hebrews was written to Christians under pressure who were tempted to drift. The writer says the hope we have in Jesus is the anchor: it holds the soul steady because Jesus has already gone ahead into God's presence. Paul adds that our present suffering is not the whole story, and that our inner self is renewed day by day, even when the outer self is worn down.",
+          "refs": ["Hebrews 6:19-20", "Romans 8:18", "Romans 8:24-25", "2 Corinthians 4:16-18"]
+        },
+        {
+          "heading": "Hope while you wait",
+          "reflection": "Most hope involves waiting, and these verses do not rush it. Micah spoke when his society was corrupt, and he chose to look to the Lord anyway. Lamentations was written after Jerusalem fell, yet it calls waiting on God good. Zechariah 9 is addressed to Zion and Judah, and it calls them prisoners of hope, people held in place by a promise that has not yet arrived. Proverbs 23:18 says your hope will not be cut off.",
+          "refs": ["Micah 7:7", "Lamentations 3:25-26", "Zechariah 9:12", "Proverbs 23:18"]
+        },
+        {
+          "heading": "Hope for what is still to come",
+          "reflection": "Peter wrote to scattered believers who were far from home and facing hostility. He says God has given them new birth into a living hope, through Jesus' resurrection, and an inheritance that cannot fade. Paul tells the Thessalonians that grief is real, but they do not grieve as people without hope. Titus calls the return of Christ the blessed hope, and Revelation 21 describes God wiping away every tear.",
+          "refs": ["1 Peter 1:3-4", "1 Thessalonians 4:13-14", "Titus 2:13", "Revelation 21:4"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best Bible verse about hope?",
+          "a": "Many people turn to Hebrews 6:19, which calls hope an anchor for the soul, or 1 Peter 1:3, which speaks of a living hope through Jesus' resurrection. Psalm 62:5 is a short one to memorize."
+        },
+        {
+          "q": "What is the difference between hope and faith in the Bible?",
+          "a": "Faith is trusting God now. Hope is looking forward with confidence to what he has promised. Romans 8:24-25 says we hope for what we do not yet see, and we wait for it patiently."
+        },
+        {
+          "q": "What does the Bible say about hope in hard times?",
+          "a": "It does not deny the pain. Paul says present suffering is not comparable to coming glory (Romans 8:18), and the writer of Hebrews calls hope an anchor. If you feel hopeless, please also talk to a trusted person or a counselor."
+        },
+        {
+          "q": "How can I keep hope when I feel hopeless?",
+          "a": "Read one short passage slowly, such as Psalm 130, which starts in the depths. Pray it honestly, and tell someone how you are doing. If you are in crisis, contact local emergency services or a crisis line."
+        }
+      ]
+    }
+  }
+}

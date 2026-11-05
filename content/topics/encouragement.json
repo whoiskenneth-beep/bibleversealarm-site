@@ -1,6 +1,13 @@
 {
   "id": "encouragement",
-  "related": ["strength", "anxiety", "morning", "fear", "faith"],
+  "related": [
+    "strength",
+    "anxiety",
+    "morning",
+    "fear",
+    "faith",
+    "hope"
+  ],
   "locales": {
     "en": {
       "slug": "encouragement",
@@ -14,28 +21,134 @@
         {
           "heading": "When you feel discouraged",
           "reflection": "Psalm 42 is a man talking to his own soul, asking why it is so heavy, and then answering himself with hope in God. He does not pretend the heaviness is gone. Isaiah 43:2 was spoken to Israel and says water and fire will come, but you will not face them alone. Honest feelings and real hope can sit side by side.",
-          "refs": ["Psalms 34:18", "Psalms 42:11", "Isaiah 43:2", "Romans 15:13"]
+          "refs": [
+            "Psalms 34:18",
+            "Psalms 42:11",
+            "Isaiah 43:2",
+            "Romans 15:13"
+          ]
         },
         {
           "heading": "When you feel alone",
           "reflection": "Moses spoke Deuteronomy 31:8 to Joshua, who was about to lead a nation without him. The comfort was not a plan but a presence: the Lord goes ahead. David wrote about the dark valley and said what mattered was that God was with him there. Paul closes the case in Romans 8 with a list of everything that cannot separate you from God's love.",
-          "refs": ["Deuteronomy 31:8", "Zephaniah 3:17", "Psalms 23:4", "Romans 8:38-39"]
+          "refs": [
+            "Deuteronomy 31:8",
+            "Zephaniah 3:17",
+            "Psalms 23:4",
+            "Romans 8:38-39"
+          ]
         },
         {
           "heading": "Encouraging someone else",
           "reflection": "The New Testament treats encouragement as a normal habit, not a special gift. Paul tells the Thessalonians to keep building each other up. Hebrews was written to believers under pressure and asks them to meet, spur one another on, and speak up daily before discouragement hardens. A short, kind sentence can matter more than you expect, as Proverbs says.",
-          "refs": ["1 Thessalonians 5:11", "Hebrews 10:24-25", "Hebrews 3:13", "Proverbs 16:24"]
+          "refs": [
+            "1 Thessalonians 5:11",
+            "Hebrews 10:24-25",
+            "Hebrews 3:13",
+            "Proverbs 16:24"
+          ]
         },
         {
           "heading": "When you need hope for what's ahead",
           "reflection": "Jeremiah 29:11 is a letter to exiles in Babylon who were told to settle in and wait; the hope was real, but it was long. Psalm 126 remembers a return from exile and says those who sow in tears will reap with joy. Romans 8:28 and 5:3-5 do not call suffering good. They say God is at work in it.",
-          "refs": ["Jeremiah 29:11", "Romans 8:28", "Romans 5:3-5", "Psalms 126:5-6"]
+          "refs": [
+            "Jeremiah 29:11",
+            "Romans 8:28",
+            "Romans 5:3-5",
+            "Psalms 126:5-6"
+          ]
         }
       ],
       "faq": [
-        { "q": "What is the best Bible verse for encouragement?", "a": "Many people turn to Isaiah 41:10, Joshua 1:9 or Psalm 34:18. For a low day, Psalm 34:18 is a good start: the Lord is near the brokenhearted. For encouraging a friend, try 1 Thessalonians 5:11." },
-        { "q": "What does the Bible say about encouraging others?", "a": "It treats it as a daily habit. 1 Thessalonians 5:11 says to encourage and build each other up, and Hebrews 3:13 says to do it every day. Hebrews 10:24-25 ties it to meeting together." },
-        { "q": "What Bible verse can I send to someone who is struggling?", "a": "Keep it short and kind. Psalm 34:18, Deuteronomy 31:8 and Romans 15:13 work well. Add a line about why you thought of them. A personal note often helps more than the verse alone." }
+        {
+          "q": "What is the best Bible verse for encouragement?",
+          "a": "Many people turn to Isaiah 41:10, Joshua 1:9 or Psalm 34:18. For a low day, Psalm 34:18 is a good start: the Lord is near the brokenhearted. For encouraging a friend, try 1 Thessalonians 5:11."
+        },
+        {
+          "q": "What does the Bible say about encouraging others?",
+          "a": "It treats it as a daily habit. 1 Thessalonians 5:11 says to encourage and build each other up, and Hebrews 3:13 says to do it every day. Hebrews 10:24-25 ties it to meeting together."
+        },
+        {
+          "q": "What Bible verse can I send to someone who is struggling?",
+          "a": "Keep it short and kind. Psalm 34:18, Deuteronomy 31:8 and Romans 15:13 work well. Add a line about why you thought of them. A personal note often helps more than the verse alone."
+        }
+      ]
+    },
+    "es": {
+      "slug": "animar",
+      "title": "16 versículos de la Biblia para animar a quien está caído",
+      "description": "Textos bíblicos de aliento para cuando te sientes desanimado o solo, y para levantar a otros. Reina-Valera 1909, en 4 grupos con reflexión breve.",
+      "h1": "Versículos de la Biblia para animar el corazón",
+      "intro": "¿Qué versículo de la Biblia sirve para animar? Los que recuerdan que Dios está contigo cuando las fuerzas se acaban. Aquí tienes dieciséis textos en cuatro grupos: cuando estás desanimado, cuando te sientes solo, cuando quieres levantar a otra persona y cuando necesitas esperanza para lo que viene. Muchos de estos pasajes fueron escritos por gente en el destierro, perseguida o bajo presión, así que no son frases de cartel. Lee el grupo que se parezca a tu día y, si puedes, comparte uno con alguien que lo necesite hoy.",
+      "published": "2026-11-05",
+      "updated": "2026-11-05",
+      "groups": [
+        {
+          "heading": "Cuando estás desanimado",
+          "reflection": "El Salmo 42 es un hombre hablándole a su propia alma: le pregunta por qué está tan abatida y se contesta que espere en Dios. No finge que el peso desapareció. Isaías 43 le habla a Israel y no promete que no habrá aguas ni fuego, sino que Dios estará en medio. Pablo, en 2 Corintios 4, admite que el cuerpo se desgasta, pero dice que por dentro hay una renovación diaria. Puedes estar cansado y esperar a la vez.",
+          "refs": [
+            "Psalms 42:11",
+            "Isaiah 43:2",
+            "2 Corinthians 4:16-17",
+            "Romans 15:13"
+          ]
+        },
+        {
+          "heading": "Cuando te sientes solo",
+          "reflection": "Moisés dijo Deuteronomio 31:8 a Josué delante de todo Israel, cuando él mismo ya no iba a cruzar el Jordán. El consuelo no era un plan, sino que Jehová iría delante. Isaías 41 fue dirigido a un pueblo temeroso, y habla de una mano que sostiene la tuya. Sofonías describe a un Dios que se alegra por su pueblo. Y Pablo termina Romanos 8 con una lista de cosas que no pueden separarnos del amor de Cristo.",
+          "refs": [
+            "Deuteronomy 31:8",
+            "Isaiah 41:13",
+            "Zephaniah 3:17",
+            "Romans 8:38-39"
+          ]
+        },
+        {
+          "heading": "Para animar a otra persona",
+          "reflection": "En el Nuevo Testamento, animarse unos a otros no es un don reservado a pocos, sino una costumbre de la iglesia. Pablo escribe a los tesalonicenses, que sufrían persecución, y les pide edificarse entre sí. Hebreos fue dirigido a creyentes cansados y los invita a no abandonar la reunión y a exhortarse cada día. Proverbios añade algo muy práctico: una palabra suave le hace bien al alma. A veces basta un mensaje corto y sincero.",
+          "refs": [
+            "1 Thessalonians 5:11",
+            "Hebrews 10:24-25",
+            "Hebrews 3:13",
+            "Proverbs 16:24"
+          ]
+        },
+        {
+          "heading": "Esperanza para lo que viene",
+          "reflection": "Jeremías 29:11 es parte de una carta a desterrados en Babilonia, a quienes se les pedía establecerse y esperar muchos años. La esperanza era real, pero larga. David, en el Salmo 27, confiesa que habría desmayado de no creer que vería la bondad de Dios, y se anima a sí mismo a aguardar. Romanos 5 y 8 no llaman buena a la tribulación; dicen que Dios obra en medio de ella y que la esperanza no avergüenza.",
+          "refs": [
+            "Jeremiah 29:11",
+            "Psalms 27:13-14",
+            "Romans 5:3-5",
+            "Romans 8:28"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Cuál es un buen versículo de la Biblia para animar a alguien?",
+          "a": "Salmos 42:11 sirve para un día de desánimo y Deuteronomio 31:8 para quien se siente solo. Para animar a un amigo, 1 Tesalonicenses 5:11 es un buen comienzo. Añade una línea personal explicando por qué pensaste en esa persona."
+        },
+        {
+          "q": "¿Qué dice la Biblia sobre animar a los demás?",
+          "a": "La Biblia lo presenta como hábito diario de la iglesia. 1 Tesalonicenses 5:11 pide edificarse unos a otros, y Hebreos 3:13 dice hacerlo cada día. Hebreos 10:24-25 lo une a reunirse con otros creyentes."
+        },
+        {
+          "q": "¿Qué versículo puedo mandar por WhatsApp a alguien que está pasando un mal momento?",
+          "a": "Escoge uno breve, como Isaías 41:13 o Romanos 15:13. Añade dos líneas tuyas: que estás orando por esa persona y que te avise si necesita algo. Un mensaje personal suele pesar más que el versículo solo."
+        },
+        {
+          "q": "¿Qué texto bíblico ayuda cuando uno se siente sin fuerzas?",
+          "a": "Salmos 27:13-14 anima a aguardar y a esforzarse, y 2 Corintios 4:16 habla de una renovación interior diaria. Para otro enfoque, el grupo de fortaleza de esta web reúne pasajes sobre el cansancio."
+        },
+        {
+          "q": "¿Es lo mismo animar que consolar?",
+          "a": "No del todo. Consolar acompaña a quien sufre una pérdida; animar levanta el ánimo para seguir adelante. En 1 Tesalonicenses 5:11 el verbo de Pablo cubre ambas ideas, y en esta página el énfasis está en dar aliento."
+        },
+        {
+          "q": "¿Puedo recibir un versículo animador cada mañana en el celular?",
+          "a": "Sí. Bible Verse Alarm es una alarma para iPhone que te despierta con un versículo. Es gratis para descargar, el uso completo requiere suscripción y el precio actual aparece en la App Store de tu país."
+        }
       ]
     }
   }
