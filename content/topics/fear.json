@@ -1,6 +1,12 @@
 {
   "id": "fear",
-  "related": ["anxiety", "strength", "encouragement", "courage", "faith"],
+  "related": [
+    "anxiety",
+    "strength",
+    "encouragement",
+    "courage",
+    "faith"
+  ],
   "locales": {
     "en": {
       "slug": "fear",
@@ -14,34 +20,150 @@
         {
           "heading": "\"Do not be afraid\": what God says to frightened people",
           "reflection": "These commands are spoken to real people in real trouble. Abram hears his in a vision, not long after a dangerous military campaign. Exiled Israel hears Isaiah's, and the reason given is not \"things will be fine\" but \"I have called you by name.\" The disciples hear Matthew 14:27 in the middle of a storm. And John, face down on Patmos, hears it from the risen Jesus. Each time, the comfort is a Person, not a plan.",
-          "refs": ["Genesis 15:1", "Isaiah 43:1", "Matthew 14:27", "Revelation 1:17-18"]
+          "refs": [
+            "Genesis 15:1",
+            "Isaiah 43:1",
+            "Matthew 14:27",
+            "Revelation 1:17-18"
+          ]
         },
         {
           "heading": "When you feel in danger",
           "reflection": "Several of these were written by people under real threat. Psalm 3 is headed as David's song when he fled from his own son Absalom, and he still says he will not fear. In 2 Kings 6, Elisha's servant wakes to find an enemy army around the city; Elisha prays and the servant is shown what he could not see. None of these verses promise nothing bad will happen. They say you are not facing it alone.",
-          "refs": ["Psalms 118:6", "Psalms 3:6", "Proverbs 3:25-26", "2 Kings 6:16"]
+          "refs": [
+            "Psalms 118:6",
+            "Psalms 3:6",
+            "Proverbs 3:25-26",
+            "2 Kings 6:16"
+          ]
         },
         {
           "heading": "When the future feels unknown",
           "reflection": "Fear of the future is mostly fear of not being in control. Psalm 31:15 is a short answer to that: my times are in Your hands. Isaiah 46:4 stretches the promise to old age, which is when many people worry most. Jeremiah 17 compares a trusting person to a tree by water that keeps bearing fruit even in a drought. The tree still has dry years. It just has roots that reach water.",
-          "refs": ["Psalms 31:15", "Psalms 112:7", "Isaiah 46:4", "Jeremiah 17:7-8"]
+          "refs": [
+            "Psalms 31:15",
+            "Psalms 112:7",
+            "Isaiah 46:4",
+            "Jeremiah 17:7-8"
+          ]
         },
         {
           "heading": "When you fear death",
           "reflection": "Fear of death is old, and the New Testament names it directly. The writer of Hebrews says Jesus shared our flesh and blood to free those held in slavery by that fear. Jesus says the words in John 11 to Martha, just before He raises her brother Lazarus. Paul writes in 1 Corinthians 15 and Philippians 1 as someone who has faced prison and danger, and he treats death as defeated, not denied. If you are grieving or ill, read slowly and take only what helps.",
-          "refs": ["John 11:25-26", "Hebrews 2:14-15", "1 Corinthians 15:55-57", "Philippians 1:21"]
+          "refs": [
+            "John 11:25-26",
+            "Hebrews 2:14-15",
+            "1 Corinthians 15:55-57",
+            "Philippians 1:21"
+          ]
         },
         {
           "heading": "Fear that needs reordering",
           "reflection": "The Bible does not treat all fear as the same. In Matthew 10, Jesus sends out His twelve disciples and tells them not to be ruled by people who can only harm the body. Isaiah 8 says the same to a nation in a panic: do not fear what the crowd fears. Romans 8:15 and 1 John 4:18 go to the root. Fear can make you feel like a slave or like someone facing punishment, and God's love is meant to replace that.",
-          "refs": ["Matthew 10:28", "Isaiah 8:12-13", "Romans 8:15", "1 John 4:18"]
+          "refs": [
+            "Matthew 10:28",
+            "Isaiah 8:12-13",
+            "Romans 8:15",
+            "1 John 4:18"
+          ]
         }
       ],
       "faq": [
-        { "q": "What does the Bible say about fear?", "a": "The Bible acknowledges fear as part of life and often answers it with God's presence rather than with a demand to feel brave. \"Do not be afraid\" is a common phrase in Scripture, usually followed by a reason: God is with you, has called you, or holds the future." },
-        { "q": "How many times does the Bible say \"do not fear\"?", "a": "There is no single agreed count, because it depends on the translation and which phrases you include, such as \"do not be afraid\" and \"fear not.\" You will often hear 365, but that figure is a popular saying, not a verified total." },
-        { "q": "What is the best Bible verse for fear?", "a": "Isaiah 41:10 and Psalm 56:3 are among the most often quoted. Beyond those, Genesis 15:1, Matthew 14:27 and 2 Kings 6:16 are good choices when the fear is about something specific and frightening." },
-        { "q": "Is all fear wrong in the Bible?", "a": "No. Scripture praises a reverent respect for God, and Jesus warns against some things worth taking seriously. What it opposes is fear that rules you, makes you act against your faith, or leaves you feeling alone and condemned." }
+        {
+          "q": "What does the Bible say about fear?",
+          "a": "The Bible acknowledges fear as part of life and often answers it with God's presence rather than with a demand to feel brave. \"Do not be afraid\" is a common phrase in Scripture, usually followed by a reason: God is with you, has called you, or holds the future."
+        },
+        {
+          "q": "How many times does the Bible say \"do not fear\"?",
+          "a": "There is no single agreed count, because it depends on the translation and which phrases you include, such as \"do not be afraid\" and \"fear not.\" You will often hear 365, but that figure is a popular saying, not a verified total."
+        },
+        {
+          "q": "What is the best Bible verse for fear?",
+          "a": "Isaiah 41:10 and Psalm 56:3 are among the most often quoted. Beyond those, Genesis 15:1, Matthew 14:27 and 2 Kings 6:16 are good choices when the fear is about something specific and frightening."
+        },
+        {
+          "q": "Is all fear wrong in the Bible?",
+          "a": "No. Scripture praises a reverent respect for God, and Jesus warns against some things worth taking seriously. What it opposes is fear that rules you, makes you act against your faith, or leaves you feeling alone and condemned."
+        }
+      ]
+    },
+    "es": {
+      "slug": "miedo",
+      "title": "20 versículos de la Biblia para vencer el miedo",
+      "description": "Versículos bíblicos para el miedo: ante el peligro, el futuro, la muerte o un temor que te paraliza. Cada grupo explica quién lo dijo y a quién.",
+      "h1": "Versículos de la Biblia para vencer el miedo",
+      "intro": "«No temas» aparece una y otra vez en la Biblia, casi siempre dicho a personas que tenían motivos reales para asustarse. Por eso agrupamos estos textos según lo que enfrentas: un momento que te sacude, un peligro, un futuro incierto, la muerte o un temor que ya te domina. Si lo tuyo es más bien una preocupación constante que una amenaza concreta, quizá te sirva más la página de versículos para la ansiedad.",
+      "published": "2026-11-06",
+      "updated": "2026-11-06",
+      "groups": [
+        {
+          "heading": "«No temas»: lo que Dios dice a quien está asustado",
+          "reflection": "Estas palabras no se dijeron en tiempos tranquilos. Abram las oye en una visión, después de haber peleado por rescatar a su sobrino Lot. Isaías las dirige a un pueblo en el exilio, y la razón que da no es «todo saldrá bien», sino «te puse nombre, mío eres tú». Los discípulos oyen a Jesús en plena noche sobre el lago, y Juan, caído a sus pies en Patmos, lo oye del Cristo resucitado. En cada caso, el consuelo es una Persona.",
+          "refs": [
+            "Genesis 15:1",
+            "Isaiah 43:1",
+            "Matthew 14:27",
+            "Revelation 1:17-18"
+          ]
+        },
+        {
+          "heading": "Cuando sientes que estás en peligro",
+          "reflection": "Varios de estos textos nacieron en medio de una amenaza real. El título del Salmo 3 lo ubica cuando David huía de su hijo Absalón, y aun así dice que no temerá. En 2 Reyes 6, el criado de Eliseo despierta y ve un ejército rodeando la ciudad; Eliseo ora y le abre los ojos para ver lo que él no veía. Ninguno promete que no pasará nada malo. Prometen que no lo enfrentas solo.",
+          "refs": [
+            "Psalms 118:6",
+            "Psalms 3:6",
+            "2 Kings 6:16",
+            "Isaiah 41:10"
+          ]
+        },
+        {
+          "heading": "Cuando el futuro te da miedo",
+          "reflection": "Casi siempre el miedo al futuro es miedo a no tener el control. El Salmo 31:15 responde con pocas palabras: mis tiempos están en tu mano. Isaías 46:4 extiende esa promesa hasta la vejez, cuando muchos se preocupan más. Jeremías compara a quien confía en Dios con un árbol junto al agua que sigue dando fruto aun en año de sequía. Habrá años secos; lo que cambia es que las raíces llegan al agua.",
+          "refs": [
+            "Psalms 31:15",
+            "Psalms 112:7",
+            "Isaiah 46:4",
+            "Jeremiah 17:7-8"
+          ]
+        },
+        {
+          "heading": "Cuando piensas en la muerte",
+          "reflection": "El miedo a morir es muy antiguo, y la Escritura lo menciona sin rodeos. Hebreos dice que Jesús compartió nuestra carne y sangre para librar a quienes vivían esclavizados por ese temor. En Juan 11, Jesús dice sus palabras a Marta, poco antes de resucitar a su hermano Lázaro. Pablo, en 1 Corintios 15, habla de la muerte como una derrota, no como algo que se ignora. Si estás de duelo o enfermo, lee despacio y quédate solo con lo que te ayude.",
+          "refs": [
+            "John 11:25-26",
+            "Hebrews 2:14-15",
+            "1 Corinthians 15:55-57"
+          ]
+        },
+        {
+          "heading": "Un temor que manda sobre ti",
+          "reflection": "La Biblia no pone todo temor en el mismo saco. En Mateo 10, Jesús envía a sus doce discípulos y les dice que no se dejen gobernar por quienes solo pueden dañar el cuerpo. Isaías 8 le habla a un pueblo en pánico: no teman lo que teme la multitud. Romanos 8:15, 1 Juan 4:18 y 2 Timoteo 1:7 van a la raíz: el temor te hace sentir como esclavo o bajo castigo, y el amor de Dios viene a ocupar ese lugar.",
+          "refs": [
+            "Matthew 10:28",
+            "Isaiah 8:12-13",
+            "Romans 8:15",
+            "1 John 4:18",
+            "2 Timothy 1:7"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Qué dice la Biblia sobre el miedo?",
+          "a": "La Biblia reconoce el miedo como parte de la vida y suele responderlo con la presencia de Dios, no con la exigencia de sentirte valiente. «No temas» casi siempre trae una razón: Dios está contigo, te llamó o sostiene tu futuro."
+        },
+        {
+          "q": "¿Cuántas veces dice la Biblia «no temas»?",
+          "a": "No hay una cifra única, porque depende de la traducción y de qué expresiones se cuenten. Se suele decir que son 365, una por día, pero es un dicho popular y no un total comprobado."
+        },
+        {
+          "q": "¿Cuál es el mejor versículo para quitar el miedo?",
+          "a": "Isaías 41:10 y el Salmo 56:3 son de los más citados. Si tu temor es por algo concreto, prueba con Génesis 15:1, Mateo 14:27 o 2 Reyes 6:16, que se dijeron a personas en situaciones muy específicas."
+        },
+        {
+          "q": "¿Todo miedo es malo según la Biblia?",
+          "a": "No. La Escritura elogia el respeto reverente a Dios y Jesús advierte sobre cosas que hay que tomar en serio. Lo que rechaza es el temor que te domina, te hace actuar contra tu fe o te deja sintiéndote solo."
+        }
       ]
     }
   }
