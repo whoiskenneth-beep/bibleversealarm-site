@@ -6,7 +6,7 @@ keyword,intent,cluster,target_page,priority,status
 성경 암송 앱,commercial,app-memorize,/ko/seonggyeong-amsong-app,top,published
 오늘의 말씀 앱,commercial,app-daily-verse,/ko/oneul-ui-malsseum-app,high,published
 성경구절 위로,informational,comfort,,high,blocked-licence
-말씀 묵상 뜻,informational,explainer-meditation,,high,planned
+말씀 묵상 뜻,informational,explainer-meditation,/ko/malsseum-mudsang-ttet,high,published
 큐티 뜻,informational,explainer-qt,/ko/qt-tteut,high,published
 말씀 묵상 방법,informational,howto-meditate,/ko/malsseum-mudsang-bangbeop,high,published
 성경 암송 잘하는 법,informational,howto-memorize-bible,/ko/seonggyeong-amsong-beop,high,published

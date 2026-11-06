@@ -9,7 +9,7 @@ keyword,intent,cluster,target_page,priority,status
 每日經文 App,commercial,app-devotional,/zh-hant/meiri-jingwen-app,high,published
 聖經 安慰 經文,informational,comfort,/zh-hant/jingwen/comfort,high,published
 靈修是什麼,informational,devotional-explainer,,high,planned
-經文 鼓勵,informational,encouragement,/zh-hant/jingwen/encouragement,high,planned
+經文 鼓勵,informational,encouragement,/zh-hant/jingwen/encouragement,high,published
 聖經金句 信心,informational,faith,/zh-hant/jingwen/faith,high,published
 早晨經文,informational,morning,/zh-hant/jingwen/morning,high,published
 聖經金句 平安,informational,peace,/zh-hant/jingwen/peace,high,published
