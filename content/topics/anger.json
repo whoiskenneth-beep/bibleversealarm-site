@@ -1,0 +1,80 @@
+{
+  "id": "anger",
+  "related": [
+    "peace",
+    "strength",
+    "anxiety",
+    "comfort"
+  ],
+  "locales": {
+    "en": {
+      "slug": "anger",
+      "title": "16 Bible Verses for Anger: Self-Control and Forgiveness",
+      "description": "Bible verses for anger when you are about to snap or can't let go. Four groups, each with a short note on the context of the passage and what it asks.",
+      "h1": "Bible verses for anger",
+      "intro": "The Bible does not call every flash of temper wrong, and it does not tell you to let it run. It says to slow down, watch your words, deal with it before it hardens, and hand over the urge for revenge. These verses are grouped by where you are: about to react, in the middle of an argument, wondering if you are even allowed to feel this, or stuck holding a grudge. If frustration ever leads you to hurt someone or yourself, please talk to a trusted person or a professional, not only a verse.",
+      "published": "2026-11-06",
+      "updated": "2026-11-06",
+      "groups": [
+        {
+          "heading": "When you need to slow down before reacting",
+          "reflection": "James writes to Christians and gives a simple order: listen first, speak second, be slow to get heated. Proverbs and Ecclesiastes are wisdom writings that repeat the idea from other angles. Proverbs 14:29 links patience with great understanding, and Proverbs 16:32 ranks self-control above conquering a city. None of these say you will never feel the heat. They say the pause between feeling and acting is where wisdom shows up.",
+          "refs": [
+            "James 1:19-20",
+            "Proverbs 14:29",
+            "Proverbs 16:32",
+            "Ecclesiastes 7:9"
+          ]
+        },
+        {
+          "heading": "Words in the middle of an argument",
+          "reflection": "Much of the damage from a short fuse is done by what we say. These Proverbs are practical sayings about conflict at home, at work and in the community. A gentle answer lowers the temperature, while a harsh one adds fuel. Proverbs 29:11 says a wise man holds his fury back instead of venting it. The verse does not say how, but a practical step is to walk away and come back when you can speak well.",
+          "refs": [
+            "Proverbs 15:1",
+            "Proverbs 15:18",
+            "Proverbs 29:11",
+            "Proverbs 29:22"
+          ]
+        },
+        {
+          "heading": "Is it a sin to feel this way?",
+          "reflection": "Not by itself. Psalm 4 is a prayer of David, and its advice is to search your heart on your bed and be still. Paul quotes that line to the church in Ephesus, then adds a time limit and a warning about giving the devil a foothold. In Jonah 4, the prophet is furious that God spared Nineveh. God does not shout back. He asks a question. Psalm 103:8 describes how God Himself responds to wrongdoing: slowly, and with compassion.",
+          "refs": [
+            "Psalms 4:4",
+            "Ephesians 4:26-27",
+            "Jonah 4:4",
+            "Psalms 103:8"
+          ]
+        },
+        {
+          "heading": "When anger turns into a grudge",
+          "reflection": "Ephesians 4 is Paul writing to believers about how they treat one another in the church: put away bitterness and rage, be kind, forgive. Colossians 3:13 repeats the pattern. Romans 12 is addressed to Christians in Rome who faced hostility (see 12:14), and it asks something harder: leave payback to God and answer evil with good. That is not pretending the hurt was fine. It means you stop carrying the job of revenge.",
+          "refs": [
+            "Ephesians 4:31-32",
+            "Colossians 3:13",
+            "Romans 12:19",
+            "Romans 12:21"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does the Bible say about anger?",
+          "a": "It treats anger as a real emotion that needs guarding. Ephesians 4:26 says to be angry without sinning, and James 1:19-20 says to be slow to it. The warnings are mostly about where it leads: harsh words, grudges and revenge."
+        },
+        {
+          "q": "Is it a sin to be angry?",
+          "a": "Not always. Psalm 4:4 and Ephesians 4:26 allow for it when it does not turn into sin. Trouble starts with rage, bitterness and revenge, which Colossians 3:8 and Ephesians 4:31 tell believers to put away."
+        },
+        {
+          "q": "How do I control my temper according to the Bible?",
+          "a": "Start with James 1:19: listen first, speak slowly. Proverbs 15:1 adds a gentle answer, and Psalm 4:4 suggests quiet reflection before bed. These are principles, not a program; if it keeps happening, talk to a pastor or counselor."
+        },
+        {
+          "q": "What Bible verse helps when I can't forgive someone?",
+          "a": "Colossians 3:13 and Ephesians 4:32 ground forgiveness in how God forgave you. Romans 12:19 helps when you want payback, because it asks you to leave justice with God. Forgiving can take time."
+        }
+      ]
+    }
+  }
+}
