@@ -1,0 +1,55 @@
+{
+  "id": "family",
+  "related": ["comfort", "encouragement", "strength", "morning", "anxiety"],
+  "locales": {
+    "es": {
+      "slug": "familia",
+      "title": "16 versículos de la Biblia para la familia (RV1909)",
+      "description": "16 textos bíblicos para la familia: el hogar, la unidad, padres e hijos y la bendición. Reina-Valera 1909, con una reflexión breve en cada grupo.",
+      "h1": "Versículos de la Biblia para la familia: hogar, unidad y bendición",
+      "intro": "Los mejores versículos bíblicos para la familia son los que hablan de poner a Dios en el centro de la casa, vivir en unidad, criar a los hijos con cariño y bendecirse unos a otros. Aquí tienes dieciséis textos en cuatro grupos, todos de la Reina-Valera 1909. Puedes leerlos en la mesa, compartirlos por el chat familiar o escoger uno para orar por los tuyos. Cada grupo trae una explicación corta de quién lo escribió y a quién se lo decía.",
+      "published": "2026-11-07",
+      "updated": "2026-11-07",
+      "groups": [
+        {
+          "heading": "Dios en el centro de la casa",
+          "reflection": "Josué habló en Siquem al final de su vida, ante todas las tribus, y puso la decisión sobre la mesa: él y su casa servirían a Jehová. El Salmo 127 es un cántico de peregrinos atribuido a Salomón y recuerda que ningún esfuerzo sostiene un hogar si Dios no lo sostiene. Deuteronomio es Moisés hablando a un pueblo a punto de entrar a la tierra: la fe se enseña en lo cotidiano, en la casa y en el camino.",
+          "refs": ["Joshua 24:15", "Psalms 127:1", "Deuteronomy 6:6-7", "Proverbs 14:1"]
+        },
+        {
+          "heading": "Unidad y perdón en casa",
+          "reflection": "El Salmo 133 también era un cántico de peregrinos y celebra lo bueno que es convivir en armonía. Pablo escribió Colosenses y Efesios a iglesias, pero sus consejos de paciencia, humildad y perdón calzan muy bien en una casa donde hay roces diarios. Pedro, escribiendo a cristianos que sufrían presión, pide un cariño intenso entre ellos, porque ese cariño sabe pasar por alto muchas faltas. Pedir perdón primero ya es construir unidad.",
+          "refs": ["Psalms 133:1", "Colossians 3:12-14", "Ephesians 4:2-3", "1 Peter 4:8"]
+        },
+        {
+          "heading": "Padres e hijos",
+          "reflection": "El mandato de honrar a los padres viene del Sinaí y Pablo lo retoma en Efesios, dirigiéndose a los hijos y también a los padres: a ellos les pide no exasperar a los suyos. Proverbios 22:6 es un proverbio, un principio general de sabiduría y no una garantía para cada caso. El Salmo 103 muestra a Dios como un padre compasivo, un buen modelo para quien cría. Y el Salmo 127:3 recuerda que los hijos son un regalo, no una carga.",
+          "refs": ["Ephesians 6:1-4", "Exodus 20:12", "Proverbs 22:6", "Psalms 103:13", "Psalms 127:3"]
+        },
+        {
+          "heading": "Bendición y fe para toda la casa",
+          "reflection": "Números 6 guarda la bendición que Dios mandó a Moisés enseñar a Aarón y a sus hijos para pronunciarla sobre el pueblo; muchas familias la usan hoy para bendecir a sus hijos. En Hechos 16, Pablo y Silas hablaron con un carcelero de Filipos después de un terremoto, y le ofrecieron la salvación a él y a los suyos. Cada quien responde por sí mismo, pero la promesa es para toda la casa. El Salmo 128 pinta una mesa llena de gente bajo la bendición de Dios.",
+          "refs": ["Numbers 6:24-26", "Acts 16:31", "Psalms 128:1-4"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Cuál es un buen versículo bíblico para toda la familia?",
+          "a": "Josué 24:15 es de los más usados: Josué decide que él y su casa servirán a Jehová. Muchas familias lo ponen en la sala o lo comparten por WhatsApp. Salmo 127:1 y Colosenses 3:12-14 también funcionan muy bien."
+        },
+        {
+          "q": "¿Qué versículos puedo leer para compartir en familia?",
+          "a": "Escoge uno corto, como el Salmo 133:1 o Números 6:24-26, léelo en voz alta en la comida o antes de dormir y pregunten qué significa para ustedes. Con niños, basta una frase y una oración corta."
+        },
+        {
+          "q": "¿Qué dice la Biblia para orar por la familia?",
+          "a": "Puedes orar con la bendición de Números 6:24-26, pedir como el Salmo 127:1 que Dios sea quien edifique tu casa, y presentar a cada persona por nombre. Hechos 16:31 anima a esperar en Dios por la salvación de los tuyos."
+        },
+        {
+          "q": "¿Qué versión de la Biblia se usa en esta página?",
+          "a": "Los textos salen de la Reina-Valera 1909, de dominio público. Su lenguaje es antiguo, así que puedes leer también el pasaje en la Biblia que uses en tu iglesia para comparar."
+        }
+      ]
+    }
+  }
+}
