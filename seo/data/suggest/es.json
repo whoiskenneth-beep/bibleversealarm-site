@@ -1,5 +1,5 @@
 {
- "cursor": 0,
+ "cursor": 3,
  "suggestions": {
   "versículos de la biblia para reflexionar": {
    "seed": "versículos de la biblia para",
@@ -495,7 +495,8 @@
   "versículos de la biblia para el día de hoy": {
    "seed": "versículos de la biblia para",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "versículos de la biblia para el hogar": {
@@ -904,7 +905,8 @@
   "versículos de la biblia para la depresión": {
    "seed": "versículos de la biblia para",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "versículos de la biblia para la tristeza": {
@@ -1275,7 +1277,8 @@
   "versículos de la biblia para quinceañera": {
    "seed": "versículos de la biblia para",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "versículos de la biblia para quitar el miedo": {
@@ -1536,7 +1539,8 @@
   "versículos de la biblia para tu novia": {
    "seed": "versículos de la biblia para",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "versículos de la biblia para tener fe": {
@@ -1626,7 +1630,8 @@
   "versículos de la biblia para un funeral": {
    "seed": "versículos de la biblia para",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "versículos de la biblia para una mujer": {
@@ -2292,7 +2297,8 @@
   "versículos bíblicos de cumpleaños para una amiga": {
    "seed": "versículos bíblicos de",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "versículos bíblicos de cumpleaños para una hija": {
@@ -2525,7 +2531,8 @@
   "versículos bíblicos de fortaleza espiritual": {
    "seed": "versículos bíblicos de",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "versículos bíblicos de fortalecimiento espiritual": {
@@ -2690,7 +2697,8 @@
   "versículos bíblicos de infidelidad en el matrimonio": {
    "seed": "versículos bíblicos de",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "versículos bíblicos de isaías": {
@@ -2745,7 +2753,8 @@
   "versículos bíblicos de intercesión y guerra espiritual": {
    "seed": "versículos bíblicos de",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "versículos bíblicos de juan": {
@@ -4125,7 +4134,8 @@
   "textos bíblicos para cumpleaños del pastor": {
    "seed": "textos bíblicos para",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "textos bíblicos para colorear e imprimir": {
@@ -4305,7 +4315,8 @@
   "textos bíblicos para el matrimonio": {
    "seed": "textos bíblicos para",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "textos bíblicos para el día del pastor": {
@@ -4336,7 +4347,8 @@
   "textos bíblicos para evangelismo": {
    "seed": "textos bíblicos para",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "textos bíblicos para escuela dominical": {
@@ -4414,7 +4426,8 @@
   "textos bíblicos para fortalecer el alma": {
    "seed": "textos bíblicos para",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "textos bíblicos para familia": {
@@ -4645,7 +4658,8 @@
   "textos bíblicos para iniciar un culto cristiano": {
    "seed": "textos bíblicos para",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "textos bíblicos para iniciar una célula": {
@@ -5603,7 +5617,8 @@
   "textos bíblicos para viajar": {
    "seed": "textos bíblicos para",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "textos bíblicos para whatsapp": {
@@ -11927,7 +11942,8 @@
   "versículos bíblicos de dar": {
    "seed": "versículos bíblicos de",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "versículos bíblicos de edificación": {
@@ -11978,7 +11994,8 @@
   "versículos bíblicos de ofrendas y diezmos": {
    "seed": "versículos bíblicos de",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "versículos bíblicos de poder": {
@@ -12010,7 +12027,8 @@
   "versículos bíblicos de salud": {
    "seed": "versículos bíblicos de",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "versículos bíblicos de unicidad": {
@@ -13178,6 +13196,356 @@
   },
   "versículos de fortaleza y ánimo en la enfermedad": {
    "seed": "versículos de fortaleza",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos de la biblia para bebes": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos de la biblia para culto misionero": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos de la biblia para compartir con amigos": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos de la biblia para enseñarle a los niños": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos de la biblia para fortalecer el espíritu": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "co"
+   ]
+  },
+  "versiculos de la biblia para gym": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculos de la biblia para jovenes reina valera": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculos de la biblia para jovenes catolicos": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculos de la biblia para jovenes mujeres": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versículos de la biblia para mujeres valientes": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos de la biblia para mi esposo": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos de la biblia para no perder la fe": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "versículos de la biblia para niños de 12 años": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos de la biblia para ofrendas": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos de la biblia para obra social": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos de la biblia para orar por salud": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos de la biblia para superar una separación": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "versículos de la biblia para salir de la depresión": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos de la biblia para tu esposo": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "versículos de la biblia para una boda": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "versículos de la biblia para un cumpleañero": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos bíblicos de amigos": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos bíblicos de bendición para la familia": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "mx"
+   ]
+  },
+  "versículos bíblicos de bodas": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos bíblicos de cumpleaños para un hijo": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos bíblicos de cumpleaños para una mujer": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos bíblicos de david": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos bíblicos de fortaleza por la perdida de un ser querido": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos bíblicos de génesis": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculos biblicos de hijos": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versículos bíblicos de la palabra de dios": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos bíblicos de la unicidad": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos bíblicos de mujeres de fe": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versículos bíblicos de paz y amor": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "co"
+   ]
+  },
+  "versiculos biblicos de resurrección": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculos biblicos mujer virtuosa": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "textos bíblicos para ancianos de congregación jw": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "co"
+   ]
+  },
+  "textos bíblicos para calmar la ansiedad": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "textos bíblicos para dedicar a un amigo": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "co"
+   ]
+  },
+  "textos bíblicos para evangelizar pdf": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "textos bíblicos para foto de perfil": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "textos bíblicos para gritar en la calle": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "textos bíblicos para hablar en un funeral": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "textos bíblicos para hermanas": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "co"
+   ]
+  },
+  "textos bíblicos para honrar a los pastores": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "co"
+   ]
+  },
+  "textos bíblicos para jóvenes mujeres": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "co"
+   ]
+  },
+  "textos bíblicos para nuevos creyentes": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "textos bíblicos para orar por las familias": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "textos bíblicos para protección de los hijos": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "co"
+   ]
+  },
+  "textos bíblicos para separadores de biblia": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "textos bíblicos para sanidad interior": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "textos biblicos para señoritas": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "co"
+   ]
+  },
+  "textos bíblicos para testificar": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "textos bíblicos para trabajar en la viña del señor": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "textos bíblicos para un funeral cristiano": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "textos bíblicos para un culto evangelístico": {
+   "seed": "textos bíblicos para",
    "markets": [
     "co"
    ]
