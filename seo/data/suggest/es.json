@@ -1,5 +1,5 @@
 {
- "cursor": 3,
+ "cursor": 6,
  "suggestions": {
   "versículos de la biblia para reflexionar": {
    "seed": "versículos de la biblia para",
@@ -7592,7 +7592,8 @@
   "oracion de la mañana a dios": {
    "seed": "oración de la mañana",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "oracion de la mañana a la santa muerte": {
@@ -8428,7 +8429,8 @@
   "oración de la mañana la virgen maría": {
    "seed": "oración de la mañana",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "oración de la mañana lunes 14 de septiembre del 2026": {
@@ -12600,7 +12602,8 @@
   "oración de la mañana viernes 25 de septiembre": {
    "seed": "oración de la mañana",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "oración de la mañana viernes 4 de septiembre": {
@@ -13547,6 +13550,134 @@
   "textos bíblicos para un culto evangelístico": {
    "seed": "textos bíblicos para",
    "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana de hoy sábado 7 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana de hoy 7 de noviembre del 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana de hoy 7 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana de hoy sábado 7 de noviembre de 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana 7 de noviembre de 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana 7 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana hoy 7 de noviembre del 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana del 7 de noviembre del 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana en acción de gracias": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana jueves 15 de octubre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana laudes liturgia de las horas": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana lunes 19 de octubre 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana lunes 24 de agosto": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana martes 13 de octubre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana miércoles 14 de octubre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana radio maría": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana sábado 10 de octubre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana sábado 17 de octubre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana voz luna": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana y de agradecimiento": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
     "co"
    ]
   }

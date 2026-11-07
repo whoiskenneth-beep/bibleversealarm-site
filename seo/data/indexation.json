@@ -4,56 +4,56 @@
   "coverage": "Submitted and indexed",
   "lastCrawl": "2026-10-22T10:02:57Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-11-06"
+  "checked": "2026-11-07"
  },
  "https://bibleversealarm.com/support": {
   "verdict": "PASS",
   "coverage": "Submitted and indexed",
   "lastCrawl": "2026-10-28T15:59:39Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-11-06"
+  "checked": "2026-11-07"
  },
  "https://bibleversealarm.com/privacy": {
   "verdict": "PASS",
   "coverage": "Submitted and indexed",
   "lastCrawl": "2026-09-14T00:08:50Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-11-06"
+  "checked": "2026-11-07"
  },
  "https://bibleversealarm.com/terms": {
   "verdict": "NEUTRAL",
   "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-10-22",
-  "checked": "2026-11-06"
+  "checked": "2026-11-07"
  },
  "https://bibleversealarm.com/about": {
   "verdict": "PASS",
   "coverage": "Submitted and indexed",
   "lastCrawl": "2026-10-24T14:45:20Z",
   "firstSeen": "2026-10-23",
-  "checked": "2026-11-06"
+  "checked": "2026-11-07"
  },
  "https://bibleversealarm.com/best-christian-apps-iphone": {
   "verdict": "PASS",
   "coverage": "Submitted and indexed",
   "lastCrawl": "2026-10-24T06:35:40Z",
   "firstSeen": "2026-10-22",
-  "checked": "2026-11-06"
+  "checked": "2026-11-07"
  },
  "https://bibleversealarm.com/bible-memory-app": {
   "verdict": "PASS",
   "coverage": "Submitted and indexed",
   "lastCrawl": "2026-10-26T10:33:12Z",
   "firstSeen": "2026-10-25",
-  "checked": "2026-11-06"
+  "checked": "2026-11-07"
  },
  "https://bibleversealarm.com/bible-verse-alarm-faq": {
   "verdict": "PASS",
   "coverage": "Submitted and indexed",
   "lastCrawl": "2026-10-24T08:36:18Z",
   "firstSeen": "2026-10-23",
-  "checked": "2026-11-06"
+  "checked": "2026-11-07"
  },
  "https://bibleversealarm.com/christian-alarm-clock": {
   "verdict": "PASS",
@@ -230,6 +230,13 @@
   "firstSeen": "2026-11-06",
   "checked": "2026-11-07"
  },
+ "https://bibleversealarm.com/es/versiculos-biblicos/familia": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-11-07",
+  "checked": "2026-11-07"
+ },
  "https://bibleversealarm.com/es/versiculos-biblicos/miedo": {
   "verdict": "NEUTRAL",
   "coverage": "URL is unknown to Google",
@@ -252,8 +259,8 @@
   "checked": "2026-11-07"
  },
  "https://bibleversealarm.com/es/versiculos-biblicos/fortaleza": {
-  "verdict": "PASS",
-  "coverage": "Submitted and indexed",
+  "verdict": "NEUTRAL",
+  "coverage": "Crawled - currently not indexed",
   "lastCrawl": "2026-10-24T12:02:35Z",
   "firstSeen": "2026-10-22",
   "checked": "2026-11-07"
@@ -267,7 +274,7 @@
  },
  "https://bibleversealarm.com/ko/about": {
   "verdict": "NEUTRAL",
-  "coverage": "Discovered - currently not indexed",
+  "coverage": "URL is unknown to Google",
   "lastCrawl": null,
   "firstSeen": "2026-10-23",
   "checked": "2026-11-07"
@@ -316,14 +323,14 @@
  },
  "https://bibleversealarm.com/ko/malsseum-mudsang-note-bangbeop": {
   "verdict": "NEUTRAL",
-  "coverage": "URL is unknown to Google",
+  "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-11-06",
   "checked": "2026-11-07"
  },
  "https://bibleversealarm.com/ko/malsseum-mudsang-ttet": {
   "verdict": "NEUTRAL",
-  "coverage": "URL is unknown to Google",
+  "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-11-07",
   "checked": "2026-11-07"
@@ -344,7 +351,7 @@
  },
  "https://bibleversealarm.com/ko/seonggyeong-amsong-beop": {
   "verdict": "NEUTRAL",
-  "coverage": "URL is unknown to Google",
+  "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-11-04",
   "checked": "2026-11-07"
@@ -434,16 +441,16 @@
   "checked": "2026-11-07"
  },
  "https://bibleversealarm.com/zh-hans/jingwen/encouragement": {
-  "verdict": "NEUTRAL",
-  "coverage": "Discovered - currently not indexed",
-  "lastCrawl": null,
+  "verdict": "PASS",
+  "coverage": "Submitted and indexed",
+  "lastCrawl": "2026-11-07T04:55:13Z",
   "firstSeen": "2026-11-07",
   "checked": "2026-11-07"
  },
  "https://bibleversealarm.com/zh-hans/jingwen/faith": {
-  "verdict": "NEUTRAL",
-  "coverage": "Discovered - currently not indexed",
-  "lastCrawl": null,
+  "verdict": "PASS",
+  "coverage": "Submitted and indexed",
+  "lastCrawl": "2026-11-07T05:35:41Z",
   "firstSeen": "2026-11-04",
   "checked": "2026-11-07"
  },
@@ -567,9 +574,9 @@
   "checked": "2026-11-07"
  },
  "https://bibleversealarm.com/zh-hant/jingwen/peace": {
-  "verdict": "NEUTRAL",
-  "coverage": "URL is unknown to Google",
-  "lastCrawl": null,
+  "verdict": "PASS",
+  "coverage": "Submitted and indexed",
+  "lastCrawl": "2026-11-07T10:17:12Z",
   "firstSeen": "2026-11-06",
   "checked": "2026-11-07"
  },

@@ -15,24 +15,24 @@
       "new_pages_per_day": 1,
       "optimizations_per_day": 1,
       "status": "grow",
-      "published": 15,
-      "indexed": 11,
-      "indexation_rate": 0.73
+      "published": 16,
+      "indexed": 10,
+      "indexation_rate": 0.63
     },
     "zh-hant": {
       "new_pages_per_day": 1,
       "optimizations_per_day": 1,
       "status": "grow",
       "published": 16,
-      "indexed": 13,
-      "indexation_rate": 0.81
+      "indexed": 14,
+      "indexation_rate": 0.88
     },
     "zh-hans": {
       "derived_from": "zh-hant",
       "status": "follows zh-hant",
       "published": 16,
-      "indexed": 14,
-      "indexation_rate": 0.88
+      "indexed": 16,
+      "indexation_rate": 1
     },
     "ko": {
       "new_pages_per_day": 1,
