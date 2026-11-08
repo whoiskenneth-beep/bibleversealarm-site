@@ -1,5 +1,5 @@
 {
- "cursor": 0,
+ "cursor": 3,
  "suggestions": {
   "성경구절": {
    "seed": "성경구절",
@@ -1058,6 +1058,18 @@
   },
   "힘이되는 성경구절 영어": {
    "seed": "힘이 되는 성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "십일조 성경구절": {
+   "seed": "성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "큐티파이": {
+   "seed": "큐티",
    "markets": [
     "naver"
    ]
