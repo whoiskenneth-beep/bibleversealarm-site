@@ -1,0 +1,55 @@
+{
+  "id": "healing",
+  "related": ["comfort", "hope", "strength", "anxiety", "encouragement"],
+  "locales": {
+    "en": {
+      "slug": "healing",
+      "title": "Bible Verses About Healing: 16 Scriptures to Pray",
+      "description": "Sixteen Bible verses about healing for sickness, pain and a heavy heart, in four groups. Each group has a short note on who wrote it and why.",
+      "h1": "Bible verses about healing",
+      "intro": "Bible verses about healing say that God is the one who heals, that his people may ask him for it, and that Jesus healed many who came to him. They also admit that healing does not always come the way we ask. The sixteen passages below are grouped so you can pray them for yourself or for someone you love. Healing in the Bible includes the body and the heart. These verses sit alongside doctors and care, not in place of them.",
+      "published": "2026-11-08",
+      "updated": "2026-11-08",
+      "groups": [
+        {
+          "heading": "The God who heals",
+          "reflection": "Exodus 15:26 was spoken to Israel at Marah, soon after the Red Sea, when God gave them a name for himself: the Lord who heals you. In Psalm 103, David tells his own soul to remember God's kind deeds, and healing is one of them. Jeremiah 30:17 is a promise to Zion, a people in exile who felt like outcasts. Psalm 147:3 says he heals the brokenhearted too.",
+          "refs": ["Exodus 15:26", "Psalms 103:2-3", "Jeremiah 30:17", "Psalms 147:3"]
+        },
+        {
+          "heading": "Prayers you can pray when you are hurting",
+          "reflection": "The Bible gives you words for asking. In Psalm 6, David says he is frail and his bones ache, and he asks the Lord to heal him. Psalm 30 looks back on a time he cried for help and was healed. Jeremiah prayed a short line while under heavy opposition: heal me and I will be healed. Psalm 107 describes people near death who cried out, and God sent his word and healed them.",
+          "refs": ["Psalms 6:2", "Psalms 30:2", "Jeremiah 17:14", "Psalms 107:19-20"]
+        },
+        {
+          "heading": "Jesus and the people he healed",
+          "reflection": "In Matthew 8, a man with leprosy, a condition that cut people off from community, knelt and said, if you are willing. Jesus touched him and said he was. In Mark 5, Jesus calls the woman who had bled for twelve years daughter. In Luke 17, ten men with leprosy were cleansed as they walked toward the priests. Isaiah 53:5 comes from the prophet's picture of a suffering servant, and Christians read it as pointing to Jesus.",
+          "refs": ["Matthew 8:2-3", "Mark 5:34", "Luke 17:14", "Isaiah 53:5"]
+        },
+        {
+          "heading": "When you wait, or the answer is not what you asked",
+          "reflection": "James wrote to scattered Christians and told the sick to call the elders to pray. He also links healing to confessing to one another and praying for each other. Paul asked the Lord three times to remove his thorn in the flesh. The answer was grace, not removal. Psalm 73:26 admits that flesh and heart may fail, yet God remains the strength of the heart. Revelation 21:4 looks ahead to a day with no more pain.",
+          "refs": ["James 5:14-16", "2 Corinthians 12:8-9", "Psalms 73:26", "Revelation 21:4"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best Bible verse for healing?",
+          "a": "Many people turn to Jeremiah 17:14 as a short prayer, or Psalm 103:2-3, which names healing among God's kind deeds. For a hurting heart, Psalm 147:3 is a good one to memorize."
+        },
+        {
+          "q": "What does James 5:14-16 say about praying for the sick?",
+          "a": "James tells a sick person to call the church elders to pray and anoint with oil in the Lord's name. He also says to confess sins to each other and pray for each other so that you may be healed."
+        },
+        {
+          "q": "What if I prayed and was not healed?",
+          "a": "Paul asked three times for his thorn to be taken away, and the Lord answered with grace (2 Corinthians 12:8-9). An unanswered prayer is not proof of weak faith. Keep praying, and keep seeing your doctor."
+        },
+        {
+          "q": "Can Bible verses replace medical treatment?",
+          "a": "No. Scripture offers comfort and hope; it does not replace a doctor, medicine or therapy. Use these verses alongside care. If you are in crisis, contact local emergency services or a crisis line."
+        }
+      ]
+    }
+  }
+}
