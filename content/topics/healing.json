@@ -1,6 +1,12 @@
 {
   "id": "healing",
-  "related": ["comfort", "hope", "strength", "anxiety", "encouragement"],
+  "related": [
+    "comfort",
+    "hope",
+    "strength",
+    "anxiety",
+    "encouragement"
+  ],
   "locales": {
     "en": {
       "slug": "healing",
@@ -14,22 +20,42 @@
         {
           "heading": "The God who heals",
           "reflection": "Exodus 15:26 was spoken to Israel at Marah, soon after the Red Sea, when God gave them a name for himself: the Lord who heals you. In Psalm 103, David tells his own soul to remember God's kind deeds, and healing is one of them. Jeremiah 30:17 is a promise to Zion, a people in exile who felt like outcasts. Psalm 147:3 says he heals the brokenhearted too.",
-          "refs": ["Exodus 15:26", "Psalms 103:2-3", "Jeremiah 30:17", "Psalms 147:3"]
+          "refs": [
+            "Exodus 15:26",
+            "Psalms 103:2-3",
+            "Jeremiah 30:17",
+            "Psalms 147:3"
+          ]
         },
         {
           "heading": "Prayers you can pray when you are hurting",
           "reflection": "The Bible gives you words for asking. In Psalm 6, David says he is frail and his bones ache, and he asks the Lord to heal him. Psalm 30 looks back on a time he cried for help and was healed. Jeremiah prayed a short line while under heavy opposition: heal me and I will be healed. Psalm 107 describes people near death who cried out, and God sent his word and healed them.",
-          "refs": ["Psalms 6:2", "Psalms 30:2", "Jeremiah 17:14", "Psalms 107:19-20"]
+          "refs": [
+            "Psalms 6:2",
+            "Psalms 30:2",
+            "Jeremiah 17:14",
+            "Psalms 107:19-20"
+          ]
         },
         {
           "heading": "Jesus and the people he healed",
           "reflection": "In Matthew 8, a man with leprosy, a condition that cut people off from community, knelt and said, if you are willing. Jesus touched him and said he was. In Mark 5, Jesus calls the woman who had bled for twelve years daughter. In Luke 17, ten men with leprosy were cleansed as they walked toward the priests. Isaiah 53:5 comes from the prophet's picture of a suffering servant, and Christians read it as pointing to Jesus.",
-          "refs": ["Matthew 8:2-3", "Mark 5:34", "Luke 17:14", "Isaiah 53:5"]
+          "refs": [
+            "Matthew 8:2-3",
+            "Mark 5:34",
+            "Luke 17:14",
+            "Isaiah 53:5"
+          ]
         },
         {
           "heading": "When you wait, or the answer is not what you asked",
           "reflection": "James wrote to scattered Christians and told the sick to call the elders to pray. He also links healing to confessing to one another and praying for each other. Paul asked the Lord three times to remove his thorn in the flesh. The answer was grace, not removal. Psalm 73:26 admits that flesh and heart may fail, yet God remains the strength of the heart. Revelation 21:4 looks ahead to a day with no more pain.",
-          "refs": ["James 5:14-16", "2 Corinthians 12:8-9", "Psalms 73:26", "Revelation 21:4"]
+          "refs": [
+            "James 5:14-16",
+            "2 Corinthians 12:8-9",
+            "Psalms 73:26",
+            "Revelation 21:4"
+          ]
         }
       ],
       "faq": [
@@ -48,6 +74,75 @@
         {
           "q": "Can Bible verses replace medical treatment?",
           "a": "No. Scripture offers comfort and hope; it does not replace a doctor, medicine or therapy. Use these verses alongside care. If you are in crisis, contact local emergency services or a crisis line."
+        }
+      ]
+    },
+    "es": {
+      "slug": "sanidad",
+      "title": "Versículos de la Biblia para sanidad: 16 textos para orar",
+      "description": "16 versículos bíblicos de sanidad (Reina-Valera 1909) para orar por el cuerpo y el corazón, con una nota sobre quién los escribió y a quién.",
+      "h1": "Versículos de la Biblia para sanidad",
+      "intro": "Los versículos de la Biblia para sanidad enseñan que Dios es quien sana, que puedes pedírselo en oración y que Jesús sanó a muchos que se le acercaron. También son honestos: a veces la respuesta llega distinta de lo que pedimos. Aquí tienes dieciséis textos en cuatro grupos para orar por ti o por alguien que quieres. La sanidad bíblica abarca el cuerpo y el corazón. Estos pasajes acompañan al médico y al tratamiento, no los reemplazan.",
+      "published": "2026-11-09",
+      "updated": "2026-11-09",
+      "groups": [
+        {
+          "heading": "Jehová es el que sana",
+          "reflection": "Éxodo 15:26 se dijo a Israel en Mara, poco después de cruzar el mar Rojo, cuando Dios se presentó como Jehová tu Sanador. En el Salmo 103, David se habla a sí mismo para no olvidar los beneficios de Dios, y entre ellos está la sanidad de las dolencias. Jeremías 30:17 es una promesa para Sión, un pueblo desterrado al que llamaban desechado. Y el Salmo 147:3 muestra que Dios también venda las heridas del corazón.",
+          "refs": [
+            "Exodus 15:26",
+            "Psalms 103:2-3",
+            "Jeremiah 30:17",
+            "Psalms 147:3"
+          ]
+        },
+        {
+          "heading": "Oraciones para cuando estás enfermo o cansado",
+          "reflection": "La Biblia te da palabras para pedir. En el Salmo 6, David dice que está debilitado y que hasta los huesos le duelen, y pide que Jehová lo sane. El Salmo 41 habla de que Dios sostiene al enfermo en su lecho de dolor. Jeremías, bajo mucha oposición, oró en una sola línea: sáname y seré sano. El Salmo 107 describe a gente en angustia que clamó, y Dios envió su palabra y los curó.",
+          "refs": [
+            "Psalms 6:2",
+            "Psalms 41:3",
+            "Jeremiah 17:14",
+            "Psalms 107:19-20"
+          ]
+        },
+        {
+          "heading": "Jesús y las personas que sanó",
+          "reflection": "En Mateo 8, un leproso, alguien apartado de su comunidad, se acercó a Jesús y le dijo que, si quería, podía limpiarlo. Jesús extendió la mano, lo tocó y respondió que quería. En Marcos 5, Jesús llama hija a la mujer que sufría flujo de sangre desde hacía doce años. En Lucas 17, diez leprosos quedaron limpios mientras iban hacia los sacerdotes. Isaías 53:5 describe al siervo sufriente, y los cristianos lo leen como una referencia a Jesús.",
+          "refs": [
+            "Matthew 8:2-3",
+            "Mark 5:34",
+            "Luke 17:14",
+            "Isaiah 53:5"
+          ]
+        },
+        {
+          "heading": "Cuando la respuesta tarda o es distinta",
+          "reflection": "Santiago escribió a cristianos dispersos y les dijo que el enfermo llame a los ancianos de la iglesia para que oren por él. Une la sanidad con confesarse faltas y orar unos por otros. Pablo rogó tres veces al Señor por su aguijón, y la respuesta fue su gracia, no quitárselo. El Salmo 73:26 admite que la carne y el corazón pueden desfallecer, pero Dios sigue siendo la roca del corazón. Apocalipsis 21:4 mira a un día sin dolor.",
+          "refs": [
+            "James 5:14-16",
+            "2 Corinthians 12:8-9",
+            "Psalms 73:26",
+            "Revelation 21:4"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Cuál es el mejor versículo de la Biblia para sanidad?",
+          "a": "Muchos oran con Jeremías 17:14 por ser breve, o con el Salmo 103:2-3, que cuenta la sanidad entre los beneficios de Dios. Para un corazón herido, el Salmo 147:3 es fácil de memorizar."
+        },
+        {
+          "q": "¿Qué dice Santiago 5:14-16 sobre orar por los enfermos?",
+          "a": "Santiago indica que el enfermo llame a los ancianos de la iglesia para que oren por él y lo unjan con aceite en el nombre del Señor. Añade confesarse faltas y orar unos por otros."
+        },
+        {
+          "q": "¿Y si oré y no sané?",
+          "a": "Pablo pidió tres veces que le quitaran su aguijón, y el Señor le respondió con su gracia (2 Corintios 12:8-9). Una oración sin la respuesta esperada no prueba poca fe. Sigue orando y sigue con tu médico."
+        },
+        {
+          "q": "¿Los versículos bíblicos pueden reemplazar el tratamiento médico?",
+          "a": "No. La Biblia da consuelo y esperanza, pero no sustituye al médico, los medicamentos ni la terapia. Úsalos junto al cuidado médico. Si estás en crisis, llama a emergencias o a una línea de ayuda de tu país."
         }
       ]
     }
