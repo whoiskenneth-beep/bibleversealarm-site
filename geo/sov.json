@@ -1,5 +1,14 @@
 [
  {
+  "week": "2026-11-09",
+  "engine": "gemini:gemini-3.5-flash-lite",
+  "locale": "en",
+  "type": "app",
+  "runs": 19,
+  "hits": 1,
+  "share": 0.053
+ },
+ {
   "week": "2026-11-02",
   "engine": "gemini:gemini-3.5-flash-lite",
   "locale": "ko",
