@@ -13,7 +13,7 @@ keyword,intent,cluster,target_page,priority,status
 聖經金句 信心,informational,faith,/zh-hant/jingwen/faith,high,published
 早晨經文,informational,morning,/zh-hant/jingwen/morning,high,published
 聖經金句 平安,informational,peace,/zh-hant/jingwen/peace,high,published
-鼓勵病人 經文,informational,sickness,,high,planned
+鼓勵病人 經文,informational,sickness,zh-hant/jingwen/encourage-the-sick,high,published
 力量 經文,informational,strength,/zh-hant/jingwen/strength,high,published
 聖經金句 100,informational,verses-100,,high,planned
 鼓勵年輕人 經文,informational,youth,,high,planned

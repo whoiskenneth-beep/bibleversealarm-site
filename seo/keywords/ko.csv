@@ -15,7 +15,7 @@ keyword,intent,cluster,target_page,priority,status
 성경말씀 듣기,informational,audio-bible,,medium,planned
 말씀 묵상집,commercial,devotional-books,,medium,planned
 감사 성경구절,informational,gratitude,,medium,blocked-licence
-아침 기도 저녁 기도,informational,howto-evening-prayer,,medium,planned
+아침 기도 저녁 기도,informational,howto-evening-prayer,ko/achim-jeonyeok-gido,medium,published
 말씀 묵상 노트 방법,informational,howto-meditation-journal,/ko/malsseum-mudsang-note-bangbeop,medium,published
 아침 기도 기독교,informational,howto-morning-prayer,/ko/achim-gido-gidokgyo,medium,published
 성경 암송 카드,commercial,memorize-cards,/ko/seonggyeong-amsong-card,medium,published
