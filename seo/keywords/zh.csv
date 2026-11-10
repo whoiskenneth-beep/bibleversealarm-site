@@ -13,18 +13,30 @@ keyword,intent,cluster,target_page,priority,status
 聖經金句 信心,informational,faith,/zh-hant/jingwen/faith,high,published
 早晨經文,informational,morning,/zh-hant/jingwen/morning,high,published
 聖經金句 平安,informational,peace,/zh-hant/jingwen/peace,high,published
-鼓勵病人 經文,informational,sickness,zh-hant/jingwen/encourage-the-sick,high,published
+鼓勵病人 經文,informational,sickness,/zh-hant/jingwen/encourage-the-sick,high,published
 力量 經文,informational,strength,/zh-hant/jingwen/strength,high,published
 聖經金句 100,informational,verses-100,,high,planned
-鼓勵年輕人 經文,informational,youth,,high,planned
+鼓勵年輕人 經文,informational,youth,/zh-hant/jingwen/youth,high,published
 聖經金句 英文,informational,bilingual-verses,,medium,planned
 聖經金句 祝福,informational,blessing,,medium,planned
 每日靈修,informational,daily-devotional,,medium,planned
+每日經文 分享,informational,daily-verse-share,,medium,planned
 靈修小品,informational,devotional-essays,,medium,planned
 靈修步驟,informational,devotional-howto,,medium,planned
+聖經 安慰 喪家 的話,informational,funeral-condolence,,medium,planned
 聖經金句 感恩,informational,gratitude,/zh-hant/jingwen/gratitude,medium,planned
 聖經 安慰 失去親人,informational,grief,/zh-hant/jingwen/grief,medium,planned
+聖經金句 不要為明天憂慮,informational,matthew-6-34,,medium,planned
 聖經金句 短句,informational,short-verses,,medium,planned
 聖經金句 結婚祝福,informational,wedding,,medium,planned
+神看人內心不是看外貌 聖經金句,informational,1-samuel-16-7,,low,planned
+鼓勵讀經 經文,informational,bible-reading-encouragement,,low,planned
+荒漠甘泉 每日灵修,informational,copyrighted-devotional-book,,low,blocked-licence
 靈修筆記,informational,devotional-notes,,low,planned
+天主教 每日經文,informational,rejected-catholic-liturgical,,low,rejected
+rpg 每日經文,informational,rejected-game-unrelated,,low,rejected
+靈修音樂,informational,rejected-music-off-intent,,low,rejected
+活潑的生命 每日經文,navigational,rejected-other-app-brand,,low,rejected
+每日經文 詩篇 賺錢,informational,rejected-spam-unrelated,,low,rejected
+靈修道服,informational,rejected-unrelated-product,,low,rejected
 聖經金句 圖片,informational,verse-images,,low,planned
