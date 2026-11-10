@@ -13,15 +13,25 @@ keyword,intent,cluster,target_page,priority,status
 성경 암송 구절,informational,memorize-verses,,high,blocked-licence
 힘이 되는 성경구절,informational,strength,,high,blocked-licence
 성경말씀 듣기,informational,audio-bible,,medium,planned
-말씀 묵상집,commercial,devotional-books,,medium,planned
+말씀 묵상집,commercial,devotional-books,/ko/malsseum-mudsang-jip,medium,published
 감사 성경구절,informational,gratitude,,medium,blocked-licence
 아침 기도 저녁 기도,informational,howto-evening-prayer,ko/achim-jeonyeok-gido,medium,published
 말씀 묵상 노트 방법,informational,howto-meditation-journal,/ko/malsseum-mudsang-note-bangbeop,medium,published
 아침 기도 기독교,informational,howto-morning-prayer,/ko/achim-gido-gidokgyo,medium,published
+성경 암송 책,commercial,memorize-books,,medium,planned
 성경 암송 카드,commercial,memorize-cards,/ko/seonggyeong-amsong-card,medium,published
+아침 기도문 모음,informational,morning-prayer-collection,,medium,planned
 짧은 성경 구절,informational,short-verses,,medium,blocked-licence
+오늘의 말씀 갓피플,commercial,vs-godpeople,,medium,planned
 매일성경 큐티,commercial,vs-maeil-seonggyeong,,medium,planned
+환자에게 위로가 되는 성경구절,informational,comfort-sick,,low,blocked-licence
+오늘의 말씀 뽑기,informational,daily-verse-draw,,low,blocked-licence
 성경 구절 찾기,navigational,find-verse,,low,planned
 말씀 묵상 영어로,informational,meditation-english,,low,planned
 성경 암송 대회,informational,memorize-contest,,low,planned
 성경 암송 영어로,informational,memorize-english,,low,planned
+큐티클 제거,informational,rejected-unrelated-cuticle,,low,rejected
+성경말씀 영어로,informational,verse-english,,low,blocked-licence
+성경말씀 카드,informational,verse-share-card,,low,blocked-licence
+성경말씀 배경화면,informational,verse-wallpaper,,low,blocked-licence
+청첩장 성경구절,informational,wedding-verses,,low,blocked-licence
