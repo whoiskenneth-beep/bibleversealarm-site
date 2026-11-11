@@ -1,5 +1,5 @@
 {
- "cursor": 0,
+ "cursor": 3,
  "suggestions": {
   "bible verses about love": {
    "seed": "bible verses about",
@@ -13263,6 +13263,18 @@
   },
   "verse of the day king james version bible": {
    "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses about moms": {
+   "seed": "bible verses about",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses for expecting parents": {
+   "seed": "bible verses for",
    "markets": [
     "us"
    ]
