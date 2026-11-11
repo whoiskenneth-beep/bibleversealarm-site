@@ -1,6 +1,6 @@
 keyword,intent,cluster,target_page,priority,status
 alarma cristiana con versículos,commercial,app-alarm,/es/alarma-cristiana,top,published
-mejores apps de alarma con versículos,commercial,app-compare,,top,planned
+mejores apps de alarma con versículos,commercial,app-compare,/es/mejores-apps-alarma-versiculos,top,published
 app devocional para la mañana,commercial,app-devotional,/es/app-devocional-para-la-manana,top,published
 qué es una alarma bíblica,informational,app-explainer,/es/que-es-una-alarma-biblica,top,published
 preguntas frecuentes alarma con versículos,commercial,app-faq,/es/preguntas-frecuentes-alarma-versiculos,top,published
