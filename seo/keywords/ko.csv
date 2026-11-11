@@ -18,7 +18,7 @@ keyword,intent,cluster,target_page,priority,status
 아침 기도 저녁 기도,informational,howto-evening-prayer,ko/achim-jeonyeok-gido,medium,published
 말씀 묵상 노트 방법,informational,howto-meditation-journal,/ko/malsseum-mudsang-note-bangbeop,medium,published
 아침 기도 기독교,informational,howto-morning-prayer,/ko/achim-gido-gidokgyo,medium,published
-성경 암송 책,commercial,memorize-books,,medium,planned
+성경 암송 책,commercial,memorize-books,/ko/seonggyeong-amsong-chaek,medium,published
 성경 암송 카드,commercial,memorize-cards,/ko/seonggyeong-amsong-card,medium,published
 아침 기도문 모음,informational,morning-prayer-collection,,medium,planned
 짧은 성경 구절,informational,short-verses,,medium,blocked-licence
