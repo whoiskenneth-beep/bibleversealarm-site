@@ -24,7 +24,7 @@ keyword,intent,cluster,target_page,priority,status
 靈修小品,informational,devotional-essays,,medium,planned
 靈修步驟,informational,devotional-howto,,medium,planned
 聖經 安慰 喪家 的話,informational,funeral-condolence,,medium,planned
-聖經金句 感恩,informational,gratitude,/zh-hant/jingwen/gratitude,medium,planned
+聖經金句 感恩,informational,gratitude,/zh-hant/jingwen/gratitude,medium,published
 聖經 安慰 失去親人,informational,grief,/zh-hant/jingwen/grief,medium,planned
 聖經金句 不要為明天憂慮,informational,matthew-6-34,,medium,planned
 聖經金句 短句,informational,short-verses,,medium,planned
