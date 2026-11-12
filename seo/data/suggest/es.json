@@ -1,5 +1,5 @@
 {
- "cursor": 3,
+ "cursor": 6,
  "suggestions": {
   "versículos de la biblia para reflexionar": {
    "seed": "versículos de la biblia para",
@@ -5883,7 +5883,8 @@
   "versículo del día de hoy catolico": {
    "seed": "versículo del día",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "versículo del día de hoy reflexión reina valera": {
@@ -13174,7 +13175,8 @@
   "oración de la mañana de hoy miércoles": {
    "seed": "oración de la mañana",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "oración de la mañana para hoy": {
@@ -13684,6 +13686,58 @@
   },
   "versículos de fortaleza y ánimo por muerte": {
    "seed": "versículos de fortaleza",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana de hoy 11 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana 11 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana 11 de noviembre 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana de hoy 11 de noviembre del 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana del día 11 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana con imágenes gratis": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oracion de la mañana en hebreo": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana para agradecer a dios por un nuevo día": {
+   "seed": "oración de la mañana",
    "markets": [
     "mx"
    ]
