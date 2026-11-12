@@ -1,0 +1,55 @@
+{
+  "id": "sadness",
+  "related": ["comfort", "hope", "loneliness", "healing", "anxiety"],
+  "locales": {
+    "es": {
+      "slug": "tristeza",
+      "title": "Versículos de la Biblia para cuando estás triste (16)",
+      "description": "Dieciséis textos bíblicos (Reina-Valera 1909) para un día de tristeza: orar con honestidad, Jesús que también lloró y la alegría que vuelve.",
+      "h1": "Versículos de la Biblia para cuando estás triste",
+      "intro": "La Biblia no te pide que finjas alegría: muchos de sus autores lloraron, y Dios los escuchó. Estos dieciséis pasajes, en cuatro grupos, te acompañan en ese ánimo caído: oraciones sinceras, Jesús llorando, cómo hablarle al alma y la promesa de que el llanto no dura para siempre. Lee un grupo despacio y luego cuéntale a Dios, con tus palabras, cómo te sientes.",
+      "published": "2026-11-12",
+      "updated": "2026-11-12",
+      "groups": [
+        {
+          "heading": "Oraciones de quien no puede dejar de llorar",
+          "reflection": "Puedes llegar ante Dios con los ojos hinchados. El Salmo 6 es de David, y habla de noches enteras regando su cama con lágrimas. El Salmo 42 lo escribieron los hijos de Coré, y sus lágrimas eran su pan de día y de noche. En el Salmo 13 David pregunta \"¿hasta cuándo?\" sin adornos. El Salmo 31 describe un cuerpo desgastado por el pesar. Ninguno de ellos se calla: lo dicen todo, y todo quedó en la Biblia.",
+          "refs": ["Psalms 6:6-7", "Psalms 42:3", "Psalms 13:1-2", "Psalms 31:9-10"]
+        },
+        {
+          "heading": "Jesús también conoció el dolor",
+          "reflection": "Tu Salvador no es ajeno a lo que sientes. En Juan 11, frente a la tumba de su amigo Lázaro, Jesús se conmovió y lloró, aunque estaba por resucitarlo. En Getsemaní, la noche antes de su arresto, les confesó a sus discípulos que su alma estaba muy triste. Isaías lo anunció como varón de dolores, y Hebreos dice que tenemos un Pontífice que se compadece de nuestras flaquezas.",
+          "refs": ["John 11:33-35", "Matthew 26:38", "Isaiah 53:3", "Hebrews 4:15"]
+        },
+        {
+          "heading": "Cómo hablarle al alma y dónde apoyarte",
+          "reflection": "Los salmistas no solo se quejan; también se hablan a sí mismos. En el Salmo 42:5 el autor le pregunta a su alma por qué se abate y se responde: espera a Dios. David, en el Salmo 143, pide oír la misericordia de Dios por la mañana, y en el Salmo 55 manda echar la carga sobre Jehová. El Salmo 94 recuerda que, entre tantos pensamientos, las consolaciones de Dios alegraban su alma. Empieza con una oración de una línea.",
+          "refs": ["Psalms 42:5", "Psalms 143:7-8", "Psalms 55:22", "Psalms 94:18-19"]
+        },
+        {
+          "heading": "El llanto no es para siempre",
+          "reflection": "Estas promesas no niegan el dolor; le ponen fecha de vencimiento. David, en el Salmo 30, dice que el lloro dura una tarde y la alegría llega en la mañana. Jesús, la noche antes de su arresto, usó la imagen de una mujer que da a luz: sufre, pero luego se alegra. Jeremías habló a desterrados de Israel, y Dios prometió volver su lloro en gozo. Isaías añade ceniza cambiada por gloria, luto por alegría.",
+          "refs": ["Psalms 30:5", "John 16:20-22", "Jeremiah 31:13", "Isaiah 61:3"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Qué versículo leer cuando uno amanece con el ánimo por el suelo?",
+          "a": "El Salmo 42:5 es una buena opción: el autor le habla a su propia alma y le dice que espere en Dios. Léelo en voz alta una o dos veces y ora con tus palabras, aunque sea una sola línea."
+        },
+        {
+          "q": "¿Es pecado sentirse triste o llorar?",
+          "a": "No. Jesús lloró ante la tumba de Lázaro (Juan 11:35) y dijo que su alma estaba muy triste (Mateo 26:38). Los salmos de David también están llenos de lágrimas. Sentir dolor no es falta de fe."
+        },
+        {
+          "q": "¿Qué dice la Biblia sobre cuándo termina la tristeza?",
+          "a": "No da una fecha, pero promete que no es definitiva. El Salmo 30:5 dice que a la mañana vendrá la alegría, y Juan 16:20 asegura que la tristeza de los discípulos se tornaría en gozo."
+        },
+        {
+          "q": "¿Y si llevo semanas así y los versículos no me alivian?",
+          "a": "Habla con alguien de confianza, con tu pastor o con un profesional de la salud. Orar y buscar ayuda no se contradicen. Si piensas en hacerte daño, llama hoy mismo a un servicio de emergencia de tu país."
+        }
+      ]
+    }
+  }
+}
