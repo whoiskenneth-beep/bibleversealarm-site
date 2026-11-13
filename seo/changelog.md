@@ -2,6 +2,7 @@
 
 Newest first. One line per shipped change: date, run, locale, what, why.
 
+- 2026-11-13 manual (en): /bible-app-statistics gains the 2026 Bible Verse Alarm Morning Index (app-user totals approved by Kenneth: 55% phone-to-social-first, 40% snooze, median 35s to complete the verse, ≥72% no backup alarm; n=169–1,186, June–Nov 2026). Bot may not edit these figures.
 - 2026-11-13 manual (en): /bible-app-statistics statistics page ("black hole" linkable asset): our own 2026 Bible Verse Alarm AI Recommendation Index (270 Gemini answers, 4 languages, via scripts/ai_index.mjs) + sourced State of the Bible 2026, YouGov 2025, Reviews.org 2025. Monthly refresh rule in RUN.md; named-statistic rules in PLAYBOOK §3b; es/zh/ko stats pages queued at top priority.
 - 2026-11-13 manual (ko): 개역한글 approved (Korean Bible Society FAQ: free to use with credit + unaltered text). krv.json added, ko topic pages unlocked, credit line on every ko page/card quoting verses, 11 blocked ko keywords back to planned, governor ko -> grow.
 - 2026-10-24 manual: GEO process upgrade from Kenneth's playbook: 50 buyer-question map (geo/questions.csv), page templates for vs/alternatives/how-to, GEO writing rules (brand statement, <25-word sourced facts, best-for + limitations, pricing rule), QA citation-worthiness check, /bible-verse-alarm.md product summary, page inventory (check.mjs --inventory), weekly measurement template, 30-day roadmap; /christian-alarm-clock rewritten to the new rules (10 FAQs, limitations table).
