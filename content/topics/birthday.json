@@ -1,0 +1,91 @@
+{
+  "id": "birthday",
+  "related": [
+    "family",
+    "encouragement",
+    "morning",
+    "gratitude",
+    "hope"
+  ],
+  "locales": {
+    "es": {
+      "slug": "cumpleanos",
+      "title": "Versículos de la Biblia para cumpleaños, con dedicatorias",
+      "description": "Textos bíblicos para felicitar a un cumpleañero: bendiciones, gratitud por la vida y frases para mamá, hijos o abuelos. En Reina-Valera 1909.",
+      "h1": "Versículos de la Biblia para cumpleaños",
+      "intro": "Para una tarjeta, un mensaje de WhatsApp o unas palabras antes del pastel, una bendición clásica es la de Números 6:24-26. Aquí la encuentras junto a otros pasajes agrupados según lo que quieras decir: desear lo mejor, dar gracias a Dios por la vida, mirar el año que empieza, honrar a quien ya tiene muchos años o dedicar unas líneas a alguien querido. Todos están en la versión Reina-Valera 1909.",
+      "published": "2026-11-13",
+      "updated": "2026-11-13",
+      "groups": [
+        {
+          "heading": "Bendiciones para el cumpleañero",
+          "reflection": "Para felicitar a alguien con una bendición, el texto más natural es Números 6, que Dios le dio a Moisés para que Aarón y sus hijos bendijeran a Israel. El Salmo 121 es un canto de peregrinos que asegura que Jehová guarda al que camina, y el Salmo 115:14-15 pronuncia bendición sobre el pueblo y sobre sus hijos. En su tercera carta, el anciano Juan le desea salud a su amigo Gayo, un saludo que cabe muy bien en una tarjeta.",
+          "refs": [
+            "Numbers 6:24-26",
+            "Psalms 121:7-8",
+            "Psalms 115:14-15",
+            "Proverbs 10:22",
+            "3 John 1:2"
+          ]
+        },
+        {
+          "heading": "Gracias a Dios por tu vida",
+          "reflection": "Dar gracias por la vida es el sentido más sencillo de un cumpleaños. David, en el Salmo 139, se asombra de que Dios lo conoció y lo cubrió desde el vientre de su madre; es decir, que cada persona empezó en su cuidado. Los salmos 103 y 34 son alabanzas del mismo David, y el 118 es un canto de gratitud que se puede leer en voz alta al comenzar esa fecha especial.",
+          "refs": [
+            "Psalms 139:13-14",
+            "Psalms 118:24",
+            "Psalms 103:2",
+            "Psalms 34:1"
+          ]
+        },
+        {
+          "heading": "Un año más: sabiduría y esperanza",
+          "reflection": "Si cumples años y te preguntas qué viene, empieza por el Salmo 90, la oración de Moisés que pide aprender a contar los días con sabiduría. Jeremías escribió Lamentaciones tras la caída de Jerusalén y aun así afirma que la misericordia de Dios se renueva cada mañana. Jeremías 29:11 va dirigido a desterrados en Babilonia: más que un cheque en blanco, es la promesa de un Dios que no los olvidó.",
+          "refs": [
+            "Psalms 90:12",
+            "Lamentations 3:22-23",
+            "Jeremiah 29:11",
+            "Proverbs 3:2"
+          ]
+        },
+        {
+          "heading": "Para quien ya tiene muchos años",
+          "reflection": "Para un abuelo, una abuela o un pastor mayor, la Biblia tiene palabras que honran la vejez sin adornarla de más. En el Salmo 71 un salmista anciano ora para que Dios no lo deje en las canas, y en Isaías 46 es el mismo Dios quien promete llevar a su pueblo hasta ese momento. El Salmo 92 y Proverbios hablan de una vejez que sigue dando fruto.",
+          "refs": [
+            "Psalms 71:17-18",
+            "Isaiah 46:4",
+            "Psalms 92:12-14",
+            "Proverbs 16:31"
+          ]
+        },
+        {
+          "heading": "Para dedicar a alguien que quieres",
+          "reflection": "Si quieres escribirle a una amiga, a tu mamá o a un hijo, usa palabras que ya salieron del corazón de alguien. Pablo escribió Filipenses desde la cárcel y aun así comienza dando gracias por los hermanos, con la confianza de que Dios termina lo que empieza. Sofonías anuncia a Dios cantando de alegría por su pueblo, y el Salmo 127 llama a los hijos herencia del Señor.",
+          "refs": [
+            "Philippians 1:3-6",
+            "Zephaniah 3:17",
+            "Psalms 127:3"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Qué versículo puedo poner en una tarjeta de cumpleaños?",
+          "a": "Números 6:24-26 es la bendición clásica y funciona para cualquier edad. Para una felicitación breve, Salmos 121:7-8 desea protección, y 3 Juan 1:2 expresa un deseo de salud. Elige uno y añade unas palabras tuyas."
+        },
+        {
+          "q": "¿Se puede celebrar un cumpleaños siendo cristiano?",
+          "a": "La Biblia no lo manda ni lo prohíbe, así que cada creyente decide en conciencia. Quienes lo celebran suelen usar la fecha para dar gracias a Dios por la vida, como en Salmos 103:2 o Salmos 139:13-14."
+        },
+        {
+          "q": "¿Qué versículo dedicar a un hijo o a una hija?",
+          "a": "Salmos 127:3 llama a los hijos herencia del Señor, y Filipenses 1:6 expresa la confianza de que Dios completa su obra en cada persona. Los dos son breves y se leen bien en una dedicatoria."
+        },
+        {
+          "q": "¿Qué texto bíblico leer al cumplir un año más?",
+          "a": "Salmos 90:12 pide a Dios sabiduría para contar los días, y Lamentaciones 3:22-23 recuerda que su misericordia se renueva cada mañana. Son dos pasajes sobrios para agradecer el año vivido y empezar el siguiente."
+        }
+      ]
+    }
+  }
+}

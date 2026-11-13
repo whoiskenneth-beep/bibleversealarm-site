@@ -1,6 +1,6 @@
 {
   "id": "family",
-  "related": ["comfort", "encouragement", "strength", "morning", "anxiety"],
+  "related": ["comfort", "encouragement", "strength", "morning", "anxiety", "birthday"],
   "locales": {
     "es": {
       "slug": "familia",
