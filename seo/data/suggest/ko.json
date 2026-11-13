@@ -1,5 +1,5 @@
 {
- "cursor": 3,
+ "cursor": 6,
  "suggestions": {
   "성경구절": {
    "seed": "성경구절",
@@ -1077,6 +1077,18 @@
   },
   "수험생 성경구절": {
    "seed": "성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "카톨릭 아침 기도문": {
+   "seed": "아침 기도",
+   "markets": [
+    "naver"
+   ]
+  },
+  "말씀 묵상 앱": {
+   "seed": "말씀 묵상",
    "markets": [
     "naver"
    ]
