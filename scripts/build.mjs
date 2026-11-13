@@ -377,7 +377,8 @@ for (const ft of features) {
     const c = copyFor(ft, loc);
     const p = pathFor(loc, 'feature', c.slug);
     const crumbs = breadcrumbs(loc, [{ name: L.t.home, path: L.prefix }, { name: c.h1, path: p }]);
-    const paras = (text) => text.split(/\n\n+/).map((x) => `<p>${esc(x).replace(/\[([^\]]+)\]\((\/[^)\s]*)\)/g, '<a href="$2">$1</a>')}</p>`).join('');
+    // [text](/internal) or [text](https://source) links; external ones are citations to original research.
+    const paras = (text) => text.split(/\n\n+/).map((x) => `<p>${esc(x).replace(/\[([^\]]+)\]\((\/[^)\s]*|https:\/\/[^)\s]+)\)/g, (m, t, u) => (u.startsWith('/') ? `<a href="${u}">${t}</a>` : `<a href="${u}" rel="noopener">${t}</a>`))}</p>`).join('');
     // Optional table: first row is the header.
     const table = (rows) => (rows?.length ? `<div class="table-wrap"><table><thead><tr>${rows[0].map((h) => `<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${rows.slice(1).map((r) => `<tr>${r.map((v) => `<td>${esc(v)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>` : '');
     const sections = c.sections.map((s) => `<section><h2>${esc(s.heading)}</h2>${paras(s.body)}${table(s.table)}

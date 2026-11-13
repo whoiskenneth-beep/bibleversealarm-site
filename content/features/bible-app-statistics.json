@@ -1,0 +1,55 @@
+{
+  "id": "bible-app-statistics",
+  "related": ["morning", "anxiety", "strength"],
+  "locales": {
+    "en": {
+      "slug": "bible-app-statistics",
+      "nav": "Bible app statistics",
+      "title": "Bible App & Morning Phone Habit Statistics (2026)",
+      "description": "Which Bible apps AI assistants recommend (our 2026 index, 270 answers in 4 languages), plus sourced 2026 data on Bible reading and phone use after waking.",
+      "h1": "Bible app and morning phone habit statistics (2026)",
+      "intro": "Original data from the 2026 Bible Verse Alarm AI Recommendation Index, which measured which Bible apps AI assistants name in 270 answers across English, Spanish, Korean and Chinese, alongside the most recent published research on Bible reading and on how quickly people reach for their phones after waking. Every outside number names its source and date. You're welcome to quote any figure here; please credit the source named next to it.",
+      "published": "2026-11-13",
+      "updated": "2026-11-13",
+      "sections": [
+        {
+          "heading": "Which Bible apps do AI assistants recommend?",
+          "body": "The 2026 Bible Verse Alarm AI Recommendation Index found that YouVersion (the Bible App) was named in 77% of 270 AI answers to Bible-app recommendation questions.\n\nThe 2026 Bible Verse Alarm AI Recommendation Index found that Abide was the second most-named app, appearing in 32% of answers, followed by Lectio 365 at 26%.\n\nThe 2026 Bible Verse Alarm AI Recommendation Index found that Korean-language answers named YouVersion far less often (52%) than English, Spanish and Chinese answers (84–85%).\n\nThe 2026 Bible Verse Alarm AI Recommendation Index found that Alarmy, a general alarm app, was named in 21% of answers to questions about waking up with Scripture, more than most dedicated Bible apps.\n\nThe 2026 Bible Verse Alarm AI Recommendation Index found that Bible Verse Alarm itself was named in only 2 of 270 answers (under 1%). We publish that because it's true.",
+          "table": [
+            ["App named in the answer", "English (90)", "Spanish (60)", "Korean (60)", "Chinese (60)", "All (270)"],
+            ["YouVersion (Bible App)", "84%", "85%", "52%", "85%", "77%"],
+            ["Abide", "41%", "50%", "2%", "32%", "32%"],
+            ["Lectio 365", "34%", "38%", "7%", "22%", "26%"],
+            ["Verses", "52%", "10%", "8%", "12%", "24%"],
+            ["Alarmy", "27%", "20%", "18%", "15%", "21%"],
+            ["Glorify", "37%", "35%", "0%", "3%", "21%"],
+            ["Dwell", "31%", "7%", "3%", "8%", "14%"],
+            ["Bible Verse Alarm", "2%", "0%", "0%", "0%", "1%"]
+          ]
+        },
+        {
+          "heading": "How the AI Recommendation Index was measured",
+          "body": "Between 22 October and 12 November 2026 we asked Google's Gemini models (free tier, without live web search) a fixed set of realistic app-recommendation questions, written natively in each language, such as \"What's the best Bible verse alarm app for iPhone?\". Each answer was checked automatically for which apps it named. 270 answers in total: 90 English, 60 Spanish, 60 Korean, 60 Chinese.\n\nLimits, so you can judge the numbers: one AI provider only; free-tier models answer from what they learned in training, not from today's web; one run per question per day; YouVersion and \"Bible App\" are counted as one product. The index measures which apps an AI already associates with these questions, not app quality or downloads. We re-run it weekly and update this page."
+        },
+        {
+          "heading": "How many Americans read the Bible? (State of the Bible 2026)",
+          "body": "The American Bible Society's State of the Bible 2026 found that 25% of U.S. adults are active Bible users, reading Scripture at least weekly outside church, down from 26% in 2025.\n\nThe American Bible Society's State of the Bible 2026 found that 17% of U.S. adults (about 47 million people) are Scripture-engaged, down from 20% in 2025 and close to 2024's 18%.\n\nThe American Bible Society's State of the Bible 2026 found that 62% of Americans don't read Scripture at all.\n\nThe survey interviewed 2,649 U.S. adults between 8 and 27 January 2026. Source: [American Bible Society, State of the Bible 2026, as reported by Baptist Press](https://www.baptistpress.com/resource-library/news/state-of-the-bible-growth-in-bible-use-reverses-in-2026-but-trend-uncertain/) (checked 13 November 2026)."
+        },
+        {
+          "heading": "How fast do people reach for their phones after waking?",
+          "body": "A May 2025 YouGov poll found that 44% of U.S. adults always or often use their phone to browse or use apps within 10 minutes of waking up, rising to 60% of adults under 30.\n\nThe same YouGov poll found that 43% use their phone in the 10 minutes before falling asleep (61% of under-30s).\n\nA Reviews.org survey published January 2025 found that 80.6% of Americans check their phone within the first 10 minutes of waking, and that Americans check their phones 205 times a day.\n\nThe two surveys asked differently: YouGov counted regular browsing and app use, Reviews.org counted any check at all, which explains most of the gap. Sources: [YouGov, May 2025, 1,129 U.S. adults](https://yougov.com/en-us/articles/53735-for-many-americans-their-smartphone-is-the-last-thing-they-see-at-night-and-the-first-thing-they-see-in-the-morning); [Reviews.org, 2025 cell phone usage survey, 1,000 U.S. adults](https://www.reviews.org/mobile/2025-cell-phone-addiction/) (both checked 13 November 2026)."
+        },
+        {
+          "heading": "What these numbers mean together",
+          "body": "Fewer than one in five Americans are deeply engaged with Scripture, while somewhere between 44% and 81% (depending on how it's asked) pick up their phone within ten minutes of waking. For most people the first minutes of the day already belong to a screen; the open question is what's on it. That gap is the reason [Bible Verse Alarm](/christian-alarm-clock) exists: it puts a short verse on the phone before the feed. If you're trying to build the habit without an app, see [how to read the Bible every morning](/how-to-read-the-bible-every-morning)."
+        }
+      ],
+      "faq": [
+        { "q": "What is the most recommended Bible app by AI assistants?", "a": "YouVersion (the Bible App). The 2026 Bible Verse Alarm AI Recommendation Index found it named in 77% of 270 AI answers to Bible-app questions across four languages, far ahead of Abide (32%) and Lectio 365 (26%)." },
+        { "q": "What percentage of Americans read the Bible in 2026?", "a": "According to the American Bible Society's State of the Bible 2026, 25% of U.S. adults are active Bible users (reading at least weekly outside church) and 17% are Scripture-engaged. 62% don't read Scripture." },
+        { "q": "How many people check their phone right after waking up?", "a": "A May 2025 YouGov poll found 44% of U.S. adults regularly use their phone within 10 minutes of waking (60% of under-30s). A January 2025 Reviews.org survey, which counted any check, put it at 80.6%." },
+        { "q": "Can I use these statistics?", "a": "Yes. Please credit the source named next to each figure. For our own numbers, cite \"2026 Bible Verse Alarm AI Recommendation Index\" and link to this page." }
+      ]
+    }
+  }
+}

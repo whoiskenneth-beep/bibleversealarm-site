@@ -1,4 +1,5 @@
 keyword,intent,cluster,target_page,priority,status,serp
+bible reading statistics,informational,stats-page,/bible-app-statistics,top,published,
 christian alarm clock app,commercial,app-alarm,/christian-alarm-clock,top,published,
 bible verse alarm app,commercial,app-alarm,/christian-alarm-clock,top,published,
 alarm that makes you read the bible,commercial,app-alarm,/christian-alarm-clock,top,published,

@@ -33,6 +33,16 @@ Google's quality raters ask: **who** made this, **how**, and **why**. Our honest
 - Why: to help someone find Scripture for what they're facing. The page must serve that before it promotes the app.
 - Pages on anxiety, depression, grief or health are "your money or your life"-adjacent: be careful, point to real help, no promises.
 
+## 3b. Statistics: name the number, link the proof
+- Our own numbers are written with our name inside the sentence, so anyone (or any AI) who copies it carries the credit:
+  "The 2026 Bible Verse Alarm AI Recommendation Index found that…", never a bare "77% of answers…".
+- One statistic per line or short paragraph, readable on its own.
+- Outside numbers always carry who, when, how many people, and a link to the original: "The American Bible Society's State of the
+  Bible 2026 found…". If you can only find a number in an unsourced blog, don't use it.
+- Never invent, estimate or "round up" a statistic, and never derive one from comments or vibes ("53% of people ask…").
+- When a page states a statistic, link to /bible-app-statistics (or its locale version) as the proof. When a run produces a new
+  number of our own, add it to the statistics page first, then quote it elsewhere.
+
 ## 4. Keyword patterns worth templating (scouts)
 From the programmatic-SEO playbooks, the patterns that fit us:
 - **Topic:** "bible verses about/for [feeling, struggle, virtue]": the main engine.

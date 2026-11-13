@@ -1,4 +1,5 @@
 keyword,intent,cluster,target_page,priority,status,serp
+성경 앱 추천 통계,commercial,stats-page,,top,planned,
 성경 알람 앱,commercial,app-alarm,/ko/seonggyeong-allam-app,top,published,
 성경 알람 앱 추천 비교,commercial,app-compare,/ko/seonggyeong-allam-app-chucheon,top,published,
 성경 알람이란,informational,app-explainer,what-is-a-bible-verse-alarm,top,published,
