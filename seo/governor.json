@@ -36,8 +36,8 @@
     },
     "ko": {
       "new_pages_per_day": 1,
-      "optimizations_per_day": 0,
-      "status": "feature pages only (no verse text) until the 개역한글 licence is decided",
+      "optimizations_per_day": 1,
+      "status": "grow",
       "published": 18,
       "indexed": 11,
       "indexation_rate": 0.61
@@ -49,6 +49,11 @@
       "date": "2026-10-22",
       "change": "ko new_pages_per_day 0 -> 1 (feature pages only)",
       "reason": "feature-page template added; app-intent pages need no Bible text"
+    },
+    {
+      "date": "2026-11-13",
+      "change": "ko status feature-only -> grow; optimizations 0 -> 1",
+      "reason": "Kenneth approved 개역한글 (Korean Bible Society allows use with credit + unaltered text); Korean topic pages unlocked"
     }
   ]
 }

@@ -20,12 +20,11 @@ is at `~/.config/bibleversealarm/gsc-sa.json`. Then one command (Claude can run 
 gh secret set GSC_SERVICE_ACCOUNT_JSON --repo whoiskenneth-beep/bibleversealarm-site < ~/.config/bibleversealarm/gsc-sa.json
 ```
 
-## 2. Korean Bible licence: decide whether to use 개역한글 (Korean Revised Version 1961)
-**Why:** Korean pages can't show verses until this is decided. This also affects app 2.4.0, which bundles the same text.
-- Case for "yes": Korean copyright for a 1961 work by an organisation lasted 50 years, so it ran out at the end of 2011, and the 2013 law change to 70 years didn't bring expired works back. Many Korean sites and Korean Wikisource treat it as public domain.
-- Case for caution: the Korean Bible Society (대한성서공회) has publicly claimed rights over it.
-- **My recommendation: ask the Korean Bible Society directly** (email is free, and their answer covers the app too): "Is 개역한글 (1961) free to quote on a website and in an app?". Meanwhile the bot only publishes Korean pages without verses.
-To approve: tell any Claude session "approve 개역한글". It will copy `krv.json`, mark it USE in `seo/LICENSES.md` and unblock Korean.
+## 2. Korean Bible licence: DONE 2026-11-13 (approved)
+The Korean Bible Society's own FAQ confirms 개역한글 (1961) is free to use without permission, on two conditions: credit it and
+never alter the text. The site now does both automatically. **Still open, in the app (not the site):** version 2.4.0 ships
+개역한글 but doesn't credit 대한성서공회 anywhere. Add a credit line where the app lists its Bible translations in the next
+app update, e.g. "개역한글판 © 대한성서공회 (저작재산권 보호기간 만료)" or simply "성경 본문: 개역한글판 (대한성서공회)".
 
 ## 3. Social posting: weekly pack (about 10 min/week)
 Every Monday 08:30 MYT the bot puts a new folder in `seo/social/packs/<date>/` (view it on GitHub:

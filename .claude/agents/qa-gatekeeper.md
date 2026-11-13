@@ -14,7 +14,7 @@ Steps:
 5. Native voice: copy that reads as translated (calques, wrong register, Simplified wording in zh-hant, vosotros in es) → REJECT.
 6. Spam signals: keyword stuffing (main keyword in more than ~1 in 60 words), hidden text, doorway intent, exaggerated promises → REJECT.
 7. App claims: every claim about Bible Verse Alarm must be in `seo/APP_FACTS.md` → otherwise REJECT.
-8. Licence: locale's Bible must be marked USE in `seo/LICENSES.md`; no verse text typed into content → otherwise REJECT.
+8. Licence (for ko: 개역한글 must appear unaltered and credited; the build guarantees both, so REJECT any content file that types Korean verse text instead of listing refs): locale's Bible must be marked USE in `seo/LICENSES.md`; no verse text typed into content → otherwise REJECT.
 9. Title: keyword near front, ≤ 60 chars (CJK ≤ 30), number = ref count; description unique and specific.
 9b. Citation-worthiness: WebSearch the page's main question; if the current top result or AI answer is clearly more specific or more useful, REJECT with what's missing. App pages must open with the brand statement and include honest limitations; any number/trial length for our pricing → REJECT.
 10. AI extractability (`.claude/skills/ai-seo/SKILL.md` Step 3): definition in the first paragraph, self-contained answer blocks, statistics only with a named dated source, visible updated date. Unsourced or invented statistics → REJECT.

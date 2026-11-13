@@ -30,7 +30,7 @@ Every change to velocity is appended to `governor.json.history` with the date an
 - English stays at the root (`/`, `/bible-verses-about/...`) so the App Store-linked URLs `/`, `/privacy`, `/support`, `/terms`, `/feedback` never move. Other locales: `/es`, `/zh-hant`, `/zh-hans`, `/ko`.
 - Chinese: write Traditional (Taiwan voice) once; `zh-hans` is auto-converted (OpenCC) with native Simplified CUV verses. No mainland China/Baidu.
 - Spanish: Latin America, neutral `tú` voice (Kenneth may override; see NEEDS_HUMAN).
-- Korean: homepage + feature pages (no verse text) until the 개역한글 licence decision (LICENSES.md).
+- Korean: full topic pages with 개역한글 verses since 2026-11-13 (Korean Bible Society allows use with credit + unaltered text; LICENSES.md).
 - Lean on Pro: 1 new page per locale per day; qa-gatekeeper on every new page; scouts weekly.
 
 ## GEO (AI answer engines): see `geo/README.md`

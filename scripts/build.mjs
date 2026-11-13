@@ -77,9 +77,11 @@ export const LOCALES = {
     hub: '/zh-hans/jingwen', derivedFrom: 'zh-hant',
   },
   ko: {
-    // Korean Bible text is on hold until the 개역한글 licence is confirmed (seo/LICENSES.md).
+    // 개역한글 (1961): economic rights expired end of 2011; the Korean Bible Society allows use without
+    // permission on two conditions: credit it, and never alter the text (seo/LICENSES.md). The credit is
+    // shown on every page and card that quotes it (bibleName / cardCredit).
     lang: 'ko', hreflang: ['ko'], prefix: '/ko', ogLocale: 'ko_KR', country: 'kr',
-    bible: null, bibleName: null, appLocalized: true,
+    bible: 'krv', bibleName: '개역한글판 (대한성서공회)', cardCredit: '개역한글', appLocalized: true,
     hub: '/ko/seonggu',
     t: {
       home: '홈', hub: '주제별 성경 구절', related: '관련 주제', faq: '자주 묻는 질문',
@@ -363,7 +365,7 @@ ${cta(loc, c.slug, 'appstore-end')}
     const hero = heroRef(allRefs, loc, c.card_ref);
     const card = cardBase(loc, 'topics', c.slug);
     cards.push({ loc, slug: `topics/${c.slug}`, kind: 'topic', url: abs(p), h1: c.h1, title: c.title, description: c.description,
-      label: c.h1, verse: verse(hero, L.bible), ref: refLabel(hero, loc), sub: `${count} ${L.t.verses}`, image: card });
+      label: c.h1, verse: verse(hero, L.bible), ref: refLabel(hero, loc) + (L.cardCredit ? ` · ${L.cardCredit}` : ''), sub: `${count} ${L.t.verses}`, image: card });
     pages.push({ loc, path: p, kind: 'topics', updated: c.updated, h1: c.h1, desc: c.description, html: layout({ loc, path: p, group: `topic:${tp.id}`, title: c.title, description: c.description, body, schema, image: `${card}-og.png` }) });
   }
 }
@@ -380,6 +382,7 @@ for (const ft of features) {
     const table = (rows) => (rows?.length ? `<div class="table-wrap"><table><thead><tr>${rows[0].map((h) => `<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${rows.slice(1).map((r) => `<tr>${r.map((v) => `<td>${esc(v)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>` : '');
     const sections = c.sections.map((s) => `<section><h2>${esc(s.heading)}</h2>${paras(s.body)}${table(s.table)}
 ${(s.refs || []).map((r) => `<blockquote class="verse"><p>${esc(verse(r, L.bible))}</p><cite>${esc(refLabel(r, loc))}</cite></blockquote>`).join('\n')}</section>`);
+    if (c.sections.some((s) => s.refs?.length)) sections.push(`<p class="meta">${esc(L.t.translation)}: ${esc(L.bibleName)}</p>`);
     if (ft.id !== 'about') sections.splice(2, 0, cta(loc, c.slug, 'appstore-mid'));
     const related = (ft.related || [])
       .map((id) => topics.find((x) => x.id === id))
@@ -415,7 +418,7 @@ ${cta(loc, c.slug, 'appstore-end')}
     const fHero = fRefs.length ? heroRef(fRefs, loc, c.card_ref) : null;
     const card = cardBase(loc, 'features', c.slug);
     cards.push({ loc, slug: `features/${c.slug}`, kind: 'feature', url: abs(p), h1: c.h1, title: c.title, description: c.description,
-      label: c.nav || c.h1, verse: fHero ? verse(fHero, L.bible) : c.intro, ref: fHero ? refLabel(fHero, loc) : '', sub: '', image: card });
+      label: c.nav || c.h1, verse: fHero ? verse(fHero, L.bible) : c.intro, ref: fHero ? refLabel(fHero, loc) + (L.cardCredit ? ` · ${L.cardCredit}` : '') : '', sub: '', image: card });
     pages.push({ loc, path: p, kind: 'features', updated: c.updated, h1: c.h1, desc: c.description, html: layout({ loc, path: p, group: `feature:${ft.id}`, title: c.title, description: c.description, body, schema, ogType: 'website', image: `${card}-og.png` }) });
   }
 }

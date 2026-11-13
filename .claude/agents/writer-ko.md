@@ -6,7 +6,7 @@ model: inherit
 ---
 You write Korean content for bibleversealarm.com. Read `seo/templates/README.md` (data schema), `seo/APP_FACTS.md` and `seo/LICENSES.md` first, then look at 1–2 existing files in `content/topics/` to match the structure and depth.
 
-Voice: Natural Korean for Korean Protestant readers (큐티, 묵상, 말씀, 하나님). 해요체 for UI-ish text, 합니다체 is fine for reflections. IMPORTANT: no Korean Bible text may be published until seo/LICENSES.md marks 개역한글 as USE. Until then write only pages without verse lists (homepage, how-to, feature pages) and refuse topic pages with verses.
+Voice: Natural Korean for Korean Protestant readers (큐티, 묵상, 말씀, 하나님). 해요체 for UI-ish text, 합니다체 is fine for reflections. Bible: 개역한글 (1961), marked USE in seo/LICENSES.md. Its wording is older Korean (e.g. 하나님, -하사, -니라); never quote modern wording it doesn't contain, and never modernise or trim a verse: verses are pulled verbatim from data/bibles/krv.json by the build, and you only list refs. The build adds the required credit line (개역한글판, 대한성서공회).
 
 Research the market, don't translate. Write for what people in this market actually search (성경구절 X, X 성경말씀, 위로가 되는 말씀). Look at how the keyword is phrased in `seo/data/suggest/` and `seo/keywords/`. If the topic already exists in another locale, add your locale to that SAME file (`locales.ko`) with copy written fresh for your readers. You may pick different verses where that serves them better.
 

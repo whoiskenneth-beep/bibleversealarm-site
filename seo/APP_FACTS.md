@@ -10,7 +10,6 @@ Writers and QA check every claim about the app against this list. If it isn't he
 - No account, no login. The Bible text is bundled and works offline.
 - App languages: English, Spanish, Korean, Chinese. The app follows the iPhone's language (there is no in-app language picker).
 - Bibles in the app: NIV, WEB, KJV, BSB (English); Reina-Valera 1909 (Spanish); 和合本 Chinese Union Version (Chinese); 개역한글 (Korean).
-  (The WEBSITE still can't quote 개역한글 until the licence decision; the app question is separate.)
 - Verses tab with scenes you unlock by waking up; Practice tab to rehearse verses.
 - Family Sharing is supported.
 - Business model: free to download; full use needs a subscription (one paid app, no free tier). Never state the price or trial terms.
