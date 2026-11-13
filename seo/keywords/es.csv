@@ -1,44 +1,44 @@
-keyword,intent,cluster,target_page,priority,status
-alarma cristiana con versículos,commercial,app-alarm,/es/alarma-cristiana,top,published
-mejores apps de alarma con versículos,commercial,app-compare,/es/mejores-apps-alarma-versiculos,top,published
-app devocional para la mañana,commercial,app-devotional,/es/app-devocional-para-la-manana,top,published
-qué es una alarma bíblica,informational,app-explainer,/es/que-es-una-alarma-biblica,top,published
-preguntas frecuentes alarma con versículos,commercial,app-faq,/es/preguntas-frecuentes-alarma-versiculos,top,published
-app para memorizar versículos de la biblia,commercial,app-memorize,/es/app-memorizar-versiculos,top,published
-versículos para la ansiedad,informational,anxiety,/es/versiculos-biblicos/ansiedad,high,published
-versículos de la biblia para cumpleaños,informational,birthday,,high,planned
-versículos bíblicos de bendición,informational,blessing,,high,planned
-versículos de la biblia para los hijos,informational,children-blessing,,high,planned
-versículos bíblicos de consuelo,informational,comfort,/es/versiculos-biblicos/consuelo,high,published
-versículos de la biblia para animar,informational,encouragement,/es/versiculos-biblicos/animar,high,published
-versículos de la biblia para la familia,informational,family,/es/versiculos-biblicos/familia,high,published
-versículos de la biblia para vencer el miedo,informational,fear,/es/versiculos-biblicos/miedo,high,published
-versículos de la biblia para sanidad,informational,healing,/es/versiculos-biblicos/sanidad,high,published
-versículos de la biblia para memorizar,informational,memorize-verses,,high,planned
-versículos para la mañana,informational,morning,/es/versiculos-biblicos/para-la-manana,high,published
-versículos de la biblia para tener paz,informational,peace,,high,planned
-versículos de la biblia para protección,informational,protection,,high,planned
-versículos de la biblia para cuando estás triste,informational,sadness,/es/versiculos-biblicos/tristeza,high,published
-versículos de la biblia para dormir,informational,sleep,/es/versiculos-biblicos/dormir,high,published
-versículos de fortaleza,informational,strength,/es/versiculos-biblicos/fortaleza,high,published
-versículos de la biblia para confiar en dios,informational,trust-god,,high,planned
-versículos de la biblia para mujeres,informational,women,,high,planned
-versículos de la biblia para jóvenes,informational,youth,,high,planned
-versículos de la biblia para la depresión,informational,depression,,medium,planned
-versículos de la biblia para fortalecer la fe,informational,faith,,medium,planned
-versículos de la biblia para ayunar,informational,fasting,,medium,planned
-versículos de la biblia para pedir perdón,informational,forgiveness,,medium,planned
-versículos de la biblia para graduación,informational,graduation,,medium,planned
-versículos bíblicos de agradecimiento,informational,gratitude,,medium,planned
-versículos de la biblia para fallecidos,informational,grief,,medium,planned
-versículos bíblicos de esperanza,informational,hope,,medium,planned
-versículos de la biblia para niños,informational,kids,,medium,planned
-versículos bíblicos de amor,informational,love,,medium,planned
-versículos de la biblia para el matrimonio,informational,marriage,,medium,planned
-versículos de la biblia para seguir adelante,informational,perseverance,,medium,planned
-versículos de la biblia para quinceañera,informational,quinceanera,,medium,planned
-versículos de la biblia para whatsapp,informational,share-whatsapp,,medium,planned
-versículos de la biblia para boda,informational,wedding,,medium,planned
-versículos de la biblia para el trabajo,informational,work,,medium,planned
-versículos bíblicos de alabanza y adoración,informational,worship,,medium,planned
-versículos bíblicos de guerra espiritual,informational,spiritual-warfare,,low,planned
+keyword,intent,cluster,target_page,priority,status,serp
+alarma cristiana con versículos,commercial,app-alarm,/es/alarma-cristiana,top,published,
+mejores apps de alarma con versículos,commercial,app-compare,/es/mejores-apps-alarma-versiculos,top,published,
+app devocional para la mañana,commercial,app-devotional,/es/app-devocional-para-la-manana,top,published,
+qué es una alarma bíblica,informational,app-explainer,/es/que-es-una-alarma-biblica,top,published,
+preguntas frecuentes alarma con versículos,commercial,app-faq,/es/preguntas-frecuentes-alarma-versiculos,top,published,
+app para memorizar versículos de la biblia,commercial,app-memorize,/es/app-memorizar-versiculos,top,published,
+versículos para la ansiedad,informational,anxiety,/es/versiculos-biblicos/ansiedad,high,published,
+versículos de la biblia para cumpleaños,informational,birthday,,high,planned,
+versículos bíblicos de bendición,informational,blessing,,high,planned,
+versículos de la biblia para los hijos,informational,children-blessing,,high,planned,
+versículos bíblicos de consuelo,informational,comfort,/es/versiculos-biblicos/consuelo,high,published,
+versículos de la biblia para animar,informational,encouragement,/es/versiculos-biblicos/animar,high,published,
+versículos de la biblia para la familia,informational,family,/es/versiculos-biblicos/familia,high,published,
+versículos de la biblia para vencer el miedo,informational,fear,/es/versiculos-biblicos/miedo,high,published,
+versículos de la biblia para sanidad,informational,healing,/es/versiculos-biblicos/sanidad,high,published,
+versículos de la biblia para memorizar,informational,memorize-verses,,high,planned,
+versículos para la mañana,informational,morning,/es/versiculos-biblicos/para-la-manana,high,published,
+versículos de la biblia para tener paz,informational,peace,,high,planned,
+versículos de la biblia para protección,informational,protection,,high,planned,
+versículos de la biblia para cuando estás triste,informational,sadness,/es/versiculos-biblicos/tristeza,high,published,
+versículos de la biblia para dormir,informational,sleep,/es/versiculos-biblicos/dormir,high,published,
+versículos de fortaleza,informational,strength,/es/versiculos-biblicos/fortaleza,high,published,
+versículos de la biblia para confiar en dios,informational,trust-god,,high,planned,
+versículos de la biblia para mujeres,informational,women,,high,planned,
+versículos de la biblia para jóvenes,informational,youth,,high,planned,
+versículos de la biblia para la depresión,informational,depression,,medium,planned,
+versículos de la biblia para fortalecer la fe,informational,faith,,medium,planned,
+versículos de la biblia para ayunar,informational,fasting,,medium,planned,
+versículos de la biblia para pedir perdón,informational,forgiveness,,medium,planned,
+versículos de la biblia para graduación,informational,graduation,,medium,planned,
+versículos bíblicos de agradecimiento,informational,gratitude,,medium,planned,
+versículos de la biblia para fallecidos,informational,grief,,medium,planned,
+versículos bíblicos de esperanza,informational,hope,,medium,planned,
+versículos de la biblia para niños,informational,kids,,medium,planned,
+versículos bíblicos de amor,informational,love,,medium,planned,
+versículos de la biblia para el matrimonio,informational,marriage,,medium,planned,
+versículos de la biblia para seguir adelante,informational,perseverance,,medium,planned,
+versículos de la biblia para quinceañera,informational,quinceanera,,medium,planned,
+versículos de la biblia para whatsapp,informational,share-whatsapp,,medium,planned,
+versículos de la biblia para boda,informational,wedding,,medium,planned,
+versículos de la biblia para el trabajo,informational,work,,medium,planned,
+versículos bíblicos de alabanza y adoración,informational,worship,,medium,planned,
+versículos bíblicos de guerra espiritual,informational,spiritual-warfare,,low,planned,

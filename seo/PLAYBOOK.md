@@ -41,8 +41,13 @@ From the programmatic-SEO playbooks, the patterns that fit us:
 - **Short/format:** "short bible verses about X", "bible verses to memorize": a real distinct intent (short, memorable verses).
 - **Curation/comparison:** "best christian apps", "[app] alternatives", "X vs Y": feature pages, facts from App Store pages only.
 - **Definition/glossary:** "what is a devotional / quiet time / 큐티 / 靈修": answer-first explainer feature pages.
-Before scheduling a cluster, look at who ranks (WebSearch the keyword). If page 1 is all giant sites with exactly this page,
-prefer a longer, more specific variant.
+**SERP check (mandatory before a keyword is `planned`):** WebSearch the keyword in its market's language and read the top 10.
+Record one verdict in the CSV `serp` column:
+- `reading`: mostly articles, verse lists, definitions → informational; fine for topic pages.
+- `buying`: mostly app-store pages, product or comparison pages → commercial; fine for feature/app pages, top priority.
+- `mixed`: both; choose the page type that matches the top 3.
+- `giants`: page 1 is almost all huge sites (Bible Gateway, YouVersion, OpenBible, Crosswalk, Wikipedia, Naver Knowledge…) with exactly this page → don't plan it; switch to a longer, more specific variant and check that instead.
+Google has already run the intent test; the page type we write must match what it ranks. A volume number we don't have is not a reason to skip this.
 
 ## 5. Hreflang + technical (tech-auditor)
 - Every page lists itself and all alternates; every alternate links back; hreflang only on canonical URLs; URLs match the canonical

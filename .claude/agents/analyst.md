@@ -9,7 +9,7 @@ GSC lags 2–3 days; always use the latest complete date and say which date rang
 
 Produce (as asked):
 - Movers: queries/pages with a position change ≥ 3 or impressions ×2 vs the previous 7 days.
-- Quick wins: position 4–20 with ≥ 10 impressions/week; CTR < 1% with ≥ 50 impressions.
+- Quick wins: any query at average position 4–20 over the last 28 days, any impression count (young site: low volume is normal); rank by impressions then position. Low CTR: CTR < 1% with ≥ 50 impressions over 28 days.
 - New queries with impressions but no matching page (add them to `seo/keywords/<lang>.csv` as planned).
 - Not indexed after 7 days (`firstSeen` ≤ today−7 and verdict ≠ PASS).
 - Title rewrites for quick wins follow `seo/PLAYBOOK.md` section 2 (3 options, keep the slug, log the baseline).

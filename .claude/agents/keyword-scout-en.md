@@ -15,6 +15,7 @@ Do:
 1. Drop junk: other religions' texts, celebrity/song names, adult or unrelated results, other apps' brand names unless it's a comparison intent, duplicates differing only by spacing/accents/script.
 2. Classify intent: informational (verse lists, meaning), navigational, commercial (alarm/app/devotional app), transactional.
 3. Cluster: one cluster = one page. Variants with the same intent ("bible verses for anxiety" / "anxiety scriptures") join one cluster. Map each cluster to an existing page in `content/` if one fits (`target_page`), else leave it empty.
-4. Priority: high = clear verse-list or app intent + long-tail + we can serve it with public-domain text; medium; low. Score ≈ demand (autocomplete rank and how many markets suggest it) × intent fit ÷ difficulty (head terms like just "bible" = hard). Long-tail first.
-5. status: planned | published | rejected (+reason in cluster field) | blocked-licence.
+4. SERP check (mandatory, `seo/PLAYBOOK.md` §4): WebSearch every keyword you mark `planned` (max ~10 searches per run; check the top candidates first). Fill the `serp` column with reading / buying / mixed / giants. `giants` → status rejected (reason in cluster) and try a longer variant. A `buying` result raises priority by one level.
+5. Priority: high = clear verse-list or app intent + long-tail + we can serve it with public-domain text; medium; low. Score ≈ demand (autocomplete rank and how many markets suggest it) × intent fit ÷ difficulty (head terms like just "bible" = hard). Long-tail first.
+6. status: planned | published | rejected (+reason in cluster field) | blocked-licence.
 Add at most 15 new rows per run. Keep the CSV sorted by priority then cluster. Reply with a 5-line summary: rows added, top 3 next pages to write.
