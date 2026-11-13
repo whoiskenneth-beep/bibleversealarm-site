@@ -1,0 +1,55 @@
+{
+  "id": "overthinking",
+  "related": ["anxiety", "peace", "sleep", "fear", "faith"],
+  "locales": {
+    "en": {
+      "slug": "overthinking",
+      "title": "Bible Verses for Overthinking: 19 Verses for a Racing Mind",
+      "description": "Bible verses for overthinking, grouped by what your mind is doing: racing thoughts, hard decisions, replaying the past and sleepless nights.",
+      "h1": "Bible verses for overthinking",
+      "intro": "Overthinking is a mind that keeps going after the useful thinking is done: the same conversation replayed, the same decision turned over, the same what-if at 2 a.m. The Bible never uses that word, but it has a lot to say about thoughts, and where to take them. These Bible verses for overthinking are grouped by what your mind is doing right now. If your thoughts feel constant or frightening, please talk to a doctor or counselor as well.",
+      "published": "2026-11-13",
+      "updated": "2026-11-13",
+      "groups": [
+        {
+          "heading": "When your thoughts run ahead of you",
+          "reflection": "Paul uses war language in 2 Corinthians 10, writing to a church that was being second-guessed and argued with. He does not say to have no thoughts. He says to take them captive one at a time and bring them to Christ. Romans 12:2 treats the mind as something renewed over time, not fixed in one sitting. Philippians 4:8, written while Paul was in prison, hands you a short list to think on instead. Colossians 3:2 simply tells you where to point your attention.",
+          "refs": ["2 Corinthians 10:5", "Romans 12:2", "Philippians 4:8", "Colossians 3:2"]
+        },
+        {
+          "heading": "When you can't make the decision",
+          "reflection": "Overthinkers often treat a choice as a puzzle with one hidden right answer. Proverbs 3 is a father's advice to his son, and it pairs trust with asking God which way to go. James says God gives wisdom generously and without scolding you for asking. Proverbs 16 admits that people make plans, then hands the outcome to God. Isaiah 55 is an invitation to come back to God, and it reminds listeners that He sees more than they can. You do not need the whole map for the next step.",
+          "refs": ["Proverbs 3:5-6", "James 1:5", "Psalms 32:8", "Proverbs 16:3", "Proverbs 16:9", "Isaiah 55:8-9"]
+        },
+        {
+          "heading": "When you keep replaying the past",
+          "reflection": "Paul had plenty to replay. By his own account he once persecuted the church, yet in Philippians 3 he says he is leaving what is behind and pressing forward. Isaiah 43 was spoken to a people in exile, pointing them toward something new God was about to do. David writes in Psalm 103 that forgiven sin is carried far away. And 1 John 3:20 speaks straight to the voice in your own head: God is greater than a heart that condemns you.",
+          "refs": ["Philippians 3:13-14", "Isaiah 43:18-19", "Psalms 103:12", "1 John 3:20"]
+        },
+        {
+          "heading": "When your mind won't quiet down",
+          "reflection": "Psalm 131 is only three verses long, and in it David pictures a soul as calm as a weaned child resting with its mother: not demanding answers, just settled. Psalm 46:10 and Psalm 62:1 both invite you to be still before God. Psalm 94:19 is honest that anxiety can overwhelm, and that comfort still reaches you there. In Psalm 139:23-24, David asks God to search his concerns. That is a good prayer when you cannot sort your own thoughts.",
+          "refs": ["Psalms 46:10", "Psalms 131:2", "Psalms 62:1", "Psalms 94:19", "Psalms 139:23-24"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does the Bible say about overthinking?",
+          "a": "The Bible does not use the word, but it speaks to the habit. 2 Corinthians 10:5 talks about taking every thought captive, Philippians 4:8 lists what to dwell on, and Romans 12:2 describes a mind that is renewed over time."
+        },
+        {
+          "q": "How do I stop overthinking as a Christian?",
+          "a": "Name the thought, pray about it, then choose one next step, as Proverbs 16:3 suggests. Pointing your attention on purpose, as Philippians 4:8 and Colossians 3:2 describe, helps. If thoughts feel constant, a counselor can help too."
+        },
+        {
+          "q": "Is overthinking a sin?",
+          "a": "Scripture does not call racing thoughts a sin. In Psalms 139:23-24 David brings his concerns to God, and 1 John 3:20 says God is greater than a heart that condemns you. Bring the thoughts to Him rather than carrying shame about them."
+        },
+        {
+          "q": "What is a good Bible verse for overthinking at night?",
+          "a": "Psalms 131:2 pictures a quieted soul, and Psalms 62:1 says rest is found in God alone. Psalms 46:10 is short enough to repeat quietly when your mind will not settle."
+        }
+      ]
+    }
+  }
+}
