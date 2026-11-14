@@ -13,12 +13,12 @@
   "locales": {
     "es": {
       "slug": "dormir",
-      "title": "17 versículos de la Biblia para dormir en paz",
-      "description": "Versículos de la Biblia para dormir: textos para antes de acostarte, para la noche en vela y para soltar la preocupación. Con reflexiones breves.",
+      "title": "17 versículos y frases de la Biblia para dormir",
+      "description": "Frases de la Biblia para dormir: 17 versículos para antes de acostarte, para la noche en vela y para soltar la preocupación, con reflexiones breves.",
       "h1": "Versículos de la Biblia para dormir",
-      "intro": "Hay noches en que el cuerpo está cansado pero la mente sigue dando vueltas a las cuentas, a una conversación o al día de mañana. Estos versículos están agrupados para ese momento: unos hablan del sueño como regalo de Dios, otros de que Él vela mientras tú descansas, otros de qué hacer cuando no llega el sueño. Léelos despacio, en voz baja, antes de apagar la luz. Si el insomnio se vuelve constante, consulta también a un médico.",
+      "intro": "Para dormir en paz, empieza por Salmos 4:8: David se acuesta y duerme porque Dios lo hace vivir confiado. Abajo hay 17 textos en cuatro grupos: el sueño como regalo, Dios que vela mientras descansas, qué hacer cuando el sueño no llega y descanso para el alma cansada. Léelos despacio, en voz baja, antes de apagar la luz. Si el insomnio se vuelve constante, consulta también a un médico.",
       "published": "2026-10-22",
-      "updated": "2026-10-22",
+      "updated": "2026-11-14",
       "groups": [
         {
           "heading": "El sueño es un regalo de Dios",
@@ -42,7 +42,7 @@
         },
         {
           "heading": "Cuando no llega el sueño",
-          "reflection": "No todos los que oran en la noche duermen bien. David escribió el Salmo 63 en el desierto de Judá, y recuerda a Dios en su lecho y en las vigilias de la noche. El autor del Salmo 119 se despierta antes del amanecer para meditar en la palabra de Dios. La Biblia no condena las noches en vela; propone llenarlas de oración y de memoria de lo que Dios ha hecho por ti, en lugar de repasar tus miedos.",
+          "reflection": "No todos los que oran en la noche duermen bien. David escribió el Salmo 63 en el desierto de Judá, y recuerda a Dios en su lecho y en las vigilias de la noche. El autor del Salmo 119 espera con los ojos abiertos las vigilias de la noche para meditar en la palabra de Dios. La Biblia no condena las noches en vela; propone llenarlas de oración y de memoria de lo que Dios ha hecho por ti, en lugar de repasar tus miedos.",
           "refs": [
             "Psalms 63:6-7",
             "Psalms 119:148",
@@ -65,7 +65,11 @@
       "faq": [
         {
           "q": "¿Qué versículo de la Biblia leer para dormir en paz?",
-          "a": "El más conocido es Salmos 4:8, donde David habla de acostarse en paz y dormir porque Dios lo hace vivir confiado. Proverbios 3:24 y Salmos 121:3-4 también se leen mucho antes de acostarse."
+          "a": "Salmos 4:8 es un buen punto de partida: David habla de acostarse en paz y dormir porque Dios lo hace vivir confiado. Proverbios 3:24 y Salmos 121:3-4 también encajan para leer antes de acostarte."
+        },
+        {
+          "q": "¿Qué frase de la Biblia puedo repetir antes de dormir?",
+          "a": "Elige una frase corta y repítela despacio, por ejemplo la primera mitad de Salmos 4:8 o Salmos 121:3-4. Una sola línea es fácil de recordar cuando la mente da vueltas y te ayuda a volver a la oración."
         },
         {
           "q": "¿Qué dice la Biblia sobre el insomnio?",
