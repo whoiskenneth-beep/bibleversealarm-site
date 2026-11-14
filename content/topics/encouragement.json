@@ -10,7 +10,9 @@
     "comfort",
     "family",
     "birthday"
-  , "youth"],
+  , "youth",
+    "blessing"
+  ],
   "locales": {
     "en": {
       "slug": "encouragement",
