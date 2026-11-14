@@ -162,7 +162,7 @@
  },
  "https://bibleversealarm.com/bible-verses-about/loneliness": {
   "verdict": "NEUTRAL",
-  "coverage": "URL is unknown to Google",
+  "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-11-10",
   "checked": "2026-11-14"
@@ -175,9 +175,9 @@
   "checked": "2026-11-14"
  },
  "https://bibleversealarm.com/bible-verses-about/overthinking": {
-  "verdict": "NEUTRAL",
-  "coverage": "URL is unknown to Google",
-  "lastCrawl": null,
+  "verdict": "PASS",
+  "coverage": "Submitted and indexed",
+  "lastCrawl": "2026-11-14T21:24:17Z",
   "firstSeen": "2026-11-14",
   "checked": "2026-11-14"
  },
@@ -259,15 +259,15 @@
   "checked": "2026-11-14"
  },
  "https://bibleversealarm.com/es/versiculos-biblicos/cumpleanos": {
-  "verdict": "NEUTRAL",
-  "coverage": "URL is unknown to Google",
-  "lastCrawl": null,
+  "verdict": "PASS",
+  "coverage": "Submitted and indexed",
+  "lastCrawl": "2026-11-14T19:26:57Z",
   "firstSeen": "2026-11-14",
   "checked": "2026-11-14"
  },
  "https://bibleversealarm.com/es/versiculos-biblicos/consuelo": {
   "verdict": "NEUTRAL",
-  "coverage": "Discovered - currently not indexed",
+  "coverage": "URL is unknown to Google",
   "lastCrawl": null,
   "firstSeen": "2026-11-04",
   "checked": "2026-11-14"
@@ -294,9 +294,9 @@
   "checked": "2026-11-14"
  },
  "https://bibleversealarm.com/es/versiculos-biblicos/sanidad": {
-  "verdict": "NEUTRAL",
-  "coverage": "URL is unknown to Google",
-  "lastCrawl": null,
+  "verdict": "PASS",
+  "coverage": "Submitted and indexed",
+  "lastCrawl": "2026-11-14T19:21:00Z",
   "firstSeen": "2026-11-10",
   "checked": "2026-11-14"
  },
@@ -309,7 +309,7 @@
  },
  "https://bibleversealarm.com/es/versiculos-biblicos/tristeza": {
   "verdict": "NEUTRAL",
-  "coverage": "URL is unknown to Google",
+  "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-11-13",
   "checked": "2026-11-14"
@@ -328,6 +328,13 @@
   "firstSeen": "2026-10-22",
   "checked": "2026-11-14"
  },
+ "https://bibleversealarm.com/es/versiculos-biblicos/confiar-en-dios": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-11-14",
+  "checked": "2026-11-14"
+ },
  "https://bibleversealarm.com/ko": {
   "verdict": "PASS",
   "coverage": "Submitted and indexed",
@@ -337,7 +344,7 @@
  },
  "https://bibleversealarm.com/ko/about": {
   "verdict": "NEUTRAL",
-  "coverage": "URL is unknown to Google",
+  "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-10-23",
   "checked": "2026-11-14"
@@ -407,7 +414,7 @@
  },
  "https://bibleversealarm.com/ko/malsseum-mudsang-ttet": {
   "verdict": "NEUTRAL",
-  "coverage": "Discovered - currently not indexed",
+  "coverage": "URL is unknown to Google",
   "lastCrawl": null,
   "firstSeen": "2026-11-07",
   "checked": "2026-11-14"
@@ -454,6 +461,20 @@
   "firstSeen": "2026-10-23",
   "checked": "2026-11-14"
  },
+ "https://bibleversealarm.com/ko/seonggu": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-11-14",
+  "checked": "2026-11-14"
+ },
+ "https://bibleversealarm.com/ko/seonggu/wiro": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-11-14",
+  "checked": "2026-11-14"
+ },
  "https://bibleversealarm.com/zh-hans": {
   "verdict": "PASS",
   "coverage": "Submitted and indexed",
@@ -498,7 +519,7 @@
  },
  "https://bibleversealarm.com/zh-hans/lingxiu-buzhou": {
   "verdict": "NEUTRAL",
-  "coverage": "URL is unknown to Google",
+  "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-11-13",
   "checked": "2026-11-14"
@@ -536,6 +557,13 @@
   "coverage": "Submitted and indexed",
   "lastCrawl": "2026-10-23T21:35:20Z",
   "firstSeen": "2026-10-22",
+  "checked": "2026-11-14"
+ },
+ "https://bibleversealarm.com/zh-hans/jingwen/blessing": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-11-14",
   "checked": "2026-11-14"
  },
  "https://bibleversealarm.com/zh-hans/jingwen/comfort": {
@@ -596,7 +624,7 @@
  },
  "https://bibleversealarm.com/zh-hans/jingwen/youth": {
   "verdict": "NEUTRAL",
-  "coverage": "URL is unknown to Google",
+  "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-11-11",
   "checked": "2026-11-14"
@@ -685,6 +713,13 @@
   "firstSeen": "2026-10-22",
   "checked": "2026-11-14"
  },
+ "https://bibleversealarm.com/zh-hant/jingwen/blessing": {
+  "verdict": "NEUTRAL",
+  "coverage": "URL is unknown to Google",
+  "lastCrawl": null,
+  "firstSeen": "2026-11-14",
+  "checked": "2026-11-14"
+ },
  "https://bibleversealarm.com/zh-hant/jingwen/comfort": {
   "verdict": "PASS",
   "coverage": "Submitted and indexed",
@@ -701,7 +736,7 @@
  },
  "https://bibleversealarm.com/zh-hant/jingwen/encouragement": {
   "verdict": "NEUTRAL",
-  "coverage": "URL is unknown to Google",
+  "coverage": "Discovered - currently not indexed",
   "lastCrawl": null,
   "firstSeen": "2026-11-07",
   "checked": "2026-11-14"

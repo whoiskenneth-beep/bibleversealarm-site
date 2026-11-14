@@ -1,5 +1,5 @@
 {
- "cursor": 0,
+ "cursor": 3,
  "suggestions": {
   "versículos de la biblia para reflexionar": {
    "seed": "versículos de la biblia para",
@@ -13738,6 +13738,12 @@
   },
   "oración de la mañana para agradecer a dios por un nuevo día": {
    "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "textos bíblicos para jovenes": {
+   "seed": "textos bíblicos para",
    "markets": [
     "mx"
    ]
