@@ -1,5 +1,5 @@
 {
- "cursor": 9,
+ "cursor": 0,
  "suggestions": {
   "bible verses about love": {
    "seed": "bible verses about",
@@ -13323,6 +13323,12 @@
   },
   "verse of the day october 16": {
    "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses about strength in marriage": {
+   "seed": "bible verses about strength",
    "markets": [
     "us"
    ]
