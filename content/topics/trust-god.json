@@ -1,0 +1,83 @@
+{
+  "id": "trust-god",
+  "related": [
+    "anxiety",
+    "fear",
+    "strength",
+    "encouragement",
+    "comfort"
+  ],
+  "locales": {
+    "es": {
+      "slug": "confiar-en-dios",
+      "title": "18 versículos de la Biblia para confiar en Dios",
+      "description": "Textos bíblicos para confiar en Dios cuando no ves salida: qué dijo cada autor, a quién y en qué situación. Reina-Valera 1909, en 4 grupos.",
+      "h1": "Versículos de la Biblia para confiar en Dios",
+      "intro": "Confiar en Dios es apoyar tu peso en él cuando no controlas el resultado, y la Biblia lo enseña sobre todo con personas que tuvieron que hacerlo en situaciones difíciles: un rey ante el ejército enemigo, un profeta sin cosecha, un hombre que lo perdió todo. Estos versículos están agrupados según la pregunta que traes: cómo empezar, dónde poner la mirada, qué hacer cuando nada tiene sentido y qué razones da la Escritura para fiarte. Si lo que sientes es más bien una preocupación que no te suelta, ve primero a los versículos para la ansiedad.",
+      "published": "2026-11-14",
+      "updated": "2026-11-14",
+      "groups": [
+        {
+          "heading": "Entregar tu camino y dejar de apoyarte solo en tu cálculo",
+          "reflection": "Proverbios es un libro de sabiduría práctica, atribuido en buena parte a Salomón, y aquí no habla de ideas abstractas sino de decisiones diarias. Fíate, encomienda, reconoce: son verbos de acción, no de emoción. El Salmo 62 va un paso más allá y invita a derramar el corazón delante de Dios, es decir, a orar con franqueza. Confiar no significa dejar de pensar ni de trabajar; significa poner tus planes en sus manos y no quedarte con ellos apretados.",
+          "refs": [
+            "Proverbs 3:5-6",
+            "Psalms 37:5",
+            "Proverbs 16:3",
+            "Psalms 62:8"
+          ]
+        },
+        {
+          "heading": "Poner la mirada donde no falla",
+          "reflection": "El Salmo 20 es una oración por el rey antes de salir a la batalla, y en una época en que los carros y los caballos eran la fuerza militar, el salmista decide recordar el nombre del Señor. El Salmo 118 repite la comparación con una frase sencilla sobre los hombres y los príncipes. Nahúm escribe a un pueblo oprimido por Nínive, y le asegura que Dios conoce a quienes se refugian en él. Todos coinciden en algo: la seguridad verdadera no depende de lo que se ve fuerte.",
+          "refs": [
+            "Psalms 20:7",
+            "Psalms 118:8-9",
+            "Psalms 9:10",
+            "Psalms 125:1",
+            "Nahum 1:7"
+          ]
+        },
+        {
+          "heading": "Cuando no entiendes lo que está pasando",
+          "reflection": "Nadie escribió estos versículos desde la comodidad. Job habla ante sus amigos, con el cuerpo enfermo y la familia perdida, y aun así se niega a soltar a Dios. Habacuc describe campos sin fruto ante una invasión que se acerca, y elige alegrarse de todos modos. David camina por un valle oscuro y dice que no está solo. Isaías 50:10 se dirige a quien anda sin luz, y no le ofrece una explicación sino una instrucción: apóyate en tu Dios.",
+          "refs": [
+            "Job 13:15",
+            "Habakkuk 3:17-18",
+            "Psalms 23:4",
+            "Isaiah 50:10"
+          ]
+        },
+        {
+          "heading": "¿Por qué se puede fiar uno de él?",
+          "reflection": "La confianza necesita razones, y la Biblia las da. Números 23 registra lo que dijo Balaam, un adivino contratado para maldecir a Israel, y tuvo que reconocer que Dios no miente ni cambia de parecer. Lamentaciones fue escrito tras la caída de Jerusalén, y en medio del dolor el autor recuerda que la fidelidad de Dios se renueva cada mañana. Pablo escribe a los romanos y a los filipenses desde su propia experiencia de prueba, y afirma que Dios obra y que provee.",
+          "refs": [
+            "Numbers 23:19",
+            "Lamentations 3:22-23",
+            "Isaiah 12:2",
+            "Romans 8:28",
+            "Philippians 4:19"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Qué versículo empiezo a leer para aprender a confiar en Dios?",
+          "a": "Proverbios 3:5-6 es un buen punto de partida. Forma parte de los consejos de un padre a su hijo e invita a fiarte de Dios de todo corazón y a no apoyarte solo en tu propio entendimiento."
+        },
+        {
+          "q": "¿Qué hago si me cuesta confiar porque he sido decepcionado?",
+          "a": "Empieza con poco: ora con sinceridad, como en el Salmo 62:8, y cuéntale lo que sientes. Los salmistas y Job dudaron en voz alta y Dios no los rechazó. Hablarlo con un pastor o un amigo de fe también ayuda."
+        },
+        {
+          "q": "¿Confiar en Dios quiere decir que todo saldrá bien?",
+          "a": "No siempre como esperamos. Habacuc 3:17-18 se escribió pensando en una cosecha perdida y aun así afirma alegría en Dios. La promesa bíblica es su presencia y su fidelidad, no la ausencia de problemas."
+        },
+        {
+          "q": "¿Cómo puedo aprender estos textos de memoria?",
+          "a": "Elige uno y repítelo cada mañana durante una semana. Bible Verse Alarm es una app para iPhone cuya alarma suena hasta que completas un versículo, y puedes escoger cuáles usar; incluye la Reina-Valera 1909."
+        }
+      ]
+    }
+  }
+}
