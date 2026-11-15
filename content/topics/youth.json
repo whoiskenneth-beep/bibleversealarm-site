@@ -1,7 +1,85 @@
 {
   "id": "youth",
-  "related": ["encouragement", "courage", "strength", "faith", "hope"],
+  "related": [
+    "encouragement",
+    "strength",
+    "trust-god",
+    "courage",
+    "faith"
+  ],
   "locales": {
+    "es": {
+      "slug": "jovenes",
+      "title": "19 versículos de la Biblia para jóvenes y estudiantes",
+      "description": "Textos bíblicos para jóvenes: cuando te subestiman, te presionan, no sabes qué estudiar o te falta valor. Reina-Valera 1909, con reflexión breve.",
+      "h1": "Versículos bíblicos para jóvenes: ánimo, decisiones y valentía",
+      "intro": "¿Qué dice la Biblia a los jóvenes? Bastante, y varios pasajes fueron escritos para gente de tu edad: Timoteo, Jeremías y Daniel tenían poca experiencia cuando Dios los puso a trabajar. Aquí van diecinueve textos en cuatro grupos, según lo que suele pasar a esta edad: que te subestimen, que te presionen tus amigos, que no sepas qué camino tomar o que sientas que no das la talla. Léelos tú, o anota uno en una tarjeta para alguien que esté en exámenes, en la graduación o en su primer empleo. Todo está en la Reina-Valera 1909.",
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "groups": [
+        {
+          "heading": "Cuando te subestiman por tu edad",
+          "reflection": "Pablo le escribió a Timoteo, un joven que dirigía la iglesia en Éfeso, y no le dijo que discutiera con quienes lo menospreciaban, sino que fuera ejemplo en su manera de hablar, de vivir, de amar y de creer. Cuando Dios llamó a Jeremías, este se excusó diciendo que era muy joven, y la respuesta fue que Dios lo enviaba y estaría con él. El salmista del Salmo 71, ya mayor, recuerda que Dios lo acompañó desde su juventud.",
+          "refs": [
+            "1 Timothy 4:12",
+            "Jeremiah 1:7-8",
+            "Psalms 71:5",
+            "Psalms 71:17"
+          ]
+        },
+        {
+          "heading": "Presión de grupo y tentaciones",
+          "reflection": "El Salmo 119:9 hace la pregunta que muchos se hacen en silencio, y responde con algo sencillo: guardar la palabra de Dios, tenerla dentro. Daniel era un joven desterrado en Babilonia, lejos de su familia, y aun así decidió no contaminarse con la comida del rey. En Proverbios, un padre le advierte a su hijo que no ceda cuando lo inviten a hacer lo malo. Pablo añade en Romanos que el cambio empieza por la mente.",
+          "refs": [
+            "Psalms 119:9",
+            "Psalms 119:11",
+            "Daniel 1:8",
+            "Proverbs 1:10",
+            "Proverbs 4:23",
+            "Romans 12:2"
+          ]
+        },
+        {
+          "heading": "Cuando no sabes qué camino tomar",
+          "reflection": "Elegir carrera, trabajo o ciudad da vértigo. Proverbios 3:5-6 no promete un mapa completo, sino un guía: confiar en Dios y no apoyarse solo en la propia cabeza. Santiago invita a pedirle sabiduría a Dios, que da sin reprochar. En el Sermón del Monte, Jesús dice que lo primero es buscar el reino de Dios. Y el Predicador de Eclesiastés aconseja acordarse del Creador desde la juventud, sin esperar a tener la vida resuelta.",
+          "refs": [
+            "Proverbs 3:5-6",
+            "Psalms 32:8",
+            "James 1:5",
+            "Matthew 6:33",
+            "Ecclesiastes 12:1"
+          ]
+        },
+        {
+          "heading": "Cuando sientes que no puedes con todo",
+          "reflection": "Tras la muerte de Moisés, Dios le dijo a Josué que fuera valiente, y la razón no era su talento sino que Dios iría con él. Isaías 40 se dirigió a un pueblo desterrado y cansado, y reconoce con franqueza que hasta los jóvenes se agotan; las fuerzas nuevas vienen de esperar en Dios. El Salmo 139 lleva a alabar a Dios por sus obras, y Juan, en su primera carta, les dice a los jóvenes que son fuertes porque la palabra de Dios permanece en ellos.",
+          "refs": [
+            "Joshua 1:9",
+            "Psalms 139:14",
+            "Isaiah 40:30-31",
+            "1 John 2:14"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Cuál es un buen versículo bíblico para un joven que empieza a estudiar?",
+          "a": "Proverbios 3:5-6 es una opción clásica: invita a confiar en Dios sin dejar de usar la cabeza. Si lo que necesita es ánimo, Josué 1:9 también funciona bien. Puedes escribirlo en una tarjeta o mandarlo por mensaje."
+        },
+        {
+          "q": "¿Qué versículos hablan directamente a los jóvenes?",
+          "a": "Los más directos son 1 Timoteo 4:12, Salmo 119:9, Eclesiastés 12:1 y 1 Juan 2:14. Los cuatro mencionan la juventud, y cada uno fue escrito en un contexto distinto: una carta pastoral, un salmo, un libro de sabiduría y una carta apostólica."
+        },
+        {
+          "q": "¿Jeremías 29:11 es una promesa para los jóvenes?",
+          "a": "No exactamente. Es parte de una carta del profeta a los judíos desterrados en Babilonia. Muestra que Dios tiene buenos planes para su pueblo, pero no garantiza que cada meta personal se cumpla. Aun así, anima a quien está confundido por su futuro."
+        },
+        {
+          "q": "¿Cómo puedo leer la Biblia todos los días siendo joven?",
+          "a": "Empieza con un solo versículo y a la misma hora. Bible Verse Alarm es una app para iPhone cuya alarma suena hasta que completas un versículo que tú elegiste; así tu primer minuto del día es para la Palabra y no para las redes."
+        }
+      ]
+    },
     "zh-hant": {
       "slug": "youth",
       "title": "鼓勵年輕人的經文：18節給青年學子的金句",
@@ -14,22 +92,44 @@
         {
           "heading": "被人小看年輕的時候",
           "reflection": "保羅寫信給年輕的同工提摩太，要他不要讓人小看他的年輕，辦法不是爭辯，而是在言語、行為、愛心、信心、清潔上作榜樣。耶利米被呼召時也說自己年幼，神的回答是：祂差遣他去，也與他同在。詩篇 71 的作者年紀已長，回頭看，從年幼起神就是他的倚靠和老師。年輕不是缺點，而是神可以從早年開始帶領的起點。",
-          "refs": ["1 Timothy 4:12", "Jeremiah 1:7-8", "Psalms 71:5", "Psalms 71:17"]
+          "refs": [
+            "1 Timothy 4:12",
+            "Jeremiah 1:7-8",
+            "Psalms 71:5",
+            "Psalms 71:17"
+          ]
         },
         {
           "heading": "在誘惑與同儕壓力中守住自己",
           "reflection": "詩篇 119:9 問的就是年輕人的問題：少年人要怎樣保持行為純潔？答案很樸實，就是遵行神的話，並把話藏在心裡。但以理少年時被擄到巴比倫，在陌生的王宮裡仍然立志不玷污自己。箴言 4:23 提醒，一生的果效由心發出；羅馬書 12:2 則說，不被世界模子塑造，要從心意更新開始。守住自己不靠單純的意志力，而是靠日復一日被神的話充滿。",
-          "refs": ["Psalms 119:9", "Psalms 119:11", "Daniel 1:8", "Proverbs 4:23", "Romans 12:2"]
+          "refs": [
+            "Psalms 119:9",
+            "Psalms 119:11",
+            "Daniel 1:8",
+            "Proverbs 4:23",
+            "Romans 12:2"
+          ]
         },
         {
           "heading": "不知道將來要走哪條路",
           "reflection": "選科系、選工作、選方向，都讓人焦慮。箴言 3:5-6 並沒有說神會一次給你整張地圖，而是說，倚靠祂、凡事認定祂，祂必指引你的路。耶利米書 29:11 是先知寫給被擄到巴比倫的百姓的信，應許的是神對祂百姓有美好的心意，不是保證每個計畫都照我們所想的發生。傳道書 12:1 勸人趁年幼就記念造他的主，因為信靠神不必等到人生穩定之後。",
-          "refs": ["Proverbs 3:5-6", "Psalms 37:4-5", "Jeremiah 29:11", "Matthew 6:33", "Ecclesiastes 12:1"]
+          "refs": [
+            "Proverbs 3:5-6",
+            "Psalms 37:4-5",
+            "Jeremiah 29:11",
+            "Matthew 6:33",
+            "Ecclesiastes 12:1"
+          ]
         },
         {
           "heading": "覺得自己不夠好、沒有勇氣的時候",
           "reflection": "摩西過世後，神對接棒的約書亞說要剛強壯膽，理由是祂必與他同在。保羅也提醒提摩太，神賜給我們的不是膽怯的心，而是剛強、仁愛、謹守的心。詩篇 139:14 提供另一個起點：你是被神奇妙造成的，價值不用靠成績或別人的眼光來證明。以賽亞書 40 說得很誠實，連少年人也會疲乏困倦，但等候耶和華的必重新得力。",
-          "refs": ["Joshua 1:9", "2 Timothy 1:7", "Psalms 139:14", "Isaiah 40:30-31"]
+          "refs": [
+            "Joshua 1:9",
+            "2 Timothy 1:7",
+            "Psalms 139:14",
+            "Isaiah 40:30-31"
+          ]
         }
       ],
       "faq": [

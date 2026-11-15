@@ -1,0 +1,81 @@
+{
+  "id": "perseverance",
+  "related": [
+    "strength",
+    "courage",
+    "hope",
+    "encouragement",
+    "depression"
+  ],
+  "locales": {
+    "en": {
+      "slug": "not-giving-up",
+      "title": "16 Bible Verses About Not Giving Up When You're Tired",
+      "description": "Bible verses about not giving up when the road is long: 16 passages on endurance, getting back up after a fall, and mercy for tomorrow, with short notes.",
+      "h1": "Bible verses about not giving up",
+      "intro": "The Bible's answer to wanting to quit is to keep going, with God holding you up as you do. Most of these verses were written to people in prison, under pressure or far from home. They are grouped by what is making you stop: distance, a fall, a long wait or plain exhaustion.",
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "groups": [
+        {
+          "heading": "When the finish line feels far away",
+          "reflection": "Paul wrote Galatians to churches that were tempted to drop the faith he had taught them, and he promised a harvest to those who stay at it. In Philippians 3 he writes from a Roman prison and says he has not arrived yet. He just keeps pressing on. The writer of Hebrews, whose name we do not know, tells weary Christians to look at Jesus. Near the end of his life Paul could say he had finished the race.",
+          "refs": [
+            "Galatians 6:9",
+            "Hebrews 12:2-3",
+            "Philippians 3:13-14",
+            "2 Timothy 4:7-8"
+          ]
+        },
+        {
+          "heading": "When you fall and want to stay down",
+          "reflection": "These verses assume you will fall. Proverbs 24:16 treats stumbling as normal and getting up as the mark of the righteous. David, who knew failure well, wrote in Psalm 37 that the Lord holds the hand of the one who falls. Micah 7:8 is the prophet speaking for a nation in the dark, and he still says he will rise. Psalm 145:14 adds that God lifts those bowed down.",
+          "refs": [
+            "Proverbs 24:16",
+            "Psalms 37:23-24",
+            "Micah 7:8",
+            "Psalms 145:14"
+          ]
+        },
+        {
+          "heading": "What endurance builds in you",
+          "reflection": "James wrote to Jewish believers scattered by hardship, and he does not call trials pleasant. He says testing grows perseverance, and perseverance matures you. Hebrews 10 was also written to people who had already lost property and standing for their faith, and it urges them not to throw away confidence now. Paul's short line in Romans 12:12 gives three habits for the wait: hope, patience and prayer.",
+          "refs": [
+            "James 1:2-4",
+            "James 1:12",
+            "Romans 12:12",
+            "Hebrews 10:35-36"
+          ]
+        },
+        {
+          "heading": "Mercy that starts over tomorrow",
+          "reflection": "Lamentations was written after Jerusalem fell, yet in the middle of the ruins it says God's mercies are new every morning. That matters if you failed yesterday. Jesus told the parable behind Luke 18:1 so his followers would pray and not lose heart. Paul prays in Colossians that God would give endurance and patience. Jesus's words to the church in Smyrna promise the crown of life to the faithful.",
+          "refs": [
+            "Lamentations 3:22-23",
+            "Luke 18:1",
+            "Colossians 1:11",
+            "Revelation 2:10"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best Bible verse for when you want to give up?",
+          "a": "Galatians 6:9 is the most direct: do not grow weary of doing good, because a harvest comes in due time if you do not give up. Hebrews 12:3 and Psalm 37:24 are good short alternatives."
+        },
+        {
+          "q": "What does the Bible say about quitting?",
+          "a": "It never treats tiredness as sin. It does call believers to endure, as in Hebrews 10:36 and James 1:12, and it says God holds up those who fall (Psalm 145:14). Rest and perseverance sit side by side."
+        },
+        {
+          "q": "How do I keep going when nothing is changing?",
+          "a": "Paul's pattern in Philippians 3:13-14 is to look ahead and take the next step. Romans 12:12 adds hope, patience and prayer. Pick one verse and return to it daily so you are not relying on feelings."
+        },
+        {
+          "q": "Is there a Bible verse about getting back up after failing?",
+          "a": "Yes. Proverbs 24:16 says the righteous fall seven times and rise again, and Micah 7:8 says, though I have fallen, I will arise. Lamentations 3:22-23 reminds you mercy is new each morning."
+        }
+      ]
+    }
+  }
+}

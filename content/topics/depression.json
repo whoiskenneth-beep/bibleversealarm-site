@@ -1,6 +1,13 @@
 {
   "id": "depression",
-  "related": ["comfort", "hope", "loneliness", "anxiety", "strength"],
+  "related": [
+    "comfort",
+    "hope",
+    "loneliness",
+    "anxiety",
+    "strength",
+    "perseverance"
+  ],
   "locales": {
     "en": {
       "slug": "depression",
@@ -14,27 +21,51 @@
         {
           "heading": "Psalms that say how bad it feels",
           "reflection": "You are allowed to pray without tidying up your feelings first. These psalms are written prayers, kept in Scripture for exactly such days. David asks \"How long?\" in Psalm 13 and groans through the night in Psalm 6. Psalm 143 describes a spirit growing faint. Psalm 88, from the sons of Korah, is the bleakest. It still opens by addressing God as the God of my salvation, so even despair is brought to him.",
-          "refs": ["Psalms 13:1-2", "Psalms 6:6-7", "Psalms 143:3-4", "Psalms 88:1-4"]
+          "refs": [
+            "Psalms 13:1-2",
+            "Psalms 6:6-7",
+            "Psalms 143:3-4",
+            "Psalms 88:1-4"
+          ]
         },
         {
           "heading": "People of faith who reached their limit",
           "reflection": "Deep weariness has happened to people God used. In 1 Kings 19, Elijah is exhausted and afraid, and asks to die. God's first response is a nap, food and water, not a lecture. Paul tells the Corinthians in 2 Corinthians 1 that he felt crushed beyond his strength and despaired even of life. In 2 Corinthians 4 he says he was perplexed but not in despair. In Psalm 42 the writer talks to his own soul and tells it to hope.",
-          "refs": ["1 Kings 19:3-8", "2 Corinthians 1:8-9", "2 Corinthians 4:8-9", "Psalms 42:5-6"]
+          "refs": [
+            "1 Kings 19:3-8",
+            "2 Corinthians 1:8-9",
+            "2 Corinthians 4:8-9",
+            "Psalms 42:5-6"
+          ]
         },
         {
           "heading": "God is close to the crushed",
           "reflection": "These verses say God moves toward people who are low, not away. Psalm 34 says he is near the brokenhearted, and Psalm 147 says he binds up their wounds. Isaiah 42 promises that a bruised reed will not be broken, a picture of someone fragile being handled gently. Psalm 130 is a song for pilgrims, and Psalm 40 recalls being lifted from a pit. The two prayers cry from the depths. They do not claim the climb was quick.",
-          "refs": ["Psalms 34:18", "Psalms 147:3", "Isaiah 42:3", "Psalms 130:1-2", "Psalms 40:1-3"]
+          "refs": [
+            "Psalms 34:18",
+            "Psalms 147:3",
+            "Isaiah 42:3",
+            "Psalms 130:1-2",
+            "Psalms 40:1-3"
+          ]
         },
         {
           "heading": "Is it okay to get help? What the Bible shows",
           "reflection": "Yes. Seeking medical or pastoral help fits what Scripture shows. Jesus, in Mark 2, uses an everyday line that the sick need a doctor, and he does not object to doctors. Paul advises Timothy in 1 Timothy 5 to take something for his stomach and frequent ailments. Galatians 6 tells believers to carry one another's burdens. Proverbs 12 notes that a kind word lifts a weighed-down heart. Depression is often more than a spiritual problem, so a doctor, counselor and church can work together.",
-          "refs": ["Mark 2:17", "1 Timothy 5:23", "Galatians 6:2", "Proverbs 12:25"]
+          "refs": [
+            "Mark 2:17",
+            "1 Timothy 5:23",
+            "Galatians 6:2",
+            "Proverbs 12:25"
+          ]
         },
         {
           "heading": "Hope that comes back slowly",
           "reflection": "Hope in these verses usually returns in stages, not all at once. In Psalm 71, the writer says God will revive him again after many troubles, so recovery is something he expects but has not yet seen. Paul's prayer in Romans 15 asks God to fill the church in Rome with hope by the Holy Spirit. It is a prayer for you, not something to manufacture. On a bad day, borrowing someone else's hope is enough.",
-          "refs": ["Psalms 71:20-21", "Romans 15:13"]
+          "refs": [
+            "Psalms 71:20-21",
+            "Romans 15:13"
+          ]
         }
       ],
       "faq": [
