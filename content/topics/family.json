@@ -1,6 +1,14 @@
 {
   "id": "family",
-  "related": ["comfort", "encouragement", "strength", "morning", "anxiety", "birthday"],
+  "related": [
+    "comfort",
+    "encouragement",
+    "strength",
+    "morning",
+    "anxiety",
+    "birthday",
+    "grief"
+  ],
   "locales": {
     "es": {
       "slug": "familia",
@@ -14,22 +22,42 @@
         {
           "heading": "Dios en el centro de la casa",
           "reflection": "Josué habló en Siquem al final de su vida, ante todas las tribus, y puso la decisión sobre la mesa: él y su casa servirían a Jehová. El Salmo 127 es un cántico de peregrinos atribuido a Salomón y recuerda que ningún esfuerzo sostiene un hogar si Dios no lo sostiene. Deuteronomio es Moisés hablando a un pueblo a punto de entrar a la tierra: la fe se enseña en lo cotidiano, en la casa y en el camino.",
-          "refs": ["Joshua 24:15", "Psalms 127:1", "Deuteronomy 6:6-7", "Proverbs 14:1"]
+          "refs": [
+            "Joshua 24:15",
+            "Psalms 127:1",
+            "Deuteronomy 6:6-7",
+            "Proverbs 14:1"
+          ]
         },
         {
           "heading": "Unidad y perdón en casa",
           "reflection": "El Salmo 133 también era un cántico de peregrinos y celebra lo bueno que es convivir en armonía. Pablo escribió Colosenses y Efesios a iglesias, pero sus consejos de paciencia, humildad y perdón calzan muy bien en una casa donde hay roces diarios. Pedro, escribiendo a cristianos que sufrían presión, pide un cariño intenso entre ellos, porque ese cariño sabe pasar por alto muchas faltas. Pedir perdón primero ya es construir unidad.",
-          "refs": ["Psalms 133:1", "Colossians 3:12-14", "Ephesians 4:2-3", "1 Peter 4:8"]
+          "refs": [
+            "Psalms 133:1",
+            "Colossians 3:12-14",
+            "Ephesians 4:2-3",
+            "1 Peter 4:8"
+          ]
         },
         {
           "heading": "Padres e hijos",
           "reflection": "El mandato de honrar a los padres viene del Sinaí y Pablo lo retoma en Efesios, dirigiéndose a los hijos y también a los padres: a ellos les pide no exasperar a los suyos. Proverbios 22:6 es un proverbio, un principio general de sabiduría y no una garantía para cada caso. El Salmo 103 muestra a Dios como un padre compasivo, un buen modelo para quien cría. Y el Salmo 127:3 recuerda que los hijos son un regalo, no una carga.",
-          "refs": ["Ephesians 6:1-4", "Exodus 20:12", "Proverbs 22:6", "Psalms 103:13", "Psalms 127:3"]
+          "refs": [
+            "Ephesians 6:1-4",
+            "Exodus 20:12",
+            "Proverbs 22:6",
+            "Psalms 103:13",
+            "Psalms 127:3"
+          ]
         },
         {
           "heading": "Bendición y fe para toda la casa",
           "reflection": "Números 6 guarda la bendición que Dios mandó a Moisés enseñar a Aarón y a sus hijos para pronunciarla sobre el pueblo; muchas familias la usan hoy para bendecir a sus hijos. En Hechos 16, Pablo y Silas hablaron con un carcelero de Filipos después de un terremoto, y le ofrecieron la salvación a él y a los suyos. Cada quien responde por sí mismo, pero la promesa es para toda la casa. El Salmo 128 pinta una mesa llena de gente bajo la bendición de Dios.",
-          "refs": ["Numbers 6:24-26", "Acts 16:31", "Psalms 128:1-4"]
+          "refs": [
+            "Numbers 6:24-26",
+            "Acts 16:31",
+            "Psalms 128:1-4"
+          ]
         }
       ],
       "faq": [
