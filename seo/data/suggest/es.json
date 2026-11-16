@@ -1,5 +1,5 @@
 {
- "cursor": 3,
+ "cursor": 6,
  "suggestions": {
   "versículos de la biblia para reflexionar": {
    "seed": "versículos de la biblia para",
@@ -13744,6 +13744,43 @@
   },
   "textos bíblicos para jovenes": {
    "seed": "textos bíblicos para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana del 15 de noviembre del 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana de hoy 15 de noviembre del 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana de hoy domingo 15 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana de hoy domingo 15 de noviembre del 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana de hoy 15 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana del 15 de noviembre": {
+   "seed": "oración de la mañana",
    "markets": [
     "mx"
    ]
