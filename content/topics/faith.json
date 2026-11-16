@@ -1,6 +1,6 @@
 {
   "id": "faith",
-  "related": ["strength", "fear", "encouragement", "anxiety", "peace", "youth"],
+  "related": ["strength", "fear", "encouragement", "anxiety", "peace", "youth", "key-verses", "seonggyeong-amsong-gujeol"],
   "locales": {
     "zh-hant": {
       "slug": "faith",
