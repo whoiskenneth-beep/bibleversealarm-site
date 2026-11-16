@@ -83,15 +83,15 @@
     },
     "es": {
       "slug": "animar",
-      "title": "16 versículos de la Biblia para animar a quien está caído",
-      "description": "Textos bíblicos de aliento para cuando te sientes desanimado o solo, y para levantar a otros. Reina-Valera 1909, en 4 grupos con reflexión breve.",
-      "h1": "Versículos de la Biblia para animar el corazón",
-      "intro": "¿Qué versículo de la Biblia sirve para animar? Los que recuerdan que Dios está contigo cuando las fuerzas se acaban. Aquí tienes dieciséis textos en cuatro grupos: cuando estás desanimado, cuando te sientes solo, cuando quieres levantar a otra persona y cuando necesitas esperanza para lo que viene. Muchos de estos pasajes fueron escritos por gente en el destierro, perseguida o bajo presión, así que no son frases de cartel. Lee el grupo que se parezca a tu día y, si puedes, comparte uno con alguien que lo necesite hoy.",
+      "title": "Versículos de ánimo: 16 textos bíblicos para animar",
+      "description": "Texto bíblico de ánimo y versículos de aliento para el día difícil, la soledad o para levantar a otros. Reina-Valera 1909, 16 citas en 4 grupos.",
+      "h1": "Versículos de aliento para levantar el corazón",
+      "intro": "Un texto bíblico de ánimo recuerda que Dios está contigo cuando las fuerzas se acaban. Son 16 versículos en cuatro grupos: cuando estás abatido, cuando te sientes solo, cuando quieres fortalecer a otra persona y cuando necesitas esperanza para lo que viene. Lee el grupo que se parezca a tu día.",
       "published": "2026-11-05",
-      "updated": "2026-11-05",
+      "updated": "2026-11-16",
       "groups": [
         {
-          "heading": "Cuando estás desanimado",
+          "heading": "Cuando estás abatido",
           "reflection": "El Salmo 42 es un hombre hablándole a su propia alma: le pregunta por qué está tan abatida y se contesta que espere en Dios. No finge que el peso desapareció. Isaías 43 le habla a Israel y no promete que no habrá aguas ni fuego, sino que Dios estará en medio. Pablo, en 2 Corintios 4, admite que el cuerpo se desgasta, pero dice que por dentro hay una renovación diaria. Puedes estar cansado y esperar a la vez.",
           "refs": [
             "Psalms 42:11",
@@ -102,7 +102,7 @@
         },
         {
           "heading": "Cuando te sientes solo",
-          "reflection": "Moisés dijo Deuteronomio 31:8 a Josué delante de todo Israel, cuando él mismo ya no iba a cruzar el Jordán. El consuelo no era un plan, sino que Jehová iría delante. Isaías 41 fue dirigido a un pueblo temeroso, y habla de una mano que sostiene la tuya. Sofonías describe a un Dios que se alegra por su pueblo. Y Pablo termina Romanos 8 con una lista de cosas que no pueden separarnos del amor de Cristo.",
+          "reflection": "En Deuteronomio 31 Moisés le dice a Josué delante de todo Israel, cuando él mismo ya no iba a cruzar el Jordán. El consuelo no era un plan, sino que Jehová iría delante. Isaías 41 fue dirigido a un pueblo temeroso, y habla de una mano que sostiene la tuya. Sofonías describe a un Dios que se alegra por su pueblo. Y Pablo termina Romanos 8 con una lista de cosas que no pueden separarnos del amor de Cristo.",
           "refs": [
             "Deuteronomy 31:8",
             "Isaiah 41:13",
@@ -111,8 +111,8 @@
           ]
         },
         {
-          "heading": "Para animar a otra persona",
-          "reflection": "En el Nuevo Testamento, animarse unos a otros no es un don reservado a pocos, sino una costumbre de la iglesia. Pablo escribe a los tesalonicenses, que sufrían persecución, y les pide edificarse entre sí. Hebreos fue dirigido a creyentes cansados y los invita a no abandonar la reunión y a exhortarse cada día. Proverbios añade algo muy práctico: una palabra suave le hace bien al alma. A veces basta un mensaje corto y sincero.",
+          "heading": "Para fortalecer a otra persona",
+          "reflection": "En el Nuevo Testamento, edificarse unos a otros no es un don reservado a pocos, sino una costumbre de la iglesia. Pablo escribe a los tesalonicenses, que sufrían persecución, y les pide edificarse entre sí. Hebreos fue dirigido a creyentes cansados y los invita a no abandonar la reunión y a exhortarse cada día. Proverbios añade algo muy práctico: una palabra suave le hace bien al alma. A veces basta un mensaje corto y sincero.",
           "refs": [
             "1 Thessalonians 5:11",
             "Hebrews 10:24-25",
@@ -133,11 +133,11 @@
       ],
       "faq": [
         {
-          "q": "¿Cuál es un buen versículo de la Biblia para animar a alguien?",
-          "a": "Salmos 42:11 sirve para un día de desánimo y Deuteronomio 31:8 para quien se siente solo. Para animar a un amigo, 1 Tesalonicenses 5:11 es un buen comienzo. Añade una línea personal explicando por qué pensaste en esa persona."
+          "q": "¿Cuál es un buen versículo de la Biblia para dar aliento a alguien?",
+          "a": "Salmos 42:11 sirve para un día de desánimo y Deuteronomio 31:8 para quien se siente solo. Para levantar a un amigo, 1 Tesalonicenses 5:11 es un buen comienzo. Añade una línea personal explicando por qué pensaste en esa persona."
         },
         {
-          "q": "¿Qué dice la Biblia sobre animar a los demás?",
+          "q": "¿Qué dice la Biblia sobre edificar y exhortar a los demás?",
           "a": "La Biblia lo presenta como hábito diario de la iglesia. 1 Tesalonicenses 5:11 pide edificarse unos a otros, y Hebreos 3:13 dice hacerlo cada día. Hebreos 10:24-25 lo une a reunirse con otros creyentes."
         },
         {
@@ -146,14 +146,10 @@
         },
         {
           "q": "¿Qué texto bíblico ayuda cuando uno se siente sin fuerzas?",
-          "a": "Salmos 27:13-14 anima a aguardar y a esforzarse, y 2 Corintios 4:16 habla de una renovación interior diaria. Para otro enfoque, el grupo de fortaleza de esta web reúne pasajes sobre el cansancio."
+          "a": "Salmos 27:13-14 invita a aguardar y a esforzarse, y 2 Corintios 4:16 habla de una renovación interior diaria. Para otro enfoque, el grupo de fortaleza de esta web reúne pasajes sobre el cansancio."
         },
         {
-          "q": "¿Es lo mismo animar que consolar?",
-          "a": "No del todo. Consolar acompaña a quien sufre una pérdida; animar levanta el ánimo para seguir adelante. En 1 Tesalonicenses 5:11 el verbo de Pablo cubre ambas ideas, y en esta página el énfasis está en dar aliento."
-        },
-        {
-          "q": "¿Puedo recibir un versículo animador cada mañana en el celular?",
+          "q": "¿Puedo recibir un versículo de aliento cada mañana en el celular?",
           "a": "Sí. Bible Verse Alarm es una alarma para iPhone que te despierta con un versículo. Es gratis para descargar, el uso completo requiere suscripción y el precio actual aparece en la App Store de tu país."
         }
       ]
