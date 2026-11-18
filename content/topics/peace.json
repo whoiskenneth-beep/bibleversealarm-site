@@ -8,7 +8,8 @@
     "anger",
     "overthinking",
     "blessing",
-    "tomorrow-worry"
+    "tomorrow-worry",
+    "wake-up"
   ],
   "locales": {
     "zh-hant": {
@@ -146,6 +147,75 @@
         {
           "q": "Which verses help with peace and anxiety together?",
           "a": "Philippians 4:6-7, 1 Peter 5:7 and Matthew 6:34 pair peace with worry. You will find more, with reflections, on our page of Bible verses for anxiety."
+        }
+      ]
+    },
+    "es": {
+      "slug": "paz",
+      "title": "16 versículos de la Biblia para tener paz",
+      "description": "16 versículos de la Biblia para tener paz, de Juan 14:27 a Isaías 26:3, en cuatro grupos con reflexión sobre quién los escribió y por qué. Reina-Valera 1909.",
+      "h1": "Versículos de la Biblia para tener paz: 16 textos para un corazón en calma",
+      "intro": "La paz que habla la Biblia es un regalo de Dios, no la ausencia de problemas: empieza con estar en paz con él y llega a cuidar tu corazón. En el Antiguo Testamento la palabra hebrea es shalom, que apunta a estar completo y bien. Estos 16 versículos están en cuatro grupos: la paz que da Jesús, una mente que Dios mantiene firme, paz para descansar y paz con quienes te rodean. Si lo que más pesa es la preocupación, empieza por la página de ansiedad; aquí vemos de dónde viene la paz y cómo cuidarla. Texto de la Reina-Valera 1909.",
+      "published": "2026-11-18",
+      "updated": "2026-11-18",
+      "groups": [
+        {
+          "heading": "La paz que Jesús deja a los suyos",
+          "reflection": "La paz bíblica empieza en Jesús, no en que las circunstancias se calmen. Juan 14:27 y 16:33 son parte de lo que Jesús dijo a sus discípulos en la última noche antes de su arresto: les anuncia aflicción y aun así les da paz. Romanos 5:1 es de Pablo a la iglesia en Roma, y explica el fundamento: justificados por la fe, hay paz para con Dios. Colosenses 3:15, escrita por Pablo a los colosenses, pide que esa paz gobierne en el corazón y que seamos agradecidos.",
+          "refs": [
+            "John 14:27",
+            "John 16:33",
+            "Romans 5:1",
+            "Colossians 3:15"
+          ]
+        },
+        {
+          "heading": "Una mente que Dios mantiene firme",
+          "reflection": "Dios cuida la mente de quien se apoya en él. Isaías 26:3 viene de un cántico que Judá canta confiando en Jehová, y promete completa paz al pensamiento que persevera en él. Filipenses 4:6-7 lo escribió Pablo desde la cárcel: presentar las peticiones a Dios con gracias y su paz guardará corazón y entendimientos. Romanos 15:13 es el deseo de Pablo para los creyentes de Roma. Salmos 29:11 cierra un salmo de David sobre una tormenta: el Dios fuerte bendice a su pueblo en paz.",
+          "refs": [
+            "Isaiah 26:3",
+            "Philippians 4:6-7",
+            "Romans 15:13",
+            "Psalms 29:11"
+          ]
+        },
+        {
+          "heading": "Paz para acostarte y escuchar a Dios",
+          "reflection": "La paz también se practica con hábitos sencillos: descansar confiado y escuchar. En Salmos 4:8 David, rodeado de oposición, se acuesta en paz porque solo Jehová lo hace estar confiado. Salmos 119:165 es del salmo más largo, dedicado a amar la ley de Dios, y dice que quien la ama tiene mucha paz. En Salmos 85:8 el salmista decide escuchar lo que Dios hable, pues hablará paz a su pueblo. Números 6:24-26 es la bendición que Jehová mandó a Aarón y sus hijos pronunciar sobre Israel; termina con paz.",
+          "refs": [
+            "Psalms 4:8",
+            "Psalms 119:165",
+            "Psalms 85:8",
+            "Numbers 6:24-26"
+          ]
+        },
+        {
+          "heading": "Paz con las personas que te rodean",
+          "reflection": "Es difícil sentir calma mientras una relación está en guerra, y la Biblia nos pide dar el primer paso. En el Sermón del Monte Jesús llama bienaventurados a los pacificadores, y lo dice a sus discípulos. Romanos 12:18 es honesto: paz con todos, cuanto está en vosotros; tú no controlas la otra parte. Hebreos 12:14 es una exhortación de un autor cuyo nombre no conocemos, dirigida a creyentes que sufrían presión, y pide seguir la paz. Salmos 34:14, de David, dice lo mismo: búscala y síguela.",
+          "refs": [
+            "Matthew 5:9",
+            "Romans 12:18",
+            "Hebrews 12:14",
+            "Psalms 34:14"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Cuál es un buen versículo de la Biblia para tener paz?",
+          "a": "Juan 14:27 es un buen comienzo: Jesús deja su paz a los discípulos, distinta a la que da el mundo. Isaías 26:3 y Filipenses 4:6-7 también son muy usados para pedir paz en el corazón."
+        },
+        {
+          "q": "¿Qué significa la paz en la Biblia?",
+          "a": "En el Antiguo Testamento, paz suele traducir shalom: estar completo, seguro y en buena relación con Dios y con otros. En el Nuevo se centra en tener paz con Dios por medio de Jesús (Romanos 5:1). No significa ausencia de problemas."
+        },
+        {
+          "q": "¿Qué leer cuando no siento paz?",
+          "a": "Elige un solo versículo, como Isaías 26:3 o Juan 16:33, léelo despacio y ora con una o dos frases. Si la inquietud dura semanas, habla con un pastor o un consejero; la Escritura y el acompañamiento van de la mano."
+        },
+        {
+          "q": "¿Qué versículos hablan de paz y de dormir tranquilo?",
+          "a": "Salmos 4:8 une ambas cosas: David se acuesta en paz y duerme confiado. Tienes más textos para la noche, con reflexión, en nuestra página de versículos para dormir."
         }
       ]
     }
