@@ -1,5 +1,5 @@
 {
- "cursor": 0,
+ "cursor": 3,
  "suggestions": {
   "성경구절": {
    "seed": "성경구절",
@@ -278,7 +278,8 @@
   "큐티인": {
    "seed": "큐티",
    "markets": [
-    "kr"
+    "kr",
+    "naver"
    ]
   },
   "큐티 펫 파티 디시": {
@@ -1133,6 +1134,24 @@
    "seed": "성경 암송",
    "markets": [
     "naver"
+   ]
+  },
+  "추수감사절 성경구절": {
+   "seed": "성경구절",
+   "markets": [
+    "naver"
+   ]
+  },
+  "수능 성경 말씀": {
+   "seed": "성경말씀",
+   "markets": [
+    "naver"
+   ]
+  },
+  "큐티 코마": {
+   "seed": "큐티",
+   "markets": [
+    "kr"
    ]
   }
  }
