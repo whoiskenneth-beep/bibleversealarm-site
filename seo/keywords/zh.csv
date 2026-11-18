@@ -28,7 +28,7 @@ keyword,intent,cluster,target_page,priority,status,serp
 聖經金句 感恩,informational,gratitude,/zh-hant/jingwen/gratitude,medium,published,
 聖經 安慰 失去親人,informational,grief,/zh-hant/jingwen/grief,medium,published,reading
 聖經金句 不要為明天憂慮,informational,matthew-6-34,/zh-hant/jingwen/tomorrow-worry,medium,published,
-聖經金句 短句,informational,short-verses,,medium,planned,
+聖經金句 短句,informational,short-verses,/zh-hant/jingwen/short-verses,medium,published,mid
 聖經金句 結婚祝福,informational,wedding,,medium,planned,
 神看人內心不是看外貌 聖經金句,informational,1-samuel-16-7,,low,planned,
 鼓勵讀經 經文,informational,bible-reading-encouragement,,low,planned,

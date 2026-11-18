@@ -22,7 +22,7 @@ keyword,intent,cluster,target_page,priority,status,serp
 성경 암송 책,commercial,memorize-books,/ko/seonggyeong-amsong-chaek,medium,published,
 성경 암송 카드,commercial,memorize-cards,/ko/seonggyeong-amsong-card,medium,published,
 아침 기도문 모음,informational,morning-prayer-collection,,medium,planned,
-짧은 성경 구절,informational,short-verses,,medium,planned,
+짧은 성경 구절,informational,short-verses,/ko/seonggu/short-verses,medium,published,mid
 오늘의 말씀 갓피플,commercial,vs-godpeople,,medium,planned,
 매일성경 큐티,commercial,vs-maeil-seonggyeong,,medium,planned,
 환자에게 위로가 되는 성경구절,informational,comfort-sick,,low,planned,
