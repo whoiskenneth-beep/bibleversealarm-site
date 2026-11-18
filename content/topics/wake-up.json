@@ -1,0 +1,75 @@
+{
+  "id": "wake-up",
+  "related": ["morning", "sleep", "peace", "anxiety", "strength"],
+  "locales": {
+    "en": {
+      "slug": "wake-up",
+      "title": "16 Bible Verses to Wake Up To: Your First Minute",
+      "description": "Bible verses to wake up to: 16 short passages for the moment your eyes open, from a first prayer to getting out of bed on a heavy morning.",
+      "h1": "Bible verses to wake up to",
+      "intro": "The best Bible verse to wake up to is a short one you can take in before you stand up. Psalm 118:24 and Psalm 143:8 are the usual picks. This page goes further, with 16 verses for the first minute: the moment you open your eyes, your first words, getting out of bed, and mornings that start heavy.",
+      "published": "2026-11-18",
+      "updated": "2026-11-18",
+      "groups": [
+        {
+          "heading": "Waking up is itself a gift",
+          "reflection": "You did not hold the world together while you slept. Psalm 127:2 and Psalm 121 are both pilgrim songs, sung by travelers heading up to Jerusalem, and both make the same point: God stays awake so you can rest. Psalm 118 is a song of thanks after rescue. Read together, they let you open your eyes with gratitude before the list starts.",
+          "refs": [
+            "Psalms 118:24",
+            "Psalms 127:2",
+            "Psalms 121:3-4"
+          ]
+        },
+        {
+          "heading": "What to say in your first minute",
+          "reflection": "Pray before you check anything, and keep it small. David wrote Psalm 63 while hiding in the wilderness of Judah, and still began with longing for God. Psalm 59 was written while Saul's men watched his house, yet he planned to sing at dawn. Mark 1:35 shows Jesus doing the same. You can borrow any of these as your own opening line.",
+          "refs": [
+            "Psalms 143:8",
+            "Psalms 63:1",
+            "Psalms 119:147",
+            "Psalms 59:16",
+            "Mark 1:35"
+          ]
+        },
+        {
+          "heading": "Getting out of bed",
+          "reflection": "Waking and rising are two different acts, and Scripture speaks to both. Paul wrote to the church in Rome that the hour had come to wake from spiritual sleep; he was not talking about alarm clocks, but the push applies. Proverbs 6:9 is a father's blunt question to his son about laziness. Isaiah 50:4 and Psalm 57:8 show the better way: let God wake you.",
+          "refs": [
+            "Psalms 57:8",
+            "Romans 13:11",
+            "Proverbs 6:9",
+            "Isaiah 50:4"
+          ]
+        },
+        {
+          "heading": "When you wake up heavy",
+          "reflection": "Some mornings begin with dread before your feet touch the floor. These verses do not ask you to feel cheerful. The sons of Korah wrote Psalm 46 for a city under threat and promised help when morning dawns. In Psalm 94:19 the writer admits anxiety overwhelms him, and finds comfort anyway. Isaiah 40:31 was written to exiles who were worn out. Waiting counts as strength.",
+          "refs": [
+            "Psalms 46:5",
+            "Psalms 94:19",
+            "Isaiah 40:31",
+            "Psalms 92:1-2"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is a good Bible verse to wake up to?",
+          "a": "Psalm 118:24 is a common choice because it is short and turns the day into a gift. Psalm 143:8 works well as a first prayer: it asks to hear God's loving devotion in the morning."
+        },
+        {
+          "q": "What should I say to God when I wake up?",
+          "a": "Keep it simple: thank Him for the new day, ask Him to guide your steps, and hand Him whatever you are worried about. Psalm 143:8 gives you ready words for exactly that."
+        },
+        {
+          "q": "How do I wake up with God first?",
+          "a": "Decide the first thing you will read before you go to bed, and keep it within reach. Some people use an alarm that shows a verse before it stops, such as Bible Verse Alarm (iPhone only)."
+        },
+        {
+          "q": "Is there a Bible verse for waking up early?",
+          "a": "Mark 1:35 records Jesus rising early, while it was still dark, to pray alone. Psalm 119:147 and Psalm 57:8 also describe waking at dawn to pray or sing."
+        }
+      ]
+    }
+  }
+}
