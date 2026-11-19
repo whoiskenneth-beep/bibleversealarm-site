@@ -15,7 +15,7 @@ keyword,intent,cluster,target_page,priority,status,serp
 힘이 되는 성경구절,informational,strength,/ko/himi,high,published,reading
 성경말씀 듣기,informational,audio-bible,,medium,planned,
 말씀 묵상집,commercial,devotional-books,/ko/malsseum-mudsang-jip,medium,published,
-감사 성경구절,informational,gratitude,,medium,planned,
+감사 성경구절,informational,gratitude,/ko/seonggu/gamsa,medium,published,mid
 아침 기도 저녁 기도,informational,howto-evening-prayer,ko/achim-jeonyeok-gido,medium,published,
 말씀 묵상 노트 방법,informational,howto-meditation-journal,/ko/malsseum-mudsang-note-bangbeop,medium,published,
 아침 기도 기독교,informational,howto-morning-prayer,/ko/achim-gido-gidokgyo,medium,published,
