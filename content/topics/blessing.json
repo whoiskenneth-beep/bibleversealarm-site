@@ -80,6 +80,78 @@
           "a": "可以每天早晨讀一段，並為一位朋友禱告。Bible Verse Alarm 是 iPhone 應用程式，你可以選這類經文，鬧鐘響起後完成一節才能停止。"
         }
       ]
+    },
+    "es": {
+      "slug": "bendicion",
+      "title": "Versículos bíblicos de bendición: 19 textos con reflexión",
+      "description": "Versículos bíblicos de bendición en Reina-Valera 1909: la bendición de Números 6, promesas a Abraham, bienaventuranzas y cómo bendecir a otros.",
+      "h1": "Versículos bíblicos de bendición",
+      "intro": "Una bendición bíblica es pedirle a Dios que dé su favor, su cuidado y su paz a alguien, o reconocer lo que él ya dio. Estos 19 versículos bíblicos de bendición vienen en cuatro grupos: lo que Dios promete, lo que recibimos en Cristo, quién es llamado bienaventurado y cómo bendecir a los demás. Sirven para una tarjeta, un mensaje o una oración por un familiar. Los textos son de la Reina-Valera 1909.",
+      "published": "2026-11-19",
+      "updated": "2026-11-19",
+      "groups": [
+        {
+          "heading": "Bendiciones que Dios promete a su pueblo",
+          "reflection": "La bendición empieza en Dios, no en nuestras palabras. En Números 6:24-26, Dios manda a Moisés que Aarón y sus hijos, los sacerdotes, bendigan así a Israel. Génesis 12:2-3 y 22:17-18 recogen la promesa a Abraham: ser bendecido para ser bendición a todas las familias de la tierra. El Salmo 67, una oración colectiva sin autor indicado, pide bendición para que el camino de Dios sea conocido entre las naciones. El Salmo 115:14-15 la extiende a los hijos.",
+          "refs": [
+            "Numbers 6:24-26",
+            "Genesis 12:2-3",
+            "Genesis 22:17-18",
+            "Psalms 67:1-2",
+            "Psalms 115:14-15"
+          ]
+        },
+        {
+          "heading": "Bendiciones en Cristo y despedidas de las cartas",
+          "reflection": "En el Nuevo Testamento, la bendición se centra en lo que Dios hizo en Cristo. Efesios 1:3 abre la carta de Pablo con alabanza porque Dios bendijo a los creyentes en Cristo. Romanos 15:13 es un deseo de Pablo para la iglesia en Roma, y 2 Corintios 13:13 (numerado 13:14 en otras ediciones) cierra su carta nombrando al Padre, al Hijo y al Espíritu. Hebreos 13:20-21, de autor desconocido, y Judas 24-25 terminan encomendando a los lectores al Dios que puede guardarlos.",
+          "refs": [
+            "Ephesians 1:3",
+            "Romans 15:13",
+            "2 Corinthians 13:13",
+            "Hebrews 13:20-21",
+            "Jude 1:24-25"
+          ]
+        },
+        {
+          "heading": "¿Quién es bienaventurado según la Biblia?",
+          "reflection": "En la Biblia, ser bienaventurado tiene que ver con la relación con Dios, no con tener una vida cómoda. El Salmo 1, de autor no indicado, describe al que se deleita en la ley de Jehová como un árbol junto al agua. David, en el Salmo 32:1-2, llama bienaventurado al perdonado. El Salmo 84:11-12, de los hijos de Coré, habla de quien confía en Dios, y Jesús, en Lucas 11:28, une la bienaventuranza con oír su palabra y guardarla.",
+          "refs": [
+            "Psalms 1:1-3",
+            "Psalms 32:1-2",
+            "Psalms 84:11-12",
+            "Luke 11:28"
+          ]
+        },
+        {
+          "heading": "Cómo bendecir a otros",
+          "reflection": "Bendecir a otros incluye a quienes no nos tratan bien. En Romanos 12:14, Pablo pide bendecir a los que persiguen a la iglesia, y Pedro, en 1 Pedro 3:9, escribe a creyentes que sufrían: responde con bendición, porque para eso fueron llamados. Proverbios 11:25, de la colección de Salomón, dice que el generoso será saciado. En Hechos 20:35, Pablo recuerda a los ancianos de Éfeso una palabra de Jesús sobre dar. En 2 Corintios 9:8, habla de la gracia de Dios para toda buena obra.",
+          "refs": [
+            "Romans 12:14",
+            "1 Peter 3:9",
+            "Proverbs 11:25",
+            "Acts 20:35",
+            "2 Corinthians 9:8"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Qué versículo bíblico sirve para bendecir a alguien?",
+          "a": "Números 6:24-26 es la bendición que Dios mandó a los sacerdotes de Israel y se usa mucho para bendecir a otros. Para una despedida, también sirven Romanos 15:13 o 2 Corintios 13:13."
+        },
+        {
+          "q": "¿Qué versículos hablan de bendición para los hijos?",
+          "a": "El Salmo 115:14-15 pide que Dios acreciente su bendición sobre ustedes y sus hijos. También puedes orar con Números 6:24-26 sobre ellos. Para más textos sobre la crianza, mira la página de familia."
+        },
+        {
+          "q": "¿Cuál es la diferencia entre bendecir y ser bienaventurado?",
+          "a": "Bendecir es pedir o declarar el favor de Dios sobre alguien, como en Números 6:24-26. Bienaventurado describe a quien ya vive favorecido por Dios, como en el Salmo 32:1-2 o el Salmo 84:12."
+        },
+        {
+          "q": "¿Cómo puedo leer estos versículos de bendición cada día?",
+          "a": "Puedes leer uno cada mañana y orarlo por alguien. Bible Verse Alarm es una app para iPhone: eliges versículos como estos y, al sonar la alarma, completas uno para apagarla."
+        }
+      ]
     }
   }
 }
