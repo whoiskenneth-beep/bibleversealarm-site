@@ -1,5 +1,5 @@
 {
- "cursor": 3,
+ "cursor": 6,
  "suggestions": {
   "bible verses about love": {
    "seed": "bible verses about",
@@ -13376,6 +13376,36 @@
    ]
   },
   "verse of the day october 13 2026": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "daily devotional joyce": {
+   "seed": "morning devotional",
+   "markets": [
+    "us"
+   ]
+  },
+  "verse of the day november 19 2026": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "verse of the day november 18 2026": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "verse of the day nov 19 2026": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "verse of the day 11 19 26": {
    "seed": "verse of the day",
    "markets": [
     "us"

@@ -1,5 +1,5 @@
 {
- "cursor": 3,
+ "cursor": 6,
  "suggestions": {
   "versículos de la biblia para reflexionar": {
    "seed": "versículos de la biblia para",
@@ -13783,6 +13783,50 @@
    "seed": "oración de la mañana",
    "markets": [
     "mx"
+   ]
+  },
+  "oración de la mañana de hoy jueves 19 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana de hoy 19 de noviembre de 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana de hoy 19 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana de hoy jueves 19 de noviembre del 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana hoy 19 de noviembre de 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana del día 19 de noviembre del 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co",
+    "mx"
+   ]
+  },
+  "oración de la mañana de hoy 19 de noviembre del 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
    ]
   }
  }
