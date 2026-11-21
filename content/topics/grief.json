@@ -1,6 +1,15 @@
 {
   "id": "grief",
-  "related": ["comfort", "hope", "sadness", "family", "condolence"],
+  "related": [
+    "comfort",
+    "hope",
+    "sadness",
+    "family",
+    "condolence",
+    "hard-times",
+    "loneliness",
+    "depression"
+  ],
   "locales": {
     "zh-hant": {
       "slug": "grief",
@@ -14,22 +23,42 @@
         {
           "heading": "哀哭是被允許的",
           "reflection": "創世記 23:2 記著亞伯拉罕為妻子撒拉哀哭；使徒行傳 8:2 說虔誠的人為殉道的司提反大大哀哭，並沒有人責備他們。大衛的孩子病死後，他起來梳洗、敬拜，並說他將來要往孩子那裡去（撒母耳記下 12:22-23），這是他面對失去時的信靠，並非沒有痛。約翰福音 11:35 是整本聖經最短的一節：耶穌在拉撒路墓前流淚。你的眼淚，不是信心不足。",
-          "refs": ["Genesis 23:2", "2 Samuel 12:22-23", "John 11:33-35", "Acts 8:2"]
+          "refs": [
+            "Genesis 23:2",
+            "2 Samuel 12:22-23",
+            "John 11:33-35",
+            "Acts 8:2"
+          ]
         },
         {
           "heading": "復活的盼望",
           "reflection": "耶穌在拉撒路墓前對馬大說，信祂的人雖死必活（約翰福音 11:25-26）。保羅寫哥林多前書時，要回應一些人對復活的疑問，他宣告基督已從死裡復活，成為睡了之人初熟的果子（15:20），並說死亡被得勝吞滅（15:54-57）。哥林多後書 5:1 則把身體比作帳棚，朽壞之後，神已預備永存的居所。這些經文不抹去思念，卻讓思念有了方向。",
-          "refs": ["John 11:25-26", "1 Corinthians 15:20", "1 Corinthians 15:54-57", "2 Corinthians 5:1"]
+          "refs": [
+            "John 11:25-26",
+            "1 Corinthians 15:20",
+            "1 Corinthians 15:54-57",
+            "2 Corinthians 5:1"
+          ]
         },
         {
           "heading": "死亡不能把我們與神隔絕",
           "reflection": "詩篇 116:15 說，主的聖民死亡在祂眼中看為寶貴；祂不是漫不經心地看待每一次告別。耶穌在被釘前夕，對憂愁的門徒說，不要心裡憂愁，祂去是為他們預備地方（約翰福音 14:1-3）。羅馬書 8:38-39 是保羅的確據：無論死或生，都不能叫我們與神的愛隔絕。以賽亞書 25:8 則預告神要除掉死亡，擦去眾人臉上的眼淚。",
-          "refs": ["Psalms 116:15", "John 14:1-3", "Romans 8:38-39", "Isaiah 25:8"]
+          "refs": [
+            "Psalms 116:15",
+            "John 14:1-3",
+            "Romans 8:38-39",
+            "Isaiah 25:8"
+          ]
         },
         {
           "heading": "走過哀傷的日子，也陪伴哀傷的人",
           "reflection": "約伯的三個朋友聽說他遭難，先坐在地上陪他七天七夜，一句話也不說（約伯記 2:13），這常是最好的開始。傳道書 3:1-4 承認哀哭有時、歡笑有時，哀傷不必急著結束。詩篇 73:26 的作者感到身心衰殘，卻說神是他心裡的力量。詩篇 68:5 說神是孤兒的父、寡婦的伸冤者，對失去父母或配偶的人格外貼切。",
-          "refs": ["Job 2:13", "Ecclesiastes 3:1-4", "Psalms 73:26", "Psalms 68:5"]
+          "refs": [
+            "Job 2:13",
+            "Ecclesiastes 3:1-4",
+            "Psalms 73:26",
+            "Psalms 68:5"
+          ]
         }
       ],
       "faq": [
@@ -48,6 +77,75 @@
         {
           "q": "哀傷很久都走不出來，怎麼辦？",
           "a": "哀傷沒有標準時間表。若持續數週難以進食、睡眠或照顧自己，請告訴牧者、家人，或尋求輔導與醫療協助。尋求幫助與禱告並不衝突；若有傷害自己的念頭，請立刻聯絡當地緊急專線。"
+        }
+      ]
+    },
+    "en": {
+      "slug": "grief",
+      "title": "Bible Verses for Grief and Loss: 16 Scriptures to Read",
+      "description": "Sixteen Bible verses for grief and the loss of a loved one, in four groups: permission to weep, lament, resurrection, and comfort, each with a short note.",
+      "h1": "Bible verses for grief and loss",
+      "intro": "The Bible lets you grieve out loud: its people weep, groan and bury their dead, and Jesus himself cries at a grave. The sixteen passages below are in four groups, from permission to weep to the hope of resurrection. Grief has no schedule, so you do not need to read them all. Choose one, read it slowly and let it be enough for today. If the weight stays heavy for weeks, tell a pastor, a friend or a doctor.",
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "groups": [
+        {
+          "heading": "Is it okay to cry? The Bible says yes",
+          "reflection": "Scripture treats tears as a fitting response to death, not a lack of faith. Abraham mourned and wept for Sarah. Joseph wept over his father Jacob. Believers buried Stephen and mourned deeply. In John 11, Jesus sees Mary and her friends weeping at the death of Lazarus, is deeply moved, and weeps with them. Nobody in these scenes is told to stop. If you are crying, you are in good company.",
+          "refs": [
+            "Genesis 23:2",
+            "Genesis 50:1",
+            "John 11:33-35",
+            "Acts 8:2"
+          ]
+        },
+        {
+          "heading": "When the sorrow is too big for words",
+          "reflection": "Some losses leave you with only a cry, and the Bible includes those cries. David's lament over his son Absalom, who died in rebellion against him, is raw and unfinished. Psalm 31 is a prayer from someone worn down by grief. In Psalm 56, David says God keeps count of his tears. In Lamentations, a poet mourning the fall of Jerusalem moves from complaint to remembering God's steady mercies.",
+          "refs": [
+            "2 Samuel 18:33",
+            "Psalms 31:9-10",
+            "Psalms 56:8",
+            "Lamentations 3:19-22"
+          ]
+        },
+        {
+          "heading": "What does the Bible say about death and resurrection?",
+          "reflection": "For Christians, grief sits beside a promise: death is not the last word. Jesus said these words to Martha before raising her brother Lazarus. In John 14, he comforts his disciples on the night before his death, promising to prepare a place for them. Paul, writing to the church in Corinth, calls Christ's resurrection the firstfruits of those who have died, and he ends his argument with thanks for victory over death.",
+          "refs": [
+            "John 11:25-26",
+            "John 14:1-3",
+            "1 Corinthians 15:20",
+            "1 Corinthians 15:54-57"
+          ]
+        },
+        {
+          "heading": "Comfort for you, and how to comfort someone else",
+          "reflection": "God's comfort often arrives through people who stay close. In the Sermon on the Mount, Jesus says those who mourn will be comforted. Paul tells the Corinthians that comfort received from God is meant to be passed on. His advice in Romans is simple: weep with those who weep. Job's friends did this well at first, sitting silent with him for a week. Presence usually helps more than explanations.",
+          "refs": [
+            "Matthew 5:4",
+            "2 Corinthians 1:3-4",
+            "Romans 12:15",
+            "Job 2:13"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What Bible verse is best for someone who lost a loved one?",
+          "a": "John 11:25-26 and Matthew 5:4 are common choices. The first is Jesus' promise about resurrection, said at a friend's death. The second says those who mourn will be comforted. Choose the one that matches how the person feels, and keep it short."
+        },
+        {
+          "q": "Does the Bible say it is wrong to grieve?",
+          "a": "No. Abraham wept for Sarah (Genesis 23:2), and Jesus wept at Lazarus' tomb (John 11:35). Scripture allows grief and offers hope in the same breath. Tears and trust can sit together."
+        },
+        {
+          "q": "What should I say to someone who is grieving?",
+          "a": "Keep it simple and honest: you are sorry, you are thinking of them, you are praying. Romans 12:15 says to weep with those who weep. Offer a verse only if they seem open, and do not rush to explain the loss."
+        },
+        {
+          "q": "How long does grief last, and when should I get help?",
+          "a": "There is no set timeline. If you cannot eat, sleep or function for weeks, or you have thoughts of harming yourself, talk to a doctor, counselor or pastor. In the US you can call or text 988. Elsewhere, contact local emergency services."
         }
       ]
     }

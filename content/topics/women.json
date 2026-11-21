@@ -1,0 +1,78 @@
+{
+  "id": "women",
+  "related": ["encouragement", "strength", "family", "comfort"],
+  "locales": {
+    "es": {
+      "slug": "mujeres",
+      "title": "19 versículos de la Biblia para mujeres: valor y fe",
+      "description": "Versículos de la Biblia para mujeres: Débora, Rut, Ester, identidad, sabiduría y descanso. Reina-Valera 1909, con una reflexión breve en cada grupo.",
+      "h1": "Versículos de la Biblia para mujeres: identidad, fe, sabiduría y descanso",
+      "intro": "¿Qué versículos de la Biblia sirven para una mujer? Los que muestran cómo Dios trató a las mujeres de la Escritura y lo que dice de ti. Aquí hay diecinueve textos en cuatro grupos: mujeres que Dios usó, identidad y valor, sabiduría para el día a día, y descanso. Puedes leerlos con calma, guardar uno en el celular o compartirlo con tu mamá, tu hermana o una amiga. Todo está en la Reina-Valera 1909.",
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "groups": [
+        {
+          "heading": "Mujeres que Dios usó en su historia",
+          "reflection": "La Biblia presenta a mujeres reales que actuaron con fe en momentos difíciles. Débora gobernaba a Israel y el pueblo acudía a ella para resolver sus pleitos. Rut le prometió a su suegra Noemí que su pueblo y su Dios serían los suyos. Ana, en su oración, habla de Samuel como la respuesta a lo que pidió. Mardoqueo le planteó a Ester que quizá estaba en el palacio para una hora como esa. María respondió al ángel con disposición. Jesús llamó a María por su nombre en la mañana de la resurrección. Pablo recomendó a Febe, diaconisa en Cencreas.",
+          "refs": [
+            "Judges 4:4-5",
+            "Ruth 1:16",
+            "1 Samuel 1:27",
+            "Esther 4:14",
+            "Luke 1:38",
+            "John 20:16",
+            "Romans 16:1-2"
+          ]
+        },
+        {
+          "heading": "Identidad y valor delante de Dios",
+          "reflection": "Tu valor no depende de la opinión de otros, sino de lo que Dios dice de ti. Génesis 1 cuenta que Dios creó al ser humano a su imagen, varón y hembra. Pablo les recuerda a los gálatas que en Cristo todos son uno. En una sinagoga, Jesús vio a una mujer encorvada y la llamó para sanarla. Pedro, escribiendo a esposas cristianas, habla de un adorno interior que Dios estima. Proverbios cierra su poema diciendo que la mujer que teme a Jehová es la que merece alabanza.",
+          "refs": [
+            "Genesis 1:27",
+            "Galatians 3:28",
+            "Luke 13:12-13",
+            "1 Peter 3:3-4",
+            "Proverbs 31:30"
+          ]
+        },
+        {
+          "heading": "Sabiduría y servicio en el día a día",
+          "reflection": "La sabiduría bíblica se nota en lo cotidiano: cómo hablas, a quién ayudas y qué enseñas. Proverbios 31 abre diciendo que son palabras que la madre del rey Lemuel le enseñó, y después describe a una mujer fuerte con un poema. Ahí aparecen su generosidad con el pobre, su fortaleza y su manera de hablar con sabiduría. En Hechos, Priscila y su esposo Aquila escucharon a Apolos y le explicaron con más detalle el camino de Dios.",
+          "refs": [
+            "Proverbs 31:10",
+            "Proverbs 31:20",
+            "Proverbs 31:25-26",
+            "Acts 18:26"
+          ]
+        },
+        {
+          "heading": "Descanso cuando llevas demasiado",
+          "reflection": "Parar un rato también es una decisión espiritual. En Lucas 10, Jesús le dijo a Marta, afanada con muchos quehaceres, que una sola cosa era necesaria, y que María había escogido la buena parte. En Marcos 6, Jesús invitó a sus discípulos, rodeados de gente, a apartarse y reposar un poco. Isaías 30 habla al pueblo de Judá y vincula el descanso y la quietud con la confianza en Dios.",
+          "refs": [
+            "Luke 10:41-42",
+            "Mark 6:31",
+            "Isaiah 30:15"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Qué versículo de la Biblia es bueno para una mujer que se siente sin valor?",
+          "a": "Génesis 1:27 es un buen punto de partida: enseña que Dios creó al ser humano a su imagen. Lucas 13:12-13 muestra cómo Jesús se detuvo ante una mujer que sufría y la llamó. Ambos textos están en el grupo de identidad de esta página."
+        },
+        {
+          "q": "¿Qué dice Proverbios 31 sobre la mujer?",
+          "a": "Proverbios 31:10-31 es un poema sobre una mujer fuerte, generosa y sabia. El capítulo comienza como palabras que la madre del rey Lemuel le enseñó. Termina diciendo que la mujer que teme a Jehová es la que merece alabanza."
+        },
+        {
+          "q": "¿Qué mujeres de la Biblia puedo leer para animarme?",
+          "a": "Débora (Jueces 4), Rut, Ana (1 Samuel 1), Ester, María (Lucas 1), María Magdalena (Juan 20), Febe (Romanos 16) y Priscila (Hechos 18). Cada una aparece con al menos un texto en esta lista."
+        },
+        {
+          "q": "¿Puedo recibir un versículo cada mañana en el celular?",
+          "a": "Sí. Bible Verse Alarm es una app para iPhone cuya alarma suena hasta que completas una misión bíblica corta, como armar un versículo palabra por palabra. Tú eliges los versículos y el texto va en Reina-Valera 1909. Es gratis para descargar; el uso completo requiere suscripción."
+        }
+      ]
+    }
+  }
+}
