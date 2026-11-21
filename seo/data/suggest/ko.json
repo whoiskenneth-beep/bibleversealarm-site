@@ -1,5 +1,5 @@
 {
- "cursor": 0,
+ "cursor": 3,
  "suggestions": {
   "성경구절": {
    "seed": "성경구절",
@@ -1153,6 +1153,18 @@
    "seed": "큐티",
    "markets": [
     "kr"
+   ]
+  },
+  "성탄절 성경말씀": {
+   "seed": "성경말씀",
+   "markets": [
+    "naver"
+   ]
+  },
+  "큐티클리무버": {
+   "seed": "큐티",
+   "markets": [
+    "naver"
    ]
   }
  }
