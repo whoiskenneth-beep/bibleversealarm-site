@@ -36,3 +36,4 @@ keyword,intent,cluster,target_page,priority,status,serp
 성경말씀 카드,informational,verse-share-card,,low,planned,
 성경말씀 배경화면,informational,verse-wallpaper,,low,planned,
 청첩장 성경구절,informational,wedding-verses,,low,planned,
+불안 성경구절,informational,anxiety,,high,planned,mid
