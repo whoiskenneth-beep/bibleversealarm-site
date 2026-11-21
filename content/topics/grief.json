@@ -1,6 +1,6 @@
 {
   "id": "grief",
-  "related": ["comfort", "hope", "sadness", "family"],
+  "related": ["comfort", "hope", "sadness", "family", "condolence"],
   "locales": {
     "zh-hant": {
       "slug": "grief",
