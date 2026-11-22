@@ -6,6 +6,7 @@
     "encouragement",
     "anxiety",
     "peace",
+    "trust-god",
     "youth",
     "key-verses",
     "seonggyeong-amsong-gujeol",
@@ -79,6 +80,75 @@
         {
           "q": "信和行為是什麼關係？",
           "a": "以弗所書 2:8-9 說得救是因著信、本乎恩；雅各書 2:17 則說沒有行為的信是死的。前者談救恩的根基，後者談信的果子，兩者並不衝突。"
+        }
+      ]
+    },
+    "es": {
+      "slug": "fe",
+      "title": "16 versículos de la Biblia para fortalecer la fe",
+      "description": "Textos bíblicos para fortalecer la fe cuando dudas o te sientes débil: 16 citas en Reina-Valera 1909, en 4 grupos con una reflexión breve.",
+      "h1": "Versículos de la Biblia para fortalecer la fe",
+      "intro": "La fe se fortalece escuchando la Palabra de Dios y confiando en Él un día a la vez (Romanos 10:17). Aquí tienes 16 textos bíblicos en Reina-Valera 1909, en cuatro grupos: qué es la fe, qué hacer cuando es pequeña, cómo se fortalece en la prueba y cómo sostenerla cada día. Lee un grupo por día, despacio, y termina con una oración sencilla.",
+      "published": "2026-11-22",
+      "updated": "2026-11-22",
+      "groups": [
+        {
+          "heading": "¿Qué es la fe según la Biblia?",
+          "reflection": "La carta a los Hebreos no firma su autor. Se escribió para creyentes bajo presión y empieza explicando qué es creer: apoyarse en lo que Dios dice aunque todavía no se vea. El capítulo 11 también afirma que quien se acerca a Dios debe creer que Él existe y que premia a los que le buscan. Pablo, por su parte, escribe a los corintios que el cristiano camina por fe y no por vista, y a los romanos que la fe nace de oír la Palabra.",
+          "refs": [
+            "Hebrews 11:1",
+            "Hebrews 11:6",
+            "Romans 10:17",
+            "2 Corinthians 5:7"
+          ]
+        },
+        {
+          "heading": "Si tu fe es pequeña o tienes dudas",
+          "reflection": "Los discípulos acababan de fracasar al intentar ayudar a un muchacho, y Jesús les habla de una fe del tamaño de un grano de mostaza. El padre del niño, en Marcos 9, no finge seguridad: admite que cree y a la vez duda, y le pide ayuda al Señor. Los apóstoles también pidieron en Lucas 17 que se les aumentara la fe. Pedirle más fe a Dios no es falta de fe; es empezar donde estás.",
+          "refs": [
+            "Matthew 17:20",
+            "Mark 9:23-24",
+            "Luke 17:5-6",
+            "Romans 4:20-21"
+          ]
+        },
+        {
+          "heading": "Cómo se fortalece la fe en las pruebas",
+          "reflection": "Santiago escribe a creyentes judíos dispersos y Pedro a cristianos que vivían como extranjeros. Ambos dicen lo mismo: la prueba no es una señal de abandono, sino lo que pone a prueba la fe y la hace más firme, como el oro que pasa por el fuego. Santiago añade que una fe real se nota en lo que hacemos. Y Hebreos 12:2 nos manda mirar a Jesús, quien inicia y completa nuestra fe, para no cargar solos el camino.",
+          "refs": [
+            "James 1:2-3",
+            "1 Peter 1:6-7",
+            "James 2:17",
+            "Hebrews 12:2"
+          ]
+        },
+        {
+          "heading": "Cómo mantener viva tu fe cada día",
+          "reflection": "Pablo recuerda a los efesios que la salvación es por gracia, mediante la fe, y que es don de Dios; no hay nada que ganar a fuerza de méritos. En Gálatas 2:20 describe su vida diaria como vivir en la fe del Hijo de Dios, que lo amó y se entregó por él. Judas anima a los amados a edificarse sobre su santísima fe y a orar, y Juan declara que la fe vence al mundo. Se sostiene con oración y con Cristo como centro.",
+          "refs": [
+            "Ephesians 2:8-9",
+            "Galatians 2:20",
+            "Jude 1:20",
+            "1 John 5:4"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Cuál es el mejor versículo para fortalecer la fe?",
+          "a": "Romanos 10:17 es un buen punto de partida, porque dice que la fe viene por oír la palabra de Dios. Si estás en una prueba, lee Santiago 1:2-3; si dudas, Marcos 9:23-24."
+        },
+        {
+          "q": "¿Qué hago si siento que mi fe es débil?",
+          "a": "Dile a Dios cómo te sientes, como el padre de Marcos 9:24, y pídele más fe, como hicieron los apóstoles en Lucas 17:5. Léelo con calma y vuelve a ello cada día."
+        },
+        {
+          "q": "¿Cómo puedo aumentar mi fe en Dios?",
+          "a": "Según Romanos 10:17, la fe crece al oír la Palabra de Dios. Lee un pasaje corto cada día, ora sobre él y comparte con otros creyentes lo que Dios te muestra."
+        },
+        {
+          "q": "¿Qué significa tener fe como un grano de mostaza?",
+          "a": "En Mateo 17:20 y Lucas 17:6, Jesús usa la semilla de mostaza, muy pequeña, para decir que lo importante no es la cantidad de fe, sino confiar en Dios."
         }
       ]
     }
