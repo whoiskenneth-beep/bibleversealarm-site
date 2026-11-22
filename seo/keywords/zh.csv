@@ -31,7 +31,7 @@ keyword,intent,cluster,target_page,priority,status,serp
 聖經金句 短句,informational,short-verses,/zh-hant/jingwen/short-verses,medium,published,mid
 聖經金句 結婚祝福,informational,wedding,/zh-hant/jingwen/wedding,medium,published,mid
 神看人內心不是看外貌 聖經金句,informational,1-samuel-16-7,,low,planned,
-鼓勵讀經 經文,informational,bible-reading-encouragement,,low,planned,
+鼓勵讀經 經文,informational,bible-reading-encouragement,/zh-hant/jingwen/reading-bible,low,published,thin
 荒漠甘泉 每日灵修,informational,copyrighted-devotional-book,,low,blocked-licence,
 靈修筆記,informational,devotional-notes,,low,planned,
 天主教 每日經文,informational,rejected-catholic-liturgical,,low,rejected,
