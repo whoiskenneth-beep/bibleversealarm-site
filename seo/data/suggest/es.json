@@ -1,5 +1,5 @@
 {
- "cursor": 0,
+ "cursor": 3,
  "suggestions": {
   "versículos de la biblia para reflexionar": {
    "seed": "versículos de la biblia para",
@@ -945,7 +945,8 @@
   "versículos de la biblia para leer antes de dormir": {
    "seed": "versículos de la biblia para",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "versículos de la biblia para los jóvenes": {
@@ -1388,7 +1389,8 @@
   "versículos de la biblia para restaurar matrimonios": {
    "seed": "versículos de la biblia para",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "versículos de la biblia para recibir el sábado": {
@@ -12010,7 +12012,8 @@
   "versículos bíblicos de pareja": {
    "seed": "versículos bíblicos de",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "versículos bíblicos de refugio": {
@@ -12219,7 +12222,8 @@
   "textos bíblicos para mujeres reina valera 1960": {
    "seed": "textos bíblicos para",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "textos bíblicos para negocios": {
@@ -13434,7 +13438,8 @@
   "textos bíblicos para ancianos de congregación jw": {
    "seed": "textos bíblicos para",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "textos bíblicos para calmar la ansiedad": {
@@ -13827,6 +13832,48 @@
    "seed": "oración de la mañana",
    "markets": [
     "co"
+   ]
+  },
+  "versículos de la biblia para dormir tranquilo": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "co"
+   ]
+  },
+  "versículos de la biblia para enamorar": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "versículos de la biblia para recoger ofrenda": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "versículos de la biblia para salir a evangelizar": {
+   "seed": "versículos de la biblia para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "versículos bíblicos de paciencia": {
+   "seed": "versículos bíblicos de",
+   "markets": [
+    "mx"
+   ]
+  },
+  "textos bíblicos para matrimonios en crisis": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx"
+   ]
+  },
+  "textos biblicos para quinceañeras": {
+   "seed": "textos bíblicos para",
+   "markets": [
+    "mx"
    ]
   }
  }

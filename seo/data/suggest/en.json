@@ -1,5 +1,5 @@
 {
- "cursor": 0,
+ "cursor": 3,
  "suggestions": {
   "bible verses about love": {
    "seed": "bible verses about",
@@ -13407,6 +13407,48 @@
   },
   "verse of the day 11 19 26": {
    "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses about being rooted and grounded": {
+   "seed": "bible verses about",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses about god fighting for us": {
+   "seed": "bible verses about",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses about loving god": {
+   "seed": "bible verses about",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses about running the race": {
+   "seed": "bible verses about",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses about sin": {
+   "seed": "bible verses about",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses about taking care of your body": {
+   "seed": "bible verses about",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses for suicidal thoughts": {
+   "seed": "bible verses for",
    "markets": [
     "us"
    ]
