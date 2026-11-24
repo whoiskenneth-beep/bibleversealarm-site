@@ -1,5 +1,5 @@
 {
- "cursor": 0,
+ "cursor": 3,
  "suggestions": {
   "성경구절": {
    "seed": "성경구절",
@@ -1163,6 +1163,12 @@
   },
   "큐티클리무버": {
    "seed": "큐티",
+   "markets": [
+    "naver"
+   ]
+  },
+  "오늘의 성경 말씀 구절": {
+   "seed": "성경말씀",
    "markets": [
     "naver"
    ]

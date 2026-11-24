@@ -7,17 +7,17 @@
       "new_pages_per_day": 1,
       "optimizations_per_day": 1,
       "status": "grow",
-      "published": 32,
-      "indexed": 29,
+      "published": 33,
+      "indexed": 30,
       "indexation_rate": 0.91
     },
     "es": {
       "new_pages_per_day": 1,
       "optimizations_per_day": 1,
       "status": "grow",
-      "published": 27,
-      "indexed": 21,
-      "indexation_rate": 0.78
+      "published": 28,
+      "indexed": 24,
+      "indexation_rate": 0.86
     },
     "zh-hant": {
       "new_pages_per_day": 1,
@@ -38,12 +38,12 @@
       "new_pages_per_day": 1,
       "optimizations_per_day": 1,
       "status": "grow",
-      "published": 26,
+      "published": 27,
       "indexed": 21,
-      "indexation_rate": 0.81
+      "indexation_rate": 0.78
     }
   },
-  "indexation_updated": "2026-11-23",
+  "indexation_updated": "2026-11-24",
   "history": [
     {
       "date": "2026-10-22",

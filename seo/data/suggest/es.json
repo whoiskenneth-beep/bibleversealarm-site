@@ -1,5 +1,5 @@
 {
- "cursor": 3,
+ "cursor": 6,
  "suggestions": {
   "versículos de la biblia para reflexionar": {
    "seed": "versículos de la biblia para",
@@ -13874,6 +13874,53 @@
    "seed": "textos bíblicos para",
    "markets": [
     "mx"
+   ]
+  },
+  "versiculo el dia aceptable es hoy": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculo del dia de la madre biblia": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculo el dia que temo": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versículo um dia para deus é como mil anos": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana de hoy 23 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana 23 de noviembre 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oracion de la mañana dando gracias a dios": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
    ]
   }
  }

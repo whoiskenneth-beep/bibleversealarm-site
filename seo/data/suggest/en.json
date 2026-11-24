@@ -1,5 +1,5 @@
 {
- "cursor": 3,
+ "cursor": 6,
  "suggestions": {
   "bible verses about love": {
    "seed": "bible verses about",
@@ -13449,6 +13449,54 @@
   },
   "bible verses for suicidal thoughts": {
    "seed": "bible verses for",
+   "markets": [
+    "us"
+   ]
+  },
+  "morning devotional wishes": {
+   "seed": "morning devotional",
+   "markets": [
+    "us"
+   ]
+  },
+  "verse of the day november 23 2026": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "verse of the day november 22 2026": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "verse of the day nov 23 2026": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "verse of the day understanding": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verse of the day vatican": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "verse of the day zechariah 14 9": {
+   "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "z88.3 verse of the day": {
+   "seed": "verse of the day",
    "markets": [
     "us"
    ]
