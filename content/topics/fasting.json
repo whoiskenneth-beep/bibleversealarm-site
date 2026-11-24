@@ -1,0 +1,106 @@
+{
+  "id": "fasting",
+  "related": [
+    "faith",
+    "trust-god",
+    "strength",
+    "protection"
+  ],
+  "locales": {
+    "es": {
+      "slug": "ayuno",
+      "title": "16 versículos de la Biblia para ayunar y orar",
+      "description": "16 versículos de la Biblia para ayunar, de Mateo 6 a Isaías 58, con reflexión sobre su contexto. Reina-Valera 1909.",
+      "h1": "Versículos de la Biblia para ayunar: 16 textos sobre el ayuno y la oración",
+      "intro": "Ayunar en la Biblia es dejar de comer por un tiempo para buscar a Dios con más atención, casi siempre junto con la oración. Aquí tienes 16 textos en cinco grupos: lo que enseñó Jesús, el ayuno que agrada a Dios, el ayuno de arrepentimiento, para pedir ayuda y para discernir la voluntad de Dios. Texto de la Reina-Valera 1909.",
+      "published": "2026-11-24",
+      "updated": "2026-11-24",
+      "groups": [
+        {
+          "heading": "Lo que Jesús enseñó sobre el ayuno",
+          "reflection": "Jesús da por hecho que sus discípulos ayunarían, y se fija en el motivo. En el Sermón del Monte, Mateo 6:16-18 pide ayunar sin exhibirse, porque el Padre ve lo secreto. En Mateo 9:15 responde a los discípulos de Juan que ayunarían cuando el esposo les fuera quitado. Mateo 4:2 cuenta su ayuno en el desierto antes de ser tentado, y en Mateo 4:4 contesta con la Escritura, no con el hambre. Ayunar no sustituye la Palabra: la pone en primer lugar.",
+          "refs": [
+            "Matthew 6:16-18",
+            "Matthew 9:15",
+            "Matthew 4:2",
+            "Matthew 4:4"
+          ]
+        },
+        {
+          "heading": "El ayuno que agrada a Dios",
+          "reflection": "Dios le dice a su pueblo que ayunar sin justicia es un rito vacío. Isaías 58:6-7 es palabra del profeta a un pueblo que ayunaba y a la vez oprimía: el ayuno que Dios escoge libera a los quebrantados y comparte el pan con el necesitado. Isaías 58:9 promete que Dios responde a quien obra así. Zacarías 7:5 es la pregunta de Dios, por medio del profeta, a quienes ayunaban hacía setenta años: ¿lo hacían para él?",
+          "refs": [
+            "Isaiah 58:6-7",
+            "Isaiah 58:9",
+            "Zechariah 7:5"
+          ]
+        },
+        {
+          "heading": "Ayuno para volver a Dios con el corazón",
+          "reflection": "En la Biblia el ayuno suele acompañar el arrepentimiento y el dolor. Joel 2:12-13 llama a Judá a volverse a Dios de corazón, no solo con gestos externos, porque él es misericordioso y lento para la ira. En Jonás 3:5-10 los habitantes de Nínive ayunan tras oír la advertencia de Jonás, y Dios ve que dejan su mal camino. En Nehemías 1:4, al saber que Jerusalén estaba en ruinas, Nehemías llora, ayuna y ora.",
+          "refs": [
+            "Joel 2:12-13",
+            "Jonah 3:5-10",
+            "Nehemiah 1:4"
+          ]
+        },
+        {
+          "heading": "Ayunar cuando necesitas ayuda de Dios",
+          "reflection": "Varios personajes ayunan ante una necesidad que no pueden resolver solos. En Esdras 8:23 el grupo que volvía a Jerusalén ayuna junto al río Ahava para pedir un camino seguro, porque les daba vergüenza pedir escolta al rey. Ester 4:16 es la petición de Ester a los judíos de Susa: que ayunen por ella antes de presentarse ante el rey. En 2 Crónicas 20:3, ante un ejército enemigo, Josafat busca a Jehová y convoca a Judá a ayunar.",
+          "refs": [
+            "Ezra 8:23",
+            "Esther 4:16",
+            "2 Chronicles 20:3"
+          ]
+        },
+        {
+          "heading": "Ayuno para discernir y servir",
+          "reflection": "El ayuno también aparece cuando se busca dirección. En Hechos 13:2-3 la iglesia de Antioquía ayuna y adora, y el Espíritu Santo aparta a Bernabé y a Saulo para la misión; ayunan y oran otra vez antes de enviarlos. Hechos 14:23 muestra a Pablo y Bernabé nombrando ancianos en las iglesias con oración y ayuno. En Daniel 10:2-3 Daniel pasa tres semanas de duelo, sin comida delicada, buscando entender una visión.",
+          "refs": [
+            "Acts 13:2-3",
+            "Acts 14:23",
+            "Daniel 10:2-3"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Qué dice la Biblia sobre el ayuno?",
+          "a": "La Biblia presenta el ayuno como una práctica para buscar a Dios, arrepentirse o pedir su ayuda, siempre unido a la oración. Mateo 6:16-18 enseña a hacerlo en secreto, e Isaías 58:6-7 recuerda que debe ir con justicia y misericordia."
+        },
+        {
+          "q": "¿Cuál es un buen versículo para empezar un ayuno?",
+          "a": "Mateo 6:16-18 es un buen punto de partida, porque aclara el motivo: buscar al Padre, no la aprobación de otros. Joel 2:12 y Hechos 13:2-3 también sirven para abrir un tiempo de ayuno y oración."
+        },
+        {
+          "q": "¿Cuántos días se debe ayunar según la Biblia?",
+          "a": "La Biblia no fija un número. Hay ayunos de un día, de tres días (Ester 4:16), de tres semanas (Daniel 10:2-3) y de cuarenta días (Mateo 4:2). Lo importante es el motivo y la oración, no la cantidad de días."
+        },
+        {
+          "q": "¿Es obligatorio ayunar para los cristianos?",
+          "a": "El Nuevo Testamento no da un mandato con calendario. Jesús habla de ayunar como algo que sus discípulos harían (Mateo 9:15) y enseña cómo. Es una disciplina voluntaria; si tienes dudas, conversa con tu pastor."
+        },
+        {
+          "q": "¿Qué orar durante un ayuno?",
+          "a": "Pide a Dios lo que te llevó a ayunar y lee un pasaje con calma. Puedes seguir el patrón bíblico: reconocer a Dios, confesar lo que haga falta y presentar tu petición, como Esdras 8:23 o Nehemías 1:4."
+        },
+        {
+          "q": "¿Se puede ayunar de otra cosa que no sea comida?",
+          "a": "La Biblia habla sobre todo de dejar de comer. Hoy muchos cristianos también se abstienen de redes sociales o de televisión por un tiempo para orar. Es una aplicación personal, no un mandato; el texto bíblico habla de alimento."
+        },
+        {
+          "q": "¿Hay que contarle a los demás que estás ayunando?",
+          "a": "Jesús pide no hacer espectáculo del ayuno (Mateo 6:16-18). No significa ocultarlo a quien debe saberlo, como tu familia si cocinas para ella, sino no buscar admiración. El Padre ve lo que se hace en secreto."
+        },
+        {
+          "q": "¿Puedo ayunar si tengo una condición de salud?",
+          "a": "Si tomas medicamentos, tienes diabetes, estás embarazada o tienes problemas con la comida, consulta antes a tu médico. La Biblia no pide dañar tu cuerpo; puedes ayunar de otra forma o acortar el tiempo y seguir orando."
+        },
+        {
+          "q": "¿Cómo usar estos versículos cada día durante un ayuno?",
+          "a": "Elige un versículo por día y léelo al despertar, antes de cualquier otra cosa. Bible Verse Alarm es una app para iPhone cuya alarma sigue sonando hasta que completas una misión bíblica, y tú escoges los versículos."
+        }
+      ]
+    }
+  }
+}

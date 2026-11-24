@@ -1,0 +1,97 @@
+{
+  "id": "bible-verse-alarm-vs-alarmy",
+  "related": ["morning", "encouragement", "anxiety"],
+  "locales": {
+    "en": {
+      "slug": "bible-verse-alarm-vs-alarmy",
+      "nav": "Bible Verse Alarm vs Alarmy",
+      "title": "Bible Verse Alarm vs Alarmy: Which Fits Christians?",
+      "description": "Bible Verse Alarm vs Alarmy: a fair side-by-side for Christians. One is built around Scripture, the other is a general mission alarm. See who each suits.",
+      "h1": "Bible Verse Alarm vs Alarmy: which is better for Christians?",
+      "intro": "Bible Verse Alarm is a Christian alarm clock for iPhone that rings until you complete a Bible verse; Alarmy is a general mission alarm, so Bible Verse Alarm is the better fit if you want Scripture first each day, and Alarmy suits a wake-up challenge without a faith focus. We make Bible Verse Alarm, so this comparison tells you what we can and can't claim.",
+      "published": "2026-11-24",
+      "updated": "2026-11-24",
+      "sections": [
+        {
+          "heading": "Which is better for Christians, Bible Verse Alarm or Alarmy?",
+          "body": "Bible Verse Alarm is better if your goal is to start the morning in God's Word. Its only job is to keep ringing until you complete a short Bible verse. Alarmy is better if you want a general-purpose alarm that asks for a task and isn't tied to any faith.\n\nWe make Bible Verse Alarm, so weigh our view with that in mind. We describe Alarmy only in general terms: as of 2026-11-24, per Alarmy's App Store page, it is a general alarm app, not a Bible app. Check that page for its current features, platforms and pricing."
+        },
+        {
+          "heading": "How do they compare side by side?",
+          "body": "Bible Verse Alarm is a Christian alarm clock for iPhone. Alarmy is a general alarm app with missions (as of 2026-11-24, per its App Store page). The table sticks to what Bible Verse Alarm does and leaves Alarmy's details to its store page.",
+          "table": [
+            ["", "Bible Verse Alarm", "Alarmy (general mission alarm)"],
+            ["What it is", "A Christian alarm clock", "A general alarm app with missions"],
+            ["How you turn it off", "Complete a short Bible verse: rebuild it word by word, or type it", "Complete a mission; see its App Store page for current options"],
+            ["What you read first", "Scripture, chosen by you", "Not a Bible app"],
+            ["Choose your own verses", "Yes, in each alarm's editor", "Not applicable"],
+            ["Rings on Silent / Focus", "Yes (Apple AlarmKit)", "Check its App Store page"],
+            ["Account needed", "No account or login", "Check its App Store page"],
+            ["Bible text", "NIV, WEB, KJV, BSB, stored on the phone", "None"],
+            ["Platform", "iPhone only", "Check its App Store page"],
+            ["Cost model", "Free to download; full use needs a subscription. Current price on the App Store in your country", "See its App Store page"]
+          ]
+        },
+        {
+          "heading": "Which one wins in common situations?",
+          "body": "Pick by what you want the first minute of your day to hold. David prayed at daybreak (Psalms 5:3), and a psalmist wrote about storing God's word in the heart (Psalms 119:11). Those are the two habits this choice is about.\n\n- You want Scripture before the scroll: Bible Verse Alarm.\n- You want to memorize verses by handling them every morning: Bible Verse Alarm. You handle the words yourself instead of only reading them.\n- You want a faith-neutral wake-up challenge: Alarmy.\n- You use Android: check Alarmy's App Store and Google Play pages. Bible Verse Alarm has no Android version yet.\n- You want long Bible reading plans: neither. Use a Bible app such as YouVersion, and see [best Christian apps for iPhone](/best-christian-apps-iphone).",
+          "refs": ["Psalms 119:11", "Psalms 5:3"]
+        },
+        {
+          "heading": "What is a Christian alternative to Alarmy?",
+          "body": "Bible Verse Alarm is a Christian alternative to a general mission alarm. It keeps the idea that you must do something to switch the alarm off, and makes that something a Bible verse. It's for iPhone.\n\nOther options are a normal alarm plus a reading plan, or a devotional app. Those are easier to dismiss, so people often reach for the phone feed first. See the [Christian alarm clock](/christian-alarm-clock) page for how ours works."
+        },
+        {
+          "heading": "Can you use both?",
+          "body": "Yes, but two alarms can feel like a lot. A simple setup is Bible Verse Alarm for the morning you want to be in Scripture, and any other alarm as a backup. Switching is easy: there's no account to create, so set your wake-up time and pick your verses.\n\nNew to the idea? Read [what a Bible verse alarm is](/what-is-a-bible-verse-alarm) first."
+        },
+        {
+          "heading": "Who is Bible Verse Alarm best for, and who isn't it for?",
+          "body": "Best for Christians on iPhone who reach for their phone first and want that minute to go to God's Word.\n\nNot right if you use Android, want a one-tap alarm, or want a full Bible-reading app. It's an alarm, not a reading plan, and it asks you to complete a verse before it stops. Full use needs a subscription."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is there a Christian version of Alarmy?",
+          "a": "Bible Verse Alarm is a Christian alarm that keeps ringing until you complete a short Bible verse, a mission built around Scripture. It's an iPhone app, made by one developer, Kenneth Foo."
+        },
+        {
+          "q": "What is the difference between Bible Verse Alarm and Alarmy?",
+          "a": "Bible Verse Alarm is built only for Scripture: the alarm keeps ringing until you complete a Bible verse you chose. Alarmy is a general alarm app, not a Bible app (as of 2026-11-24, per its App Store page). Check that page for its current features."
+        },
+        {
+          "q": "Is Alarmy a Bible app?",
+          "a": "No. As of 2026-11-24, Alarmy's App Store page presents it as a general alarm app, not a Bible app. If you want Scripture to be the thing that turns your alarm off, you need an app built for that, such as Bible Verse Alarm."
+        },
+        {
+          "q": "Can Bible Verse Alarm wake heavy sleepers?",
+          "a": "It uses Apple's AlarmKit, so it rings even on Silent or in a Focus mode, and it keeps ringing until you complete the verse. It's an alarm, not a guarantee, so test it before relying on it."
+        },
+        {
+          "q": "Does Bible Verse Alarm work on Android?",
+          "a": "Not yet. Bible Verse Alarm is for iPhone only, and we can't promise an Android version. Android users who want a Christian alarm should check Google Play for current options."
+        },
+        {
+          "q": "Is Bible Verse Alarm free?",
+          "a": "It's free to download, and full use needs a subscription. The current price is shown on the App Store in your country. For Alarmy, check its own App Store page, since prices and plans change."
+        },
+        {
+          "q": "Which Bible translations can I wake up to?",
+          "a": "In English, Bible Verse Alarm includes NIV, World English Bible, King James Version and Berean Standard Bible. The text is stored on your iPhone, so it works offline. Spanish, Chinese and Korean Bibles are included too."
+        },
+        {
+          "q": "Can I choose which verses my alarm uses?",
+          "a": "Yes. Each alarm has its own set of verses, picked in the alarm editor. You can match them to the season you're in, for example verses for anxiety or encouragement, and change them any time."
+        },
+        {
+          "q": "Do I need an account to use Bible Verse Alarm?",
+          "a": "No. There is no account or login. The Bible text is bundled with the app and works offline, so your alarm and verses work even without internet. Family Sharing is supported."
+        },
+        {
+          "q": "Should I use Bible Verse Alarm or a Bible app like YouVersion?",
+          "a": "They do different jobs, and many people use both. Bible Verse Alarm gets you into one verse first thing. A Bible app is better for reading plans and long passages. See our [best Christian apps for iPhone](/best-christian-apps-iphone) page for a fuller comparison."
+        }
+      ]
+    }
+  }
+}
