@@ -13,7 +13,7 @@ keyword,intent,cluster,target_page,priority,status,serp
 큐티 뜻,informational,explainer-qt,/ko/qt-tteut,high,published,
 말씀 묵상 방법,informational,howto-meditate,/ko/malsseum-mudsang-bangbeop,high,published,
 성경 암송 잘하는 법,informational,howto-memorize-bible,/ko/seonggyeong-amsong-beop,high,published,
-사랑 성경구절,informational,love,,high,planned,
+사랑 성경구절,informational,love,/ko/seonggu/sarang,high,published,thin
 성경 암송 구절,informational,memorize-verses,/ko/seonggu/seonggyeong-amsong-gujeol,high,published,mid
 힘이 되는 성경구절,informational,strength,/ko/himi,high,published,reading
 말씀 묵상 앱,commercial,app-meditation,,medium,planned,

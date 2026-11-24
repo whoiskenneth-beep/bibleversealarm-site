@@ -19,7 +19,7 @@ keyword,intent,cluster,target_page,priority,status,serp
 聖經金句 100,informational,verses-100,/zh-hant/jingwen/key-verses,high,published,mid
 鼓勵年輕人 經文,informational,youth,/zh-hant/jingwen/youth,high,published,
 聖經金句 英文,informational,bilingual-verses,,medium,planned,
-受洗祝福金句,informational,baptism,,medium,planned,
+受洗祝福金句,informational,baptism,,medium,planned,thin
 聖經金句 祝福,informational,blessing,/zh-hant/jingwen/blessing,medium,published,mid
 每日靈修,informational,daily-devotional,,medium,planned,
 每日經文 分享,informational,daily-verse-share,daily-share,medium,published,reading
