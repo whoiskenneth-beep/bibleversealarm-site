@@ -10,12 +10,12 @@
     "en": {
       "slug": "bible-memory-app",
       "nav": "Bible memory app",
-      "title": "Bible Memory App: Memorize Verses When You Wake Up",
-      "description": "Looking for a Bible verse memorization app? Compare Bible Memory, Verses and others, and see where Bible Verse Alarm fits: memorizing as you wake up.",
+      "title": "Bible Memory App or Bible Reminder App? How to Choose",
+      "description": "Bible reminder app or Bible memory app? Compare Bible Memory, Verses and others, and see where Bible Verse Alarm fits: a verse as you wake up.",
       "h1": "The best Bible memory app depends on how you want to memorize",
-      "intro": "Bible Verse Alarm is an iPhone alarm that keeps ringing until you complete a short Bible verse, so you rebuild a verse every morning as you wake up. It is not a dedicated memorization system. For flashcards, spaced repetition and progress tracking, specialist apps such as Bible Memory and Verses do more. Use them for deep memory work. Use ours if you want a verse in front of you before the scroll starts.",
+      "intro": "Bible Verse Alarm is a Bible reminder app for iPhone: an alarm that keeps ringing until you rebuild or type a short Bible verse, so your first minute goes to God's Word. It is not a full memorization system. For flashcards and spaced repetition, specialist apps such as Bible Memory and Verses do more.",
       "published": "2026-10-25",
-      "updated": "2026-10-25",
+      "updated": "2026-11-24",
       "card_ref": "Psalms 119:11",
       "sections": [
         {
@@ -123,6 +123,10 @@
         {
           "q": "What is the best Bible memory app?",
           "a": "For dedicated memorizing, specialist apps such as Bible Memory and Verses, which use flashcards, games and review schedules. Bible Verse Alarm is best for rebuilding a verse each morning as you wake up."
+        },
+        {
+          "q": "Is Bible Verse Alarm a Bible reminder app?",
+          "a": "In one specific way, yes. It is an alarm that rings until you complete a short verse, so the reminder is a verse you work through. It is not a full Bible-reading app or a flashcard system."
         },
         {
           "q": "Is there a free Bible verse memorization app?",
