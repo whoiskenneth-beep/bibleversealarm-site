@@ -1,5 +1,5 @@
 {
- "cursor": 6,
+ "cursor": 9,
  "suggestions": {
   "versículos de la biblia para reflexionar": {
    "seed": "versículos de la biblia para",
@@ -13920,6 +13920,13 @@
   "oracion de la mañana dando gracias a dios": {
    "seed": "oración de la mañana",
    "markets": [
+    "co"
+   ]
+  },
+  "versiculos para alguien con ansiedad": {
+   "seed": "versículos para la ansiedad",
+   "markets": [
+    "mx",
     "co"
    ]
   }

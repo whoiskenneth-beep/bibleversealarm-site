@@ -1,5 +1,5 @@
 {
- "cursor": 6,
+ "cursor": 9,
  "suggestions": {
   "bible verses about love": {
    "seed": "bible verses about",
@@ -13497,6 +13497,42 @@
   },
   "z88.3 verse of the day": {
    "seed": "verse of the day",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verse saturday morning blessings": {
+   "seed": "bible verses for morning",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verse for morning gratitude": {
+   "seed": "bible verses for morning",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verse about loud morning greetings": {
+   "seed": "bible verses for morning",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses for anxiety and jealousy": {
+   "seed": "bible verses for anxiety",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses for anxiety and overthinking catholic": {
+   "seed": "bible verses for anxiety",
+   "markets": [
+    "us"
+   ]
+  },
+  "what's the best bible verse for anxiety": {
+   "seed": "bible verses for anxiety",
    "markets": [
     "us"
    ]
