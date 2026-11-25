@@ -10,12 +10,12 @@
   "locales": {
     "es": {
       "slug": "jovenes",
-      "title": "19 versículos de la Biblia para jóvenes y estudiantes",
-      "description": "Textos bíblicos para jóvenes: cuando te subestiman, te presionan, no sabes qué estudiar o te falta valor. Reina-Valera 1909, con reflexión breve.",
+      "title": "Versículos para jóvenes: 19 textos bíblicos con reflexión",
+      "description": "Versículos para jóvenes de la Biblia (Reina-Valera 1909): ánimo si te subestiman, presión de amigos, decisiones y miedo, con reflexión breve.",
       "h1": "Versículos bíblicos para jóvenes: ánimo, decisiones y valentía",
-      "intro": "¿Qué dice la Biblia a los jóvenes? Bastante, y varios pasajes fueron escritos para gente de tu edad: Timoteo, Jeremías y Daniel tenían poca experiencia cuando Dios los puso a trabajar. Aquí van diecinueve textos en cuatro grupos, según lo que suele pasar a esta edad: que te subestimen, que te presionen tus amigos, que no sepas qué camino tomar o que sientas que no das la talla. Léelos tú, o anota uno en una tarjeta para alguien que esté en exámenes, en la graduación o en su primer empleo. Todo está en la Reina-Valera 1909.",
+      "intro": "Los versículos para jóvenes más directos son 1 Timoteo 4:12, Salmo 119:9 y Eclesiastés 12:1: hablan de dar ejemplo, de vivir con pureza y de acordarse de Dios desde temprano. Abajo hay 19 textos bíblicos en cuatro grupos: cuando te subestiman, te presionan, no sabes qué camino tomar o te falta valor. Todos en Reina-Valera 1909.",
       "published": "2026-11-15",
-      "updated": "2026-11-15",
+      "updated": "2026-11-25",
       "groups": [
         {
           "heading": "Cuando te subestiman por tu edad",
@@ -62,6 +62,10 @@
         }
       ],
       "faq": [
+        {
+          "q": "¿Qué es un texto bíblico para jóvenes?",
+          "a": "Es un pasaje de la Biblia que sirve para animar u orientar a un joven. Algunos hablan de la juventud, como 1 Timoteo 4:12 y Eclesiastés 12:1; otros, como Josué 1:9 o Proverbios 3:5-6, no mencionan la edad, pero encajan con decisiones, presión y miedo."
+        },
         {
           "q": "¿Cuál es un buen versículo bíblico para un joven que empieza a estudiar?",
           "a": "Proverbios 3:5-6 es una opción clásica: invita a confiar en Dios sin dejar de usar la cabeza. Si lo que necesita es ánimo, Josué 1:9 también funciona bien. Puedes escribirlo en una tarjeta o mandarlo por mensaje."
