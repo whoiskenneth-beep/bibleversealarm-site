@@ -30,7 +30,7 @@ keyword,intent,cluster,target_page,priority,status,serp
 聖經金句 感恩,informational,gratitude,/zh-hant/jingwen/gratitude,medium,published,
 聖經 安慰 失去親人,informational,grief,/zh-hant/jingwen/grief,medium,published,reading
 聖經金句 不要為明天憂慮,informational,matthew-6-34,/zh-hant/jingwen/tomorrow-worry,medium,published,
-詩篇金句,informational,psalms-verses,,medium,planned,
+詩篇金句,informational,psalms-verses,/zh-hant/jingwen/psalms,medium,published,thin
 聖經金句 短句,informational,short-verses,/zh-hant/jingwen/short-verses,medium,published,mid
 聖經金句 結婚祝福,informational,wedding,/zh-hant/jingwen/wedding,medium,published,mid
 每日靈修祷告,informational,devotional-prayer,,low,planned,
