@@ -1,0 +1,82 @@
+{
+  "id": "children",
+  "related": [
+    "family",
+    "blessing",
+    "protection",
+    "youth",
+    "birthday"
+  ],
+  "locales": {
+    "es": {
+      "slug": "hijos",
+      "title": "17 versículos de la Biblia para los hijos (RV1909)",
+      "description": "Versículos de la Biblia para los hijos: textos para bendecirlos, orar por ellos, enseñarles de Dios y criarlos con paciencia. Reina-Valera 1909.",
+      "h1": "Versículos de la Biblia para los hijos: bendecirlos, orar y criarlos",
+      "intro": "Los mejores versículos de la Biblia para los hijos son los que muestran a padres que los bendicen, oran por ellos, les enseñan de Dios y los crían con paciencia. Aquí tienes 17 textos en cuatro grupos, de la Reina-Valera 1909, para orar por tus hijos o dejarles una palabra escrita. Cada grupo trae una reflexión breve sobre el contexto.",
+      "published": "2026-11-26",
+      "updated": "2026-11-26",
+      "groups": [
+        {
+          "heading": "Bendecir y orar por tus hijos",
+          "reflection": "Estos textos muestran a personas que llevan a sus hijos delante de Dios. En Marcos 10, unos traen niños a Jesús, los discípulos los reprenden y él se enoja, los abraza y los bendice. Jacob, ya anciano, bendice a los hijos de José en Génesis 48. Job ofrece sacrificios por los suyos, y Ana, en 1 Samuel 1, cuenta que oró por su niño. Isaías 44:3 es una promesa de Dios a Israel sobre su descendencia.",
+          "refs": [
+            "Mark 10:13-16",
+            "Genesis 48:15-16",
+            "Job 1:5",
+            "1 Samuel 1:27-28",
+            "Isaiah 44:3"
+          ]
+        },
+        {
+          "heading": "Enseñarles a conocer a Dios",
+          "reflection": "La fe se pasa de una generación a la siguiente. El Salmo 78 pide contar a los hijos las obras de Jehová para que pongan en él su confianza. Deuteronomio 11:19, de los discursos de Moisés al pueblo, habla de enseñar en casa y en el camino. Pablo recuerda a Timoteo la fe de su abuela Loida y de su madre Eunice, y que desde niño conoció las Escrituras. La enseñanza ocurre en lo cotidiano.",
+          "refs": [
+            "Psalms 78:4-7",
+            "Deuteronomy 11:19",
+            "2 Timothy 1:5",
+            "2 Timothy 3:14-15"
+          ]
+        },
+        {
+          "heading": "Criarlos con paciencia y ejemplo",
+          "reflection": "Criar es corregir con cariño y también vivir lo que se enseña. Colosenses 3:21 es una instrucción de Pablo a los padres: no irritar a los hijos para que no se desanimen. Proverbios 1:8 y 29:17 son consejos de sabiduría, principios generales y no garantías. Proverbios 20:7 apunta al ejemplo: los hijos de quien camina con integridad quedan en una mejor posición. Tu forma de vivir también les habla.",
+          "refs": [
+            "Colossians 3:21",
+            "Proverbs 1:8",
+            "Proverbs 29:17",
+            "Proverbs 20:7"
+          ]
+        },
+        {
+          "heading": "Promesas de Dios para tus hijos y su futuro",
+          "reflection": "Cuando sientes que no controlas el futuro de tus hijos, estos textos ayudan a descansar en Dios. Isaías 54:13 es una promesa de paz y enseñanza de Jehová para los hijos de su pueblo. Proverbios 14:26 dice que quien teme a Dios tiene confianza y que sus hijos tendrán refugio. El Salmo 103:17 habla de su misericordia sobre los hijos de los hijos. Y 3 Juan 4 expresa el mayor gozo de un pastor: que sus hijos anden en la verdad.",
+          "refs": [
+            "Isaiah 54:13",
+            "Proverbs 14:26",
+            "Psalms 103:17",
+            "3 John 1:4"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Qué versículo de la Biblia sirve para orar por los hijos?",
+          "a": "Isaías 54:13 es una promesa de enseñanza y paz de Jehová para los hijos, y Marcos 10:13-16 muestra a Jesús bendiciendo a los niños. Puedes leerlos en voz alta y pedir por cada hijo por su nombre."
+        },
+        {
+          "q": "¿Qué dice la Biblia sobre cómo criar a los hijos?",
+          "a": "Pide enseñarles de Dios en lo cotidiano (Deuteronomio 11:19), corregirlos sin irritarlos (Colosenses 3:21) y dar buen ejemplo (Proverbios 20:7). Son principios de sabiduría, no fórmulas con resultado asegurado."
+        },
+        {
+          "q": "¿Cuál es un versículo para bendecir a un hijo?",
+          "a": "Números 6:24-26 es la bendición que Dios mandó a los sacerdotes y muchas familias la usan con sus hijos. Mira la página de versículos de bendición para más opciones."
+        },
+        {
+          "q": "¿Cómo puedo orar por mis hijos cada día?",
+          "a": "Elige un versículo y pídelo por ellos. Bible Verse Alarm es una app para iPhone: eliges versículos y, al sonar la alarma, completas uno para apagarla."
+        }
+      ]
+    }
+  }
+}

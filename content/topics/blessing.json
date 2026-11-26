@@ -8,7 +8,8 @@
     "strength",
     "wedding",
     "daily-share",
-    "baptism"
+    "baptism",
+    "children"
   ],
   "locales": {
     "zh-hant": {
@@ -89,12 +90,12 @@
     },
     "es": {
       "slug": "bendicion",
-      "title": "Versículos bíblicos de bendición: 19 textos con reflexión",
-      "description": "Versículos bíblicos de bendición en Reina-Valera 1909: la bendición de Números 6, promesas a Abraham, bienaventuranzas y cómo bendecir a otros.",
-      "h1": "Versículos bíblicos de bendición",
-      "intro": "Una bendición bíblica es pedirle a Dios que dé su favor, su cuidado y su paz a alguien, o reconocer lo que él ya dio. Estos 19 versículos bíblicos de bendición vienen en cuatro grupos: lo que Dios promete, lo que recibimos en Cristo, quién es llamado bienaventurado y cómo bendecir a los demás. Sirven para una tarjeta, un mensaje o una oración por un familiar. Los textos son de la Reina-Valera 1909.",
+      "title": "Versículos de bendición: 19 textos bíblicos con reflexión",
+      "description": "Versículos de bendición de la Biblia (RV1909): Números 6:24-26, promesas a Abraham, bienaventuranzas y textos para bendecir a otros.",
+      "h1": "Versículos de bendición de la Biblia",
+      "intro": "Un versículo de bendición es un texto bíblico que pide a Dios su favor, su cuidado y su paz para alguien. El más conocido es Números 6:24-26, la bendición que Dios mandó a los sacerdotes de Israel. Aquí tienes 19 versículos de bendición de la Reina-Valera 1909, con una reflexión en cada grupo, para una tarjeta, un mensaje o una oración.",
       "published": "2026-11-19",
-      "updated": "2026-11-19",
+      "updated": "2026-11-26",
       "groups": [
         {
           "heading": "Bendiciones que Dios promete a su pueblo",
@@ -142,12 +143,12 @@
       ],
       "faq": [
         {
-          "q": "¿Qué versículo bíblico sirve para bendecir a alguien?",
-          "a": "Números 6:24-26 es la bendición que Dios mandó a los sacerdotes de Israel y se usa mucho para bendecir a otros. Para una despedida, también sirven Romanos 15:13 o 2 Corintios 13:13."
+          "q": "¿Cuál es el mejor versículo de bendición?",
+          "a": "Números 6:24-26 es el más usado: Dios mandó a Moisés que Aarón y sus hijos bendijeran así a Israel. Para despedidas o mensajes también sirven Romanos 15:13 y 2 Corintios 13:13."
         },
         {
-          "q": "¿Qué versículos hablan de bendición para los hijos?",
-          "a": "El Salmo 115:14-15 pide que Dios acreciente su bendición sobre ustedes y sus hijos. También puedes orar con Números 6:24-26 sobre ellos. Para más textos sobre la crianza, mira la página de familia."
+          "q": "¿Cómo bendigo a mi hijo con un versículo?",
+          "a": "Lee en voz alta Números 6:24-26 poniendo su nombre, con la mano sobre su hombro si quieres, y termina con una oración corta. El Salmo 115:14-15 también pide la bendición de Dios sobre los hijos."
         },
         {
           "q": "¿Cuál es la diferencia entre bendecir y ser bienaventurado?",
