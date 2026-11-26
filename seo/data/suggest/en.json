@@ -1,5 +1,5 @@
 {
- "cursor": 9,
+ "cursor": 0,
  "suggestions": {
   "bible verses about love": {
    "seed": "bible verses about",
@@ -13533,6 +13533,36 @@
   },
   "what's the best bible verse for anxiety": {
    "seed": "bible verses for anxiety",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses about strength courage and hope": {
+   "seed": "bible verses about strength",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible verses about getting strength from god": {
+   "seed": "bible verses about strength",
+   "markets": [
+    "us"
+   ]
+  },
+  "best bible verses about strength in hard times": {
+   "seed": "bible verses about strength",
+   "markets": [
+    "us"
+   ]
+  },
+  "what is the best app for memorizing scripture": {
+   "seed": "bible memorization app",
+   "markets": [
+    "us"
+   ]
+  },
+  "bible memory game app": {
+   "seed": "bible memorization app",
    "markets": [
     "us"
    ]

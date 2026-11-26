@@ -144,8 +144,6 @@ date,locale,keyword,position,clicks,impressions,page,country
 2026-11-14,zh-hant,靈修,75.0,0,1,https://bibleversealarm.com/zh-hant/lingxiu-shi-shenme,hkg
 2026-11-14,zh-hant,靈修,8.5,0,2,https://bibleversealarm.com/zh-hant/lingxiu-shi-shenme,twn
 2026-11-14,zh-hant,靈修是什麼,52.0,0,1,https://bibleversealarm.com/zh-hant/lingxiu-shi-shenme,hkg
-2026-11-18,zh-hans,圣经金句祝福,6.0,1,1,https://bibleversealarm.com/zh-hans/jingwen/blessing,chn
-2026-11-20,zh-hant,上帝的祝福,48.0,1,1,https://bibleversealarm.com/zh-hant/jingwen/blessing,twn
 2026-11-15,en,app to memorize bible verses,78.0,0,1,https://bibleversealarm.com/bible-memory-app,usa
 2026-11-15,en,best bible apps for iphone,72.0,0,1,https://bibleversealarm.com/best-christian-apps-iphone,usa
 2026-11-15,en,bible alarm app,6.5,0,2,https://bibleversealarm.com/morning-devotional-app,usa
@@ -170,6 +168,8 @@ date,locale,keyword,position,clicks,impressions,page,country
 2026-11-15,zh-hant,安慰經文,87.0,0,1,https://bibleversealarm.com/zh-hant/jingwen/comfort,hkg
 2026-11-15,zh-hant,感恩經文,53.0,0,1,https://bibleversealarm.com/zh-hant/jingwen/gratitude,hkg
 2026-11-15,zh-hant,聖經靈修,86.0,0,2,https://bibleversealarm.com/zh-hant/lingxiu-shi-shenme,hkg
+2026-11-18,zh-hans,圣经金句祝福,6.0,1,1,https://bibleversealarm.com/zh-hans/jingwen/blessing,chn
+2026-11-20,zh-hant,上帝的祝福,48.0,1,1,https://bibleversealarm.com/zh-hant/jingwen/blessing,twn
 2026-11-16,en,bible alarm app,8.0,0,1,https://bibleversealarm.com/morning-devotional-app,usa
 2026-11-16,en,bible reminder app,40.0,0,1,https://bibleversealarm.com/bible-memory-app,usa
 2026-11-16,en,for ios,2.0,0,1,https://bibleversealarm.com/christian-alarm-clock,gbr
@@ -495,35 +495,103 @@ date,locale,keyword,position,clicks,impressions,page,country
 2026-11-23,ko,큐티,47.0,0,1,https://bibleversealarm.com/ko/qt-tteut,kor
 2026-11-23,ko,힘이 되는 짧은 성경구절,7.7,0,3,https://bibleversealarm.com/ko/seonggu/himi,kor
 2026-11-24,es,bendiciones en la biblia,85.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/bendicion,nld
+2026-11-24,en,best bible app iphone,1.0,0,1,https://bibleversealarm.com/best-christian-apps-iphone,can
 2026-11-24,en,bible memory app,30.0,0,1,https://bibleversealarm.com/bible-memory-app,usa
 2026-11-24,en,bible verse about problem,28.0,0,1,https://bibleversealarm.com/bible-verses-about/hard-times,phl
+2026-11-24,en,bible verse about waking up,9.0,0,1,https://bibleversealarm.com/bible-verses-about/wake-up,ind
 2026-11-24,en,bible verse alarm clock,7.0,0,1,https://bibleversealarm.com/,phl
 2026-11-24,en,bible verse alarm clock,11.0,0,1,https://bibleversealarm.com/christian-alarm-clock,usa
 2026-11-24,en,bible verses about problems,44.0,0,2,https://bibleversealarm.com/bible-verses-about/hard-times,phl
+2026-11-24,es,frases biblicas de bendicion,30.0,0,2,https://bibleversealarm.com/es/versiculos-biblicos/bendicion,mex
 2026-11-24,es,palabras de bendicion,48.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/bendicion,mex
+2026-11-24,en,protection bible verses,79.0,0,1,https://bibleversealarm.com/bible-verses-about/protection,deu
+2026-11-24,en,protection verses in the bible,79.0,0,1,https://bibleversealarm.com/bible-verses-about/protection,deu
 2026-11-24,es,texto bíblico de bendición,6.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/bendicion,col
 2026-11-24,es,textos biblicos de bendicion,45.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/bendicion,nld
 2026-11-24,en,verses app,24.0,0,2,https://bibleversealarm.com/bible-memory-app,usa
+2026-11-24,es,versiculo de la biblia para cumpleaños,11.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/cumpleanos,chl
+2026-11-24,es,versiculo de paz,56.0,0,2,https://bibleversealarm.com/es/versiculos-biblicos/paz,ven
+2026-11-24,es,versiculo para la mujer,55.3,0,3,https://bibleversealarm.com/es/versiculos-biblicos/mujeres,pry
 2026-11-24,es,versiculos biblicos para jovenes,13.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/jovenes,ven
 2026-11-24,es,versiculos de bendicion,36.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/bendicion,mex
 2026-11-24,es,versiculos de confianza en dios,85.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/confiar-en-dios,mex
+2026-11-24,es,versiculos de confianza en dios,85.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/confiar-en-dios,ven
+2026-11-24,es,versiculos de paz,42.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/paz,ven
 2026-11-24,es,versiculos para cumpleaños,43.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/cumpleanos,arg
+2026-11-24,es,versiculos para cumpleaños,46.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/cumpleanos,col
+2026-11-24,es,versiculos para cumpleaños,35.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/cumpleanos,esp
 2026-11-24,es,versiculos para cumpleaños,45.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/cumpleanos,ven
+2026-11-24,es,versiculos para jovenes,69.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/jovenes,esp
 2026-11-24,es,versiculos para jovenes,79.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/jovenes,pan
+2026-11-24,es,versiculos para mujeres,65.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/mujeres,hnd
 2026-11-24,es,versiculos para mujeres,62.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/mujeres,usa
 2026-11-24,es,versos para jovenes en la biblia,46.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/jovenes,usa
 2026-11-24,es,versículo de bendiciones,46.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/bendicion,ven
-2026-11-24,es,versículo de cumpleaños,45.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/cumpleanos,usa
+2026-11-24,es,versículo de cumpleaños,43.0,0,2,https://bibleversealarm.com/es/versiculos-biblicos/cumpleanos,usa
+2026-11-24,es,versículo de la biblia sobre la fe,80.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/fe,ven
+2026-11-24,es,versículo de la fe,78.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/fe,ven
+2026-11-24,es,versículo de paz,63.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/paz,gtm
 2026-11-24,es,versículo de paz,63.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/paz,ven
+2026-11-24,es,versículo para cumpleaños,42.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/cumpleanos,esp
 2026-11-24,es,versículos de bendiciones,45.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/bendicion,mex
+2026-11-24,es,versículos de consuelo y fortaleza,61.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/consuelo,arg
 2026-11-24,es,versículos de fe,72.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/fe,ven
+2026-11-24,es,versículos de la biblia sobre la fe,76.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/fe,ven
 2026-11-24,es,versículos para cumpleaños,48.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/cumpleanos,ecu
+2026-11-24,es,versículos para cumpleaños,34.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/cumpleanos,esp
 2026-11-24,es,versículos para jóvenes,69.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/jovenes,ven
+2026-11-24,zh-hant,基督教喪禮慰問語,29.5,0,2,https://bibleversealarm.com/zh-hant/jingwen/condolence,hkg
 2026-11-24,zh-hant,基督教祝福金句,11.0,0,1,https://bibleversealarm.com/zh-hant/jingwen/blessing,jpn
+2026-11-24,zh-hant,安慰喪家的話基督教,11.0,0,1,https://bibleversealarm.com/zh-hant/jingwen/condolence,twn
 2026-11-24,zh-hant,感恩 金 句,36.0,0,1,https://bibleversealarm.com/zh-hant/jingwen/gratitude,hkg
 2026-11-24,zh-hant,經文分享,1.0,0,1,https://bibleversealarm.com/zh-hant/jingwen/daily-share,twn
 2026-11-24,zh-hant,聖經祝福金句,9.0,0,1,https://bibleversealarm.com/zh-hant/jingwen/blessing,kor
+2026-11-24,zh-hant,聖經金句祝福,25.0,0,1,https://bibleversealarm.com/zh-hant/jingwen/blessing,twn
 2026-11-24,zh-hans,靈修 意思,1.0,0,1,https://bibleversealarm.com/zh-hans/lingxiu-shi-shenme,mys
 2026-11-24,zh-hant,靈修步驟,11.0,0,2,https://bibleversealarm.com/zh-hant/lingxiu-buzhou,twn
 2026-11-24,ko,말씀 묵상,4.0,0,1,https://bibleversealarm.com/ko/malsseum-mudsang-ttet,kor
-2026-11-24,ko,힘이 되는 짧은 성경구절,5.0,0,3,https://bibleversealarm.com/ko/seonggu/himi,kor
+2026-11-24,ko,큐티 뜻,14.0,0,1,https://bibleversealarm.com/ko/qt-tteut,kor
+2026-11-24,ko,힘이 되는 짧은 성경구절,5.8,0,5,https://bibleversealarm.com/ko/seonggu/himi,kor
+2026-11-25,en,bible alarm app,14.5,0,2,https://bibleversealarm.com/morning-devotional-app,usa
+2026-11-25,en,bible reminder app,9.0,0,1,https://bibleversealarm.com/bible-memory-app,usa
+2026-11-25,en,bible verse wake up,51.5,0,2,https://bibleversealarm.com/bible-verses-about/wake-up,usa
+2026-11-25,en,bible verses about hard times,65.0,0,1,https://bibleversealarm.com/bible-verses-about/hard-times,can
+2026-11-25,en,bible verses on god's protection,42.0,0,1,https://bibleversealarm.com/bible-verses-about/protection,aus
+2026-11-25,en,christian alarm clock,19.0,0,1,https://bibleversealarm.com/christian-alarm-clock,usa
+2026-11-25,es,el versiculo mas triste de la biblia,58.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/tristeza,col
+2026-11-25,en,god the protector bible verses,65.0,0,1,https://bibleversealarm.com/bible-verses-about/protection,aus
+2026-11-25,es,texto biblico para jovenes,69.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/jovenes,usa
+2026-11-25,es,texto biblico para mujeres,58.5,0,2,https://bibleversealarm.com/es/versiculos-biblicos/mujeres,mex
+2026-11-25,es,textos biblicos para jovenes,74.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/jovenes,nic
+2026-11-25,en,verse memorization app,43.0,0,1,https://bibleversealarm.com/bible-memory-app,usa
+2026-11-25,en,verse of the bible for protection,89.0,0,1,https://bibleversealarm.com/bible-verses-about/protection,per
+2026-11-25,es,versiculo para la mujer,57.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/mujeres,ecu
+2026-11-25,es,versiculos biblicos para jovenes,50.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/jovenes,col
+2026-11-25,es,versiculos biblicos sobre la fe,78.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/fe,arg
+2026-11-25,es,versiculos de bendición,7.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/bendicion,col
+2026-11-25,es,versiculos de fe,50.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/fe,arg
+2026-11-25,es,versiculos de fe,77.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/fe,ven
+2026-11-25,es,versiculos para la mujer,55.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/mujeres,ecu
+2026-11-25,es,versiculos sobre la fe,78.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/fe,arg
+2026-11-25,es,versículo de paz y tranquilidad,65.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/paz,ven
+2026-11-25,es,versículo para cumpleaños,44.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/cumpleanos,pan
+2026-11-25,es,versículo para jóvenes,58.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/jovenes,usa
+2026-11-25,es,versículos de bendiciones,48.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/bendicion,col
+2026-11-25,es,versículos de fe y confianza,34.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/confiar-en-dios,ven
+2026-11-25,es,versículos de paz y tranquilidad,47.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/paz,ven
+2026-11-25,es,versículos para cumpleaños,59.5,0,2,https://bibleversealarm.com/es/versiculos-biblicos/cumpleanos,pan
+2026-11-25,es,versículos para dormir,8.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/dormir,bra
+2026-11-25,es,versículos para dormir,7.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/dormir,ind
+2026-11-25,es,versículos para jóvenes,72.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/jovenes,col
+2026-11-25,es,versículos para jóvenes,64.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/jovenes,usa
+2026-11-25,es,versículos para mujeres con propósito,58.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/mujeres,col
+2026-11-25,es,versículos para mujeres con propósito,57.0,0,1,https://bibleversealarm.com/es/versiculos-biblicos/mujeres,usa
+2026-11-25,zh-hant,基督徒安慰喪家的話,1.0,0,1,https://bibleversealarm.com/zh-hant/jingwen/condolence,hkg
+2026-11-25,zh-hant,基督徒安慰死者家屬金句,66.0,0,1,https://bibleversealarm.com/zh-hant/jingwen/condolence,hkg
+2026-11-25,zh-hans,基督教祝福金句,1.0,0,1,https://bibleversealarm.com/zh-hans/jingwen/blessing,mac
+2026-11-25,zh-hant,平安聖經金句,14.0,0,1,https://bibleversealarm.com/zh-hant/jingwen/peace,hkg
+2026-11-25,zh-hant,感恩節經文,21.0,0,2,https://bibleversealarm.com/zh-hant/jingwen/gratitude,twn
+2026-11-25,zh-hant,每日經文分享,10.0,0,1,https://bibleversealarm.com/zh-hant/jingwen/daily-share,twn
+2026-11-25,ko,성경암송,7.0,0,1,https://bibleversealarm.com/ko/seonggu/seonggyeong-amsong-gujeol,usa
+2026-11-25,ko,청첩장 성경구절,6.0,0,1,https://bibleversealarm.com/ko/seonggu/cheopjeongjang,kor
+2026-11-25,ko,힘이 되는 짧은 성경구절,9.0,0,2,https://bibleversealarm.com/ko/seonggu/himi,kor

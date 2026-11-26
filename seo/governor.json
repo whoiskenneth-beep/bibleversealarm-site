@@ -23,27 +23,27 @@
       "new_pages_per_day": 1,
       "optimizations_per_day": 1,
       "status": "grow",
-      "published": 30,
+      "published": 31,
       "indexed": 26,
-      "indexation_rate": 0.87
+      "indexation_rate": 0.84
     },
     "zh-hans": {
       "derived_from": "zh-hant",
       "status": "follows zh-hant",
-      "published": 30,
-      "indexed": 20,
-      "indexation_rate": 0.67
+      "published": 31,
+      "indexed": 22,
+      "indexation_rate": 0.71
     },
     "ko": {
       "new_pages_per_day": 1,
       "optimizations_per_day": 1,
       "status": "grow",
-      "published": 28,
+      "published": 29,
       "indexed": 23,
-      "indexation_rate": 0.82
+      "indexation_rate": 0.79
     }
   },
-  "indexation_updated": "2026-11-25",
+  "indexation_updated": "2026-11-26",
   "history": [
     {
       "date": "2026-10-22",
