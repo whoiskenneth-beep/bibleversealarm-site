@@ -1,6 +1,12 @@
 {
   "id": "tomorrow-worry",
-  "related": ["anxiety", "peace", "morning", "faith"],
+  "related": [
+    "anxiety",
+    "peace",
+    "morning",
+    "faith",
+    "exam-verses"
+  ],
   "locales": {
     "zh-hant": {
       "slug": "tomorrow-worry",
