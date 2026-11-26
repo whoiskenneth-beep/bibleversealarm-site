@@ -20,7 +20,7 @@ keyword,intent,cluster,target_page,priority,status,serp
 성경말씀 듣기,informational,audio-bible,,medium,planned,
 축복 성경구절,informational,blessing-verses,,medium,planned,
 말씀 묵상집,commercial,devotional-books,/ko/malsseum-mudsang-jip,medium,published,
-수험생 성경구절,informational,exam-verses,,medium,planned,
+수험생 성경구절,informational,exam-verses,/ko/seonggu/suheomsaeng,medium,published,thin
 감사 성경구절,informational,gratitude,/ko/seonggu/gamsa,medium,published,mid
 아침 기도 저녁 기도,informational,howto-evening-prayer,ko/achim-jeonyeok-gido,medium,published,
 말씀 묵상 노트 방법,informational,howto-meditation-journal,/ko/malsseum-mudsang-note-bangbeop,medium,published,
