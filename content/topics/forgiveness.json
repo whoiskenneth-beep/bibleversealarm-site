@@ -1,0 +1,60 @@
+{
+  "id": "forgiveness",
+  "related": ["anger", "peace", "love", "comfort", "hard-times"],
+  "locales": {
+    "en": {
+      "slug": "forgiveness",
+      "title": "Bible Verses About Forgiveness: 21 to Read and Pray",
+      "description": "Bible verses about forgiveness in five groups: how God forgives, forgiving others, hard cases, letting go of offense, and forgiving yourself.",
+      "h1": "Bible verses about forgiveness",
+      "intro": "The Bible says God forgives those who come to Him honestly, and it asks His people to forgive others in the same way. It never calls that easy. These 21 verses are grouped by the question you may be carrying: Has God really forgiven me? Do I have to forgive them? What about someone who hurt me badly? How do I stop replaying it? Can I forgive myself? Forgiving does not mean the wrong was small. If you are in danger or being abused, please get safe and talk to someone you trust first.",
+      "published": "2026-11-27",
+      "updated": "2026-11-27",
+      "groups": [
+        {
+          "heading": "Has God really forgiven me?",
+          "reflection": "Yes, for anyone who comes to Him, and these passages say so plainly. Psalm 103 is David praising God's character, and verses 8 to 12 say He does not hold anger forever and has removed sin as far as east is from west. Isaiah 1:18 is God inviting a rebellious nation to talk it through. Micah 7:18-19 marvels that God delights in mercy. 1 John 1:9 gives the way in: confess, and He is faithful to forgive.",
+          "refs": ["Psalms 103:8-12", "Isaiah 1:18", "Micah 7:18-19", "1 John 1:9"]
+        },
+        {
+          "heading": "Do I have to forgive other people?",
+          "reflection": "Jesus says yes, and he ties it to our own need of mercy. In Matthew 6:14-15 he teaches this right after the Lord's Prayer. Mark 11:25 applies it to the moment you pray: put down what you hold against someone. Paul tells the Colossians to forgive as the Lord forgave them. In Matthew 18:21-22 Peter asks for a limit and Jesus refuses to give one. Luke 17:3-4 adds that rebuke and repentance have a place, but forgiveness stays open.",
+          "refs": ["Matthew 6:14-15", "Mark 11:25", "Colossians 3:13", "Matthew 18:21-22", "Luke 17:3-4"]
+        },
+        {
+          "heading": "What about someone who hurt me badly?",
+          "reflection": "The Bible shows forgiveness in the worst situations, not only small ones. On the cross Jesus asks the Father to forgive the people executing him (Luke 23:34). As Stephen is stoned, he prays the same way (Acts 7:59-60). Joseph, sold into slavery by his brothers, tells them years later that God meant it for good and does not take revenge (Genesis 50:19-21). In Matthew 18:32-33 Jesus's story of the unforgiving servant shows why: we have been forgiven far more.",
+          "refs": ["Luke 23:34", "Acts 7:59-60", "Genesis 50:19-21", "Matthew 18:32-33"]
+        },
+        {
+          "heading": "How do I let go of an offense?",
+          "reflection": "Letting go is often a daily choice, not one decision. Proverbs 19:11 says a wise person is patient enough to overlook an offense, and Proverbs 17:9 warns that dragging it up again damages friendships. Paul, writing to Roman Christians, says not to repay evil for evil and to live at peace as far as it depends on you (Romans 12:17-18). Jesus goes further in Luke 6:27-28: pray for the people who mistreat you.",
+          "refs": ["Proverbs 19:11", "Proverbs 17:9", "Romans 12:17-18", "Luke 6:27-28"]
+        },
+        {
+          "heading": "How do I forgive myself?",
+          "reflection": "Start by being honest, then receive what God has already given. In Psalm 32:5 David says that when he stopped hiding his sin, God forgave its guilt. Psalm 51:10 is his prayer after a serious failure: make my heart clean. Proverbs 28:13 says that confessing and turning away finds mercy, while hiding does not. Romans 8:1 is Paul's answer to the guilt that lingers: no condemnation for those in Christ Jesus.",
+          "refs": ["Psalms 32:5", "Psalms 51:10", "Proverbs 28:13", "Romans 8:1"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the main Bible verse about forgiveness?",
+          "a": "Colossians 3:13 is often quoted for forgiving others, and 1 John 1:9 for being forgiven by God. Matthew 6:14-15 connects the two. Which one fits depends on whether you are asking for forgiveness or giving it."
+        },
+        {
+          "q": "Does the Bible say forgiving means forgetting?",
+          "a": "Not exactly. Psalm 103:12 says God removes our sins far from us, but the Bible never tells us to erase our memory. Forgiving means releasing the debt and the revenge. Trust can take longer to rebuild."
+        },
+        {
+          "q": "Do I have to forgive someone who is not sorry?",
+          "a": "Luke 17:3-4 links forgiving with repentance, while Mark 11:25 and Luke 23:34 show forgiveness offered without it. Many readers take it as releasing revenge now, and restoring the relationship when repentance comes."
+        },
+        {
+          "q": "How can I read these verses regularly?",
+          "a": "Pick one group and read a few verses each morning. Bible Verse Alarm is an iPhone app where you choose the verses your alarm uses, and you complete a verse to stop it. It is free to download, and full use needs a subscription."
+        }
+      ]
+    }
+  }
+}
