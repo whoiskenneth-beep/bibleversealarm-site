@@ -1,5 +1,5 @@
 {
- "cursor": 0,
+ "cursor": 3,
  "suggestions": {
   "성경구절": {
    "seed": "성경구절",
@@ -1195,6 +1195,12 @@
    "seed": "성경 암송",
    "markets": [
     "naver"
+   ]
+  },
+  "큐티클 리무버": {
+   "seed": "큐티",
+   "markets": [
+    "kr"
    ]
   }
  }
