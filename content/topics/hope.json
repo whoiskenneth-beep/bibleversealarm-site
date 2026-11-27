@@ -84,6 +84,75 @@
           "a": "Read one short passage slowly, such as Psalm 130, which starts in the depths. Pray it honestly, and tell someone how you are doing. If you are in crisis, contact local emergency services or a crisis line."
         }
       ]
+    },
+    "es": {
+      "slug": "esperanza",
+      "title": "Versículos bíblicos de esperanza: 16 textos para no rendirte",
+      "description": "16 versículos bíblicos de esperanza (Reina-Valera 1909) en cuatro grupos, con una reflexión breve de cada uno, para cuando la espera se hace larga.",
+      "h1": "Versículos bíblicos de esperanza para cuando la espera se alarga",
+      "intro": "La esperanza en la Biblia no es un simple «ojalá»: es la confianza firme de que Dios cumplirá lo que prometió. Aquí tienes dieciséis textos en cuatro grupos: de dónde viene la esperanza, cómo sostiene en la prueba, qué hacer mientras esperas y qué nos espera al final. Muchos se escribieron en momentos de dolor, así que hablan con franqueza. Escoge el grupo que se parezca a tu semana y léelo despacio, quizá en voz alta. Si sientes que ya no puedes más, habla también con alguien de confianza, tu pastor o un consejero.",
+      "published": "2026-11-27",
+      "updated": "2026-11-27",
+      "groups": [
+        {
+          "heading": "¿De dónde viene la esperanza?",
+          "reflection": "David le habla a su propia alma en el Salmo 62 y le dice que repose, porque su esperanza no depende de lo que pase alrededor, sino de Dios. El Salmo 130 nace desde lo profundo y termina invitando a todo Israel a esperar en Jehová. El Salmo 146 llama dichoso a quien pone su esperanza en él y no en los poderosos. Pablo, a los romanos, explica que las Escrituras se escribieron para que tengamos esperanza.",
+          "refs": [
+            "Psalms 62:5",
+            "Psalms 130:5-7",
+            "Psalms 146:5",
+            "Romans 15:4"
+          ]
+        },
+        {
+          "heading": "Esperanza que se sostiene en la prueba",
+          "reflection": "La carta a los Hebreos fue escrita a cristianos presionados que estaban tentados a retroceder. Les recuerda que su esperanza es un ancla segura, porque Jesús ya entró por ellos a la presencia de Dios. Pablo, en Romanos 8, reconoce que se sufre, pero lo pone en perspectiva ante la gloria venidera, y habla de esperar con paciencia lo que aún no vemos. En 2 Corintios 4 admite el desgaste del cuerpo, mientras por dentro Dios renueva.",
+          "refs": [
+            "Hebrews 6:19-20",
+            "Romans 8:18",
+            "Romans 8:24-25",
+            "2 Corinthians 4:16-18"
+          ]
+        },
+        {
+          "heading": "Esperar sin perder el ánimo",
+          "reflection": "Miqueas habló en una sociedad corrupta y aun así decidió mirar a Jehová y esperar. Lamentaciones se escribió tras la caída de Jerusalén, y desde las ruinas afirma que es bueno esperar callando. Zacarías llama «presos de esperanza» a un pueblo que aún no veía el cumplimiento, pero estaba sujeto a la promesa. Proverbios 23:18 añade que tu esperanza no será cortada. Esperar también es una forma de confiar.",
+          "refs": [
+            "Micah 7:7",
+            "Lamentations 3:25-26",
+            "Zechariah 9:12",
+            "Proverbs 23:18"
+          ]
+        },
+        {
+          "heading": "La esperanza que nos espera",
+          "reflection": "Pedro escribe a creyentes dispersos y hostigados, y les dice que Dios los regeneró para una esperanza viva por la resurrección de Jesucristo, con una herencia que no se marchita. Pablo escribe a los tesalonicenses que lloran a sus muertos: el duelo es real, pero no es como el de quienes no tienen esperanza. Tito llama a la venida de Cristo la esperanza bienaventurada, y Apocalipsis 21 promete que Dios limpiará toda lágrima.",
+          "refs": [
+            "1 Peter 1:3-4",
+            "1 Thessalonians 4:13-14",
+            "Titus 2:13",
+            "Revelation 21:4"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Cuál es el mejor versículo de la Biblia sobre la esperanza?",
+          "a": "Muchos acuden a Hebreos 6:19, que llama a la esperanza ancla del alma, o a 1 Pedro 1:3, que habla de una esperanza viva. Para memorizar, el Salmo 62:5 es breve y directo."
+        },
+        {
+          "q": "¿Qué diferencia hay entre fe y esperanza en la Biblia?",
+          "a": "La fe confía en Dios hoy; la esperanza mira con seguridad lo que él prometió para adelante. Romanos 8:24-25 dice que esperamos lo que aún no vemos, y lo esperamos con paciencia."
+        },
+        {
+          "q": "¿Qué versículos me ayudan cuando siento que ya no hay esperanza?",
+          "a": "Empieza por el Salmo 130, que arranca desde lo profundo, y por Lamentaciones 3:25-26. Léelos despacio y ora con honestidad. Cuéntale a alguien de confianza cómo estás. Si estás en crisis, llama a emergencias o a una línea de ayuda de tu país."
+        },
+        {
+          "q": "¿Qué dice la Biblia de tener esperanza en Dios y no en las personas?",
+          "a": "El Salmo 146:5 llama dichoso a quien espera en Jehová, y el Salmo 62:5 dice que de él viene la esperanza. Eso no quita el valor de la gente: te recuerda dónde está tu base."
+        }
+      ]
     }
   }
 }

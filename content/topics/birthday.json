@@ -10,12 +10,12 @@
   "locales": {
     "es": {
       "slug": "cumpleanos",
-      "title": "Versículos de la Biblia para cumpleaños, con dedicatorias",
-      "description": "Textos bíblicos para felicitar a un cumpleañero: bendiciones, gratitud por la vida y frases para mamá, hijos o abuelos. En Reina-Valera 1909.",
+      "title": "Versículos de la Biblia para cumpleaños y felicitar",
+      "description": "Versículos de la Biblia para cumpleaños: bendiciones para felicitar, gracias a Dios por un año más y textos para mamá, hijos o abuelos. Reina-Valera 1909.",
       "h1": "Versículos de la Biblia para cumpleaños",
-      "intro": "Para una tarjeta, un mensaje de WhatsApp o unas palabras antes del pastel, una bendición clásica es la de Números 6:24-26. Aquí la encuentras junto a otros pasajes agrupados según lo que quieras decir: desear lo mejor, dar gracias a Dios por la vida, mirar el año que empieza, honrar a quien ya tiene muchos años o dedicar unas líneas a alguien querido. Todos están en la versión Reina-Valera 1909.",
+      "intro": "Para un cumpleaños, Números 6:24-26 sirve para bendecir, Salmos 139:13-14 para dar gracias por la vida y Salmos 90:12 para pedir sabiduría en un año más. Abajo los tienes agrupados según quieras felicitar, agradecer, honrar a un abuelo o dedicar unas líneas. Todos están en Reina-Valera 1909.",
       "published": "2026-11-13",
-      "updated": "2026-11-13",
+      "updated": "2026-11-27",
       "groups": [
         {
           "heading": "Bendiciones para el cumpleañero",
@@ -82,8 +82,12 @@
           "a": "Salmos 127:3 llama a los hijos herencia del Señor, y Filipenses 1:6 expresa la confianza de que Dios completa su obra en cada persona. Los dos son breves y se leen bien en una dedicatoria."
         },
         {
-          "q": "¿Qué texto bíblico leer al cumplir un año más?",
-          "a": "Salmos 90:12 pide a Dios sabiduría para contar los días, y Lamentaciones 3:22-23 recuerda que su misericordia se renueva cada mañana. Son dos pasajes sobrios para agradecer el año vivido y empezar el siguiente."
+          "q": "¿Qué versículo sirve para agradecer a Dios por un año más de vida?",
+          "a": "Salmos 103:2 invita a bendecir a Jehová y no olvidar sus beneficios, y Salmos 118:24 se puede leer al empezar el día. Para mirar el año que sigue, Salmos 90:12 pide sabiduría para contar los días."
+        },
+        {
+          "q": "¿Qué versículo puedo enviar para felicitar un cumpleaños por WhatsApp?",
+          "a": "Elige uno corto: Números 6:24-26 como bendición, Salmos 121:7-8 para desear protección o 3 Juan 1:2 para desear salud. Escribe la referencia, añade un saludo personal y evita pegar textos largos."
         }
       ]
     }
