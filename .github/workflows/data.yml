@@ -34,6 +34,9 @@ jobs:
           mkdir -p seo/data
           curl -sf "https://itunes.apple.com/lookup?id=6789787366&country=us" \
             | jq '{checked: (now|todate), version: .results[0].version, languages: .results[0].languageCodesISO2A}' > seo/data/app_store.json || true
+      - name: Weekly report (once per MYT week, catches up if a day was missed)
+        run: node scripts/weekly_report.mjs
+        continue-on-error: true
       - name: Commit
         run: |
           git config user.name "seo-bot"

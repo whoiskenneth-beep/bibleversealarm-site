@@ -3,7 +3,7 @@
 Only things that need your login or your decision. The bot works around all of these and keeps going.
 Each item: what, why it matters, exact steps, and my recommendation.
 
-## 0. BLOCKER: give Claude's GitHub App access to this repo (2 minutes)
+## 0. GitHub App access: DONE 2026-10-22
 **Why:** the cloud bot can write pages but can't push them. Its first test run (2026-10-22) made a "peace" page in English + Spanish and lost it on a 403 error.
 1. Open https://github.com/apps/claude/installations/select_target and pick your account (whoiskenneth-beep).
 2. Under "Repository access", either choose "All repositories" or add `bibleversealarm-site` to the selected list → Save.
