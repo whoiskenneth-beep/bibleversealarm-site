@@ -18,7 +18,7 @@ keyword,intent,cluster,target_page,priority,status,serp
 힘이 되는 성경구절,informational,strength,/ko/himi,high,published,reading
 말씀 묵상 앱,commercial,app-meditation,,medium,planned,
 성경말씀 듣기,informational,audio-bible,,medium,planned,
-축복 성경구절,informational,blessing-verses,,medium,planned,
+축복 성경구절,informational,blessing-verses,/ko/seonggu/chukbok,medium,published,thin
 말씀 묵상집,commercial,devotional-books,/ko/malsseum-mudsang-jip,medium,published,
 수험생 성경구절,informational,exam-verses,/ko/seonggu/suheomsaeng,medium,published,thin
 감사 성경구절,informational,gratitude,/ko/seonggu/gamsa,medium,published,mid
