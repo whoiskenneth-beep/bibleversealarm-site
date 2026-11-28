@@ -7,32 +7,32 @@
       "new_pages_per_day": 1,
       "optimizations_per_day": 1,
       "status": "grow",
-      "published": 35,
+      "published": 36,
       "indexed": 30,
-      "indexation_rate": 0.86
+      "indexation_rate": 0.83
     },
     "es": {
       "new_pages_per_day": 1,
       "optimizations_per_day": 1,
       "status": "grow",
-      "published": 30,
-      "indexed": 24,
-      "indexation_rate": 0.8
+      "published": 31,
+      "indexed": 26,
+      "indexation_rate": 0.84
     },
     "zh-hant": {
       "new_pages_per_day": 1,
       "optimizations_per_day": 1,
       "status": "grow",
       "published": 32,
-      "indexed": 26,
-      "indexation_rate": 0.81
+      "indexed": 27,
+      "indexation_rate": 0.84
     },
     "zh-hans": {
       "derived_from": "zh-hant",
       "status": "follows zh-hant",
       "published": 32,
-      "indexed": 22,
-      "indexation_rate": 0.69
+      "indexed": 23,
+      "indexation_rate": 0.72
     },
     "ko": {
       "new_pages_per_day": 1,
@@ -43,7 +43,7 @@
       "indexation_rate": 0.83
     }
   },
-  "indexation_updated": "2026-11-27",
+  "indexation_updated": "2026-11-28",
   "history": [
     {
       "date": "2026-10-22",

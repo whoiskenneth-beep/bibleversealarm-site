@@ -1,5 +1,5 @@
 {
- "cursor": 3,
+ "cursor": 6,
  "suggestions": {
   "versículos de la biblia para reflexionar": {
    "seed": "versículos de la biblia para",
@@ -6152,7 +6152,8 @@
   "versículo del día devocional": {
    "seed": "versículo del día",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "versículo del día en la biblia": {
@@ -7789,13 +7790,15 @@
   "oracion de la mañana camino con jesus": {
    "seed": "oración de la mañana",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "oración de la mañana carlos yepes": {
    "seed": "oración de la mañana",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "oración de la mañana con el salmo 91": {
@@ -9230,7 +9233,8 @@
   "oración de la mañana video youtube": {
    "seed": "oración de la mañana",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "oración de la mañana viernes 26": {
@@ -12352,7 +12356,8 @@
   "versículo del día de hoy reina valera": {
    "seed": "versículo del día",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "versículo del día imagen": {
@@ -12467,7 +12472,8 @@
   "oración de la mañana con agradecimiento": {
    "seed": "oración de la mañana",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "oración de la mañana cristiana de agradecimiento": {
@@ -12543,7 +12549,8 @@
   "oración de la mañana jueves 1 de octubre": {
    "seed": "oración de la mañana",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "oración de la mañana lunes 28 de septiembre": {
@@ -12555,7 +12562,8 @@
   "oración de la mañana lunes 26 de octubre": {
    "seed": "oración de la mañana",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "oración de la mañana miércoles 26 de agosto": {
@@ -12965,7 +12973,8 @@
   "oración de la mañana de hoy sábado": {
    "seed": "oración de la mañana",
    "markets": [
-    "mx"
+    "mx",
+    "co"
    ]
   },
   "oracion de la mañana gozlan": {
@@ -13755,7 +13764,8 @@
   "oración de la mañana con imágenes gratis": {
    "seed": "oración de la mañana",
    "markets": [
-    "co"
+    "co",
+    "mx"
    ]
   },
   "oracion de la mañana en hebreo": {
@@ -14393,6 +14403,200 @@
    "seed": "textos bíblicos para",
    "markets": [
     "mx",
+    "co"
+   ]
+  },
+  "versículo del día blog": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versículo del día de muertos": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx"
+   ]
+  },
+  "versículo del día hoy martes": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculo del dia ntv": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versiculo del dia 13 de noviembre 2025": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versículo del día para leer": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "versículo del día y explicación": {
+   "seed": "versículo del día",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana 27 de noviembre 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana de hoy viernes 27 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana de hoy 27 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana 27 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana al santísimo sacramento": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana basada en la biblia": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana cristiana con un versículo bíblico": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana con el salmo 23": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana del 27 de noviembre del 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oracion de la mañana febrero 18 2026": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana jueves 12 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana jueves 5 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oracion de la mañana lugar de su presencia": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana lunes 9 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana martes 27 de octubre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana miércoles 21 de octubre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana oración de la mañana de hoy": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana sagrado corazón de jesús": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oracion de la mañana unidos": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx",
+    "co"
+   ]
+  },
+  "oración de la mañana viernes 23 de octubre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "mx"
+   ]
+  },
+  "oración de la mañana voz bluna 2023": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana viernes 13 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
+    "co"
+   ]
+  },
+  "oración de la mañana viernes 6 de noviembre": {
+   "seed": "oración de la mañana",
+   "markets": [
     "co"
    ]
   }
